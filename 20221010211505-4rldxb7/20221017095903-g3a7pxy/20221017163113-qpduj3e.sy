@@ -1,0 +1,263 @@
+{
+	"ID": "20221017163113-qpduj3e",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221017163113-qpduj3e",
+		"title": "箭头函数",
+		"updated": "20221018112458"
+	},
+	"Children": [
+		{
+			"ID": "20221018103218-vtgylcm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018103218-vtgylcm",
+				"updated": "20221018104019"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color3);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "箭头函数是ES6之后增加"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color3);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的一种编写函数的方法，并且它比函数表达式要更加简洁：  "
+				}
+			]
+		},
+		{
+			"ID": "20221018103316-127bogd",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018103316-127bogd",
+				"updated": "20221018104410"
+			},
+			"Children": [
+				{
+					"ID": "20221018103316-j7j5d6o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221018103316-j7j5d6o",
+						"updated": "20221018103424"
+					},
+					"Children": [
+						{
+							"ID": "20221018103246-c1tqsnn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018103246-c1tqsnn",
+								"updated": "20221018103424"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "箭头函数"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color7);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "不会绑定this、arguments属性；"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221018103316-1s63xva",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221018103316-1s63xva",
+						"updated": "20221018104410"
+					},
+					"Children": [
+						{
+							"ID": "20221018103218-eyh8q0h",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018103218-eyh8q0h",
+								"updated": "20221018104410"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "箭头函数"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color7);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "不能作为构造函数来使用"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（不能和new一起来使用，会抛出错误）； 因为箭头函数没有原型"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018103218-ki5qmkh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018103218-ki5qmkh",
+				"updated": "20221018103400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "箭头函数如何编写呢？ "
+				}
+			]
+		},
+		{
+			"ID": "20221018103303-s1i8i5r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018103303-s1i8i5r",
+				"updated": "20221018105319"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//箭头函数, (): 函数的参数  {}: 函数体\n   // 1.之前的方式\n    function foo1() {}\n    var foo2 = function(name, age) {\n      console.log(\"函数体代码\", this, arguments)\n      console.log(name, age)\n    }\n\n    // 2.箭头函数完整写法\n    var foo3 = (name, age) =\u003e {\n      console.log(\"箭头函数的函数体\")\n      console.log(name, age)\n    }\n\n    // 3.箭头函数的练习\n    // 3.1. forEach\n    var names = [\"abc\", \"cba\", \"nba\"]\n    names.forEach((item, index, arr) =\u003e {\n      console.log(item, index, arr)\n    })\n    // 3.2. setTimeout\n    setTimeout(() =\u003e {\n      console.log(\"setTimeout\")\n    }, 3000)\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018103449-6dkv457",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221018103449-6dkv457",
+				"updated": "20221018103450"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "箭头函数的编写优化"
+				}
+			]
+		},
+		{
+			"ID": "20221018103452-kj6mmgc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018103452-kj6mmgc",
+				"updated": "20221018105927"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//如果只有一个参数()可以省略\nnum.forEach(item =\u003e {\n  \n})\n//如果函数执行体中只有一行代码, 那么可以省略大括号,并且这行代码的返回值会作为整个函数的返回值\nnum.forEach(item =\u003e true )\nnum.forEach(item =\u003e console.log(\"哈哈\"))\n//如果函数执行体只有返回一个对象, 那么需要给这个对象加上()\nnum.forEach( item =\u003e ({name:\"实际就是\"}) )\n\n\n    var names = [\"abc\", \"cba\", \"nba\"]\n    var nums = [20, 30, 11, 15, 111]\n\n    // 1.优化一: 如果箭头函数只有一个参数, 那么()可以省略\n     names.forEach(item =\u003e {\n       console.log(item)\n    })\n     var newNums = nums.filter(item =\u003e {\n      return item % 2 === 0\n    })\n\n    // 2.优化二: 如果函数体中只有一行执行代码, 那么{}可以省略\n     names.forEach(item =\u003e console.log(item))\n\n    // 一行代码中不能带return关键字, 如果省略, 需要带return一起省略(下一条规则)\n     var newNums = nums.filter(item =\u003e {\n       return item % 2 === 0\n     }) \n\n    // 3.优化三: 只有一行代码时, 这行代码的表达式结果会作为函数的返回值默认返回的\n     var newNums = nums.filter(item =\u003e item % 2 === 0)\n\n    // 4.优化四: 如果默认返回值是一个对象, 那么这个对象必须加()\n    // 注意: 在react中我会经常使用 redux\n\n     var arrFn = () =\u003e [\"abc\", \"cba\"]\n     var arrFn = () =\u003e {} // 注意: 这里是{}执行体\n     var arrFn = () =\u003e ({ name: \"why\" }) //这时返回一个对象{ name: \"why\" }\n     console.log(arrFn()) \n\n    // 箭头函数实现nums的所有偶数平方的和\n    var nums = [20, 30, 11, 15, 111]\n    var result = nums.filter(item =\u003e item % 2 === 0)\n                     .map(item =\u003e item * item)\n                     .reduce((prevValue, item) =\u003e prevValue + item)\n    console.log(result)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018110036-xx6w5dl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221018110036-xx6w5dl",
+				"updated": "20221018112007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "箭头函数 和 this "
+				}
+			]
+		},
+		{
+			"ID": "20221018112010-tgtozha",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018112010-tgtozha",
+				"updated": "20221018112458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "箭头函数没有 this，在箭头函数的 this  不会指向箭头函数会去上层作用域寻找可以指向的对象。"
+				}
+			]
+		},
+		{
+			"ID": "20221018111836-d36rmyh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018111836-d36rmyh",
+				"updated": "20221018111840"
+			}
+		}
+	]
+}

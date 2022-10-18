@@ -1,0 +1,2258 @@
+{
+	"ID": "20221017095903-g3a7pxy",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221017095903-g3a7pxy",
+		"title": "JS 原理",
+		"updated": "20221018153912"
+	},
+	"Children": [
+		{
+			"ID": "20221017095917-e5okngo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017095917-e5okngo",
+				"updated": "20221017104218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this 关键字"
+				}
+			]
+		},
+		{
+			"ID": "20221017104220-pu8d0lt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017104220-pu8d0lt",
+				"updated": "20221017104244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this 的指向"
+				}
+			]
+		},
+		{
+			"ID": "20221017165306-nhm81vh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017165306-nhm81vh",
+				"updated": "20221017165928"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "函数内“this”指向问题："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "在函数内有 \"this\" 的函数在调用时，JavaScript会默认给this绑定一个值；this的绑定和定义的位置（编写的位置）没有关系；this的绑定和调用方式以及调用的位置有关系；即函数内有 \"this\" 的函数是怎么被调用的，其中的 this 就会绑定什么，this是在函数被调用运行时才进行绑定，this绑定什么数据指向什么数据；"
+				}
+			]
+		},
+		{
+			"ID": "20221017165909-03ckynw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017165909-03ckynw",
+				"updated": "20221017165924"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "this 的绑定规则："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7); font-size: 19px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221017165952-figti1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017165952-figti1l",
+				"updated": "20221017170017"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t绑定一：默认绑定； "
+				}
+			]
+		},
+		{
+			"ID": "20221017170012-8ljt8ob",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017170012-8ljt8ob",
+				"updated": "20221017170021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t绑定二：隐式绑定； "
+				}
+			]
+		},
+		{
+			"ID": "20221017170013-dt29suj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017170013-dt29suj"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t绑定三：显示绑定；  "
+				}
+			]
+		},
+		{
+			"ID": "20221017170015-mr8slp8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017170015-mr8slp8"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t绑定四：new绑定；"
+				}
+			]
+		},
+		{
+			"ID": "20221017165306-1qel2vp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221017165306-1qel2vp",
+				"updated": "20221017170050"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认绑定"
+				}
+			]
+		},
+		{
+			"ID": "20221017170131-pvizy7g",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017170131-pvizy7g",
+				"updated": "20221017170153"
+			},
+			"Children": [
+				{
+					"ID": "20221017170149-tubarwo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017170149-tubarwo",
+						"updated": "20221017170153"
+					},
+					"Children": [
+						{
+							"ID": "20221017170149-xu3u6or",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017170149-xu3u6or",
+								"updated": "20221017170153"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "什么情况下使用默认绑定呢？"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017170144-kvt5afk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017170144-kvt5afk"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "独立函数调用。独立的函数调用我们可以理解成函数没有被绑定到某个对象上进行调用；"
+				}
+			]
+		},
+		{
+			"ID": "20221017170146-gw66gfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017170146-gw66gfm"
+			}
+		},
+		{
+			"ID": "20221017170056-oc1w926",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221017170056-oc1w926",
+				"updated": "20221017170120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "隐式绑定 "
+				}
+			]
+		},
+		{
+			"ID": "20221017175430-fi3fvui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017175430-fi3fvui"
+			}
+		},
+		{
+			"ID": "20221017170056-7kicqs7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221017170056-7kicqs7",
+				"updated": "20221017170121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "显示绑定 "
+				}
+			]
+		},
+		{
+			"ID": "20221017175431-20cfjsq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017175431-20cfjsq"
+			}
+		},
+		{
+			"ID": "20221017170056-ragpygo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221017170056-ragpygo",
+				"updated": "20221017170122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "new绑定"
+				}
+			]
+		},
+		{
+			"ID": "20221017175432-8w9x3iy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017175432-8w9x3iy"
+			}
+		},
+		{
+			"ID": "20221017161316-aadxbfx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017161316-aadxbfx",
+				"updated": "20221017170236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "内置函数的绑定思考"
+				}
+			]
+		},
+		{
+			"ID": "20221017170240-695ynhb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017170240-695ynhb"
+			}
+		},
+		{
+			"ID": "20221017170301-fn7hbht",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017170301-fn7hbht",
+				"updated": "20221017170301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this 绑定规则优先级"
+				}
+			]
+		},
+		{
+			"ID": "20221017170241-6rmwyd8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017170241-6rmwyd8",
+				"updated": "20221018095526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "new  \u003e  bind \u003e  apply/call \u003e  隐式绑定 \u003e 默认绑定"
+				}
+			]
+		},
+		{
+			"ID": "20221017161317-5k5sjdt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017161317-5k5sjdt",
+				"updated": "20221017162427"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有些函数的参数是显式绑定this的"
+				}
+			]
+		},
+		{
+			"ID": "20221017161854-treklnc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017161854-treklnc",
+				"updated": "20221017162119"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//有些函数的参数是显性绑定this的\n    var names = [\"abc\", \"cba\", \"nba\"]\n    names.forEach(function(item) {\n      console.log(\"forEach:\", this)\n    }, \"aaaa\")\n//输出 forEach: aaa\n//forEach()函数第二个参数就是显性绑定this的，所以'aaa'被显性绑定为this\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017160842-47pjsev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017160842-47pjsev"
+			}
+		},
+		{
+			"ID": "20221017160843-s40kdkb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017160843-s40kdkb",
+				"updated": "20221017162416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "没有this  "
+				}
+			]
+		},
+		{
+			"ID": "20221017160853-z9b0ouy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017160853-z9b0ouy",
+				"updated": "20221017161058"
+			},
+			"Children": [
+				{
+					"ID": "20221017160854-cybsr8i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017160854-cybsr8i",
+						"updated": "20221017160854"
+					},
+					"Children": [
+						{
+							"ID": "20221017160854-nke51mk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017160854-nke51mk",
+								"updated": "20221017160932"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vue3的 setup() 是没有 this 的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017161036-f2zswvl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017161036-f2zswvl",
+						"updated": "20221017161058"
+					},
+					"Children": [
+						{
+							"ID": "20221017161036-q864h9z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017161036-q864h9z",
+								"updated": "20221017161058"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "箭头函数没有 this "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017160843-ty6gu99",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017160843-ty6gu99"
+			}
+		},
+		{
+			"ID": "20221017113411-rdavfq2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017113411-rdavfq2",
+				"updated": "20221017113423"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是严格模式"
+				}
+			]
+		},
+		{
+			"ID": "20221017113807-hvjfekx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017113807-hvjfekx",
+				"updated": "20221017113835"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如：webpack打包的源代码时严格模式，规避低级错误"
+				}
+			]
+		},
+		{
+			"ID": "20221017111602-7tifyas",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017111602-7tifyas",
+				"updated": "20221017113659"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\"use strict\" //严格模式\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017113621-v2tsaib",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017113621-v2tsaib",
+				"updated": "20221017160841"
+			}
+		},
+		{
+			"ID": "20221017160834-4iu5vt0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017160834-4iu5vt0",
+				"updated": "20221018100122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this规则之外 – 忽略显示绑定"
+				}
+			]
+		},
+		{
+			"ID": "20221017113621-05ue7fy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017113621-05ue7fy",
+				"updated": "20221018100928"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "如果在显示绑定中，我们传入一个null或者undefined，那么这个显示绑定会被忽略，使用默认规则"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221018100911-noijq9u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018100911-noijq9u"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t因为apply/call函数传入的参数需要是对象，而基本数据类型有包装类型转换成对\t象，apply(\"123\")  /  call(\"123\") 不会出错，字符串\"123\"被转换为 对应的包装类。"
+				}
+			]
+		},
+		{
+			"ID": "20221018100916-gv5tgo1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018100916-gv5tgo1"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t而 apply(null )  和 apply(undefind) 会出错 因为 null 和 undefind 不是对象且没有包装类型。"
+				}
+			]
+		},
+		{
+			"ID": "20221018101214-jqurpi5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018101214-jqurpi5",
+				"updated": "20221018101345"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  //1.情况一: 显式绑定null/undefined, 那么使用的规则是默认绑定\nfunction foo() {\n   console.log(\"foo:\", this) \n}\n\nfoo.apply(\"abc\") //输出 foo: \nfoo.apply(null)  //输出 foo: window \nfoo.apply(undefined)  //输出 foo: window\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018100431-atcbk8w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018100431-atcbk8w",
+				"updated": "20221018101145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " 严格模式下，apply(\"123\") /call(\"123\") 不会绑定对应的包装类，而是绑定字符串\"123\""
+				}
+			]
+		},
+		{
+			"ID": "20221018101700-xlriqyi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018101700-xlriqyi",
+				"updated": "20221018101745"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以严格模式下，apply()/call()  可以绑定基本数据类型不会出错"
+				}
+			]
+		},
+		{
+			"ID": "20221018101355-ll569ja",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018101355-ll569ja",
+				"updated": "20221018101802"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " \"use static\" //严格模式\n //1.情况一: 显式绑定null/undefined, 那么使用的规则是默认绑定\nfunction foo() {\n   console.log(\"foo:\", this) \n}\n\nfoo.apply(\"abc\") //输出 foo: \"abc\" //严格模式不会转换为包装类\nfoo.apply(null)  //输出 foo: null\nfoo.apply(undefined)  //输出 foo: undefined\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017162553-g7gkqw6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017162553-g7gkqw6",
+				"updated": "20221018102009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this规则之外 - 间接函数引用"
+				}
+			]
+		},
+		{
+			"ID": "20221018102015-yl7gdeg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018102015-yl7gdeg",
+				"updated": "20221018102024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建一个函数的 间接引用，这种情况使用默认绑定规则。 "
+				}
+			]
+		},
+		{
+			"ID": "20221018102035-m19bicr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018102035-m19bicr",
+				"updated": "20221018102842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " 赋值(obj2.foo = obj1.foo)的结果是foo函数, foo函数被直接调用，那么是默认绑定；"
+				}
+			]
+		},
+		{
+			"ID": "20221018101906-6fcqmsx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018101906-6fcqmsx",
+				"updated": "20221018102932"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 2.情况二: 间接函数引用\n    var obj1 = {\n      name: \"obj1\",\n      foo: function() {\n        console.log(\"foo:\", this)\n      }\n    }\n    var obj2 = {\n      name: \"obj2\"\n    };\n//当{} 之后紧接着是（），{}，[] 一定要加上分号，否则会报错\n    // {}[]()\n//创建一个函数的 间接引用，这种情况使用默认绑定规则。 \n    obj2.foo = obj1.foo \n    obj2.foo() //输出foo：obj2,绑定obj2\n\n\n //前一个括号是函数，后一个括号是函数调用\n//赋值(obj2.foo = obj1.foo)的结果是foo函数, foo函数被直接调用，那么是默认绑定；\n    (obj2.foo = obj1.foo)() //输出foo:window\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018101906-ygffzz8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221018101906-ygffzz8",
+				"updated": "20221018103814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this规则之外 – ES6箭头函数"
+				}
+			]
+		},
+		{
+			"ID": "20221017104244-jp8u9gs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017104244-jp8u9gs",
+				"updated": "20221018103828"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221017163113-qpduj3e",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "箭头函数"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  这是一个外部引用"
+				}
+			]
+		},
+		{
+			"ID": "20221018112033-ubikase",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018112033-ubikase",
+				"updated": "20221018112131"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221018110036-xx6w5dl",
+					"TextMarkTextContent": "箭头函数 的 this 问题"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  这是一个外部链接"
+				}
+			]
+		},
+		{
+			"ID": "20221018104240-y4bqcff",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018104240-y4bqcff",
+				"updated": "20221018142643"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数内部都默认存在一个 this 和 arguments 关键字，箭头函数没有 this 和 arguments，箭头函数不使用this的四种标准规则（也就是不绑定this），而是根据外层作用域来决定this（变量查找规则）。"
+				}
+			]
+		},
+		{
+			"ID": "20221018142827-708gto8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018142827-708gto8",
+				"updated": "20221018143148"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n   // 1.普通函数中是有this的标识符\n    function foo() {\n      console.log(\"foo\", this)\n    }\n    foo()\n    foo.apply(\"aaa\") //输出foo aaa, this 指向 aaa\n\n   // 2.箭头函数中, 压根没有this\n    var bar = () =\u003e {\n      console.log(\"bar:\", this)\n    }\n    bar() //输出bar:window,this在箭头函数找不到指向，从上层作用域查找指向window对象\n  //  通过apply调用时, 也是没有this\n    bar.apply(\"aaaa\") //输出bar:window\n\n    console.log(\"全局this:\", this) \n    var message = \"global message\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018142827-e26civr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221018142827-e26civr",
+				"updated": "20221018143832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "箭头函数中 this 的查找规则​"
+				}
+			]
+		},
+		{
+			"ID": "20221018142827-2lwusyx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018142827-2lwusyx",
+				"updated": "20221018144142"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    // 3.this的查找规则\n      var obj = {\n      name: \"obj\",\n      foo: function() {\n\n        var bar = () =\u003e {\n          console.log(\"bar:\", this)\n        }\n        return bar\n  \n      }\n    }\n    var fn = obj.foo()\n    fn.apply(\"bbb\")//输出bar:obj对象  \n \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018142827-5c2j6dq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018142827-5c2j6dq",
+				"updated": "20221018144246"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "   var obj = {\n      name: \"obj\",\n      foo: () =\u003e {\n        var bar = () =\u003e {\n          console.log(\"bar:\", this)\n        }\n        return bar\n    \n      }\n    }\n    var fn = obj.foo()\n    fn.apply(\"bbb\")  //输出bar:window\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017104210-09u01vg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017104210-09u01vg",
+				"updated": "20221018142649"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 我们来看一个模拟网络请求的案例： \n这里我使用setTimeout来模拟网络请求，请求到数据后如何可以存放到data中呢？ \n 我们需要拿到obj对象，设置data；  但是直接拿到的this是window，我们需要在外层定义：var _this = this  在setTimeout的回调函数中使用_this就代表了obj对象\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018103905-oy4samz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018103905-oy4samz",
+				"updated": "20221018144447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "之前的代码在ES6之前是我们最常用的方式，从ES6开始，我们会使用箭头函数：  为什么在setTimeout的回调函数中可以直接使用this呢？  因为箭头函数并不绑定this对象，那么this引用就会从上层作用于中找到对应的this                       b "
+				}
+			]
+		},
+		{
+			"ID": "20221018103919-y3hvx46",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018103919-y3hvx46"
+			}
+		},
+		{
+			"ID": "20221017104210-agy0vyq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017104210-agy0vyq",
+				"updated": "20221018103916"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果getData也是一个箭头函数，那么setTimeout中的回调函数中的this指向谁呢？"
+				}
+			]
+		},
+		{
+			"ID": "20221018103913-e5ugwlg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018103913-e5ugwlg"
+			}
+		},
+		{
+			"ID": "20221017100412-9qjfybf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017100412-9qjfybf"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深入浏览器的渲染原理"
+				}
+			]
+		},
+		{
+			"ID": "20221017100716-mw69bpo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017100716-mw69bpo"
+			}
+		},
+		{
+			"ID": "20221017100716-zqlt2jn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017100716-zqlt2jn",
+				"updated": "20221017150841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深入JavaScript的运行原理"
+				}
+			]
+		},
+		{
+			"ID": "20221017100606-r3iu5y5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017100606-r3iu5y5"
+			}
+		},
+		{
+			"ID": "20221017100456-n1zvqsc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017100456-n1zvqsc"
+			}
+		},
+		{
+			"ID": "20221017100456-90v2w1y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017100456-90v2w1y"
+			}
+		},
+		{
+			"ID": "20221017095903-ug42km6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017095903-ug42km6",
+				"updated": "20221017105840"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数的细节"
+				}
+			]
+		},
+		{
+			"ID": "20221017105841-nt35zxt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105841-nt35zxt",
+				"updated": "20221017105846"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对象的细节"
+				}
+			]
+		},
+		{
+			"ID": "20221017105846-it4hzuh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105846-it4hzuh",
+				"updated": "20221017105850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原理性"
+				}
+			]
+		},
+		{
+			"ID": "20221017105853-75k2abu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105853-75k2abu",
+				"updated": "20221017105904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器的原理"
+				}
+			]
+		},
+		{
+			"ID": "20221017105904-x4hnjlx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105904-x4hnjlx",
+				"updated": "20221017105913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数的本质"
+				}
+			]
+		},
+		{
+			"ID": "20221017105913-1fivtec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105913-1fivtec",
+				"updated": "20221017105930"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微任务和宏队列"
+				}
+			]
+		},
+		{
+			"ID": "20221017105931-gw5g5vd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105931-gw5g5vd",
+				"updated": "20221017105947"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "面向对象——继承"
+				}
+			]
+		},
+		{
+			"ID": "20221017105947-tq89i2r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105947-tq89i2r",
+				"updated": "20221017105957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原型链"
+				}
+			]
+		},
+		{
+			"ID": "20221017105958-4bfekig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017105958-4bfekig",
+				"updated": "20221017110006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ES6~ES13"
+				}
+			]
+		},
+		{
+			"ID": "20221017110007-w33mb9k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017110007-w33mb9k",
+				"updated": "20221017110022"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Promise"
+				}
+			]
+		},
+		{
+			"ID": "20221017110024-su30mtt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017110024-su30mtt",
+				"updated": "20221017110056"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "节流/防抖/深拷贝/eventbus"
+				}
+			]
+		},
+		{
+			"ID": "20221017110100-2wlz5hs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017110100-2wlz5hs",
+				"updated": "20221017110107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "响应式原理n"
+				}
+			]
+		},
+		{
+			"ID": "20221017110034-pihgtpy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017110034-pihgtpy"
+			}
+		},
+		{
+			"ID": "20221017150449-adbf95f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017150449-adbf95f"
+			}
+		},
+		{
+			"ID": "20221017150449-412941g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017150449-412941g",
+				"updated": "20221017153608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "内存管理和闭包"
+				}
+			]
+		},
+		{
+			"ID": "20221017153601-tj8mtja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153601-tj8mtja"
+			}
+		},
+		{
+			"ID": "20221017153601-15vwzat",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017153601-15vwzat",
+				"updated": "20221017153603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代理与反射"
+				}
+			]
+		},
+		{
+			"ID": "20221017153758-pijt9f9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153758-pijt9f9",
+				"updated": "20221017153846"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "ECMAScript 6 新增"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的代理和反射为开发者"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "提供了拦截并向基本操作嵌入额外行为"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的能力"
+				}
+			]
+		},
+		{
+			"ID": "20221017153852-pr1i4nz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153852-pr1i4nz",
+				"updated": "20221017153948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "给目标对象定义一个关联的代理对象，而这个代理对象可以作为抽象的目标对象来使用，在对目标对象的各种操作影响目标对象之前，可以在代理对象中对这些操作加以控制"
+				}
+			]
+		},
+		{
+			"ID": "20221017153950-qqydssw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153950-qqydssw",
+				"updated": "20221017154535"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "———— 代理 是 目标对象 的替身，哈哈哈，代理是目标对象的抽象。"
+				}
+			]
+		},
+		{
+			"ID": "20221017154605-f60381b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017154605-f60381b",
+				"updated": "20221017154607"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目标对象既可以直接被操作，也可以通过代理来操作。但直接操作会绕过代理施予的行为。"
+				}
+			]
+		},
+		{
+			"ID": "20221017154128-1q5s8uw",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221017154128-1q5s8uw",
+				"updated": "20221017154132"
+			}
+		},
+		{
+			"ID": "20221017154347-h3xhwhl",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20221017154347-h3xhwhl",
+				"style": "background-color: var(--b3-font-background2);",
+				"updated": "20221017154506"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20221017154120-some8ly",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"fold": "0",
+						"id": "20221017154120-some8ly",
+						"updated": "20221017154506"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "注意 在ES6之前，ECMAScript中并没有类似代理的特性。由于代理是一种新的基础性语言能力，很多"
+						},
+						{
+							"Type": "NodeTextMark",
+							"Properties": {
+								"style": "color: var(--b3-font-color4);"
+							},
+							"TextMarkType": "text",
+							"TextMarkTextContent": "转译程序都不能把代理行为转换为之前的ECMAScript代码"
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"color: var(--b3-font-color4);\"}"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "，因为代理的行为实际上是无可替代的。为此，"
+						},
+						{
+							"Type": "NodeTextMark",
+							"Properties": {
+								"style": "color: var(--b3-font-color3);"
+							},
+							"TextMarkType": "text",
+							"TextMarkTextContent": "代理和反射只在百分之百支持它们的平台上有用。"
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"color: var(--b3-font-color3);\"}"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可以检测代理是否存在，不存在则提供后备代码。不过这会导致代码冗余，因此并不推荐。      ---JavaScript高级程序设计（第4版）"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017153922-knb92y4",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221017153922-knb92y4",
+				"updated": "20221017154248"
+			}
+		},
+		{
+			"ID": "20221017153922-jn9vmo6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017153922-jn9vmo6",
+				"updated": "20221017154739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建空代理"
+				}
+			]
+		},
+		{
+			"ID": "20221017154430-5eck8ps",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017154430-5eck8ps",
+				"updated": "20221017154945"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最简单的代理是空代理：即除了作为一个抽象的目标对象，什么也不做。"
+				}
+			]
+		},
+		{
+			"ID": "20221017154812-lkq7a3g",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017154812-lkq7a3g",
+				"updated": "20221017154953"
+			},
+			"Children": [
+				{
+					"ID": "20221017154953-fbrww1i",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221017154953-fbrww1i",
+						"updated": "20221017154953"
+					},
+					"Children": [
+						{
+							"ID": "20221017154953-fib2x1b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017154953-fib2x1b",
+								"updated": "20221017154953"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "代理是使用Proxy构造函数创建的。这个构造函数接收两个参数：目标对象和处理程序对象。缺少其中任何一个参数都会抛出TypeError"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017154936-pfx0v35",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221017154936-pfx0v35",
+				"updated": "20221017155312"
+			},
+			"Children": [
+				{
+					"ID": "20221017155000-gd8enfe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221017155000-gd8enfe",
+						"updated": "20221017155000"
+					},
+					"Children": [
+						{
+							"ID": "20221017155000-uk9z4tn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017155000-uk9z4tn",
+								"updated": "20221017155000"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "要创建空代理，可以传一个简单的对象字面量作为处理程序对象，从而让所有操作畅通无阻地抵达目标对象。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221017155303-u5j3433",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221017155303-u5j3433",
+						"updated": "20221017155312"
+					},
+					"Children": [
+						{
+							"ID": "20221017155303-j22cfdo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221017155303-j22cfdo",
+								"updated": "20221017155312"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "严格相等可以用来区分代理和目标，console.log(target === proxy); // false"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221017154746-chffpky",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221017154746-chffpky",
+				"updated": "20221017155115"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    const target = {  \n      id: 'target'\n    };  //目标对象\n    const handler = {}; //处理程序对象\n    const proxy = new Proxy(target, handler); //创建代理\n    // id属性会访问同一个值\n    console.log(target.id);   // target\n    console.log(proxy.id);    // target\n    // 给目标属性赋值会反映在两个对象上\n    // 因为两个对象访问的是同一个值\n    target.id = 'foo';\n    console.log(target.id); // foo\n    console.log(proxy.id);   // foo\n    // 给代理属性赋值会反映在两个对象上\n    // 因为这个赋值会转移到目标对象\n    proxy.id = 'bar';\n    console.log(target.id); // bar\n    console.log(proxy.id);   // bar\n    // hasOwnProperty()方法在两个地方\n    // 都会应用到目标对象\n    console.log(target.hasOwnProperty('id')); // true\n    console.log(proxy.hasOwnProperty('id'));   // true\n    // Proxy.prototype是undefined\n    // 因此不能使用instanceof操作符\n    console.log(target instanceof Proxy); // TypeError: Function has non-object prototype\n    'undefined' in instanceof check\n    console.log(proxy instanceof Proxy);  // TypeError: Function has non-object prototype\n    'undefined' in instanceof check\n    // 严格相等可以用来区分代理和目标\n    console.log(target === proxy); // false\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221017154430-28ward4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221017154430-28ward4",
+				"updated": "20221017155346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代理捕获器 （trap）"
+				}
+			]
+		},
+		{
+			"ID": "20221017155331-fds28as",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017155331-fds28as",
+				"updated": "20221017155406"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用代理的主要目的是可以定义捕获器（trap）"
+				}
+			]
+		},
+		{
+			"ID": "20221017153726-qq2xybz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153726-qq2xybz"
+			}
+		},
+		{
+			"ID": "20221017153726-q0vqv14",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153726-q0vqv14",
+				"updated": "20221017153735"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "反射方法"
+				}
+			]
+		},
+		{
+			"ID": "20221017153736-o800o2h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153736-o800o2h"
+			}
+		},
+		{
+			"ID": "20221017153736-gwjmcs1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153736-gwjmcs1",
+				"updated": "20221017153741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代理模式"
+				}
+			]
+		},
+		{
+			"ID": "20221017153658-im0usw2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153658-im0usw2"
+			}
+		},
+		{
+			"ID": "20221017153658-1qqb67v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153658-1qqb67v"
+			}
+		},
+		{
+			"ID": "20221017153658-dvdqofb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017153658-dvdqofb"
+			}
+		},
+		{
+			"ID": "20221017150727-jvhjzd5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017150727-jvhjzd5"
+			},
+			"Children": [
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				}
+			]
+		},
+		{
+			"ID": "20221017150928-yq2sr8y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017150928-yq2sr8y",
+				"updated": "20221017153611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数的增强知识"
+				}
+			]
+		},
+		{
+			"ID": "20221017151028-geosqyp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151028-geosqyp",
+				"updated": "20221017155653"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "函数实际上是对象，"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221017155627-iwn6hg5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017155627-iwn6hg5",
+				"updated": "20221017163113"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221017163113-qpduj3e",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "箭头函数"
+				}
+			]
+		},
+		{
+			"ID": "20221017163117-mi5sxyj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017163117-mi5sxyj"
+			}
+		},
+		{
+			"ID": "20221017163048-bb81o7l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017163048-bb81o7l"
+			}
+		},
+		{
+			"ID": "20221017155627-q8cuiu3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017155627-q8cuiu3",
+				"updated": "20221017163154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "期约与异步函数"
+				}
+			]
+		},
+		{
+			"ID": "20221017155627-jme7j6k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017155627-jme7j6k"
+			}
+		},
+		{
+			"ID": "20221017151029-vqx2h8e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151029-vqx2h8e",
+				"updated": "20221017163204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对象的增强知识"
+				}
+			]
+		},
+		{
+			"ID": "20221017151052-55woxod",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151052-55woxod"
+			}
+		},
+		{
+			"ID": "20221017151052-ay73lkb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151052-ay73lkb",
+				"updated": "20221017151053"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JavaScript ES5中实现继承"
+				}
+			]
+		},
+		{
+			"ID": "20221017151104-kmbbq1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151104-kmbbq1o"
+			}
+		},
+		{
+			"ID": "20221017151104-mc5m480",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151104-mc5m480",
+				"updated": "20221017151105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JavaScript ES6实现继承"
+				}
+			]
+		},
+		{
+			"ID": "20221017151119-9tueukr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151119-9tueukr"
+			}
+		},
+		{
+			"ID": "20221017151119-deh2nrz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151119-deh2nrz",
+				"updated": "20221017151120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ES6~ES13新特性"
+				}
+			]
+		},
+		{
+			"ID": "20221017151136-cv194e6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151136-cv194e6"
+			}
+		},
+		{
+			"ID": "20221017151136-uef3xc7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151136-uef3xc7",
+				"updated": "20221017151137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Proxy-Reflect使用详解"
+				}
+			]
+		},
+		{
+			"ID": "20221017151200-ov0szht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151200-ov0szht"
+			}
+		},
+		{
+			"ID": "20221017151200-mwpgi92",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151200-mwpgi92",
+				"updated": "20221017151201"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Promise使用详解"
+				}
+			]
+		},
+		{
+			"ID": "20221017151212-rxcwrea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151212-rxcwrea"
+			}
+		},
+		{
+			"ID": "20221017151212-qlk3kfv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151212-qlk3kfv",
+				"updated": "20221017151245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Iterator 迭代器"
+				}
+			]
+		},
+		{
+			"ID": "20221017151300-df6coux",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151300-df6coux"
+			}
+		},
+		{
+			"ID": "20221017151241-l5hsqzu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151241-l5hsqzu",
+				"updated": "20221017151517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Generator 生成器"
+				}
+			]
+		},
+		{
+			"ID": "20221017151319-n0wihaj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151319-n0wihaj"
+			}
+		},
+		{
+			"ID": "20221017151524-jh43rnq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151524-jh43rnq",
+				"updated": "20221017151537"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "await、async、事件循环"
+				}
+			]
+		},
+		{
+			"ID": "20221017151537-j95av9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151537-j95av9a"
+			}
+		},
+		{
+			"ID": "20221017151319-w6x0mw1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151319-w6x0mw1",
+				"updated": "20221017153125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Storage 存储机制 客户端存储"
+				}
+			]
+		},
+		{
+			"ID": "20221017151332-c7g80pv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151332-c7g80pv"
+			}
+		},
+		{
+			"ID": "20221017151330-g9gayzr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151330-g9gayzr"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "正则表达式"
+				}
+			]
+		},
+		{
+			"ID": "20221017151248-2omv4an",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151248-2omv4an"
+			}
+		},
+		{
+			"ID": "20221017151603-txw8dlu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151603-txw8dlu",
+				"updated": "20221017151604"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "防抖、节流、深拷贝 "
+				}
+			]
+		},
+		{
+			"ID": "20221017151609-cx8xlup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151609-cx8xlup"
+			}
+		},
+		{
+			"ID": "20221017151607-rf1holv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151607-rf1holv"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事件总线"
+				}
+			]
+		},
+		{
+			"ID": "20221017151634-oeup8s9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221017151634-oeup8s9"
+			}
+		},
+		{
+			"ID": "20221017151635-iqmoh9m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221017151635-iqmoh9m",
+				"updated": "20221017151635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JavaScript XHR、Fetch"
+				}
+			]
+		},
+		{
+			"ID": "20221018153119-cfrde53",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018153119-cfrde53"
+			}
+		},
+		{
+			"ID": "20221018153119-rdjianw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018153119-rdjianw"
+			}
+		},
+		{
+			"ID": "20221018153119-n2o2z83",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018153119-n2o2z83"
+			}
+		},
+		{
+			"ID": "20221018153120-1vfu1s4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018153120-1vfu1s4",
+				"updated": "20221018153912"
+			},
+			"Children": [
+				{
+					"ID": "20221018153124-91uwurw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221018153124-91uwurw",
+						"updated": "20221018153124"
+					},
+					"Children": [
+						{
+							"ID": "20221018153124-pohovxk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018153124-pohovxk",
+								"updated": "20221018153245"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将本地笔记全部上传到 github 和 gitee 上"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221018153200-t4d8vec",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221018153200-t4d8vec"
+					},
+					"Children": [
+						{
+							"ID": "20221018153200-7p9776a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018153200-7p9776a",
+								"updated": "20221018153217"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "课件保存在阿里云盘"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221018153217-rwp6ixr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221018153217-rwp6ixr"
+					},
+					"Children": [
+						{
+							"ID": "20221018153217-nadi3wm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018153217-nadi3wm",
+								"updated": "20221018153306"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "课程代码保存在 github 和 gitee 上"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221018153314-45gng5z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221018153314-45gng5z",
+						"updated": "20221018153912"
+					},
+					"Children": [
+						{
+							"ID": "20221018153314-b4tqtku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018153314-b4tqtku",
+								"updated": "20221018153912"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "资源库 的东西保存在 百度网盘 "
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018153118-4bezj6b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018153118-4bezj6b"
+			}
+		}
+	]
+}

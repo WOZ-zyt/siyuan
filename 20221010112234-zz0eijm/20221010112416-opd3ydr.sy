@@ -1,0 +1,3682 @@
+{
+	"ID": "20221010112416-opd3ydr",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010112416-opd3ydr",
+		"title": "node.js内置API",
+		"updated": "20221013101319"
+	},
+	"Children": [
+		{
+			"ID": "20221010114510-40794dt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010114510-40794dt",
+				"updated": "20221010114510"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "fs 文件系统模块"
+				}
+			]
+		},
+		{
+			"ID": "20221010161548-1z3w55f",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010161548-1z3w55f",
+				"updated": "20221010161902"
+			},
+			"Children": [
+				{
+					"ID": "20221010161729-1gcsqfu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010161729-1gcsqfu",
+						"updated": "20221010161729"
+					},
+					"Children": [
+						{
+							"ID": "20221010161729-r55ehsh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010161729-r55ehsh",
+								"updated": "20221010161729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "官方提供的，用来操作文件的模块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010161917-23kbdkh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010161917-23kbdkh"
+					},
+					"Children": [
+						{
+							"ID": "20221010161917-tmy6kee",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010161917-tmy6kee",
+								"updated": "20221010162014"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用fs模块操作文件前需要导入它：const fs = require('fs')"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010161731-s43r2t1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20221010161731-s43r2t1",
+						"updated": "20221010161902"
+					},
+					"Children": [
+						{
+							"ID": "20221010161731-3un9oys",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010161731-3un9oys",
+								"updated": "20221010161755"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文件操作一般分为读取文件和写入文件"
+								}
+							]
+						},
+						{
+							"ID": "20221010161806-9ljwh4i",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221010161806-9ljwh4i",
+								"updated": "20221010161902"
+							},
+							"Children": [
+								{
+									"ID": "20221010161802-cofj6rt",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221010161802-cofj6rt"
+									},
+									"Children": [
+										{
+											"ID": "20221010161802-xc9k65a",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010161802-xc9k65a",
+												"updated": "20221010161854"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "读取指定文件内容：fs.readFile()"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010161813-tugr5ap",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221010161813-tugr5ap",
+										"updated": "20221010161902"
+									},
+									"Children": [
+										{
+											"ID": "20221010161813-soonjso",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010161813-soonjso",
+												"updated": "20221010161902"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "写入文件：fs.writeFile()"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010162225-ec8zvzv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010162225-ec8zvzv",
+				"updated": "20221010162250"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "读文件操作"
+				}
+			]
+		},
+		{
+			"ID": "20221010162809-4e8ucw8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221010162809-4e8ucw8",
+				"updated": "20221010165931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "fs.readFile()函数语法"
+				}
+			]
+		},
+		{
+			"ID": "20221010164446-4i2gcvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010164446-4i2gcvo",
+				"updated": "20221010164616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 fs.readFile() 方法，可以读取指定文件中的内容，语法格式如下："
+				}
+			]
+		},
+		{
+			"ID": "20221010164717-vlpz1bp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010164717-vlpz1bp",
+				"linenumber": "false",
+				"updated": "20221010165948"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//使用fs模块需要引用\nconst fs = require('fs')\nfs.readFile(path,[..,option],callback)\n//三个参数如下解释\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010164617-g9d9b8p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010164617-g9d9b8p",
+				"updated": "20221010164641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参数解读： "
+				}
+			]
+		},
+		{
+			"ID": "20221010164641-swk259m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010164641-swk259m",
+				"updated": "20221010164708"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t参数1：必选参数，字符串，表示文件的路径。"
+				}
+			]
+		},
+		{
+			"ID": "20221010164643-edsfdxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010164643-edsfdxm",
+				"updated": "20221010164645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t参数2：可选参数，表示以什么编码格式来读取文件。 "
+				}
+			]
+		},
+		{
+			"ID": "20221010164646-dv6he7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010164646-dv6he7b"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t参数3：必选参数，文件读取完成后，通过回调函数拿到读取的结果"
+				}
+			]
+		},
+		{
+			"ID": "20221010164958-tfv8ci9",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221010164958-tfv8ci9",
+				"updated": "20221010165000"
+			}
+		},
+		{
+			"ID": "20221010162542-dwqtxuq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010162542-dwqtxuq",
+				"updated": "20221010162545"
+			},
+			"Children": [
+				{
+					"ID": "20221010162544-ofzvfac",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010162544-ofzvfac",
+						"updated": "20221010162545"
+					},
+					"Children": [
+						{
+							"ID": "20221010162544-foj8siw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010162544-foj8siw",
+								"updated": "20221010162545"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "以 utf8 的编码格式，读取指定文件的内容，并打印 err 和 Str 的值："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010162305-wx7uqbs",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010162305-wx7uqbs",
+				"ligatures": "true",
+				"linenumber": "false",
+				"style": "color: var(--b3-card-error-color); background-color: var(--b3-font-background8);",
+				"updated": "20221010165208"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const fs = require('fs')\nfs.readFile('./files/1.txt','utf-8',function(err,dataStr){\n     console.log(err)\n     console.log(dataStr)\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010162548-tfsen9s",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221010162548-tfsen9s",
+				"updated": "20221010165008"
+			}
+		},
+		{
+			"ID": "20221010165016-v92sn8h",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010165016-v92sn8h",
+				"updated": "20221010165145"
+			},
+			"Children": [
+				{
+					"ID": "20221010165145-1go2u0p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010165145-1go2u0p",
+						"updated": "20221010165145"
+					},
+					"Children": [
+						{
+							"ID": "20221010165145-b8y8puq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010165145-b8y8puq",
+								"updated": "20221010165145"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "判断文件是否读取成功"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010165135-vs7a7kg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010165135-vs7a7kg",
+				"updated": "20221010165648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " err 对象为 null：读取文件失败"
+				}
+			]
+		},
+		{
+			"ID": "20221010201920-im5k3za",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010201920-im5k3za",
+				"updated": "20221010201938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Str：读取成功的读取内容"
+				}
+			]
+		},
+		{
+			"ID": "20221010165103-6b9rxzi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010165103-6b9rxzi",
+				"updated": "20221010165702"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const fs = require('fs')\nfs.readFile('./files/1.txt','utf-8',function(err,dataStr){\n   if(err != null){\n       return console.log('文件读取失败'+ err.message)\n     }else{\n       return console.log('文件读取成功'+ dataStr)\n   }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010162251-lsv0nds",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010162251-lsv0nds",
+				"updated": "20221010162255"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "写文件操作"
+				}
+			]
+		},
+		{
+			"ID": "20221010162201-hg4wzlp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221010162201-hg4wzlp",
+				"updated": "20221010165939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "fs.writeFile()函数语法"
+				}
+			]
+		},
+		{
+			"ID": "20221011130619-ule96co",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011130619-ule96co",
+				"updated": "20221011130622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "fs.writeFile() 方法只能用来创建文件，不能用来创建路径"
+				}
+			]
+		},
+		{
+			"ID": "20221011130630-ezrbh9m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011130630-ezrbh9m",
+				"updated": "20221011130657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "重复调用 fs.writeFile() 写入同一个文件，新写入的内容会覆盖之前的旧内容，所以需要续写使用fs.appendFile()函数"
+				}
+			]
+		},
+		{
+			"ID": "20221010162205-tckccc7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010162205-tckccc7",
+				"updated": "20221010165720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 fs.writeFile() 方法，可以向指定的文件中写入内容，语法格式如下："
+				}
+			]
+		},
+		{
+			"ID": "20221010162205-cf95knh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010162205-cf95knh",
+				"updated": "20221010165921"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const js = require('fs')\nfs.writeFile(file,data,[..,option],callback)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010165853-vh2slwx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010165853-vh2slwx",
+				"updated": "20221010165905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参数解读： "
+				}
+			]
+		},
+		{
+			"ID": "20221010165905-ajjpmz0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010165905-ajjpmz0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t参数1：必选参数，需要指定一个文件路径的字符串，表示文件的存放路径。 "
+				}
+			]
+		},
+		{
+			"ID": "20221010165907-u9ggxll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010165907-u9ggxll"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t参数2：必选参数，表示要写入的内容。 "
+				}
+			]
+		},
+		{
+			"ID": "20221010165911-i4e5cz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010165911-i4e5cz4"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t参数3：可选参数，表示以什么格式写入文件内容，默认值是 utf8。"
+				}
+			]
+		},
+		{
+			"ID": "20221010165913-t5hafdk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010165913-t5hafdk"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t参数4：必选参数，文件写入完成后的回调函数"
+				}
+			]
+		},
+		{
+			"ID": "20221010170005-9qhdcza",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221010170005-9qhdcza"
+			}
+		},
+		{
+			"ID": "20221010170044-drw059y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010170044-drw059y",
+				"updated": "20221010170051"
+			},
+			"Children": [
+				{
+					"ID": "20221010170051-f4di9qv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010170051-f4di9qv",
+						"updated": "20221010170051"
+					},
+					"Children": [
+						{
+							"ID": "20221010170051-rleelu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010170051-rleelu2",
+								"updated": "20221010170249"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "判断文件是否写入成功"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010170257-u5eef8u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010170257-u5eef8u",
+				"updated": "20221010170347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "errf 值不为null：文件写入失败"
+				}
+			]
+		},
+		{
+			"ID": "20221010170045-2c34rup",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010170045-2c34rup",
+				"updated": "20221010170510"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const fs = require('fs')\nfs.wirteFile('./files/1.txt','1.txt',function(err){\n   if(err != null){\n      console.log('文件写入失败'+err.message)\n    }else{\n      console.log('文件写入成功')\n   }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011094153-p39e9nx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011094153-p39e9nx",
+				"updated": "20221011094342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "fs.appendFile()追加文件"
+				}
+			]
+		},
+		{
+			"ID": "20221011094429-r47lofu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011094429-r47lofu",
+				"updated": "20221011094516"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011094516-ffdl0i7.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011094359-rw4471w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011094359-rw4471w",
+				"updated": "20221011094543"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const fs = require('fs')\nvar tem = []\nvar tem1 = []\nfs.readFile(\"成绩.txt\",\"utf-8\",(err,dataStr)=\u003e{\n   if(err){\n     console.log(\"读入失败\")\n   }else{\n    console.log(dataStr)\n     tem = dataStr.split(' ')\n     tem.forEach(item=\u003e{\n        tem1.push(item.replace(\"=\",\":\"))\n\n     })\n     console.log(tem1)\n     tem1.forEach(item=\u003e{\n        fs.appendFile(\"成绩-ok.txt\",item+\"\\n\",(err)=\u003e{\n           if(err){\n             console.log(\"写入失败\")\n           }else{\n            console.log(\"写入成功\")\n           }\n        })\n     })\n   }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011094153-rsezlhi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011094153-rsezlhi"
+			}
+		},
+		{
+			"ID": "20221010170021-bkqm6sf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010170021-bkqm6sf",
+				"updated": "20221011094552"
+			}
+		},
+		{
+			"ID": "20221010170019-qkuramv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010170019-qkuramv"
+			}
+		},
+		{
+			"ID": "20221010170646-kal7vvt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010170646-kal7vvt",
+				"updated": "20221010170649"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路径动态拼接的问题"
+				}
+			]
+		},
+		{
+			"ID": "20221011095334-ifzl6mm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011095334-ifzl6mm",
+				"updated": "20221011100446"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "使用 __dirname :  表示当前文件所在目录解决："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221010170647-bqldn4i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010170647-bqldn4i",
+				"updated": "20221011094902"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在使用 fs 模块操作文件时，如果提供的操作路径是以 ./ 或 ../ 开头的相对路径时，很容易出现路径动态拼接错误的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20221011094904-gtnx6yu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011094904-gtnx6yu",
+				"updated": "20221011095113"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "原因："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "代码在运行的时候，会以执行 node 命令时所处的目录，动态拼接出被操作文件的完整路径。"
+				}
+			]
+		},
+		{
+			"ID": "20221011100040-oqqjt5j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011100040-oqqjt5j",
+				"updated": "20221011100041"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011100041-kc82wn6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011100051-16um9ew",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011100051-16um9ew",
+				"updated": "20221011100143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如上图：报错，完整路径拼接少了code目录，找不到需要读取的文件"
+				}
+			]
+		},
+		{
+			"ID": "20221011095810-drjz7xs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011095810-drjz7xs",
+				"updated": "20221011095859"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color3);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "完整路径：执行 node 命令时所处的目录 + fs.readFile函数第一个参数"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color3);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011094929-5nvm377",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011094929-5nvm377",
+				"updated": "20221011095130"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "解决方案："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "在使用 fs 模块操作文件时，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color10);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "直接提供完整的路径，"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "不要提供 ./ 或 ../ 开头的相对路径，从而防止路径动态拼接的问题。"
+				}
+			]
+		},
+		{
+			"ID": "20221011095132-sfokhui",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011095132-sfokhui",
+				"updated": "20221011100451"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const fs = require('fs')\nfs.readFile('./files/1.txt','utf-8',function(err,dataStr){\n   if(err != null){\n       return console.log('文件读取失败'+ err.message)\n     }else{\n       return console.log('文件读取成功'+ dataStr)\n   }\n})\n\n//在使用 fs 模块操作文件时，直接提供完整的路径，\n//_dirname:表示当前JS文件所在目录\nconst fs = require('fs')\nfs.readFile(__dirname + '/files/1.txt','utf-8',function(err,dataStr){\n   if(err != null){\n       return console.log('文件读取失败'+ err.message)\n     }else{\n       return console.log('文件读取成功'+ dataStr)\n   }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010114623-g9ib2jn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010114623-g9ib2jn",
+				"updated": "20221010114623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "path 路径模块"
+				}
+			]
+		},
+		{
+			"ID": "20221011101542-84g04a5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011101542-84g04a5",
+				"updated": "20221011101547"
+			}
+		},
+		{
+			"ID": "20221010161626-3v1bnyn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010161626-3v1bnyn",
+				"updated": "20221011100546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "path 模块是 Node.js 官方提供的、用来处理路径的模块。"
+				}
+			]
+		},
+		{
+			"ID": "20221011100547-exm65vg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011100547-exm65vg",
+				"updated": "20221011100619"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "path.join() 方法，用来将多个路径片段拼接成一个完整的路径字符串 ⚫ path.basename() 方法，用来从路径字符串中，将文件名解析出来"
+				}
+			]
+		},
+		{
+			"ID": "20221011100622-51pazfz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011100622-51pazfz",
+				"updated": "20221011100640"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 JavaScript 代码中，使用 path 模块来处理路径，先导入它："
+				}
+			]
+		},
+		{
+			"ID": "20221011100641-9u439f9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011100641-9u439f9",
+				"updated": "20221011100701"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const path = require('path')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011100850-lmmk92v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011100850-lmmk92v",
+				"updated": "20221011101718"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "path.join() 方法：路径拼接"
+				}
+			]
+		},
+		{
+			"ID": "20221011101155-qkzpqum",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011101155-qkzpqum",
+				"updated": "20221011101430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "'../' :  注意出现 '../' 时如下图，省略了/c 路径，抵消路径功能"
+				}
+			]
+		},
+		{
+			"ID": "20221011101551-5sz0j1q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011101551-5sz0j1q",
+				"updated": "20221011101552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今后凡是涉及到路径拼接的操作，都要使用 path.join() 方法进行处理。"
+				}
+			]
+		},
+		{
+			"ID": "20221011101555-kq356r1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011101555-kq356r1"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不要直接使用 + 进行字符串的拼接"
+				}
+			]
+		},
+		{
+			"ID": "20221011100853-plxyrx7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011100853-plxyrx7",
+				"updated": "20221011101515"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const path = require('path')\nconst pathStr = path.join('/a','/b/c','../','/d','/e')\nconsole.log(pathStr)  //输出——/a/b/d/e  \n\nconst path = require('path')\nconst pathStr = path.join(__dirname , './file/1.txt')\nconsole.log(pathStr)  //输出——当前JS文件路径/file/1.txt\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011100853-09yi1wu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011100853-09yi1wu",
+				"updated": "20221011101721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "path.basename() 方法：获取路径的文件名"
+				}
+			]
+		},
+		{
+			"ID": "20221011101731-nn5oii2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011101731-nn5oii2",
+				"updated": "20221011102216"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const path = require('path')\nconst pathStr = path.basename('/hahah/hehhe/file/1.txt')\nconsole.log(pathStr)  //输出1.txt\n\nconst path = require('path')\nconst pathStr = path.basename('/hahah/hehhe/file/1.txt','.txt')\nconsole.log(pathStr)  //输出1,省略了后缀名,返回得到的文件名字符串\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011101707-fbt7btg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011101707-fbt7btg",
+				"updated": "20221011102124"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "path.extname()方法：获取路径下的文件后缀名"
+				}
+			]
+		},
+		{
+			"ID": "20221011102125-8dw97x5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011102125-8dw97x5",
+				"updated": "20221011102159"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const path = require('path')\nconst pathStr = path.extname('/hahah/hehhe/file/1.txt')\nconsole.log(pathStr)  //输出.txt,返回得到的扩展名字符串\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011100851-al5odmq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011100851-al5odmq",
+				"updated": "20221011102534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案件：将 index.html 页面， 拆分成三个文件"
+				}
+			]
+		},
+		{
+			"ID": "20221011102548-xlq7mlx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011102548-xlq7mlx",
+				"updated": "20221011102655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将都包含html,js,css代码的index.html 文件拆分index.html，index.js，index.css三个文件"
+				}
+			]
+		},
+		{
+			"ID": "20221011122613-lowt7pt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011122613-lowt7pt",
+				"updated": "20221011122622"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要处理的index.html文件："
+				}
+			]
+		},
+		{
+			"ID": "20221011122623-yuidty6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"id": "20221011122623-yuidty6",
+				"updated": "20221011130351"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n\n\u003chead\u003e\n  \u003cmeta charset=\"UTF-8\"\u003e\n  \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\u003e\n  \u003cmeta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\"\u003e\n  \u003ctitle\u003eindex首页\u003c/title\u003e\n  \u003cstyle\u003e\n    html,\n    body {\n      margin: 0;\n      padding: 0;\n      height: 100%;\n      background-image: linear-gradient(to bottom right, red, gold);\n    }\n\n    .box {\n      width: 400px;\n      height: 250px;\n      background-color: rgba(255, 255, 255, 0.6);\n      border-radius: 6px;\n      position: absolute;\n      left: 50%;\n      top: 40%;\n      transform: translate(-50%, -50%);\n      box-shadow: 1px 1px 10px #fff;\n      text-shadow: 0px 1px 30px white;\n\n      display: flex;\n      justify-content: space-around;\n      align-items: center;\n      font-size: 70px;\n      user-select: none;\n      padding: 0 20px;\n\n      /* 盒子投影 */\n      -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0%, transparent), to(rgba(250, 250, 250, .2)));\n    }\n  \u003c/style\u003e\n\u003c/head\u003e\n\n\u003cbody\u003e\n  \u003cdiv class=\"box\"\u003e\n    \u003cdiv id=\"HH\"\u003e00\u003c/div\u003e\n    \u003cdiv\u003e:\u003c/div\u003e\n    \u003cdiv id=\"mm\"\u003e00\u003c/div\u003e\n    \u003cdiv\u003e:\u003c/div\u003e\n    \u003cdiv id=\"ss\"\u003e00\u003c/div\u003e\n  \u003c/div\u003e\n\n  \u003cscript\u003e\n    window.onload = function () {\n      // 定时器，每隔 1 秒执行 1 次\n      setInterval(() =\u003e {\n        var dt = new Date()\n        var HH = dt.getHours()\n        var mm = dt.getMinutes()\n        var ss = dt.getSeconds()\n\n        // 为页面上的元素赋值\n        document.querySelector('#HH').innerHTML = padZero(HH)\n        document.querySelector('#mm').innerHTML = padZero(mm)\n        document.querySelector('#ss').innerHTML = padZero(ss)\n      }, 1000)\n    }\n\n    // 补零函数\n    function padZero(n) {\n      return n \u003e 9 ? n : '0' + n\n    }\n  \u003c/script\u003e\n\u003c/body\u003e\n\n\u003c/html\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011100851-7phw8uo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20221011100851-7phw8uo",
+				"updated": "20221011104639"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref tag",
+					"TextMarkBlockRefID": "20221011104155-9dfvbsh",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "正则表达式"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011122330-wnyc480",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"fold": "1",
+				"id": "20221011122330-wnyc480",
+				"updated": "20221011123408"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20221011122310-k5clmaa",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"fold": "1",
+						"id": "20221011122310-k5clmaa",
+						"updated": "20221011123408"
+					},
+					"Children": [
+						{
+							"ID": "20221011122343-39gic2q",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "MS4=",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20221011122343-39gic2q",
+								"updated": "20221011123408"
+							},
+							"Children": [
+								{
+									"ID": "20221011122343-itz6htg",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011122343-itz6htg",
+										"updated": "20221011123408"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "展开可看案例答案 创建两个正则表达式，分别用来匹配 \u003cstyle\u003e 和 \u003cscript\u003e 标签"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221011123312-3nj54hr",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20221011123312-3nj54hr"
+							},
+							"Children": [
+								{
+									"ID": "20221011123312-1rkvomj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011123312-1rkvomj"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "    创建两个正则表达式，分别用来匹配 \u003cstyle\u003e 和 \u003cscript\u003e 标签"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221011123254-7w0wqqn",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "My4=",
+								"Num": 3
+							},
+							"Properties": {
+								"id": "20221011123254-7w0wqqn"
+							},
+							"Children": [
+								{
+									"ID": "20221011123254-z3orf2c",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011123254-z3orf2c"
+									}
+								}
+							]
+						},
+						{
+							"ID": "20221011123252-6tjt44y",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NC4=",
+								"Num": 4
+							},
+							"Properties": {
+								"id": "20221011123252-6tjt44y"
+							},
+							"Children": [
+								{
+									"ID": "20221011123252-ivf7961",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011123252-ivf7961"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "创建两个正则表达式，分别用来匹配 \u003cstyle\u003e 和 \u003cscript\u003e 标签"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011122334-qlvs1qh",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20221011122334-qlvs1qh",
+						"updated": "20221011122519"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "// 1.1 导入 fs 模块\nconst fs = require('fs')\n// 1.2 导入 path 模块\nconst path = require('path')\n\n// 1.3 定义正则表达式，分别匹配 \u003cstyle\u003e\u003c/style\u003e 和 \u003cscript\u003e\u003c/script\u003e 标签\nconst regStyle = /\u003cstyle\u003e[\\s\\S]*\u003c\\/style\u003e/\nconst regScript = /\u003cscript\u003e[\\s\\S]*\u003c\\/script\u003e/\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20221011122310-0xth4mc",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221011122310-0xth4mc",
+						"updated": "20221011122345"
+					},
+					"Children": [
+						{
+							"ID": "20221011122345-dab35i3",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20221011122345-dab35i3",
+								"updated": "20221011122345"
+							},
+							"Children": [
+								{
+									"ID": "20221011122345-p0fmg1o",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011122345-p0fmg1o",
+										"updated": "20221011122345"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "使用 fs 模块，读取需要被处理的 HTML 文件"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011122541-d0qlkur",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20221011122541-d0qlkur",
+						"updated": "20221011122559"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "// 2.1 调用 fs.readFile() 方法读取文件\nfs.readFile(path.join(__dirname, '../素材/index.html'), 'utf8', function(err, Str) {\n  // 2.2 读取 HTML 文件失败\n  if (err) return console.log('读取HTML文件失败！' + err.message)\n  // 2.3 读取文件成功后，调用对应的三个方法，分别拆解出 css, js, html 文件\n  resolveCSS(Str)\n  resolveJS(Str)\n  resolveHTML(Str)\n})\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20221011122310-d3nmja2",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221011122310-d3nmja2",
+						"updated": "20221011122348"
+					},
+					"Children": [
+						{
+							"ID": "20221011122348-e1mlqh6",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "My4=",
+								"Num": 3
+							},
+							"Properties": {
+								"id": "20221011122348-e1mlqh6",
+								"updated": "20221011122348"
+							},
+							"Children": [
+								{
+									"ID": "20221011122348-qyghui6",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011122348-qyghui6",
+										"updated": "20221011122348"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "自定义 resolveCSS 方法，来写入 index.css 样式文件"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011122636-vjhipjb",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20221011122636-vjhipjb",
+						"updated": "20221011122649"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "// 3.1 定义处理 css 样式的方法\nfunction resolveCSS(htmlStr) {\n  // 3.2 使用正则提取需要的内容\n  const r1 = regStyle.exec(htmlStr)\n  // 3.3 将提取出来的样式字符串，进行字符串的 replace 替换操作\n  const newCSS = r1[0].replace('\u003cstyle\u003e', '').replace('\u003c/style\u003e', '')\n  // 3.4 调用 fs.writeFile() 方法，将提取的样式，写入到 clock 目录中 index.css 的文件里面\n  fs.writeFile(path.join(__dirname, './clock/index.css'), newCSS, function(err) {\n    if (err) return console.log('写入 CSS 样式失败！' + err.message)\n    console.log('写入样式文件成功！')\n  })\n}\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20221011122320-7bzso9g",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221011122320-7bzso9g",
+						"updated": "20221011122351"
+					},
+					"Children": [
+						{
+							"ID": "20221011122351-i3qnvmx",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NC4=",
+								"Num": 4
+							},
+							"Properties": {
+								"id": "20221011122351-i3qnvmx",
+								"updated": "20221011122351"
+							},
+							"Children": [
+								{
+									"ID": "20221011122351-m9orku9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011122351-m9orku9",
+										"updated": "20221011122351"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "自定义 resolveJS 方法，来写入 index.js 脚本文件"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011122651-3m6r2fb",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20221011122651-3m6r2fb",
+						"updated": "20221011122706"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "// 4.1 定义处理 js 脚本的方法\nfunction resolveJS(htmlStr) {\n  // 4.2 通过正则，提取对应的 \u003cscript\u003e\u003c/script\u003e 标签内容\n  const r2 = regScript.exec(htmlStr)\n  // 4.3 将提取出来的内容，做进一步的处理\n  const newJS = r2[0].replace('\u003cscript\u003e', '').replace('\u003c/script\u003e', '')\n  // 4.4 将处理的结果，写入到 clock 目录中的 index.js 文件里面\n  fs.writeFile(path.join(__dirname, './clock/index.js'), newJS, function(err) {\n    if (err) return console.log('写入 JavaScript 脚本失败！' + err.message)\n    console.log('写入 JS 脚本成功！')\n  })\n}\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20221011122318-8av3eun",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221011122318-8av3eun",
+						"updated": "20221011122354"
+					},
+					"Children": [
+						{
+							"ID": "20221011122354-xnigxne",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NS4=",
+								"Num": 5
+							},
+							"Properties": {
+								"id": "20221011122354-xnigxne",
+								"updated": "20221011122354"
+							},
+							"Children": [
+								{
+									"ID": "20221011122354-wkta8xw",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221011122354-wkta8xw",
+										"updated": "20221011122354"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "自定义 resolveHTML 方法，来写入 index.html 文件"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011122811-l8jqu7x",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20221011122811-l8jqu7x",
+						"updated": "20221011122811"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "// 5.1 定义处理 HTML 结构的方法\nfunction resolveHTML(htmlStr) {\n  // 5.2 将字符串调用 replace 方法，把内嵌的 style 和 script 标签，替换为外联的 link 和 script 标签\n  const newHTML = htmlStr.replace(regStyle, '\u003clink rel=\"stylesheet\" href=\"./index.css\" /\u003e').replace(regScript, '\u003cscript src=\"./index.js\"\u003e\u003c/script\u003e')\n  // 5.3 写入 index.html 这个文件\n  fs.writeFile(path.join(__dirname, './clock/index.html'), newHTML, function(err) {\n    if (err) return console.log('写入 HTML 文件失败！' + err.message)\n    console.log('写入 HTML 页面成功！')\n  })\n}\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20221011100851-n6dxj6j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011100851-n6dxj6j",
+				"updated": "20221011104043"
+			}
+		},
+		{
+			"ID": "20221010114631-vrkctbt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010114631-vrkctbt",
+				"updated": "20221010181100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http 模块：创建Web服务"
+				}
+			]
+		},
+		{
+			"ID": "20221010191422-dh4vel6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010191422-dh4vel6",
+				"updated": "20221010193158"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "tag block-ref",
+					"TextMarkBlockRefID": "20221010191455-9xqp131",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "http模块常用方法和属性"
+				}
+			]
+		},
+		{
+			"ID": "20221010171455-6ijqksa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010171455-6ijqksa",
+				"updated": "20221010180410"
+			},
+			"Children": [
+				{
+					"ID": "20221010180352-2j0imef",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010180352-2j0imef",
+						"updated": "20221010180410"
+					},
+					"Children": [
+						{
+							"ID": "20221010180352-dydrdj4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010180352-dydrdj4",
+								"updated": "20221010180410"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "什么是客户端？什么是服务器？"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010180336-1nzk4ju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010180336-1nzk4ju",
+				"updated": "20221010180350"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t在网络节点中，负责消费资源的电脑，叫做客户端；"
+				}
+			]
+		},
+		{
+			"ID": "20221010180355-lgoh8w3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010180355-lgoh8w3",
+				"updated": "20221010181536"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t负责对外提供网络资源的电脑，叫做"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221010181536-v8psv6l",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "服务器"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20221010181205-hk2unfp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010181205-hk2unfp",
+				"updated": "20221010181223"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "服务器和普通电脑的区别在于服务器上安装了 web 服务器软件，例如：IIS、Apache 等"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221010181258-onc3jc2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010181258-onc3jc2",
+				"updated": "20221010181304"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "在 Node.js 中，我们不需要使用 IIS、Apache 等这些第三方 web 服务器软件"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221010181315-w48mko7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010181315-w48mko7",
+				"updated": "20221010181321"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "因为我们可以基于 Node.js 提供的 http 模块，通过几行简单的代码，就能轻松的手写一个服务器软件，从而对外提供 web 服务"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221010180313-27arnl9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010180313-27arnl9",
+				"updated": "20221011110857"
+			},
+			"Children": [
+				{
+					"ID": "20221010180405-f5yukc6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010180405-f5yukc6",
+						"updated": "20221010180405"
+					},
+					"Children": [
+						{
+							"ID": "20221010180405-2tzxj1r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010180405-2tzxj1r",
+								"updated": "20221010180439"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "http 模块是 Node.js 官方提供的、用来创建 web 服务器的模块。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010180442-zwdhz6s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010180442-zwdhz6s",
+						"updated": "20221011110857"
+					},
+					"Children": [
+						{
+							"ID": "20221010180442-qvw3w3c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010180442-qvw3w3c",
+								"updated": "20221011110857"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过http模块提供的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "http.createServer()方法"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，将自己普通电脑变为一台Web服务器,从而对外提供Web资源服务，这时我们在"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color12); font-size: 19px;"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "自己电脑浏览器输入：http:127:0:0:1就是自己访问本机服务器，"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12); font-size: 19px;\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "本地服务器只有先接收到请求才会触发on方法的请求回调才会响应，只有先有请求才有响应。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010185005-ttfiwqk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010185005-ttfiwqk",
+						"updated": "20221010200236"
+					},
+					"Children": [
+						{
+							"ID": "20221010185005-ra4emhu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010185005-ra4emhu",
+								"updated": "20221010200236"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color10);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "两个特殊的对象："
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color10);"
+									},
+									"TextMarkType": "text a",
+									"TextMarkAHref": "siyuan://blocks/20221010185056-gtmbe3j",
+									"TextMarkATitle": "这是链接",
+									"TextMarkTextContent": "req对象"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color10);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "  "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color10);"
+									},
+									"TextMarkType": "text a",
+									"TextMarkAHref": "siyuan://blocks/20221010185056-gtmbe3j",
+									"TextMarkTextContent": " res对象"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010191414-glgwo6x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010191414-glgwo6x",
+				"updated": "20221010191418"
+			},
+			"Children": [
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				}
+			]
+		},
+		{
+			"ID": "20221010180845-jd7h61l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010180845-jd7h61l",
+				"updated": "20221010183153"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建 web 服务器的基本步骤"
+				}
+			]
+		},
+		{
+			"ID": "20221010183326-pg4fifl",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010183326-pg4fifl",
+				"updated": "20221010183909"
+			},
+			"Children": [
+				{
+					"ID": "20221010183326-kbsg3cl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010183326-kbsg3cl"
+					},
+					"Children": [
+						{
+							"ID": "20221010183158-ksfba4t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010183158-ksfba4t",
+								"updated": "20221010183534"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导入 http 模块：const http = require('http')"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010183326-hb8zrlb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010183326-hb8zrlb",
+						"updated": "20221010183909"
+					},
+					"Children": [
+						{
+							"ID": "20221010183218-v9wstsk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010183218-v9wstsk",
+								"updated": "20221010183909"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 web 服务器实例：const  server = http.createServer()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010183326-ik901mb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010183326-ik901mb",
+						"updated": "20221010183810"
+					},
+					"Children": [
+						{
+							"ID": "20221010183220-w0yyaxw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010183220-w0yyaxw",
+								"updated": "20221010183810"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为服务器实例绑定 request 事件（on方法绑定 request 事件），监听客户端的请求"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010183326-q8nxg48",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010183326-q8nxg48",
+						"updated": "20221010183823"
+					},
+					"Children": [
+						{
+							"ID": "20221010183222-je73td8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010183222-je73td8",
+								"updated": "20221010183823"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动服务器（listen方法）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011110910-tyacscv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011110910-tyacscv",
+				"updated": "20221011111029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行顺序：先执行  server.listen()  函数，等待浏览器请求才会执行  server.on()  方法"
+				}
+			]
+		},
+		{
+			"ID": "20221010183639-0ut0vun",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010183639-0ut0vun",
+				"updated": "20221010184530"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//创建 web 服务器的基本步骤\nconst http = require('http')  //导入 http 模块\nconst server = http.createServer()//创建 web 服务器实例\n//server就是服务器实例，可以接收网络请求，返回结果\n//为服务器实例绑定 request 事件，即可监听客户端发送过来的网络请求\nserver.on(\"request\",(req,res)=\u003e{\n   console.log(\"收到客户端请求\")\n})\n//调用服务器实例的 .listen(端口号,cb回调) 方法，即可启动当前的 web 服务器实例\nserver.listen(80,()=\u003e{\n   console.log(\"启动服务器\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010194458-5hw4nnv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010194458-5hw4nnv",
+				"updated": "20221010194459"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据不同的 url 响应不同的 html 内容"
+				}
+			]
+		},
+		{
+			"ID": "20221010195736-qqkjw8o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010195736-qqkjw8o",
+				"updated": "20221010195820"
+			},
+			"Children": [
+				{
+					"ID": "20221010195800-5xla9vq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010195800-5xla9vq",
+						"updated": "20221010195800"
+					},
+					"Children": [
+						{
+							"ID": "20221010195800-ngg6bw8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195800-ngg6bw8",
+								"updated": "20221010195800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "获取请求的 url 地址"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010195804-hy9k4yx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010195804-hy9k4yx"
+					},
+					"Children": [
+						{
+							"ID": "20221010195804-h38il1w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195804-h38il1w"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置默认的响应内容为 404 Not found"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010195806-m6yai0t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010195806-m6yai0t"
+					},
+					"Children": [
+						{
+							"ID": "20221010195806-thp9mkj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195806-thp9mkj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "判断用户请求的是否为 / 或 /index.html 首页 "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010195807-upshgur",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010195807-upshgur"
+					},
+					"Children": [
+						{
+							"ID": "20221010195807-u3vcm49",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195807-u3vcm49",
+								"updated": "20221010195809"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "判断用户请求的是否为 /about.html 关于页"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010195810-jf7xq5z",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221010195810-jf7xq5z"
+					},
+					"Children": [
+						{
+							"ID": "20221010195810-xpq4d8m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195810-xpq4d8m"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置 Content-Type 响应头，防止中文乱码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010195813-nt3aqk1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221010195813-nt3aqk1"
+					},
+					"Children": [
+						{
+							"ID": "20221010195813-i7xso7e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010195813-i7xso7e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 res.end() 把内容响应给客户端"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010194625-00ry87i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010194625-00ry87i",
+				"updated": "20221010201240"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//根据不同的 url 响应不同的 html 内容\nserver.on('resquest',function(req,res)=\u003e{\n    const url = req.url  //获取请求的 url 地址\n    //设置默认的响应内容为 404 Not found\n    let content = `\u003ch1\u003e404 Not found \u003ch1\u003e`\n    //判断用户请求的是否为 / 或 /index.html 首页\n    if(url === '/' || url === '/index.html'){\n      content = `\u003ch1\u003e4首页\u003ch1\u003e`\n    }\n    //判断用户请求的是否为 /about.html 关于页\n    else if(url === '/about.html'){\n      content = `\u003ch1\u003e4关于页\u003ch1\u003e`\n    }\n\n      //res.setHeader()设置发送内容的编码格式\n//为了防止中文乱码需要设置Content-Type的值为text/html;charset=utf-8\n  res.setHeader('Content-Type','text/html;charset=utf-8')\n  res.end(content)//res.end(str):向客户端发送指定内容，并结束这次请求\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010194626-hl0rv31",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010194626-hl0rv31",
+				"updated": "20221010195610"
+			}
+		},
+		{
+			"ID": "20221010183432-ufho0gc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010183432-ufho0gc",
+				"updated": "20221010184845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http.createServer()方法：创建 web 服务器实例"
+				}
+			]
+		},
+		{
+			"ID": "20221010183432-56ehh1q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010183432-56ehh1q",
+				"updated": "20221010184832"
+			},
+			"Children": [
+				{
+					"ID": "20221010183432-zqeiule",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010183432-zqeiule",
+						"updated": "20221010183432"
+					},
+					"Children": [
+						{
+							"ID": "20221010183432-vvp0w60",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010183432-vvp0w60",
+								"updated": "20221010184649"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "http.createServe()方法将电脑变为Web服务器提供Web服务"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010183432-2ejw9kl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010183432-2ejw9kl"
+					},
+					"Children": [
+						{
+							"ID": "20221010183432-lxv3zoq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010183432-lxv3zoq",
+								"updated": "20221010184709"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color10);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "使用http模块创建Web服务首先导入它：const http = require(\u0026apos;http\u0026apos;)"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010183432-tgmrx2a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010183432-tgmrx2a"
+					},
+					"Children": [
+						{
+							"ID": "20221010183432-ab1o1q0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010183432-ab1o1q0",
+								"updated": "20221010184931"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 Node.js 中，我们不需要使用 IIS、Apache 等这些第三方 web 服务器软件，使用http模块创造Web实例就可以像服务器一样接收访问，响应访问"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010184832-nidetst",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010184832-nidetst"
+					},
+					"Children": [
+						{
+							"ID": "20221010184832-wzg58kd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010184832-wzg58kd",
+								"updated": "20221010184838"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 web 服务器实例：const  server = http.createServer()"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010180845-5422vrv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010180845-5422vrv",
+				"updated": "20221010192314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "req对象：请求对象 "
+				}
+			]
+		},
+		{
+			"ID": "20221010185220-2u3p3di",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010185220-2u3p3di",
+				"updated": "20221010185220"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//创建 web 服务器的基本步骤\nconst http = require('http')  //导入 http 模块\nconst server = http.createServer()//创建 web 服务器实例\n//server就是服务器实例，可以接收网络请求，返回结果\n//为服务器实例绑定 request 事件，即可监听客户端发送过来的网络请求\nserver.on(\"request\",(req,res)=\u003e{\n   console.log(\"收到客户端请求\")\n})\n//调用服务器实例的 .listen(端口号,cb回调) 方法，即可启动当前的 web 服务器实例\nserver.listen(80,()=\u003e{\n   console.log(\"启动服务器\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010185142-dyil79p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010185142-dyil79p",
+				"updated": "20221010185254"
+			},
+			"Children": [
+				{
+					"ID": "20221010185254-wqvkmfb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010185254-wqvkmfb",
+						"updated": "20221010185254"
+					},
+					"Children": [
+						{
+							"ID": "20221010185254-imilriy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010185254-imilriy",
+								"updated": "20221010185330"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "服务器（服务器实例）接收到了客户端的请求，就会调用通过 server.on() 为服务器绑定的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color12);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "request 事件处理函数"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010185342-mptnzmy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010185342-mptnzmy",
+				"updated": "20221010185530"
+			},
+			"Children": [
+				{
+					"ID": "20221010185407-s00mkvn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010185407-s00mkvn",
+						"updated": "20221010185530"
+					},
+					"Children": [
+						{
+							"ID": "20221010185407-ribwm4d",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010185407-ribwm4d",
+								"updated": "20221010185530"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果想在事件处理函数中，通过req请求对象访问与客户端相关的数据或属性："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010185401-frpngau",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010185401-frpngau",
+				"updated": "20221011112945"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//如果想在事件处理函数中，通过req请求对象访问与客户端相关的数据或属性：\n//req对象包含客户端访问的相关的数据或属性\nserver.on(\"request\",(req)=\u003e{\n//req.url:客户端请求网址\n//req.method:客户端请求方式\nconst str = `request url is ${req.url}, request method is ${req.method}`\n   console.log(str)\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221013101151-246ig0b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221013101151-246ig0b",
+				"updated": "20221013101206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "node.js接口中的  req.body，req.query，req.params"
+				}
+			]
+		},
+		{
+			"ID": "20221013101150-no78dsq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013101150-no78dsq",
+				"updated": "20221013101241"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "req.body：表单数据从req.body中获取"
+				}
+			]
+		},
+		{
+			"ID": "20221013101242-v13ik4y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013101242-v13ik4y",
+				"updated": "20221013101259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "req.query：查询字符串数据"
+				}
+			]
+		},
+		{
+			"ID": "20221013101150-0a4wipi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013101150-0a4wipi",
+				"updated": "20221013101319"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "req.params：URL的查询参数"
+				}
+			]
+		},
+		{
+			"ID": "20221010185056-gtmbe3j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010185056-gtmbe3j",
+				"updated": "20221010185502"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "res对象：响应对象"
+				}
+			]
+		},
+		{
+			"ID": "20221013100147-vhw8xxr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221013100147-vhw8xxr",
+				"updated": "20221013100340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "node.js接口中的  res.body，res.query，res.params"
+				}
+			]
+		},
+		{
+			"ID": "20221013100344-uvo45ky",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013100344-uvo45ky",
+				"updated": "20221013100621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这三种都是用在接口上获取前端传递到后台的参数，只是分别对应的接口类型不同而已，众所周知，接口的类型分为多种，常用的包括：GET，POST，DELET，PUT。"
+				}
+			]
+		},
+		{
+			"ID": "20221013100148-drhj8pi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013100148-drhj8pi",
+				"updated": "20221013100706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中:res.params，res.query常用于GET或者DELETE请求，res.body常用语POST请求。"
+				}
+			]
+		},
+		{
+			"ID": "20221013101036-jyade9d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013101036-jyade9d",
+				"updated": "20221013101057"
+			}
+		},
+		{
+			"ID": "20221013101036-jcn0bf4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013101036-jcn0bf4"
+			}
+		},
+		{
+			"ID": "20221013100148-3xwxt1p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221013100148-3xwxt1p",
+				"updated": "20221013100225"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "res.end(str)：向客户端发送指定内容，并结束这次请求"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221010190016-jaqsgmk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010190016-jaqsgmk",
+				"updated": "20221010190545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在服务器的 request 事件处理函数中，通过res响应对象访问与服务器响应相关的数据或属性，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": " res.end(str)：向客户端发送指定内容，并结束这次请求"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221010190100-21zv1vn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010190100-21zv1vn",
+				"updated": "20221011112939"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//res是响应对象，包含与服务器响应相关的数据或属性\nserver.on('request',(req,res)=\u003e{\nconst str = `request url is ${req.url}, request method is ${req.method}`\n  res.end(str)//res.end(str):向客户端发送指定内容，并结束这次请求\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010185144-jou80m9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221010185144-jou80m9",
+				"updated": "20221010192537"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": " res.end(中文)"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 中文乱码问题 "
+				}
+			]
+		},
+		{
+			"ID": "20221010191031-kb6io8m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010191031-kb6io8m",
+				"updated": "20221010191152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "res.end()：发送内容包含中文，会出现乱码问题，需要手动设置发送内容的编码格式"
+				}
+			]
+		},
+		{
+			"ID": "20221010190958-c8db86h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010190958-c8db86h",
+				"updated": "20221011112928"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//res是响应对象，包含与服务器响应相关的数据或属性\nserver.on('request',(req,res)=\u003e{\n //发送内容包含中文，会出现乱码问题\n  const str = `请求网址是 ${req.url}, 请求方法是 is ${req.method}`\n  //res.setHeader()设置发送内容的编码格式\n//为了防止中文乱码需要设置Content-Type的值为text/html;charset=utf-8\n  res.setHeader('Content-Type','text/html;charset=utf-8')\n  res.end(str)//res.end(str):向客户端发送指定内容，并结束这次请求\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010194351-udtdfni",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010194351-udtdfni",
+				"updated": "20221011094700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "案例 - 实现 clock 时钟的 web 服务器"
+				}
+			]
+		},
+		{
+			"ID": "20221010194423-mcmif3f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010194423-mcmif3f",
+				"updated": "20221011130738"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "把文件的实际存放路径，作为每个资源的请求 url 地址。"
+				}
+			]
+		},
+		{
+			"ID": "20221011130720-geqlb6c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011130720-geqlb6c",
+				"updated": "20221011131025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过JS代码实现浏览器请求，服务器响应实现 clock 时钟的代码，因为服务器时本地服务器，只要实现 clock 时钟的代码时："
+				}
+			]
+		},
+		{
+			"ID": "20221011131025-42hm4d1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011131025-42hm4d1",
+				"updated": "20221011131158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 正确找到 clock 时钟的代码文件路径（代码的实际路径，作为资源的请求 url 地址）"
+				}
+			]
+		},
+		{
+			"ID": "20221011131027-9lke5yu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011131027-9lke5yu",
+				"updated": "20221011132521"
+			},
+			"Children": [
+				{
+					"ID": "20221011131257-18l090g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221011131257-18l090g",
+						"updated": "20221011132521"
+					},
+					"Children": [
+						{
+							"ID": "20221011131257-8ydlmwn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011131257-8ydlmwn",
+								"updated": "20221011132521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用res.end(  文件所存储的字符串-读文件操作的返回字符串  )响应"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011132531-jguwgok",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011132531-jguwgok",
+				"updated": "20221011132533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011131041-8vudg0s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011131041-8vudg0s",
+				"updated": "20221011131105"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011131105-3vrac1g.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011131632-7flcky9",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"fold": "1",
+				"id": "20221011131632-7flcky9",
+				"updated": "20221011132622"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20221011130720-on1so76",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221011130720-on1so76",
+						"updated": "20221011131633"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "实现步骤-展开可看"
+						}
+					]
+				},
+				{
+					"ID": "20221011132621-pwxfe5i",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221011132621-pwxfe5i",
+						"updated": "20221011132622"
+					},
+					"Children": [
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "image"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "assets/image-20221011132533-9hufmtz.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "​"
+						}
+					]
+				},
+				{
+					"ID": "20221011131422-0l4jlyu",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221011131422-0l4jlyu",
+						"updated": "20221011131633"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "①导入需要的模块"
+						}
+					]
+				},
+				{
+					"ID": "20221011131427-fvkljs2",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221011131427-fvkljs2",
+						"updated": "20221011131633"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "②创建基本的 web 服务器"
+						}
+					]
+				},
+				{
+					"ID": "20221011131429-ks8gy4f",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221011131429-ks8gy4f",
+						"updated": "20221011131633"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "③将资源的请求 url 地址映射为文件的存放路径"
+						}
+					]
+				},
+				{
+					"ID": "20221011131432-ks6pvyn",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221011131432-ks6pvyn",
+						"updated": "20221011131633"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "④读取文件内容并响应给客户端"
+						}
+					]
+				},
+				{
+					"ID": "20221011131434-htb9d0o",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221011131434-htb9d0o"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "⑤优化资源的请求路径"
+						}
+					]
+				},
+				{
+					"ID": "20221011131637-s33vjh3",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20221011131637-s33vjh3",
+						"updated": "20221011131637"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "// 1.1 导入 http 模块\nconst http = require('http')\n// 1.2 导入 fs 模块\nconst fs = require('fs')\n// 1.3 导入 path 模块\nconst path = require('path')\n\n// 2.1 创建 web 服务器\nconst server = http.createServer()\n// 2.2 监听 web 服务器的 request 事件\nserver.on('request', (req, res) =\u003e {\n  // 3.1 获取到客户端请求的 URL 地址\n  //     /clock/index.html\n  //     /clock/index.css\n  //     /clock/index.js\n  const url = req.url\n  // 3.2 把请求的 URL 地址映射为具体文件的存放路径\n  // const fpath = path.join(__dirname, url)\n  // 5.1 预定义一个空白的文件存放路径\n  let fpath = ''\n  if (url === '/') {\n    fpath = path.join(__dirname, './clock/index.html')\n  } else {\n    //     /index.html\n    //     /index.css\n    //     /index.js\n    fpath = path.join(__dirname, '/clock', url)\n  }\n\n  // 4.1 根据“映射”过来的文件路径读取文件的内容\n  fs.readFile(fpath, 'utf8', (err, Str) =\u003e {\n    // 4.2 读取失败，向客户端响应固定的“错误消息”\n    if (err) return res.end('404 Not found.')\n    // 4.3 读取成功，将读取成功的内容，响应给客户端\n    res.end(Str)\n  })\n})\n// 2.3 启动服务器\nserver.listen(80, () =\u003e {\n  console.log('server running at http://127.0.0.1')\n})\n\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20221011130721-h0zuxo9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011130721-h0zuxo9"
+			}
+		},
+		{
+			"ID": "20221011130721-v0x2c37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011130721-v0x2c37"
+			}
+		},
+		{
+			"ID": "20221011130721-ezjub56",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011130721-ezjub56"
+			}
+		},
+		{
+			"ID": "20221010154946-6sts4ka",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010154946-6sts4ka",
+				"updated": "20221010155022"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "querystring模块"
+				}
+			]
+		},
+		{
+			"ID": "20221010140516-71d4cs8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010140516-71d4cs8"
+			}
+		}
+	]
+}

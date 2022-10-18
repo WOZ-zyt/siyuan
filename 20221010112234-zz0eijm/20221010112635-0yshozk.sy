@@ -1,0 +1,7377 @@
+{
+	"ID": "20221010112635-0yshozk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010112635-0yshozk",
+		"title": "node.js 第三方API模块",
+		"updated": "20221014173820"
+	},
+	"Children": [
+		{
+			"ID": "20221011150231-tqufw8m",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011150231-tqufw8m",
+				"updated": "20221011150309"
+			},
+			"Children": [
+				{
+					"ID": "20221011150309-bij1er9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221011150309-bij1er9",
+						"updated": "20221011150309"
+					},
+					"Children": [
+						{
+							"ID": "20221011150309-qq41f9v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011150309-qq41f9v",
+								"updated": "20221011150313"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "font-size: 19px;"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "node.js第三方模块又叫——包"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"font-size: 19px;\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011150324-n5eujh0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221011150324-n5eujh0"
+					},
+					"Children": [
+						{
+							"ID": "20221011150324-wz33w1j",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011150324-wz33w1j",
+								"updated": "20221011150352"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "包的来源：不同于 Node.js 中的内置模块与自定义模块，包是由第三方个人或团队开发出来的，免费供所有人使用。注意：Node.js 中的包都是免费且开源的，不需要付费即可免费下载使用。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011150407-8anof3n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221011150407-8anof3n"
+					},
+					"Children": [
+						{
+							"ID": "20221011150408-z9lcdvk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011150408-z9lcdvk",
+								"updated": "20221011150427"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "由于 Node.js 的内置模块仅提供了一些底层的 API，导致在基于内置模块进行项目开发的时，效率很低"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "。第三方包是基于内置模块封装出来的，"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "提供了更高级、更方便的 API，极大的提高了开发效率。包和内置模块之间的关系，类似于 jQuery 和 浏览器内置 API 之间的关系。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011150452-ucxsi3q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221011150452-ucxsi3q",
+				"updated": "20221011150504"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三方包的下载"
+				}
+			]
+		},
+		{
+			"ID": "20221011151130-5t9chhk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011151130-5t9chhk",
+				"updated": "20221011151135"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221011141522-76z3jqu",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": " npm与包"
+				}
+			]
+		},
+		{
+			"ID": "20221011150557-2harfkd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011150557-2harfkd",
+				"updated": "20221011151113"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.npmjs.com/",
+					"TextMarkTextContent": "https://www.npmjs.com/"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 网站上搜索自己所需要的包"
+				}
+			]
+		},
+		{
+			"ID": "20221011150856-g045oc9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011150856-g045oc9",
+				"updated": "20221011151144"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "包管理工具——npm "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 从 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://registry.npmjs.org/",
+					"TextMarkTextContent": "https://registry.npmjs.org/"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  服务器上下载需要的自己包在本地，这个包管理工具随着 Node.js 的安装包一起被安装到了用户的电脑上。在终端中执行 npm -v 命令，来查看自己电脑上所安装的 npm 包管理工具的版本号："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221010133456-9nm8pbv",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "node.js的命令"
+				}
+			]
+		},
+		{
+			"ID": "20221010112635-6bwsllk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010112635-6bwsllk",
+				"updated": "20221011164406"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express 基于node.js的Web开发框架"
+				}
+			]
+		},
+		{
+			"ID": "20221011164352-4a722zw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011164352-4a722zw",
+				"updated": "20221011180129"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 的中文官网："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "http://www.expressjs.com.cn/",
+					"TextMarkTextContent": " http://www.expressjs.com.cn/"
+				}
+			]
+		},
+		{
+			"ID": "20221010113804-1ahq051",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010113804-1ahq051",
+				"updated": "20221011180603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通俗的理解："
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color10); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "Express 的作用和 Node.js 内置的 http 模块类似，"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color10); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "是专门用来创建 Web 服务器的。Express 的本质：就是一个 npm 上的第三方包，提供了快速创建 Web 服务器的便捷方法。"
+				}
+			]
+		},
+		{
+			"ID": "20221011180651-bu7pp5o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011180651-bu7pp5o",
+				"updated": "20221011180655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "版本：express@4.17.1"
+				}
+			]
+		},
+		{
+			"ID": "20221011182622-nhkwkfc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011182622-nhkwkfc",
+				"updated": "20221011182919"
+			},
+			"Children": [
+				{
+					"ID": "20221011182644-sc6ssb5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221011182644-sc6ssb5",
+						"updated": "20221011182919"
+					},
+					"Children": [
+						{
+							"ID": "20221011182644-qai8p3o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011182644-qai8p3o",
+								"updated": "20221011182919"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color12);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "有了http模块，为什么还要使用Express"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011182902-vwwr8pj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011182902-vwwr8pj",
+				"updated": "20221011183048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http 内置模块用起来很复杂，开发效率低；"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "Express 是基于内置的 http 模块进一步封装出来的，"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "能够极大的提高开发效率。"
+				}
+			]
+		},
+		{
+			"ID": "20221011182905-vo3kchy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011182905-vo3kchy",
+				"updated": "20221011182929"
+			},
+			"Children": [
+				{
+					"ID": "20221011182907-jt6abit",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221011182907-jt6abit",
+						"updated": "20221011182929"
+					},
+					"Children": [
+						{
+							"ID": "20221011182907-f5yx3hq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011182907-f5yx3hq",
+								"updated": "20221011182929"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "http 内置模块与 Express 是什么关系？"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011182930-wc4ew5h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011182930-wc4ew5h",
+				"updated": "20221011182935"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类似于浏览器中 Web API 和 jQuery 的关系。后者是基于前者进一步封装出来的。"
+				}
+			]
+		},
+		{
+			"ID": "20221011182936-mo2f0ba",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011182936-mo2f0ba",
+				"updated": "20221011183158"
+			},
+			"Children": [
+				{
+					"ID": "20221011183109-8e2e5tn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221011183109-8e2e5tn",
+						"updated": "20221011183158"
+					},
+					"Children": [
+						{
+							"ID": "20221011183109-krq1rzt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183109-krq1rzt",
+								"updated": "20221011183158"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "express 用来作什么   ——  创建Web服务器的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011183130-wl834hf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011183130-wl834hf",
+				"updated": "20221011183310"
+			},
+			"Children": [
+				{
+					"ID": "20221011183227-mp7tpz6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221011183227-mp7tpz6",
+						"updated": "20221011183310"
+					},
+					"Children": [
+						{
+							"ID": "20221011183227-lo02nka",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183227-lo02nka",
+								"updated": "20221011183310"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端程序员一般最常见的两种服务器："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011183314-2hqcpph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011183314-2hqcpph",
+				"updated": "20221011183347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tWeb网站服务器：专门对外提供 Web 网页资源的服务器。"
+				}
+			]
+		},
+		{
+			"ID": "20221011183322-7yl46ec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011183322-7yl46ec",
+				"updated": "20221011183340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tAPI接口服务器：专门对外提供 API 接口的服务器。"
+				}
+			]
+		},
+		{
+			"ID": "20221011183351-ayc8jem",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011183351-ayc8jem",
+				"updated": "20221011183407"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  使用 Express，我们可以方便、快速的创建 Web 网站的服务器或 API 接口的服务器。"
+				}
+			]
+		},
+		{
+			"ID": "20221011183401-vxyw1a4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011183401-vxyw1a4",
+				"updated": "20221011183440"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express的安装"
+				}
+			]
+		},
+		{
+			"ID": "20221011183442-07l1r87",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011183442-07l1r87",
+				"updated": "20221011183537"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//使用包管理工具npm安装:  \nnpm i  express@4.17.1\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011183544-zizdz1w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011183544-zizdz1w",
+				"updated": "20221011183624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express 创建服务器的基本使用"
+				}
+			]
+		},
+		{
+			"ID": "20221011183853-lf1xy06",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011183853-lf1xy06",
+				"updated": "20221011190005"
+			},
+			"Children": [
+				{
+					"ID": "20221011183853-t0z2wsy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221011183853-t0z2wsy"
+					},
+					"Children": [
+						{
+							"ID": "20221011183656-w9w3u39",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183656-w9w3u39",
+								"updated": "20221011183946"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导入express 模块：const express = require('express')"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011183853-ynqipyk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221011183853-ynqipyk",
+						"updated": "20221011190005"
+					},
+					"Children": [
+						{
+							"ID": "20221011183721-rsl90gb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183721-rsl90gb",
+								"updated": "20221011190005"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建Web服务器：const app ="
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color9); font-size: 19px;"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " express() "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color9); font-size: 19px;\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 此时app是Web服务器实例"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011183853-98d0iwg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221011183853-98d0iwg"
+					},
+					"Children": [
+						{
+							"ID": "20221011183738-f23qqmg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183738-f23qqmg",
+								"updated": "20221011184026"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开启Web服务器：app.listen(\"端口号\",()=\u003e{   })"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011183853-km3z8ke",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221011183853-km3z8ke",
+						"updated": "20221011184131"
+					},
+					"Children": [
+						{
+							"ID": "20221011183810-g47qli5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183810-g47qli5",
+								"updated": "20221011184131"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "监听 GET 请求：app.get()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011183853-ia6sn1l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221011183853-ia6sn1l"
+					},
+					"Children": [
+						{
+							"ID": "20221011183818-rocnk2r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183818-rocnk2r",
+								"updated": "20221011184127"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "监听 POST 请求：app.post()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221011183853-pfr3atc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221011183853-pfr3atc",
+						"updated": "20221011184115"
+					},
+					"Children": [
+						{
+							"ID": "20221011183835-nj5p8uu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011183835-nj5p8uu",
+								"updated": "20221011184115"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "把内容响应给客户端：res.send()"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011183626-a68oope",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011183626-a68oope",
+				"updated": "20221011190013"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//express 创建服务器的基本使用\n//导入express 模块\nconst express = require('express')\n//创建Web服务器实例\nconst app = express()\n//开启Web服务器,app.listen(\"端口号\"，启动成功的回调函数)\napp.listen(\"80\",()=\u003e{\n  console.log('express server running at http://127.0.0.1')\n})\n// 4. 监听客户端的 GET 和 POST 请求，并向客户端响应具体的内容\napp.get('/user', (req, res) =\u003e {\n  // 调用 express 提供的 res.send() 方法，向客户端响应一个 JSON 对象\n  res.send({ name: 'zs', age: 20, gender: '男' })\n})\napp.post('/user', (req, res) =\u003e {\n  // 调用 express 提供的 res.send() 方法，向客户端响应一个 文本字符串\n  res.send('请求成功')\n})\napp.get('/', (req, res) =\u003e {\n  // 通过 req.query 可以获取到客户端发送过来的 查询参数\n  // 注意：默认情况下，req.query 是一个空对象\n  console.log(req.query)\n  res.send(req.query)\n})\n// 注意：这里的 :id 是一个动态的参数\napp.get('/user/:ids/:username', (req, res) =\u003e {\n  // req.params 是动态匹配到的 URL 参数，默认也是一个空对象\n  console.log(req.params)\n  res.send(req.params)\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011185307-1r8v6tk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011185307-1r8v6tk",
+				"updated": "20221011185326"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "app 常用方法和属性"
+				}
+			]
+		},
+		{
+			"ID": "20221011183855-zg4lnpa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011183855-zg4lnpa",
+				"updated": "20221011184845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "app.get() 监听 GET 请求"
+				}
+			]
+		},
+		{
+			"ID": "20221011184833-233wc8c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011184833-233wc8c",
+				"updated": "20221011184833"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011184818-ctboqyr.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011184850-566fxy9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011184850-566fxy9",
+				"updated": "20221011184856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "app.post()  监听 POST 请求"
+				}
+			]
+		},
+		{
+			"ID": "20221011184927-2q5t7lk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011184927-2q5t7lk",
+				"updated": "20221011184928"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011184928-t6vslbf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011185051-gypdnzd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011185051-gypdnzd"
+			}
+		},
+		{
+			"ID": "20221011185052-cqxbobc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011185052-cqxbobc",
+				"updated": "20221011185101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "req.query 对象  获取 URL 中携带的查询参数"
+				}
+			]
+		},
+		{
+			"ID": "20221011185104-tvzv5e6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011185104-tvzv5e6",
+				"updated": "20221011185107"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011184818-ctboqyr.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011185108-prrytug",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011185108-prrytug",
+				"updated": "20221011185120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "req.params 对象  获取 URL 中的动态参数"
+				}
+			]
+		},
+		{
+			"ID": "20221011185137-w0igd6r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011185137-w0igd6r",
+				"updated": "20221011185137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过 req.params 对象，可以访问到 URL 中，通过 : 匹配到的动态参数："
+				}
+			]
+		},
+		{
+			"ID": "20221011185126-0a8ozoc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011185126-0a8ozoc",
+				"updated": "20221011185127"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011185127-072c032.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011191615-2o8qesq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011191615-2o8qesq",
+				"updated": "20221011191616"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011191616-5s8oklc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011185131-yleh774",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011185131-yleh774",
+				"updated": "20221011192146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express.static('文件夹名') 托管静态资源"
+				}
+			]
+		},
+		{
+			"ID": "20221011191709-hzpclzf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011191709-hzpclzf",
+				"updated": "20221011192206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express 提供了一个非常好用的函数，叫做 express.static()：创建一个"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "静态资源服务器"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，"
+				}
+			]
+		},
+		{
+			"ID": "20221011191939-wst2e9t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011191939-wst2e9t",
+				"updated": "20221011191939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 在指定的静态目录中查找文件，并对外提供资源的访问路径。"
+				}
+			]
+		},
+		{
+			"ID": "20221011191939-uzfsm9i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011191939-uzfsm9i",
+				"updated": "20221011192059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因此，存放静态文件的目录名(如下例子的public)不会出现在 URL 中。"
+				}
+			]
+		},
+		{
+			"ID": "20221011191709-uqleo22",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011191709-uqleo22",
+				"updated": "20221011192122"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//通过如下代码就可以将 public 目录下的图片、CSS 文件、JavaScript 文件对外开放访问\napp.use(express.static('public'))\n现在，你就可以访问 public 目录中的所有文件了：\n//public不会出现在 URL 中\nhttp://localhost:3000/images/bg.jpg   \nhttp://localhost:3000/css/style.css\nhttp://localhost:3000/js/login.js\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011191709-udm9hy0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011191709-udm9hy0",
+				"updated": "20221011192815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "托管多个静态资源目录"
+				}
+			]
+		},
+		{
+			"ID": "20221011192821-3hhzseg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011192821-3hhzseg",
+				"updated": "20221011192827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果要托管多个静态资源目录，请多次调用 express.static() 函数："
+				}
+			]
+		},
+		{
+			"ID": "20221011192932-fybb6nh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011192932-fybb6nh",
+				"updated": "20221011192933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "访问静态资源文件时，express.static() 函数会根据目录的添加顺序查找所需的文件。"
+				}
+			]
+		},
+		{
+			"ID": "20221011192828-0vrv221",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011192828-0vrv221",
+				"updated": "20221011192921"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//如果要托管多个静态资源目录，请多次调用 express.static() 函数：\napp.use(express.static('public'))\napp.use(express.static('files'))\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011192815-6v3obbe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011192815-6v3obbe",
+				"updated": "20221011193010"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "挂载路径前缀"
+				}
+			]
+		},
+		{
+			"ID": "20221011193013-vews71b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011193013-vews71b",
+				"updated": "20221011193031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果希望"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color6);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "在托管的静态资源访问路径之前，挂载路径前缀"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color6);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，则可以使用如下的方式："
+				}
+			]
+		},
+		{
+			"ID": "20221011193021-dy8tsa6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011193021-dy8tsa6",
+				"updated": "20221011193119"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//如果希望在托管的静态资源访问路径之前，挂载路径前缀，则可以使用如下的方式：\napp.use('/public',express.static('public'))\n现在，你就可以通过带有 /public 前缀地址来访问 public 目录中的文件了：\nhttp://localhost:3000/public/images/kitten.jpg\nhttp://localhost:3000/public/css/style.css\nhttp://localhost:3000/public/js/app.js\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011192815-pn06144",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011192815-pn06144"
+			}
+		},
+		{
+			"ID": "20221011185221-qjuc376",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011185221-qjuc376",
+				"updated": "20221011185232"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "nodemon  监听项目文件的变动"
+				}
+			]
+		},
+		{
+			"ID": "20221011193503-eaws34n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011193503-eaws34n",
+				"updated": "20221011193503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在编写调试 Node.js 项目的时候，如果修改了项目的代码，则需要频繁的手动 close 掉，然后再重新启动，非常繁琐。"
+				}
+			]
+		},
+		{
+			"ID": "20221011193503-hb62pl8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011193503-hb62pl8",
+				"updated": "20221011193503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  现在，我们可以使用 nodemon（"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.npmjs.com/package/nodemon",
+					"TextMarkTextContent": "https://www.npmjs.com/package/nodemon"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "） 这个工具，它能够监听项目文件的变动，当代码被修改后，nodemon 会自动帮我们重启项目，极大方便了开发和调试。"
+				}
+			]
+		},
+		{
+			"ID": "20221011193545-6mh1m0q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011193545-6mh1m0q",
+				"updated": "20221011194120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装nodemon：npm install -g nodemon  "
+				}
+			]
+		},
+		{
+			"ID": "20221011193545-4avpd8s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011193545-4avpd8s",
+				"updated": "20221011194559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将 node 命令替换为 nodemon 命令，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "使用 nodemon app.js 来启动项目"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。这样做的好处是：代码被修改之后，会被 nodemon 监听到，从而实现自动重启项目的效果。"
+				}
+			]
+		},
+		{
+			"ID": "20221011185243-muzxl66",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011185243-muzxl66",
+				"updated": "20221011185245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 路由"
+				}
+			]
+		},
+		{
+			"ID": "20221011195034-pgng9m2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195034-pgng9m2",
+				"updated": "20221011195108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " Express 中，路由指的是  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "客户端的请求  与  服务器处理函数"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  之间的映射关系。"
+				}
+			]
+		},
+		{
+			"ID": "20221011195034-inj547u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195034-inj547u",
+				"updated": "20221011195120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " Express 中的路由分 3 部分组成，分别是请求的类型、请求的 URL 地址、处理函数"
+				}
+			]
+		},
+		{
+			"ID": "20221011195739-n0637q7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195739-n0637q7",
+				"updated": "20221011195759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路由例子：把路由挂载到 app 上，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "Express 不建议将路由直接挂载到 app 上"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011194928-pqwwk8u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011194928-pqwwk8u",
+				"updated": "20221011195736"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//路由例子：把路由挂载到 app 上\n// 4. 监听客户端的 GET 和 POST 请求，并向客户端响应具体的内容\napp.get('/user', (req, res) =\u003e {\n  // 调用 express 提供的 res.send() 方法，向客户端响应一个 JSON 对象\n  res.send({ name: 'zs', age: 20, gender: '男' })\n})\napp.post('/user', (req, res) =\u003e {\n  // 调用 express 提供的 res.send() 方法，向客户端响应一个 文本字符串\n  res.send('请求成功')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011194751-rxlw76l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011194751-rxlw76l",
+				"updated": "20221011195140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路由匹配过程"
+				}
+			]
+		},
+		{
+			"ID": "20221011195157-wr539aa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195157-wr539aa",
+				"updated": "20221011195230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每当一个请求到达服务器之后，需要"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "先经过路由的匹配"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，只有匹配成功之后，才会调用对应的处理函数。在匹配时，会"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "按照路由的顺序进行匹配"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，如果请求类型和请求的 URL 同时匹配成功，则 Express 会将这次请求，转交给对应的 function 函数进行处理。"
+				}
+			]
+		},
+		{
+			"ID": "20221011194751-9omio5y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011194751-9omio5y",
+				"updated": "20221011195338"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011195338-6yjp5gb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011195359-jx92sx8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195359-jx92sx8",
+				"updated": "20221011195359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路由匹配的注意点："
+				}
+			]
+		},
+		{
+			"ID": "20221011195359-bfsvjyi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195359-bfsvjyi",
+				"updated": "20221011195359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①按照定义的先后顺序进行匹配"
+				}
+			]
+		},
+		{
+			"ID": "20221011195359-rkyvo0q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195359-rkyvo0q",
+				"updated": "20221011195359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②请求类型和请求的URL同时匹配成功，才会调用对应的处理函数"
+				}
+			]
+		},
+		{
+			"ID": "20221011194751-6p2ev3n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011194751-6p2ev3n",
+				"updated": "20221011195509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模块化路由"
+				}
+			]
+		},
+		{
+			"ID": "20221011195517-kla54im",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195517-kla54im",
+				"updated": "20221011195638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路由模块也是用户自定义模块，用来路由的"
+				}
+			]
+		},
+		{
+			"ID": "20221011195503-pibkk9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195503-pibkk9a",
+				"updated": "20221011195813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了方便对路由进行模块化的管理，Express 不建议将路由直接挂载到 app 上，而是推荐将路由抽离为单独的模块。"
+				}
+			]
+		},
+		{
+			"ID": "20221011195826-vxfyawl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011195826-vxfyawl",
+				"updated": "20221011200410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建路由模块的步骤"
+				}
+			]
+		},
+		{
+			"ID": "20221011195826-c2f2q01",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195826-c2f2q01",
+				"updated": "20221011195826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①创建路由模块对应的 .js 文件"
+				}
+			]
+		},
+		{
+			"ID": "20221011195826-joyo8rx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195826-joyo8rx",
+				"updated": "20221011195826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②调用 express.Router() 函数创建路由对象"
+				}
+			]
+		},
+		{
+			"ID": "20221011195826-3vnx6uu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195826-3vnx6uu",
+				"updated": "20221011201038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③向路由对象上挂载具体的路由：router.get()  router.post()"
+				}
+			]
+		},
+		{
+			"ID": "20221011195826-8qluacw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195826-8qluacw",
+				"updated": "20221011195826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④使用 module.exports 向外共享路由对象"
+				}
+			]
+		},
+		{
+			"ID": "20221011195826-1cid6qg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011195826-1cid6qg",
+				"updated": "20221011195826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  使用 app.use() 函数注册路由模块"
+				}
+			]
+		},
+		{
+			"ID": "20221011195503-mx6k0g1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011195503-mx6k0g1",
+				"updated": "20221011200334"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//将路由抽离为单独模块的步骤如下：\nconst express = require('express')  //引入express模块\nvar router =  express.Router() //创建路由对象\nrouter.get('/user/list',function(req,res){\n  res.send()\n})\nrouter.post('/user/add',function(req,res){\n  res.send()\n})\nmodule.exports = router\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011200455-l8xni2u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011200455-l8xni2u",
+				"updated": "20221011200737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注册路由模块：app.use( )"
+				}
+			]
+		},
+		{
+			"ID": "20221011200525-ha260py",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011200525-ha260py",
+				"updated": "20221011201309"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//注册路由模块\nconst userRouter = require('./router/user.js')//引入路由模块\n//app.use( )注册路由模块\napp.use(userRouter)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011200525-wzqunw9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011200525-wzqunw9",
+				"updated": "20221011200531"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为路由模块添加前缀"
+				}
+			]
+		},
+		{
+			"ID": "20221011200848-79x03cu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011200848-79x03cu",
+				"updated": "20221011200849"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类似于托管静态资源时，为静态资源统一挂载访问前缀一样，路由模块添加前缀的方式也非常简单："
+				}
+			]
+		},
+		{
+			"ID": "20221011200526-ral6aow",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011200526-ral6aow",
+				"updated": "20221011201312"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\nconst userRouter = require('./router/user.js')//引入路由模块\napp.use('/api',userRouter)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011200455-08nyzvr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011200455-08nyzvr"
+			}
+		},
+		{
+			"ID": "20221011185409-nms2jpo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011185409-nms2jpo",
+				"updated": "20221011185410"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011185426-xsfmylb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011185426-xsfmylb",
+				"updated": "20221011202634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中间件（Middleware），特指业务流程的中间处理环节。"
+				}
+			]
+		},
+		{
+			"ID": "20221011185648-5e1f86x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011185648-5e1f86x",
+				"updated": "20221011185709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 的中间件，本质上就是一个 function 处理函数"
+				}
+			]
+		},
+		{
+			"ID": "20221011201733-odkjerw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011201733-odkjerw",
+				"updated": "20221011201810"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "Express 中间件的调用流程："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "当一个请求到达 Express 的服务器之后，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "可以连续调用多个中间件，"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "从而对这次请求进行预处理。"
+				}
+			]
+		},
+		{
+			"ID": "20221011210002-kjhs7u6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011210002-kjhs7u6",
+				"updated": "20221011210020"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "中间件的作用："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011210440-xjvds8r",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011210440-xjvds8r",
+				"updated": "20221011210506"
+			},
+			"Children": [
+				{
+					"ID": "20221011210506-ze78u5o",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221011210506-ze78u5o",
+						"updated": "20221011210506"
+					},
+					"Children": [
+						{
+							"ID": "20221011210506-f1ql9qa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011210506-f1ql9qa",
+								"updated": "20221011210506"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "上个中间件的输出是下一个中间件的输入"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011210023-t51q38q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011210023-t51q38q",
+				"updated": "20221011212231"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color2);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "多个中间件之间，共享同一份 req 和 res。基于这样的特性，我们可以在上游的中间件中，统一为 req 或 res 对象添加自定义的属性或方法，供下游的中间件或路由进行使用。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color2);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011210005-q5d5zeg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011210005-q5d5zeg",
+				"updated": "20221011210224"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 75%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011210219-nwl33rd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 75%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011211938-edxdqur",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011211938-edxdqur",
+				"updated": "20221011212207"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const express = require('express')\nconst app = express()\n\n// 这是定义全局中间件的简化形式\napp.use((req, res, next) =\u003e {\n  // 获取到请求到达服务器的时间\n  const time = Date.now()\n  // 为 req 对象，挂载自定义属性，从而把时间共享给后面的所有路由\n  req.startTime = time\n  next()\n})\n\napp.get('/', (req, res) =\u003e {\n  res.send('Home page.' + req.startTime)\n})\napp.get('/user', (req, res) =\u003e {\n  res.send('User page.' + req.startTime)\n})\n\napp.listen(80, () =\u003e {\n  console.log('http://127.0.0.1')\n})\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011201818-j16e8t0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011201818-j16e8t0",
+				"updated": "20221011201820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 中间件的格式"
+				}
+			]
+		},
+		{
+			"ID": "20221011201818-3oj3xyx",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011201818-3oj3xyx",
+				"updated": "20221012101555"
+			},
+			"Children": [
+				{
+					"ID": "20221012094322-dnmo1at",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012094322-dnmo1at",
+						"updated": "20221012101555"
+					},
+					"Children": [
+						{
+							"ID": "20221012094322-v49jvad",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012094322-v49jvad",
+								"updated": "20221012101555"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color12);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "中间件函数的形参列表中，必须包含 next 参数。"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "而路由处理函数中只包含 req 和 res。执行完中间件的业务代码之后，不要忘记调用 next() 函数"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012094256-khi48ei",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012094256-khi48ei",
+				"updated": "20221012101536"
+			},
+			"Children": [
+				{
+					"ID": "20221012094325-3kuq7i0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012094325-3kuq7i0",
+						"updated": "20221012094325"
+					},
+					"Children": [
+						{
+							"ID": "20221012094325-rwk249o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012094325-rwk249o",
+								"updated": "20221012095351"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "一定要在路由之前定义中间件，错误级别的中间件要放在所有路由之后"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012094456-th3enc8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012094456-th3enc8"
+					},
+					"Children": [
+						{
+							"ID": "20221012094456-zifuxdv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012094456-zifuxdv",
+								"updated": "20221012101521"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "next()函数后不要写其他内容，保证next()函数放最后，为了防止代码逻辑混乱，调用 next() 函数后不要再写额外的代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012101532-pkzuy8v",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221012101532-pkzuy8v",
+						"updated": "20221012101536"
+					},
+					"Children": [
+						{
+							"ID": "20221012101532-c9y5xvz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012101532-c9y5xvz",
+								"updated": "20221012101536"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "连续调用多个中间件时，多个中间件之间，共享 req 和 res 对象"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011202134-sr0v3qp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011202134-sr0v3qp",
+				"updated": "20221011202147"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "next 函数实现多个中间件连续调用的关键，表示把流转关系转交给下一个中间件或路由。"
+				}
+			]
+		},
+		{
+			"ID": "20221011210609-06arypc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011210609-06arypc",
+				"updated": "20221011210732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三个参数是next()  function函数，next参数一定要放在最后的位置"
+				}
+			]
+		},
+		{
+			"ID": "20221011201948-pbgp03e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011201948-pbgp03e",
+				"updated": "20221011202232"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 75%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011201952-ozgipm6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 75%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011202045-h0dt32y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011202045-h0dt32y",
+				"updated": "20221011202252"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义中间件函数"
+				}
+			]
+		},
+		{
+			"ID": "20221011202426-gujg6t1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011202426-gujg6t1",
+				"updated": "20221011205403"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//可以通过如下的方式，定义一个最简单的中间件函数：\n//常量mv 所指向的是一个中间件函数\nconst mv = function(req,res,next){\n//在当前中间件的业务处理完毕后，必须调用next()\n//表示把流转关系转交给下一个中间件或者路由\n  next()\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011200548-y3e27ny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011200548-y3e27ny",
+				"updated": "20221011201336"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "app.use() 注册全局中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011205456-bs7chr7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011205456-bs7chr7",
+				"updated": "20221011205558"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端发起的任何请求，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color6);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "到达服务器之后，都会触发的中间件"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color6);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，叫做全局生效的中间件。"
+				}
+			]
+		},
+		{
+			"ID": "20221011205456-ctbd8sd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011205456-ctbd8sd",
+				"updated": "20221011205509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过调用 app.use(中间件函数)，即可定义一个全局生效的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011205605-5nhizw2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011205605-5nhizw2",
+				"updated": "20221011205653"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const mv = function(req,res,next){\n//在当前中间件的业务处理完毕后，必须调用next()\n//表示把流转关系转交给下一个中间件或者路由\n  next()\n}\n//注册全局中间件\napp.use(mv)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011205723-bj0cvg1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011205723-bj0cvg1",
+				"updated": "20221011205723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义全局中间件的简化形式"
+				}
+			]
+		},
+		{
+			"ID": "20221011205722-xhgf2sj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011205722-xhgf2sj",
+				"updated": "20221011205751"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "app.use(function(req,res,next){\n//在当前中间件的业务处理完毕后，必须调用next()\n//表示把流转关系转交给下一个中间件或者路由\n  next()\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011205722-ye8u9md",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011205722-ye8u9md",
+				"updated": "20221011212416"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义多个全局中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011212420-8g8ln8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011212420-8g8ln8n",
+				"updated": "20221011213237"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以使用 app.use() 连续定义多个全局中间件。客户端请求到达服务器之后，会"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "按照中间件定义的先后顺序依次进行调用"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，示例代码如下："
+				}
+			]
+		},
+		{
+			"ID": "20221011212426-op4lu62",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011212426-op4lu62",
+				"updated": "20221011212433"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 75%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011210219-nwl33rd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 75%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011212341-txem5ir",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011212341-txem5ir",
+				"updated": "20221011213304"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const express = require('express')\nconst app = express()\n\n// 定义第一个全局中间件\napp.use((req, res, next) =\u003e {\n  console.log('调用了第1个全局中间件')\n  next()\n})\n// 定义第二个全局中间件\napp.use((req, res, next) =\u003e {\n  console.log('调用了第2个全局中间件')\n  next()\n})\n\n// 定义一个路由\napp.get('/user', (req, res) =\u003e {\n  res.send('User page.')\n})\n\napp.listen(80, () =\u003e {\n  console.log('http://127.0.0.1')\n})\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011202416-z3rrtnj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011202416-z3rrtnj",
+				"updated": "20221012103332"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "局部注册中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011202413-51rq0jo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011202413-51rq0jo",
+				"updated": "20221011213334"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不使用 app.use() 定义的中间件，叫做局部生效的中间件，示例代码如下："
+				}
+			]
+		},
+		{
+			"ID": "20221011213335-63dhbrn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011213335-63dhbrn",
+				"updated": "20221011222759"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n\n// 1. 定义中间件函数\nconst mw1 = (req, res, next) =\u003e {\n  console.log('调用了局部生效的中间件')\n  next()\n}\n\n// 2. 创建路由\napp.get('/', mw1, (req, res) =\u003e {\n  res.send('Home page.')\n})\napp.get('/user', (req, res) =\u003e {\n  res.send('User page.')\n})\n\n// 调用 app.listen 方法，指定端口号并启动web服务器\napp.listen(80, function () {\n  console.log('Express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011225843-a2o2e5r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011225843-a2o2e5r",
+				"updated": "20221011225852"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "定义多个局部中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011225858-75ht04y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011225858-75ht04y",
+				"updated": "20221011225907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以在路由中，通过如下两种等价的方式，使用多个局部中间件："
+				}
+			]
+		},
+		{
+			"ID": "20221011225908-fu3piwf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011225908-fu3piwf",
+				"updated": "20221011230008"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\napp.get('/',mc1,mv2,(req,res)=\u003e{res.send(\"hahah\")})\napp.get('/',[mc1,mv2],(req,res)=\u003e{res.send(\"hahah\")})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011225843-s8ssrro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011225843-s8ssrro"
+			}
+		},
+		{
+			"ID": "20221011200548-w9klpza",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011200548-w9klpza",
+				"updated": "20221011202458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中间件的分类"
+				}
+			]
+		},
+		{
+			"ID": "20221011202530-cpxioso",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011202530-cpxioso",
+				"updated": "20221011202540"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "应用级别的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011202819-mdiszff",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011202819-mdiszff",
+				"updated": "20221012101639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在服务器实例（app）上挂载的中间件是——  应用级的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012100719-546wolj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012100719-546wolj",
+				"updated": "20221012101828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过 app.use() 或 app.get() 或 app.post() ，绑定到 app 实例上的中间件，叫做应用级别的中间件，无论注册方式是全局或者局部"
+				}
+			]
+		},
+		{
+			"ID": "20221012101652-3gaho5o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012101652-3gaho5o",
+				"updated": "20221012101805"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "app.use(function(req,res,next){\n//在当前中间件的业务处理完毕后，必须调用next()\n//表示把流转关系转交给下一个中间件或者路由\n  next()\n})\n\n// 1. 定义中间件函数\nconst mw1 = (req, res, next) =\u003e {\n  console.log('调用了局部生效的中间件')\n  next()\n}\n\n// 2. 创建路由\napp.get('/', mw1, (req, res) =\u003e {\n  res.send('Home page.')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011202530-fc77zkd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011202530-fc77zkd",
+				"updated": "20221011202539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "路由级别的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011202820-ow0ttrs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011202820-ow0ttrs",
+				"updated": "20221012100759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在路由上挂载的中间件是——  路由级别的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012101834-p0ly73m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012101834-p0ly73m",
+				"updated": "20221012101855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "绑定到 express.Router() 实例上的中间件，叫做路由级别的中间件。它的用法和应用级别中间件没有任何区别。只不过，应用级别中间件是绑定到 app 实例上，路由级别中间件绑定到 router 实例上"
+				}
+			]
+		},
+		{
+			"ID": "20221012101857-d35xt1g",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012101857-d35xt1g",
+				"updated": "20221012102104"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const express = require('express')\nconst router = express.Router()\nrouter.use(function(req,res,next){\n  next()\n})\napp.use('/',router)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011202530-kssvbvt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011202530-kssvbvt",
+				"updated": "20221011202542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "错误级别的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011202821-y1zps8a",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011202821-y1zps8a",
+				"updated": "20221012101111"
+			},
+			"Children": [
+				{
+					"ID": "20221012100802-5ogek4d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012100802-5ogek4d",
+						"updated": "20221012100802"
+					},
+					"Children": [
+						{
+							"ID": "20221012100802-hmjg142",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012100802-hmjg142",
+								"updated": "20221012100826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "错误级别的中间件一定要放在所有路由之后"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012100938-zertz6h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012100938-zertz6h"
+					},
+					"Children": [
+						{
+							"ID": "20221012100938-pr8lnp5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012100938-pr8lnp5",
+								"updated": "20221012101008"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "参数（err,req,res,next）的顺序不可改变"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012101013-be8lxpv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012101013-be8lxpv",
+						"updated": "20221012101111"
+					},
+					"Children": [
+						{
+							"ID": "20221012101013-bg01iab",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012101013-bg01iab",
+								"updated": "20221012101111"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "路由上出翔错误会调用错误级别的中间件，输出错误级别的中间件的处理"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012100830-zbqaci3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012100830-zbqaci3",
+				"updated": "20221012102146"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n\n// 1. 定义路由\napp.get('/', (req, res) =\u003e {\n  // 1.1 人为的制造错误\n  throw new Error('服务器内部发生了错误！')\n  res.send('Home page.')\n})\n\n// 2. 定义错误级别的中间件，捕获整个项目的异常错误，从而防止程序的崩溃\napp.use((err, req, res, next) =\u003e {\n  console.log('发生了错误！' + err.message)\n  res.send('Error：' + err.message)\n})\n\n// 调用 app.listen 方法，指定端口号并启动web服务器\napp.listen(80, function () {\n  console.log('Express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011202530-c1vd7xx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011202530-c1vd7xx",
+				"updated": "20221011202543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 内置的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011202822-gr3tmck",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011202822-gr3tmck",
+				"updated": "20221012101259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据传递给服务器之后需要对数据进行解析，根据数据的不同进行解析，解析后通过"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color6);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "req.body"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color6);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 得到数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012102207-2g5kfpp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012102207-2g5kfpp",
+				"updated": "20221012102208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 内置了 3 个常用的中间件，极大的提高了 Express 项目的开发效率和体验："
+				}
+			]
+		},
+		{
+			"ID": "20221012102210-7uq3hhn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20221012102210-7uq3hhn",
+				"updated": "20221012102753"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221011185131-yleh774",
+					"TextMarkTextContent": "express.static() "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  托管静态资源"
+				}
+			]
+		},
+		{
+			"ID": "20221012102749-if0elaw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012102749-if0elaw"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快速托管静态资源的内置中间件，例如： HTML 文件、图片、CSS 样式等（无兼容性）"
+				}
+			]
+		},
+		{
+			"ID": "20221012102221-1ag79ri",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20221012102221-1ag79ri",
+				"updated": "20221012102808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express.json()  解析 JSON 格式的请求体数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012102801-g80y95s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012102801-g80y95s"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解析 JSON 格式的请求体数据（有兼容性，仅在 4.16.0+ 版本中可用）"
+				}
+			]
+		},
+		{
+			"ID": "20221012101211-dgvk8ee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012101211-dgvk8ee",
+				"updated": "20221012102832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JSON数据的解析,下图是客户端使用POSTMAN软件请求传递JSON请求体数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012101318-a0wnkcm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012101318-a0wnkcm",
+				"updated": "20221012101329"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012101329-wai65ze.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012102725-lgikpq6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012102725-lgikpq6",
+				"updated": "20221012103009"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n\n// 注意：除了错误级别的中间件，其他的中间件，必须在路由之前进行配置\n// 通过 express.json() 这个中间件，解析表单中的 JSON 格式的数据\napp.use(express.json())\n\napp.post('/user', (req, res) =\u003e {\n  // 在服务器，可以使用 req.body 这个属性，来接收客户端发送过来的请求体数据\n  // 默认情况下，如果不配置解析表单数据的中间件，\n//没有app.use(express.json())，则 req.body 默认等于 undefined\n  console.log(req.body)\n  res.send('ok')\n})\n\n// 调用 app.listen 方法，指定端口号并启动web服务器\napp.listen(80, function () {\n  console.log('Express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012102633-pwtx5j0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20221012102633-pwtx5j0",
+				"updated": "20221012102745"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express.urlencoded()  解析 URL-encoded 格式的请求体数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012102737-sf6jv2o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012102737-sf6jv2o"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解析 URL-encoded 格式的请求体数据（有兼容性，仅在 4.16.0+ 版本中可用）"
+				}
+			]
+		},
+		{
+			"ID": "20221012103429-woywl77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103429-woywl77",
+				"updated": "20221012103430"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 内置的 express.urlencoded 中间件，就是基于 body-parser 这个第三方中间件进一步封装出来的。"
+				}
+			]
+		},
+		{
+			"ID": "20221012101334-aqfn9z2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012101334-aqfn9z2",
+				"updated": "20221012103051"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012103051-c2uha5a.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012101334-k4wi5fy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012101334-k4wi5fy",
+				"updated": "20221012103105"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n\n// 注意：除了错误级别的中间件，其他的中间件，必须在路由之前进行配置\n\n// 通过 express.urlencoded() 这个中间件，来解析 表单中的 url-encoded 格式的数据\napp.use(express.urlencoded({ extended: false }))\n\n\napp.post('/book', (req, res) =\u003e {\n  // 在服务器端，可以通过 req,body 来获取 JSON 格式的表单数据和 url-encoded 格式的数据\n  console.log(req.body)\n  res.send('ok')\n})\n\n// 调用 app.listen 方法，指定端口号并启动web服务器\napp.listen(80, function () {\n  console.log('Express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011202530-wct1oge",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011202530-wct1oge",
+				"updated": "20221011202544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三方的中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221011202344-f93mfnb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011202344-f93mfnb",
+				"updated": "20221012103158"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "非 Express 官方内置的，而是由第三方开发出来的中间件，叫做第三方中间件。在项目中，大家可以按需下载并配置第三方中间件，从而提高项目的开发效率。"
+				}
+			]
+		},
+		{
+			"ID": "20221012103159-y08eat2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103159-y08eat2",
+				"updated": "20221012114317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如：在 express@4.16.0 之前的版本中，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "经常使用 body-parser 这个第三方中间件，来解析请求体数据"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。使用步骤如下："
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "运行 npm install body-parser 安装中间件"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012103222-b3xcvco",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103222-b3xcvco",
+				"updated": "20221012103419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Express 内置的 express.urlencoded 中间件，就是基于 body-parser 这个第三方中间件进一步封装出来的。"
+				}
+			]
+		},
+		{
+			"ID": "20221012103223-7kfdryw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012103223-7kfdryw",
+				"updated": "20221012103721"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n\n// 1. 导入解析表单数据的中间件 body-parser\nconst parser = require('body-parser')\n// 2. 使用 app.use() 注册中间件\napp.use(parser.urlencoded({ extended: false }))\n// app.use(express.urlencoded({ extended: false }))\n\napp.post('/user', (req, res) =\u003e {\n  // 如果没有配置任何解析表单数据的中间件，则 req.body 默认等于 undefined\n  console.log(req.body)\n  res.send('ok')\n})\n\n// 调用 app.listen 方法，指定端口号并启动web服务器\napp.listen(80, function () {\n  console.log('Express server running at http://127.0.0.1')\n})\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012103223-qlynsjo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103223-qlynsjo"
+			}
+		},
+		{
+			"ID": "20221011202345-0fhvir7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221011202345-0fhvir7",
+				"updated": "20221012103143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自定义中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012103141-d3pxicq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103141-d3pxicq",
+				"updated": "20221012103826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自己手动模拟一个类似于 express.urlencoded 这样的中间件，来"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "解析 POST 提交到服务器的表单数据。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012103956-nbbvdo0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103956-nbbvdo0",
+				"updated": "20221012103956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现步骤："
+				}
+			]
+		},
+		{
+			"ID": "20221012103956-flpeiur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103956-flpeiur",
+				"updated": "20221012111715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \t ①定义中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012103956-vgf1okj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103956-vgf1okj",
+				"updated": "20221012103956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t ②监听 req 的  事件"
+				}
+			]
+		},
+		{
+			"ID": "20221012103956-ifjry2q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103956-ifjry2q",
+				"updated": "20221012103956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在中间件中，需要监听 req 对象的  事件，来获取客户端发送到服务器的数据。"
+				}
+			]
+		},
+		{
+			"ID": "20221012111607-pl48eof",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012111607-pl48eof",
+				"updated": "20221012111607"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  如果数据量比较大，无法一次性发送完毕，则客户端会把数据切割后，分批发送到服务器。所以  事件可能会触发多次，每一次触发  事件时，获取到数据只是完整数据的一部分，需要手动对接收到的数据进行拼接。"
+				}
+			]
+		},
+		{
+			"ID": "20221012111605-mxdql5p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012111605-mxdql5p"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t③监听 req 的 end 事件"
+				}
+			]
+		},
+		{
+			"ID": "20221012111651-sinxpqv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012111651-sinxpqv",
+				"updated": "20221012111651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当请求体数据接收完毕之后，会自动触发 req 的 end 事件。因此，我们可以在 req 的 end 事件中，拿到并处理完整的请求体数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012103956-a8eaknf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103956-a8eaknf",
+				"updated": "20221012103956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \t④使用 querystring 模块解析请求体数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012111739-ydqayt5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012111739-ydqayt5",
+				"updated": "20221012111740"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Node.js 内置了一个 querystring 模块，专门用来处理查询字符串。通过这个模块提供的 parse() 函数，可以轻松把查询字符串，解析成对象的格式。"
+				}
+			]
+		},
+		{
+			"ID": "20221012103956-zkn9hae",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103956-zkn9hae",
+				"updated": "20221012103956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \t⑤将解析出来的数据对象挂载为 req.body"
+				}
+			]
+		},
+		{
+			"ID": "20221012111801-p99lpex",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012111801-p99lpex",
+				"updated": "20221012111802"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上游的中间件和下游的中间件及路由之间，共享同一份 req 和 res。因此，我们可以将解析出来的数据，挂载为 req 的自定义属性，命名为 req.body，供下游使用"
+				}
+			]
+		},
+		{
+			"ID": "20221012103956-q28p96c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012103956-q28p96c",
+				"updated": "20221012103956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \t⑥将自定义中间件封装为模块"
+				}
+			]
+		},
+		{
+			"ID": "20221012111822-wsgvh8h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012111822-wsgvh8h",
+				"updated": "20221012111823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了优化代码的结构，我们可以把自定义的中间件函数，封装为独立的模块，"
+				}
+			]
+		},
+		{
+			"ID": "20221012104000-x83h8m1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012104000-x83h8m1",
+				"updated": "20221012112019"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//自定义中间件\n// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n// 导入 Node.js 内置的 querystring 模块\nconst qs = require('querystring')\n\n// 这是解析表单数据的中间件\napp.use((req, res, next) =\u003e {\n  // 定义中间件具体的业务逻辑\n  // 1. 定义一个 str 字符串，专门用来存储客户端发送过来的请求体数据\n  let str = ''\n  // 2. 监听 req 的 data 事件\n  req.on('data', (chunk) =\u003e {\n    str += chunk\n  })\n  // 3. 监听 req 的 end 事件\n  req.on('end', () =\u003e {\n    // 在 str 中存放的是完整的请求体数据\n    // console.log(str)\n    // TODO: 把字符串格式的请求体数据，解析成对象格式\n    const body = qs.parse(str)\n    req.body = body\n    next()\n  })\n})\n\napp.post('/user', (req, res) =\u003e {\n  res.send(req.body)\n})\n\n// 调用 app.listen 方法，指定端口号并启动web服务器\napp.listen(80, function () {\n  console.log('Express server running at http://127.0.0.1')\n})\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012111908-tzlv3dm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012111908-tzlv3dm",
+				"updated": "20221012112031"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//使用自定义中间件\n// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n\n// 1. 导入自己封装的中间件模块\nconst customBodyParser = require('./14.custom-body-parser')\n// 2. 将自定义的中间件函数，注册为全局可用的中间件\napp.use(customBodyParser)\n\napp.post('/user', (req, res) =\u003e {\n  res.send(req.body)\n})\n\n// 调用 app.listen 方法，指定端口号并启动web服务器\napp.listen(80, function () {\n  console.log('Express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012111908-qj20pmw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012111908-qj20pmw"
+			}
+		},
+		{
+			"ID": "20221011185426-d12zktl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011185426-d12zktl",
+				"updated": "20221011185427"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 Express 写接口"
+				}
+			]
+		},
+		{
+			"ID": "20221012113947-36vzb4b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012113947-36vzb4b",
+				"updated": "20221012113955"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写GET接口"
+				}
+			]
+		},
+		{
+			"ID": "20221011191707-tewsjvh",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011191707-tewsjvh",
+				"updated": "20221012114917"
+			},
+			"Children": [
+				{
+					"ID": "20221012114917-wr4heqj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012114917-wr4heqj",
+						"updated": "20221012114917"
+					},
+					"Children": [
+						{
+							"ID": "20221012114917-vqjpdso",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012114917-vqjpdso",
+								"updated": "20221012114917"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建基本服务器，为路由添加前缀"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012113636-utotlv1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012113636-utotlv1",
+				"updated": "20221012115047"
+			},
+			"Children": [
+				{
+					"ID": "20221012114919-qu8y7az",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012114919-qu8y7az",
+						"updated": "20221012115047"
+					},
+					"Children": [
+						{
+							"ID": "20221012114919-99b4s9g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012114919-99b4s9g",
+								"updated": "20221012115047"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建路由模块，路由挂载GET，将路由实例导出"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012114749-jod2rm9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012114749-jod2rm9",
+				"updated": "20221012114900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如下例子是：服务器将客户端浏览器的查询字符串重新响应给客户端"
+				}
+			]
+		},
+		{
+			"ID": "20221012121515-kg7rhkx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012121515-kg7rhkx",
+				"updated": "20221012121637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意跨域问题：即——跨域无法访问的问题，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221012115451-eezlmkx",
+					"TextMarkTextContent": "解决使用CORS"
+				}
+			]
+		},
+		{
+			"ID": "20221011200550-1gmvnpq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011200550-1gmvnpq",
+				"updated": "20221012121509"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//服务器实例文件.js\n// 导入 express\nconst express = require('express')\n// 创建服务器实例\nconst app = express()\n\n// 一定要在路由之前，配置 cors 这个中间件，从而解决接口跨域的问题\nconst cors = require('cors')\napp.use(cors())\n\n// 导入路由模块\nconst router = require('./16.apiRouter')\n// 把路由模块，注册到 app 上\napp.use('/api', router)\n\n// 启动服务器\napp.listen(80, () =\u003e {\n  console.log('express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012114500-3lbkpd9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012114500-3lbkpd9",
+				"updated": "20221012114646"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//路有模块.js\nconst express = require('express')\nconst router = express.Router()\n\n// 在这里挂载对应的路由\nrouter.get('/get', (req, res) =\u003e {\n  // 通过 req.query 获取客户端通过查询字符串，发送到服务器的数据\n  const query = req.query\n  // 调用 res.send() 方法，向客户端响应处理的结果\n  res.send({\n    status: 0, // 0 表示处理成功，1 表示处理失败\n    msg: 'GET 请求成功！', // 状态的描述\n    data: query, // 需要响应给客户端的数据\n  })\n})\n\nmodule.exports = router  //将路由实例导出\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012114500-xws4flq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012114500-xws4flq",
+				"updated": "20221012121058"
+			},
+			"Children": [
+				{
+					"ID": "20221012121058-6odd8af",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012121058-6odd8af",
+						"updated": "20221012121058"
+					},
+					"Children": [
+						{
+							"ID": "20221012121058-psfvchc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012121058-psfvchc",
+								"updated": "20221012121058"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用JQ的ajax测试接口"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012120626-07fqx39",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012120626-07fqx39",
+				"updated": "20221012121115"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!-- 使用JQ的ajax测试接口 --\u003e\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n  \u003chead\u003e\n    \u003cmeta charset=\"UTF-8\" /\u003e\n    \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /\u003e\n    \u003ctitle\u003eDocument\u003c/title\u003e\n    \u003cscript src=\"https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js\"\u003e\u003c/script\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cbutton id=\"btnGET\"\u003eGET\u003c/button\u003e\n    \u003cbutton id=\"btnPOST\"\u003ePOST\u003c/button\u003e\n    \u003cbutton id=\"btnDelete\"\u003eDELETE\u003c/button\u003e\n    \u003cbutton id=\"btnJSONP\"\u003eJSONP\u003c/button\u003e\n\n    \u003cscript\u003e\n      $(function () {\n        // 1. 测试GET接口\n        $('#btnGET').on('click', function () {\n          $.ajax({\n            type: 'GET',\n            url: 'http://127.0.0.1/api/get',\n            data: { name: 'zs', age: 20 },\n            success: function (res) {\n              console.log(res)\n            },\n          })\n        })\n    \u003c/script\u003e\n  \u003c/body\u003e\n\u003c/html\u003e\n\n\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012120602-iv2pc2s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120602-iv2pc2s"
+			}
+		},
+		{
+			"ID": "20221011200550-xcbp5yp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011200550-xcbp5yp",
+				"updated": "20221012114023"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写POST接口"
+				}
+			]
+		},
+		{
+			"ID": "20221012115018-045ould",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012115018-045ould",
+				"updated": "20221012115018"
+			},
+			"Children": [
+				{
+					"ID": "20221012115018-g1czclq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012115018-g1czclq",
+						"updated": "20221012115018"
+					},
+					"Children": [
+						{
+							"ID": "20221012115018-aoj3fip",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012115018-aoj3fip",
+								"updated": "20221012115018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建基本服务器，为路由添加前缀"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012115018-hkwd2af",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012115018-hkwd2af",
+				"updated": "20221012115039"
+			},
+			"Children": [
+				{
+					"ID": "20221012115018-c8bj49f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012115018-c8bj49f",
+						"updated": "20221012115039"
+					},
+					"Children": [
+						{
+							"ID": "20221012115018-o0y1pk8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012115018-o0y1pk8",
+								"updated": "20221012115039"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建路由模块，路由挂载POST，将路由实例导出"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012115018-szxxzja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012115018-szxxzja",
+				"updated": "20221012115029"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如下例子是：服务器将客户端浏览器的请求体数据重新响应给客户端"
+				}
+			]
+		},
+		{
+			"ID": "20221012121756-8vz6qc7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012121756-8vz6qc7",
+				"updated": "20221012121757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意跨域问题：即——跨域无法访问的问题，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221012115451-eezlmkx",
+					"TextMarkTextContent": "解决使用CORS"
+				}
+			]
+		},
+		{
+			"ID": "20221012115151-qpzhbxk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012115151-qpzhbxk",
+				"updated": "20221012115253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意："
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text a",
+					"TextMarkAHref": "siyuan://blocks/20221012102633-pwtx5j0",
+					"TextMarkTextContent": "如果要获取 URL-encoded 格式的请求体数据，必须配置中间件 app.use(express.urlencoded({ extended: false }))"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012114027-1cky61j",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012114027-1cky61j",
+				"updated": "20221012121457"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//服务器实例文件.js\n// 导入 express\nconst express = require('express')\n// 创建服务器实例\nconst app = express()\n// 导入路由模块\nconst router = require('./16.apiRouter')\n\n// 一定要在路由之前，配置 cors 这个中间件，从而解决接口跨域的问题\nconst cors = require('cors')\napp.use(cors())\n\n// 把路由模块，注册到 app 上\napp.use('/api', router)\n\n// 配置解析表单数据的中间件\napp.use(express.urlencoded({ extended: false }))\n\n// 启动服务器\napp.listen(80, () =\u003e {\n  console.log('express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012115057-u0j8olm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012115057-u0j8olm",
+				"updated": "20221012115352"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//路有模块.js\nconst express = require('express')\nconst router = express.Router()\n\n// 定义 POST 接口\nrouter.post('/post', (req, res) =\u003e {\n  // 通过 req.body 获取请求体中包含的 url-encoded 格式的数据\n  const body = req.body\n  // 调用 res.send() 方法，向客户端响应结果\n  res.send({\n    status: 0,\n    msg: 'POST 请求成功！',\n    data: body,\n  })\n})\n\nmodule.exports = router  //将路由实例导出\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012121132-mo03vi9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012121132-mo03vi9",
+				"updated": "20221012121135"
+			},
+			"Children": [
+				{
+					"ID": "20221012121134-gn9t6l7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012121134-gn9t6l7",
+						"updated": "20221012121135"
+					},
+					"Children": [
+						{
+							"ID": "20221012121134-pfxfv7o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012121134-pfxfv7o",
+								"updated": "20221012121135"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用JQ的ajax测试接口"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012121132-7rwzfks",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012121132-7rwzfks",
+				"updated": "20221012121224"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "‍```html\n\u003c!-- 使用JQ的ajax测试接口 --\u003e\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n  \u003chead\u003e\n    \u003cmeta charset=\"UTF-8\" /\u003e\n    \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /\u003e\n    \u003ctitle\u003eDocument\u003c/title\u003e\n    \u003cscript src=\"https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js\"\u003e\u003c/script\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cbutton id=\"btnGET\"\u003eGET\u003c/button\u003e\n    \u003cbutton id=\"btnPOST\"\u003ePOST\u003c/button\u003e\n    \u003cbutton id=\"btnDelete\"\u003eDELETE\u003c/button\u003e\n    \u003cbutton id=\"btnJSONP\"\u003eJSONP\u003c/button\u003e\n\n    \u003cscript\u003e\n          // 2. 测试POST接口\n        $('#btnPOST').on('click', function () {\n          $.ajax({\n            type: 'POST',\n            url: 'http://127.0.0.1/api/post',\n            data: { bookname: '水浒传', author: '施耐庵' },\n            success: function (res) {\n              console.log(res)\n            },\n          })\n        })\n    \u003c/script\u003e\n  \u003c/body\u003e\n\u003c/html\u003e\n\n\n\n‍```\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012120238-b4ixrm6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012120238-b4ixrm6",
+				"updated": "20221012120240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接口的跨域问题"
+				}
+			]
+		},
+		{
+			"ID": "20221012120251-v8dns9f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120251-v8dns9f",
+				"updated": "20221012120251"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接口的跨域问题"
+				}
+			]
+		},
+		{
+			"ID": "20221012120251-uua4wlc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120251-uua4wlc",
+				"updated": "20221012120251"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Acess-Control-Allow-Origin：跨域问题"
+				}
+			]
+		},
+		{
+			"ID": "20221012120251-1hiv0cw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120251-1hiv0cw",
+				"updated": "20221012120251"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 100%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012120023-7nj6b8l.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 100%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012120251-eks1yp8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120251-eks1yp8",
+				"updated": "20221012120305"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写的 GET 和 POST接口，存在一个很严重的问题：不支持跨域请求。"
+				}
+			]
+		},
+		{
+			"ID": "20221012120342-12tlf1s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120342-12tlf1s",
+				"updated": "20221012120342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决接口跨域问题的方案主要有两种："
+				}
+			]
+		},
+		{
+			"ID": "20221012120342-o05nmwx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120342-o05nmwx",
+				"updated": "20221012120342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① CORS（主流的解决方案，推荐使用）"
+				}
+			]
+		},
+		{
+			"ID": "20221012120342-3it9mhu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012120342-3it9mhu",
+				"updated": "20221012120342"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② JSONP（有缺陷的解决方案：只支持 GET 请求）"
+				}
+			]
+		},
+		{
+			"ID": "20221012115451-eezlmkx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012115451-eezlmkx",
+				"updated": "20221012120223"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用CORS 跨域资源共享解决接口的跨域问题"
+				}
+			]
+		},
+		{
+			"ID": "20221012132328-o8ndvu1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132328-o8ndvu1",
+				"updated": "20221012132352"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221012132352-tdid7e6",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "CORS 跨域资源共享"
+				}
+			]
+		},
+		{
+			"ID": "20221012132313-8ny9f1y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132313-8ny9f1y"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cors 是 Express 的一个第三方中间件。通过安装和配置 cors 中间件，可以很方便地解决跨域问题，使用步骤分为如下 3 步："
+				}
+			]
+		},
+		{
+			"ID": "20221012121248-qgh42pf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012121248-qgh42pf",
+				"updated": "20221012121248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①运行 npm install cors 安装中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012121248-5vrnxcu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012121248-5vrnxcu",
+				"updated": "20221012121248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②使用 const cors = require('cors') 导入中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012121248-so6at6w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012121248-so6at6w",
+				"updated": "20221012121320"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "在路由之前调用 app.use(cors()) 配置中间件"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012121358-6hr0eup",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012121358-6hr0eup",
+				"updated": "20221012121423"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 一定要在路由之前，配置 cors 这个中间件，从而解决接口跨域的问题\nconst cors = require('cors')\napp.use(cors())\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012121821-ygq4iex",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012121821-ygq4iex",
+				"updated": "20221012145736"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用JSONP解决接口的跨域问题"
+				}
+			]
+		},
+		{
+			"ID": "20221012145759-jps0inb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012145759-jps0inb",
+				"updated": "20221012145759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "概念：浏览器端通过 \u003cscript\u003e 标签的 src 属性，请求服务器上的数据，同时，服务器返回一个函数的调用。这种请求数据的方式叫做 JSONP。"
+				}
+			]
+		},
+		{
+			"ID": "20221012145759-sdv1n7j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012145759-sdv1n7j",
+				"updated": "20221012145759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  特点："
+				}
+			]
+		},
+		{
+			"ID": "20221012145759-bz5tqq0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012145759-bz5tqq0",
+				"updated": "20221012145759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①JSONP 不属于真正的 Ajax 请求，因为它没有使用 XMLHttpRequest 这个对象。"
+				}
+			]
+		},
+		{
+			"ID": "20221012145759-fkuab24",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012145759-fkuab24",
+				"updated": "20221012145759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②JSONP 仅支持 GET 请求，不支持 POST、PUT、DELETE 等请求。"
+				}
+			]
+		},
+		{
+			"ID": "20221012145845-ba40ofx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012145845-ba40ofx",
+				"updated": "20221012150120"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "如果项目中已经配置了 CORS 跨域资源共享，为了防止冲突，必须在配置 CORS 中间件之前声明 JSONP 的接口。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "否则 JSONP 接口会被处理成开启了 CORS 的接口。示例代码如下："
+				}
+			]
+		},
+		{
+			"ID": "20221012145943-gri56s3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012145943-gri56s3",
+				"updated": "20221012145951"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012145951-yjr0exp.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012145852-8sypb1q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012145852-8sypb1q",
+				"updated": "20221012145914"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现 JSONP 接口的步骤"
+				}
+			]
+		},
+		{
+			"ID": "20221012150023-dit8m03",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012150023-dit8m03",
+				"updated": "20221012150026"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①获取客户端发送过来的回调函数的名字"
+				}
+			]
+		},
+		{
+			"ID": "20221012150023-qu9j0ww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012150023-qu9j0ww",
+				"updated": "20221012150023"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②得到要通过 JSONP 形式发送给客户端的数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012150023-2294zwv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012150023-2294zwv",
+				"updated": "20221012150023"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③根据前两步得到的数据，拼接出一个函数调用的字符串"
+				}
+			]
+		},
+		{
+			"ID": "20221012150023-3hdnzzl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012150023-3hdnzzl",
+				"updated": "20221012150023"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④把上一步拼接得到的字符串，响应给客户端的 \u003cscript\u003e 标签进行解析执行"
+				}
+			]
+		},
+		{
+			"ID": "20221012150034-jn9tb54",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012150034-jn9tb54",
+				"updated": "20221012150754"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 导入 express\nconst express = require('express')\n// 创建服务器实例\nconst app = express()\n\n// 配置解析表单数据的中间件\napp.use(express.urlencoded({ extended: false }))\n\n// 必须在配置 cors 中间件之前，配置 JSONP 的接口\napp.get('/api/jsonp', (req, res) =\u003e {\n  // TODO: 定义 JSONP 接口具体的实现过程\n  // 1. 得到函数的名称\n  const funcName = req.query.callback\n  // 2. 定义要发送到客户端的数据对象\n  const data = { name: 'zs', age: 22 }\n  // 3. 拼接出一个函数的调用\n  const scriptStr = `${funcName}(${JSON.stringify(data)})`\n  // 4. 把拼接的字符串，响应给客户端\n  res.send(scriptStr)\n})\n\n// 一定要在路由之前，配置 cors 这个中间件，从而解决接口跨域的问题\nconst cors = require('cors')\napp.use(cors())\n\n\n\n// 启动服务器\napp.listen(80, () =\u003e {\n  console.log('express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012150841-771p4p0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012150841-771p4p0",
+				"updated": "20221012150924"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n  \u003chead\u003e\n    \u003cmeta charset=\"UTF-8\" /\u003e\n    \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /\u003e\n    \u003ctitle\u003eDocument\u003c/title\u003e\n    \u003cscript src=\"https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js\"\u003e\u003c/script\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n  \n    \u003cbutton id=\"btnJSONP\"\u003eJSONP\u003c/button\u003e\n\n    \u003cscript\u003e\n // 4. 为 JSONP 按钮绑定点击事件处理函数\n        $('#btnJSONP').on('click', function () {\n          $.ajax({\n            type: 'GET',\n            url: 'http://127.0.0.1/api/jsonp',\n            dataType: 'jsonp',\n            success: function (res) {\n              console.log(res)\n            },\n          })\n        })\n      })\n    \u003c/script\u003e\n  \u003c/body\u003e\n\u003c/html\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012171414-rq87h3l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012171414-rq87h3l"
+			}
+		},
+		{
+			"ID": "20221012171436-j3nsnqe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221012171436-j3nsnqe",
+				"updated": "20221012171449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在express项目中操作 MySQL"
+				}
+			]
+		},
+		{
+			"ID": "20221012172901-bij72yh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012172901-bij72yh",
+				"updated": "20221012172902"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装与配置 mysql 模块"
+				}
+			]
+		},
+		{
+			"ID": "20221012172903-b7quy5c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012172903-b7quy5c",
+				"updated": "20221012173008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装mysql模块："
+				}
+			]
+		},
+		{
+			"ID": "20221012173054-2qj1y4r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012173054-2qj1y4r"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mysql 模块是托管于 npm 上的第三方模块。它提供了在 Node.js 项目中连接和操作 MySQL 数据库的能力。想要在项目中使用它，需要先运行如下命令，将 mysql 安装为项目的依赖包："
+				}
+			]
+		},
+		{
+			"ID": "20221012173010-w37vjls",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012173010-w37vjls",
+				"updated": "20221012173020"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npm install mysql\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012173025-tzuwzok",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012173025-tzuwzok",
+				"updated": "20221012173045"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置 mysql  模块"
+				}
+			]
+		},
+		{
+			"ID": "20221012173040-luay5tq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012173040-luay5tq",
+				"updated": "20221012173108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在使用 mysql 模块操作 MySQL 数据库之前，必须先对 mysql 模块进行必要的配置，主要的配置步骤如下："
+				}
+			]
+		},
+		{
+			"ID": "20221012173109-6ayrj4a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012173109-6ayrj4a",
+				"updated": "20221012173401"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//配置 mysql  模块\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012173040-nirs75p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012173040-nirs75p",
+				"updated": "20221012173413"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试 mysql 模块能否正常工作"
+				}
+			]
+		},
+		{
+			"ID": "20221012173414-ei96vuc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012173414-ei96vuc",
+				"updated": "20221012173617"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//调用 db.query() 函数，指定要执行的 SQL 语句，通过回调函数拿到执行的结果：\n// 测试 mysql 模块能否正常工作\ndb.query('select 1', (err, results) =\u003e {\n  // mysql 模块工作期间报错了\n  if(err) return console.log(err.message)\n  // 能够成功的执行 SQL 语句\n  console.log(results)\n}) \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012173414-5p3qgg2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012173414-5p3qgg2"
+			}
+		},
+		{
+			"ID": "20221012172903-rmumo7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012172903-rmumo7d",
+				"updated": "20221012172918"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 mysql 模块操作 MySQL 数据库"
+				}
+			]
+		},
+		{
+			"ID": "20221012171534-r19k9k9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012171534-r19k9k9",
+				"updated": "20221012173746"
+			},
+			"Children": [
+				{
+					"ID": "20221012173637-qtfhr0t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012173637-qtfhr0t",
+						"updated": "20221012173637"
+					},
+					"Children": [
+						{
+							"ID": "20221012173637-5rq1vhu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012173637-5rq1vhu",
+								"updated": "20221012173712"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用require()导入mysql模块"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012173651-riwy0ar",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012173651-riwy0ar"
+					},
+					"Children": [
+						{
+							"ID": "20221012173651-roqe1b6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012173651-roqe1b6",
+								"updated": "20221012173729"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "建立与 MySQL 数据库的连接关系：const  db = mysql.createPool()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012173732-l51qzz0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012173732-l51qzz0",
+						"updated": "20221012173746"
+					},
+					"Children": [
+						{
+							"ID": "20221012173732-o2qxai5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012173732-o2qxai5",
+								"updated": "20221012173746"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "调用 db.query() 函数，指定要执行的 SQL 语句，通过回调函数拿到执行的结果"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012171551-4zpoy3e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012171551-4zpoy3e",
+				"updated": "20221012173755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查询数据库"
+				}
+			]
+		},
+		{
+			"ID": "20221012173756-4o7jpi3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012173756-4o7jpi3",
+				"updated": "20221012173926"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查询 users 表中所有的数据："
+				}
+			]
+		},
+		{
+			"ID": "20221012173927-a7noc0u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012173927-a7noc0u",
+				"updated": "20221012174137"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n// 查询 users 表中所有的数据\nconst sqlStr = 'select * from users'\ndb.query(sqlStr, (err, results) =\u003e {\n  // 查询数据失败\n  if (err) return console.log(err.message)\n  // 查询数据成功\n  // 注意：如果执行的是 select 查询语句，则执行的结果是数组\n  console.log(results)\n})\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012173756-gcqd2gw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012173756-gcqd2gw",
+				"updated": "20221012173802"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "插入数据库"
+				}
+			]
+		},
+		{
+			"ID": "20221012174253-16wjzqi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012174253-16wjzqi",
+				"updated": "20221012174253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "向 users 表中新增数据， 其中 username 为 Spider-Man，password 为 pcc321。"
+				}
+			]
+		},
+		{
+			"ID": "20221012173803-c8ltyhp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012173803-c8ltyhp",
+				"updated": "20221012174702"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n\n// 向 users 表中，新增一条数据，其中 username 的值为 Spider-Man，password 的值为 pcc123\nconst user = { username: 'Spider-Man', password: 'pcc123' }\n// 定义待执行的 SQL 语句\nconst sqlStr = 'insert into users (username, password) values (?, ?)'\n// 执行 SQL 语句\ndb.query(sqlStr, [user.username, user.password], (err, results) =\u003e {\n  // 执行 SQL 语句失败了\n  if (err) return console.log(err.message)\n  // 成功了\n  // 注意：如果执行的是 insert into 插入语句，则 results 是一个对象\n  // 可以通过 affectedRows 属性，来判断是否插入数据成功\n  if (results.affectedRows === 1) {\n    console.log('插入数据成功!')\n  }\n}) \n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012173803-1v2rbub",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012173803-1v2rbub",
+				"updated": "20221012173809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "插入数据的便捷方式"
+				}
+			]
+		},
+		{
+			"ID": "20221012174823-sdr3k9b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012174823-sdr3k9b",
+				"updated": "20221012174823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "向表中新增数据时，如果数据对象的每个属性和数据表的字段一一对应，则可以通过如下方式快速插入数据："
+				}
+			]
+		},
+		{
+			"ID": "20221012174148-bnc6yqx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012174148-bnc6yqx",
+				"updated": "20221012174845"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n\n// 演示插入数据的便捷方式\n const user = { username: 'Spider-Man2', password: 'pcc4321' }\n// 定义待执行的 SQL 语句\nconst sqlStr = 'insert into users set ?'\n// 执行 SQL 语句\ndb.query(sqlStr, user, (err, results) =\u003e {\n  if (err) return console.log(err.message)\n  if (results.affectedRows === 1) {\n    console.log('插入数据成功')\n  }\n}) \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012173810-j93q57q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012173810-j93q57q",
+				"updated": "20221012173815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新数据库"
+				}
+			]
+		},
+		{
+			"ID": "20221012174150-2sw2igr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012174150-2sw2igr",
+				"updated": "20221012174918"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n\n// 演示如何更新用户的信息\n const user = { id: 6, username: 'aaa', password: '000' }\n// 定义 SQL 语句\nconst sqlStr = 'update users set username=?, password=? where id=?'\n// 执行 SQL 语句\ndb.query(sqlStr, [user.username, user.password, user.id], (err, results) =\u003e {\n  if (err) return console.log(err.message)\n  // 注意：执行了 update 语句之后，执行的结果，也是一个对象，可以通过 affectedRows 判断是否更新成功\n  if (results.affectedRows === 1) {\n    console.log('更新成功')\n  }\n}) \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012173816-7abuxsu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012173816-7abuxsu",
+				"updated": "20221012173823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新数据的便捷方式"
+				}
+			]
+		},
+		{
+			"ID": "20221012174151-uzvkgao",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012174151-uzvkgao",
+				"updated": "20221012174931"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n\n// 演示更新数据的便捷方式\nconst user = { id: 6, username: 'aaaa', password: '0000' }\n// 定义 SQL 语句\nconst sqlStr = 'update users set ? where id=?'\n// 执行 SQL 语句\ndb.query(sqlStr, [user, user.id], (err, results) =\u003e {\n  if (err) return console.log(err.message)\n  if (results.affectedRows === 1) {\n    console.log('更新数据成功')\n  }\n}) \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012172455-gyfbk5a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012172455-gyfbk5a",
+				"updated": "20221012173831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012174154-fid1onl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012174154-fid1onl",
+				"updated": "20221012174944"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n\n// 删除 id 为 5 的用户\nconst sqlStr = 'delete from users where id=?'\ndb.query(sqlStr, 5, (err, results) =\u003e {\n  if (err) return console.log(err.message)\n  // 注意：执行 delete 语句之后，结果也是一个对象，也会包含 affectedRows 属性\n  if (results.affectedRows === 1) {\n    console.log('删除数据成功')\n  }\n}) \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012174957-e05qoto",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012174957-e05qoto",
+				"updated": "20221012174958"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "标记删除"
+				}
+			]
+		},
+		{
+			"ID": "20221012195834-vnonm85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195834-vnonm85",
+				"updated": "20221012195834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 DELETE 语句，会把真正的把数据从表中删除掉。为了保险起见，推荐使用标记删除的形式，来模拟删除的动作。所谓的标记删除，就是在表中设置类似于 status 这样的状态字段，来标记当前这条数据是否被删除。"
+				}
+			]
+		},
+		{
+			"ID": "20221012195834-2e1axf2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195834-2e1axf2",
+				"updated": "20221012195834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  当用户执行了删除的动作时，我们并没有执行 DELETE 语句把数据删除掉，而是执行了 UPDATE 语句，将这条数据对应的 status 字段标记为删除即可。"
+				}
+			]
+		},
+		{
+			"ID": "20221012175014-2nnz6jf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012175014-2nnz6jf",
+				"updated": "20221012175022"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//1. 导入mysql模块\nconst mysql = require('mysql')\n// 2. 建立与 MySQL 数据库的连接关系\nconst db = mysql.createPool({\n  host: '127.0.0.1', // 数据库的 IP 地址\n  user: 'root', // 登录数据库的账号\n  password: 'admin123', // 登录数据库的密码\n  database: 'my_db_01', // 指定要操作哪个数据库\n})\n\n// 标记删除\nconst sqlStr = 'update users set status=? where id=?'\ndb.query(sqlStr, [1, 6], (err, results) =\u003e {\n  if (err) return console.log(err.message)\n  if (results.affectedRows === 1) {\n    console.log('标记删除成功')\n  }\n})\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012175034-386fc0j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221012175034-386fc0j",
+				"updated": "20221012175036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前后端的身份认证"
+				}
+			]
+		},
+		{
+			"ID": "20221012175133-fp5m5zv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012175133-fp5m5zv",
+				"updated": "20221012175226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Web 开发模式"
+				}
+			]
+		},
+		{
+			"ID": "20221012185533-i4z1m04",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185533-i4z1m04",
+				"updated": "20221012185533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前主流的 Web 开发模式有两种，分别是："
+				}
+			]
+		},
+		{
+			"ID": "20221012185533-5mdap0w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185533-5mdap0w",
+				"updated": "20221012185553"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①基于"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "服务端渲染"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的传统 Web 开发模式"
+				}
+			]
+		},
+		{
+			"ID": "20221012185533-udh78d5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185533-udh78d5",
+				"updated": "20221012185548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②基于"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "前后端分离"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的新型 Web 开发模式"
+				}
+			]
+		},
+		{
+			"ID": "20221012185655-zbf3pc9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012185655-zbf3pc9",
+				"updated": "20221012185706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务端渲染"
+				}
+			]
+		},
+		{
+			"ID": "20221012185702-kswdtgb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185702-kswdtgb",
+				"updated": "20221012185703"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务端渲染的概念：服务器发送给客户端的 HTML 页面，是在服务器通过字符串的拼接，动态生成的。因此，客户端不需要使用 Ajax 这样的技术额外请求页面的数据。代码示例如下："
+				}
+			]
+		},
+		{
+			"ID": "20221012190007-1nnny8d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190007-1nnny8d",
+				"updated": "20221012190007"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012190007-66c9jn8.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012185848-5acj615",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185848-5acj615",
+				"updated": "20221012185848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优点："
+				}
+			]
+		},
+		{
+			"ID": "20221012185848-1izddt8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185848-1izddt8",
+				"updated": "20221012185848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① 前端耗时少。因为服务器端负责动态生成 HTML 内容，浏览器只需要直接渲染页面即可。尤其是移动端，更省电。"
+				}
+			]
+		},
+		{
+			"ID": "20221012185848-c0qqca5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185848-c0qqca5",
+				"updated": "20221012185848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② 有利于SEO。因为服务器端响应的是完整的 HTML 页面内容，所以爬虫更容易爬取获得信息，更有利于 SEO。"
+				}
+			]
+		},
+		{
+			"ID": "20221012185848-blv3zdq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185848-blv3zdq",
+				"updated": "20221012185848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  缺点："
+				}
+			]
+		},
+		{
+			"ID": "20221012185848-hv5yy8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185848-hv5yy8n",
+				"updated": "20221012185848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① 占用服务器端资源。即服务器端完成 HTML 页面内容的拼接，如果请求较多，会对服务器造成一定的访问压力。"
+				}
+			]
+		},
+		{
+			"ID": "20221012185848-auw96b8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185848-auw96b8",
+				"updated": "20221012185848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② 不利于前后端分离，开发效率低。使用服务器端渲染，则无法进行分工合作，尤其对于前端复杂度高的项目，不利于项目高效开发。"
+				}
+			]
+		},
+		{
+			"ID": "20221012185710-ai05twp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012185710-ai05twp",
+				"updated": "20221012185723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前后端分离"
+				}
+			]
+		},
+		{
+			"ID": "20221012185710-mo9foqy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012185710-mo9foqy",
+				"updated": "20221012185720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前后端分离的概念：前后端分离的开发模式，依赖于 Ajax 技术的广泛应用。简而言之，前后端分离的 Web 开发模式，就是后端只负责提供 API 接口，前端使用 Ajax 调用接口的开发模式。"
+				}
+			]
+		},
+		{
+			"ID": "20221012190048-um4zy17",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190048-um4zy17",
+				"updated": "20221012190048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "优点："
+				}
+			]
+		},
+		{
+			"ID": "20221012190614-c8qbw1n",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012190614-c8qbw1n",
+				"updated": "20221012190615"
+			},
+			"Children": [
+				{
+					"ID": "20221012190615-q712916",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012190615-q712916",
+						"updated": "20221012190615"
+					},
+					"Children": [
+						{
+							"ID": "20221012190615-gob7bqr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012190615-gob7bqr",
+								"updated": "20221012190615"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开发体验好。前端专注于 UI 页面的开发，后端专注于api 的开发，且前端有更多的选择性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012190048-hoa5vg3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012190048-hoa5vg3",
+				"updated": "20221012190618"
+			},
+			"Children": [
+				{
+					"ID": "20221012190618-wua1o38",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012190618-wua1o38",
+						"updated": "20221012190618"
+					},
+					"Children": [
+						{
+							"ID": "20221012190618-opdq59i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012190618-opdq59i",
+								"updated": "20221012190618"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "用户体验好。Ajax 技术的广泛应用，极大的提高了用户的体验，可以轻松实现页面的局部刷新。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012190048-assvsms",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012190048-assvsms",
+				"updated": "20221012190621"
+			},
+			"Children": [
+				{
+					"ID": "20221012190621-iwnatov",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012190621-iwnatov",
+						"updated": "20221012190621"
+					},
+					"Children": [
+						{
+							"ID": "20221012190621-i7wvzew",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012190621-i7wvzew",
+								"updated": "20221012190621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "减轻了服务器端的渲染压力。因为页面最终是在每个用户的浏览器中生成的。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012190048-491dpf9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190048-491dpf9",
+				"updated": "20221012190048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  缺点： 不利于 SEO。因为完整的 HTML 页面需要在客户端动态拼接完成，所以爬虫对无法爬取页面的有效信息。（解决方案：利用 Vue、React 等前端框架的 SSR （server side render）技术能够很好的解决 SEO 问题！）"
+				}
+			]
+		},
+		{
+			"ID": "20221012190307-47floeh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190307-47floeh",
+				"updated": "20221012190309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何选择 Web 开发模式"
+				}
+			]
+		},
+		{
+			"ID": "20221012190316-vgrvpb8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190316-vgrvpb8",
+				"updated": "20221012190316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不谈业务场景而盲目选择使用何种开发模式都是耍流氓。"
+				}
+			]
+		},
+		{
+			"ID": "20221012190316-m2m6jzc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012190316-m2m6jzc",
+				"updated": "20221012190326"
+			},
+			"Children": [
+				{
+					"ID": "20221012190326-gxlhex7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012190326-gxlhex7",
+						"updated": "20221012190326"
+					},
+					"Children": [
+						{
+							"ID": "20221012190326-sez08yb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012190326-sez08yb",
+								"updated": "20221012190326"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "比如企业级网站，主要功能是展示而没有复杂的交互，并且需要良好的 SEO，则这时我们就需要使用服务器端渲染；"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012190316-b0n7u4q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012190316-b0n7u4q",
+				"updated": "20221012190332"
+			},
+			"Children": [
+				{
+					"ID": "20221012190332-by6w4a7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012190332-by6w4a7",
+						"updated": "20221012190332"
+					},
+					"Children": [
+						{
+							"ID": "20221012190332-oy9rqwm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012190332-oy9rqwm",
+								"updated": "20221012190332"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "而类似后台管理项目，交互性比较强，不需要考虑 SEO，那么就可以使用前后端分离的开发模式。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012190316-8ppu3q3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190316-8ppu3q3",
+				"updated": "20221012190400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     另外，具体使用何种开发模式并不是绝对的，为了同时兼顾了首页的渲染速度和前后端分离的开发效率，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "一些网站采用了首屏服务器端渲染 + 其他页面前后端分离的开发模式。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012190308-zpv81ta",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190308-zpv81ta"
+			}
+		},
+		{
+			"ID": "20221012190308-efbcekl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190308-efbcekl"
+			}
+		},
+		{
+			"ID": "20221012175240-rb67yzg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012175240-rb67yzg",
+				"updated": "20221012175241"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "身份认证"
+				}
+			]
+		},
+		{
+			"ID": "20221012190418-1uslgrc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190418-1uslgrc",
+				"updated": "20221012190455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "身份认证（Authentication）又称“身份验证”、“鉴权”，是指通过一定的手段，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "完成对用户身份的确认。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "日常生活中的身份认证随处可见，例如：高铁的验票乘车，手机的密码或指纹解锁，支付宝或微信的支付密码等。 Web 开发中，也涉及到用户身份的认证，例如："
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "各大网站的手机验证码登录、邮箱密码登录、二维码登录"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "等。"
+				}
+			]
+		},
+		{
+			"ID": "20221012175252-y3jivz3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012175252-y3jivz3",
+				"updated": "20221012190521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么需要身份认证"
+				}
+			]
+		},
+		{
+			"ID": "20221012190514-qz3rups",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190514-qz3rups",
+				"updated": "20221012190514"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "身份认证的目的，是为了确认当前所声称为某种身份的用户，确实是所声称的用户。例如，你去找快递员取快递，你要怎么证明这份快递是你的。在互联网项目开发中，如何对用户的身份进行认证，是一个值得深入探讨的问题。例如，如何才能保证网站不会错误的将“马云的存款数额”显示到“马化腾的账户”上。"
+				}
+			]
+		},
+		{
+			"ID": "20221012190515-998kluw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190515-998kluw",
+				"updated": "20221012190539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不同开发模式下的身份认证"
+				}
+			]
+		},
+		{
+			"ID": "20221012190546-rf4bh2h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190546-rf4bh2h",
+				"updated": "20221012190555"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color3);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "对于服务端渲染和前后端分离这两种开发模式来说，分别有着不同的身份认证方案："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color3);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012190546-qlm1qyk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190546-qlm1qyk",
+				"updated": "20221012190546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① 服务端渲染推荐使用 Session 认证机制"
+				}
+			]
+		},
+		{
+			"ID": "20221012190546-e0ktx9s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190546-e0ktx9s",
+				"updated": "20221012190546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② 前后端分离推荐使用 JWT 认证机制"
+				}
+			]
+		},
+		{
+			"ID": "20221012190516-8t11fol",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190516-8t11fol"
+			}
+		},
+		{
+			"ID": "20221012190516-0pxpy5i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012190516-0pxpy5i"
+			}
+		},
+		{
+			"ID": "20221012175252-3v98xyc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012175252-3v98xyc",
+				"updated": "20221012175253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Session 认证机制"
+				}
+			]
+		},
+		{
+			"ID": "20221012175305-tcugzht",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012175305-tcugzht",
+				"updated": "20221012195932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HTTP 协议的无状态性"
+				}
+			]
+		},
+		{
+			"ID": "20221012195940-ewuzhkh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195940-ewuzhkh",
+				"updated": "20221012195940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "了解 HTTP 协议的无状态性是进一步学习 Session 认证机制的必要前提。"
+				}
+			]
+		},
+		{
+			"ID": "20221012195940-wlcubq5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195940-wlcubq5",
+				"updated": "20221012200015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  HTTP 协议的无状态性，指的是客户端的每次 HTTP 请求都是独立的，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color6);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "连续多个请求之间没有直接的关系，服务器不会主动保留每次 HTTP 请求的状态。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color6);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012195944-p4dc0gt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195944-p4dc0gt",
+				"updated": "20221012200106"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何突破 HTTP 无状态的限制——在 Web 开发中使用的 Cookie。"
+				}
+			]
+		},
+		{
+			"ID": "20221012200112-kk6h57e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012200112-kk6h57e",
+				"updated": "20221012200233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Cookie 在身份认证中的作用"
+				}
+			]
+		},
+		{
+			"ID": "20221012202105-kh33n0x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012202105-kh33n0x",
+				"updated": "20221012202106"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012202106-ij8tfxc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012200126-7schzb6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200126-7schzb6",
+				"updated": "20221012200244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      Cookie 是存储在用户浏览器中的一段不超过 4 KB 的字符串。它由一个名称（Name）、一个值（Value）和其它几个用于控制 Cookie 有效期、安全性、使用范围的可选属性组成。不同域名下的 Cookie 各自独立，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "每当客户端发起请求时，会自动把当前域名下所有未过期的 Cookie 一同发送到服务器。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012200126-sso3oen",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200126-sso3oen",
+				"updated": "20221012200126"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  Cookie的几大特性： ①自动发送   ②域名独立   ③过期时限   ④4KB 限制"
+				}
+			]
+		},
+		{
+			"ID": "20221012200239-olda7ci",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200239-olda7ci",
+				"updated": "20221012200328"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "客户端第一次请求服务器的时候，服务器通过响应头的形式，向客户端发送一个身份认证的 Cookie，客户端会自动将 Cookie 保存在浏览器中。随后，当客户端浏览器每次请求服务器的时候，浏览器会自动将身份认证相关的 Cookie，通过请求头的形式发送给服务器，服务器即可验明客户端的身份。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012200113-6i82hjg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200113-6i82hjg",
+				"updated": "20221012200350"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012200350-mckjhef.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012200113-w3etzr8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012200113-w3etzr8",
+				"updated": "20221012200408"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Cookie 不具有安全性"
+				}
+			]
+		},
+		{
+			"ID": "20221012200409-qdb3iec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200409-qdb3iec",
+				"updated": "20221012200515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于 Cookie 是存储在浏览器中的，而且浏览器也提供了读写 Cookie 的 API，因此 Cookie 很容易被伪造，不具有安全性。因此不建议服务器将重要的隐私数据，通过 Cookie 的形式发送给浏览器。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "千万不要使用 Cookie 存储重要且隐私的数据！比如用户的身份信息、密码等。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012200515-vcnb1k9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012200515-vcnb1k9",
+				"updated": "20221012200521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Session 的工作原理"
+				}
+			]
+		},
+		{
+			"ID": "20221012200515-eawbept",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200515-eawbept",
+				"updated": "20221012200516"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012200516-yjm50kv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012201217-ewkjsb7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012201217-ewkjsb7",
+				"updated": "20221012201219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Session 认证的局限性"
+				}
+			]
+		},
+		{
+			"ID": "20221012201231-azxkbkm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201231-azxkbkm",
+				"updated": "20221012202747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Session 认证机制需要配合 Cookie 才能实现。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "由于 C ookie 默认不支持跨域访问，"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "所以，当涉及到前端跨域请求后端接口的时候，需要做很多额外的配置，才能实现跨域 Session 认证。"
+				}
+			]
+		},
+		{
+			"ID": "20221012201231-m2vi71w",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012201231-m2vi71w",
+				"updated": "20221012201303"
+			},
+			"Children": [
+				{
+					"ID": "20221012201303-8xtzpjo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012201303-8xtzpjo",
+						"updated": "20221012201303"
+					},
+					"Children": [
+						{
+							"ID": "20221012201303-b7u43lu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012201303-b7u43lu",
+								"updated": "20221012201303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前端请求后端接口不存在跨域问题的时候，推荐使用 Session 身份认证机制。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012201231-llyue35",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012201231-llyue35",
+				"updated": "20221012201306"
+			},
+			"Children": [
+				{
+					"ID": "20221012201306-ajh2g6t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012201306-ajh2g6t",
+						"updated": "20221012201306"
+					},
+					"Children": [
+						{
+							"ID": "20221012201306-f6i6dah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012201306-f6i6dah",
+								"updated": "20221012201306"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前端需要跨域请求后端接口的时候，不推荐使用 Session 身份认证机制，推荐使用 JWT 认证机制。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012201217-3n5qg2m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201217-3n5qg2m"
+			}
+		},
+		{
+			"ID": "20221012201218-9u9529c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201218-9u9529c"
+			}
+		},
+		{
+			"ID": "20221012200409-0zd601k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012200409-0zd601k"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 Express 中使用 Session 认证"
+				}
+			]
+		},
+		{
+			"ID": "20221012200819-2ldiy5l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012200819-2ldiy5l",
+				"updated": "20221012200828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装和配置 express-session 中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012200717-40zhuq8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200717-40zhuq8",
+				"updated": "20221012200744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 Express 项目中，只需要安装 express-session 中间件可使用 Session 认证："
+				}
+			]
+		},
+		{
+			"ID": "20221012200745-crufnm1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012200745-crufnm1",
+				"updated": "20221012202800"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npm init -y\nnpm install  express-session\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012200812-39zz93u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012200812-39zz93u",
+				"updated": "20221012200845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "express-session 中间件安装成功后，需要通过 app.use() 来注册 session 中间件"
+				}
+			]
+		},
+		{
+			"ID": "20221012200812-g9wizkn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012200812-g9wizkn",
+				"updated": "20221012201100"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 导入 express 模块\nconst express = require('express')\n// 创建 express 的服务器实例\nconst app = express()\n\n// TODO_01：请配置 Session 中间件\nconst session = require('express-session')\napp.use(\n  session({\n    secret: 'itheima',\n    resave: false,   //固定写法\n    saveUninitialized: true, //固定写法\n  })\n)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012200812-z9ptzq0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012200812-z9ptzq0",
+				"updated": "20221012201109"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "向 session 中存数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012202902-anwr0mi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012202902-anwr0mi",
+				"updated": "20221012202932"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当 express-session 中间件配置成功后，即可通过 req.session 来访问和使用 session 对象，从而存储用户的关键信息："
+				}
+			]
+		},
+		{
+			"ID": "20221012201110-li3bnlc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201110-li3bnlc"
+			}
+		},
+		{
+			"ID": "20221012201110-5e0hii4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201110-5e0hii4"
+			}
+		},
+		{
+			"ID": "20221012175322-6zyrcqw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"id": "20221012175322-6zyrcqw",
+				"updated": "20221012175323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JWT 认证机制"
+				}
+			]
+		},
+		{
+			"ID": "20221012175343-04zzzbq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221012175343-04zzzbq"
+			}
+		},
+		{
+			"ID": "20221012201314-p09dthy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201314-p09dthy",
+				"updated": "20221012201324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JWT（英文全称：JSON Web Token）是目前最流行的跨域认证解决方案。"
+				}
+			]
+		},
+		{
+			"ID": "20221012201314-rs954lx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012201314-rs954lx",
+				"updated": "20221012201331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JWT 的工作原理"
+				}
+			]
+		},
+		{
+			"ID": "20221012201345-pm0jpso",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201345-pm0jpso",
+				"updated": "20221012201345"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结：用户的信息通过 Token 字符串的形式，保存在客户端浏览器中。服务器通过还原 Token 字符串的形式来认证用户的身份。"
+				}
+			]
+		},
+		{
+			"ID": "20221012201333-2ym6l1h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201333-2ym6l1h",
+				"updated": "20221012201337"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012201337-s07fymi.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012201334-021hmly",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221012201334-021hmly",
+				"updated": "20221012201354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JWT 的组成部分"
+				}
+			]
+		},
+		{
+			"ID": "20221012201405-x7i5ncw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201405-x7i5ncw",
+				"updated": "20221012201405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JWT 通常由三部分组成，分别是 Header（头部）、Payload（有效荷载）、Signature（签名）。三者之间使用英文的“.”分隔，格式如下："
+				}
+			]
+		},
+		{
+			"ID": "20221012201358-bc9qw6r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201358-bc9qw6r"
+			}
+		},
+		{
+			"ID": "20221012201315-w9ijgol",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201315-w9ijgol"
+			}
+		},
+		{
+			"ID": "20221012175343-2kvqklq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221012175343-2kvqklq",
+				"updated": "20221012175344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 Express 中使用 JWT"
+				}
+			]
+		},
+		{
+			"ID": "20221012201315-0rvxs4b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201315-0rvxs4b"
+			}
+		},
+		{
+			"ID": "20221012201316-mrbouzh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012201316-mrbouzh"
+			}
+		},
+		{
+			"ID": "20221012175520-8455zp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012175520-8455zp5",
+				"updated": "20221014173820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "koa+koa-router "
+				}
+			]
+		},
+		{
+			"ID": "20221014173817-evt8rl4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014173817-evt8rl4"
+			}
+		}
+	]
+}

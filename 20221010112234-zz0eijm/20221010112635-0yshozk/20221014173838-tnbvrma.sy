@@ -1,0 +1,844 @@
+{
+	"ID": "20221014173838-tnbvrma",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221014173838-tnbvrma",
+		"title": "koa + koa-router插件",
+		"updated": "20221016183222"
+	},
+	"Children": [
+		{
+			"ID": "20221014192616-fqlwbd1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014192616-fqlwbd1",
+				"updated": "20221014192915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于 node.js 平台的下一代 Web 开发框架，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "由 Express 幕后的原班人马打造"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "， 致力于成为 web 应用和 API 开发领域中的一个"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "更小、更富有表现力、更健壮的基石"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20221014193027-uef9m7p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014193027-uef9m7p",
+				"updated": "20221014193027"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://koa.bootcss.com/",
+					"TextMarkTextContent": "Koa (koajs) -- 基于 Node.js 平台的下一代 web 开发框架 | Koajs 中文文档 (bootcss.com)"
+				}
+			]
+		},
+		{
+			"ID": "20221014192616-2pwi45f",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014192616-2pwi45f",
+				"updated": "20221014193036"
+			},
+			"Children": [
+				{
+					"ID": "20221014193036-99rjlyt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014193036-99rjlyt",
+						"updated": "20221014193036"
+					},
+					"Children": [
+						{
+							"ID": "20221014193036-u4os5dg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014193036-u4os5dg",
+								"updated": "20221014193036"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过利用 async 函数，Koa 帮你丢弃回调函数，并有力地增强错误处理。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014192956-z8f65mo",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014192956-z8f65mo",
+				"updated": "20221014193041"
+			},
+			"Children": [
+				{
+					"ID": "20221014193041-e18lc0a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221014193041-e18lc0a",
+						"updated": "20221014193041"
+					},
+					"Children": [
+						{
+							"ID": "20221014193041-hajdksg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014193041-hajdksg",
+								"updated": "20221014193041"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Koa 并没有捆绑任何中间件"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014194736-3z821vm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014194736-3z821vm",
+				"updated": "20221014194819"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Koa 应用程序是一个包含一组中间件函数的对象，一个关键的设计点是在其低级中间件层中提供高级“语法糖”。包括诸如"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "内容协商，缓存清理，代理支持和重定向"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "等常见任务的方法。"
+				}
+			]
+		},
+		{
+			"ID": "20221014193003-ol3aedq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014193003-ol3aedq",
+				"updated": "20221014193013"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装和基本使用"
+				}
+			]
+		},
+		{
+			"ID": "20221014173838-91wqmg2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014173838-91wqmg2",
+				"updated": "20221014174240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 koa+koa-router ：npm install koa -S"
+				}
+			]
+		},
+		{
+			"ID": "20221014175158-fpje9a7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014175158-fpje9a7",
+				"updated": "20221014175653"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//引入koa \nconst Koa = require('koa')\n//实例化\nconst app = new Koa()\n//搭建服务\napp.use(async ctx=\u003e{\n  ctx.body=\"啊哈哈哈\"\n})\n//监听端口\napp.listen(5000,()=\u003e{\n  console.log(\"启动成功\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014192526-3ouctg5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014192526-3ouctg5",
+				"updated": "20221014200707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上下文（Context）"
+				}
+			]
+		},
+		{
+			"ID": "20221014200711-f8wdpym",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014200711-f8wdpym",
+				"updated": "20221014200711"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Koa Context 将 node 的 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "request"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 和 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "response"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​ 对象封装到单个对象中"
+				}
+			]
+		},
+		{
+			"ID": "20221014193127-dbs0uyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014193127-dbs0uyo",
+				"updated": "20221014200651"
+			}
+		},
+		{
+			"ID": "20221014194659-bf1sz6v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014194659-bf1sz6v"
+			}
+		},
+		{
+			"ID": "20221014192526-ghgeopz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014192526-ghgeopz"
+			}
+		},
+		{
+			"ID": "20221014175903-cbygkjp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014175903-cbygkjp",
+				"updated": "20221014183717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "koa-router 插件用于路由"
+				}
+			]
+		},
+		{
+			"ID": "20221014175917-m1lks4i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014175917-m1lks4i",
+				"updated": "20221014180019"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装依赖：npm install koa-router -s"
+				}
+			]
+		},
+		{
+			"ID": "20221014180059-of4v0lq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014180059-of4v0lq",
+				"updated": "20221014202819"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//引入模块\nconst Koa = require(\"Koa\")\nconst Router = require(\"koa-router\") \n//实例化\nconst app = new Koa()\nconst router = new Router()\n//路由挂载\nrouter.gat(\"/index\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"哈哈哈\"\n})\nrouter.post(\"/index1\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"heheh\"\n})\n//配置路由——注册路由\napp.use(router.routes()).use(router.allowedMethods())\n//监听端口\napp.listen(5000,()=\u003e{\n  console.log(\"hehe\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014180213-9c46r2c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014180213-9c46r2c"
+			}
+		},
+		{
+			"ID": "20221014195016-0drexiq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014195016-0drexiq"
+			}
+		},
+		{
+			"ID": "20221014195016-fokzwzf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221014195016-fokzwzf",
+				"updated": "20221014203818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于 Koa 项目（ node  + Vue3 ）"
+				}
+			]
+		},
+		{
+			"ID": "20221014204139-2gremxr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014204139-2gremxr",
+				"updated": "20221014204150"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1ea411C7qP/",
+					"TextMarkATitle": "3小时快速入门node+vue3全栈（2022最新课程）",
+					"TextMarkTextContent": "3小时快速入门node+vue3全栈（2022最新课程）"
+				}
+			]
+		},
+		{
+			"ID": "20221016135639-ayyzs5g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221016135639-ayyzs5g",
+				"updated": "20221016135651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "node 的部分"
+				}
+			]
+		},
+		{
+			"ID": "20221014203833-zhdnnfs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014203833-zhdnnfs",
+				"updated": "20221014203919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据库依赖 mysql 安装：npm install mysql -s"
+				}
+			]
+		},
+		{
+			"ID": "20221014203921-oo3i6jm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014203921-oo3i6jm",
+				"updated": "20221014203954"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跨域依赖安装：npm install koa2-cors -s"
+				}
+			]
+		},
+		{
+			"ID": "20221014204235-jz4hun6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014204235-jz4hun6",
+				"updated": "20221014204311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获取body 请求参数：npm install koa-bodyparser -s"
+				}
+			]
+		},
+		{
+			"ID": "20221014204312-1rjpnz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014204312-1rjpnz4",
+				"updated": "20221014204513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "封装db.js：对连接数据的函数进行模块封装"
+				}
+			]
+		},
+		{
+			"ID": "20221014204514-z3ew2du",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014204514-z3ew2du",
+				"updated": "20221014204557"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编写接口：结合koa-router + MySQL"
+				}
+			]
+		},
+		{
+			"ID": "20221014204552-rhfyjx4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014204552-rhfyjx4",
+				"updated": "20221014204637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接口测试：使用VsCode 的 postMan 插件进行接口测试"
+				}
+			]
+		},
+		{
+			"ID": "20221014203916-c9i1ely",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221014203916-c9i1ely",
+				"updated": "20221014204725"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据库连接"
+				}
+			]
+		},
+		{
+			"ID": "20221014204728-nyf5kqy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014204728-nyf5kqy",
+				"updated": "20221014204807"
+			},
+			"Children": [
+				{
+					"ID": "20221014204756-331yary",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014204756-331yary",
+						"updated": "20221014204807"
+					},
+					"Children": [
+						{
+							"ID": "20221014204756-xg4soum",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014204756-xg4soum",
+								"updated": "20221014204807"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新建 db.js文件：封装 db.js 对连接数据的函数进行模块封装"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014204749-v6betyn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014204749-v6betyn",
+				"updated": "20221014215418"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//db.js\n//引入依赖包——mysql\nconst mysql = require('mysql')\n//创建数据库连接对象\nconst poolSql = mysql.createPool({\n     host: '127.0.0.1',\n     port:\"3306\",\n     user: 'root',\n     password: 'admin123',\n     database: 'my_db-01',\n\n})\nfunction query(sql,value){\n  return  new Promise((resolve,reject)=\u003e{\n     poolSql.query(sql,value,(err,result)=\u003e{\n        if(err){\n           reject(err)\n        }else{\n           resolve(result)\n         }\n     })\n  })\n}\n//暴露\nmodle.export = query\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221014205512-1b0jokw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014205512-1b0jokw"
+			}
+		},
+		{
+			"ID": "20221016104210-q97ja3y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016104210-q97ja3y"
+			}
+		},
+		{
+			"ID": "20221016104211-332ml3y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221016104211-332ml3y",
+				"updated": "20221016135737"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221016104248-zbfb34d",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "使用 Vite "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "快速构建前端项目"
+				}
+			]
+		},
+		{
+			"ID": "20221016104222-q0ren74",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016104222-q0ren74"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://cn.vitejs.dev/",
+					"TextMarkTextContent": "Vite | 下一代的前端工具链 (vitejs.dev)"
+				}
+			]
+		},
+		{
+			"ID": "20221016104305-bz4zyyg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016104305-bz4zyyg",
+				"updated": "20221016143137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目使用vite 第一步安装vite："
+				}
+			]
+		},
+		{
+			"ID": "20221016135811-degg4yz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016135811-degg4yz",
+				"updated": "20221016140227"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组件使用 ant-design-vue  首先下载安装："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "npm"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "install"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ant-design-vue@next --save"
+				}
+			]
+		},
+		{
+			"ID": "20221016140108-bodb1gh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016140108-bodb1gh",
+				"updated": "20221016144948"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "按需安装："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "vite-plugin-components"
+				}
+			]
+		},
+		{
+			"ID": "20221016112422-pt9kju5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016112422-pt9kju5"
+			}
+		},
+		{
+			"ID": "20221016135757-stfupmt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016135757-stfupmt",
+				"updated": "20221016183221"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 vite 配置服务器代理"
+				}
+			]
+		},
+		{
+			"ID": "20221016183222-ffmkgqo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016183222-ffmkgqo"
+			}
+		},
+		{
+			"ID": "20221016183222-yr7xiy0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016183222-yr7xiy0"
+			}
+		},
+		{
+			"ID": "20221016135757-scz31es",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016135757-scz31es"
+			}
+		},
+		{
+			"ID": "20221016112422-utetm3c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016112422-utetm3c",
+				"updated": "20221016112428"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 75%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221016112423-hm05a5p.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 75%;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221016183142-orkaulb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016183142-orkaulb"
+			}
+		},
+		{
+			"ID": "20221016183142-zi1978i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016183142-zi1978i"
+			}
+		},
+		{
+			"ID": "20221016183141-88p6bs5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016183141-88p6bs5"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221016112429-8myvl4c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016112429-8myvl4c"
+			}
+		}
+	]
+}

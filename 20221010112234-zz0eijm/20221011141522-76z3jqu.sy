@@ -1,0 +1,702 @@
+{
+	"ID": "20221011141522-76z3jqu",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221011141522-76z3jqu",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221011151059-j8yfbad\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221011194215-ui9fxpp\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:694,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221011153417-v57074l\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": " npm与包",
+		"updated": "20221014173321"
+	},
+	"Children": [
+		{
+			"ID": "20221011151059-j8yfbad",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011151059-j8yfbad",
+				"updated": "20221011151059"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "国外有一家 IT 公司，叫做 npm, Inc. 这家公司旗下有一个非常著名的网站： "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.npmjs.com/",
+					"TextMarkTextContent": "https://www.npmjs.com/"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ，它是全球最大的包共享平台，你可以从这个网站上搜索到任何你需要的包，只要你有足够的耐心！到目前位置，全球约 1100 多万的开发人员，通过这个包共享平台，开发并共享了超过 120 多万个包 供我们使用。npm, Inc. 公司提供了一个地址为 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://registry.npmjs.org/",
+					"TextMarkTextContent": "https://registry.npmjs.org/"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的服务器，来对外共享所有的包，我们可以从这个服务器上下载自己所需要的包。"
+				}
+			]
+		},
+		{
+			"ID": "20221011151059-3qi5p46",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011151059-3qi5p46",
+				"updated": "20221011151059"
+			},
+			"Children": [
+				{
+					"ID": "20221011151059-mczhbik",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221011151059-mczhbik",
+						"updated": "20221011151059"
+					},
+					"Children": [
+						{
+							"ID": "20221011151059-giqlkrm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011151059-giqlkrm",
+								"updated": "20221011151059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "从 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://www.npmjs.com/",
+									"TextMarkTextContent": "https://www.npmjs.com/"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 网站上搜索自己所需要的包"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011151059-rmp85or",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011151059-rmp85or",
+				"updated": "20221011151059"
+			},
+			"Children": [
+				{
+					"ID": "20221011151059-wzsqqwc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221011151059-wzsqqwc",
+						"updated": "20221011151059"
+					},
+					"Children": [
+						{
+							"ID": "20221011151059-rpytq4w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011151059-rpytq4w",
+								"updated": "20221011151059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "npm, Inc. 公司提供的  "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "包管理工具——npm "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 从 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "https://registry.npmjs.org/",
+									"TextMarkTextContent": "https://registry.npmjs.org/"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "  服务器上下载需要的自己包在本地，这个包管理工具随着 Node.js 的安装包一起被安装到了用户的电脑上。在终端中执行 npm -v 命令，来查看自己电脑上所安装的 npm 包管理工具的版本号："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "block-ref",
+									"TextMarkBlockRefID": "20221010133456-9nm8pbv",
+									"TextMarkBlockRefSubtype": "d",
+									"TextMarkTextContent": "node.js的命令"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011153047-tskjro6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221011153047-tskjro6",
+				"updated": "20221011153111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "npm指令"
+				}
+			]
+		},
+		{
+			"ID": "20221011153112-hybt5jb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011153112-hybt5jb",
+				"updated": "20221011153119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "包的版本号"
+				}
+			]
+		},
+		{
+			"ID": "20221011153140-msv9w8j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011153140-msv9w8j",
+				"updated": "20221011153224"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "重新下载不同版本的包，包会新的覆盖"
+				}
+			]
+		},
+		{
+			"ID": "20221011153452-pipve1c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221011153452-pipve1c",
+				"updated": "20221011153506"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "npm 相关文件"
+				}
+			]
+		},
+		{
+			"ID": "20221011152852-rpxeuss",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011152852-rpxeuss",
+				"updated": "20221011152902"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "node_modules 和 package-lock.json"
+				}
+			]
+		},
+		{
+			"ID": "20221011152803-u7wdhs1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011152803-u7wdhs1",
+				"updated": "20221011152805"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初次装包完成后，在项目文件夹下多一个叫做 node_modules 的文件夹和 package-lock.json 的配置文件。"
+				}
+			]
+		},
+		{
+			"ID": "20221011153417-v57074l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011153417-v57074l"
+			}
+		},
+		{
+			"ID": "20221011153419-m9cqlvt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011153419-m9cqlvt",
+				"updated": "20221011153444"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "package.json：包管理配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221011153417-3mh80tp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011153417-3mh80tp",
+				"updated": "20221014172539"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目初始化：npm init -y"
+				}
+			]
+		},
+		{
+			"ID": "20221014172601-cr6wfv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014172601-cr6wfv8",
+				"updated": "20221014172638"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要关注 package.json  所指定的入口文件，一般为index.js"
+				}
+			]
+		},
+		{
+			"ID": "20221014172902-i261o1p",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221014172902-i261o1p",
+				"updated": "20221014173321"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//package.json \n{\n  \"name\": \"vueproject\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",  //入口文件\n  \"scripts\": {\n    \"serve\":\"node index.js\",  //使用serve属性指定————运行命令\n    \"test\": \"echo \\\"Error: no test specified\\\" \u0026\u0026 exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\"\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011194235-qktvtg4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221011194235-qktvtg4",
+				"updated": "20221011194243"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工具包"
+				}
+			]
+		},
+		{
+			"ID": "20221011194243-vdm59qm",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221011194243-vdm59qm",
+				"updated": "20221011194356"
+			},
+			"Children": [
+				{
+					"ID": "20221011194356-lhdjnnv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221011194356-lhdjnnv",
+						"updated": "20221011194356"
+					},
+					"Children": [
+						{
+							"ID": "20221011194356-aeczu1c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221011194356-aeczu1c",
+								"updated": "20221011194356"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装  nodemon：npm install -g nodemon     监听项目文件的变动包"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221011194353-67bb7sc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011194353-67bb7sc"
+			}
+		},
+		{
+			"ID": "20221011194325-u0adbg7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011194325-u0adbg7",
+				"updated": "20221011194329"
+			}
+		},
+		{
+			"ID": "20221011194235-n46nj1t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011194235-n46nj1t"
+			}
+		},
+		{
+			"ID": "20221011194235-grr8q5l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011194235-grr8q5l"
+			}
+		},
+		{
+			"ID": "20221011151657-0bivhqc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221011151657-0bivhqc",
+				"updated": "20221011152006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "格式化时间的包：moment"
+				}
+			]
+		},
+		{
+			"ID": "20221011152618-sij5z4r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011152618-sij5z4r",
+				"updated": "20221011152641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装包：npm i  moment"
+				}
+			]
+		},
+		{
+			"ID": "20221011153526-rs6zpfj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011153526-rs6zpfj",
+				"updated": "20221011153637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般从 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.npmjs.com/",
+					"TextMarkTextContent": "https://www.npmjs.com/"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 网站上搜索自己所需要的包，找到需要的包后点进包的官方文档，里面有包的下载命令，版本号，包函数"
+				}
+			]
+		},
+		{
+			"ID": "20221011152015-6f46ri6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011152015-6f46ri6",
+				"updated": "20221011152412"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const moment = require('moment')\n//得到当前时间:moment()\n//指定格式进行格式化时间方法:format(指定格式)\nconst dt = moment().format('YYYY-MM-DD HH-mm-ss')\nconsole.log(dt) \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011152940-59444mf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011152940-59444mf"
+			}
+		},
+		{
+			"ID": "20221011194215-ui9fxpp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221011194215-ui9fxpp",
+				"updated": "20221013193838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "npm 出错"
+				}
+			]
+		},
+		{
+			"ID": "20221013193848-ndwfaih",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013193848-ndwfaih",
+				"updated": "20221013193857"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决  npm ERR! code ERESOLVE npm ERR! ERESOLVE unable to resolve dep"
+				}
+			]
+		},
+		{
+			"ID": "20221013193838-spgqtxz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013193838-spgqtxz",
+				"updated": "20221013193950"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221013193950-viap0mb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221013194006-jsii3g2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013194006-jsii3g2",
+				"updated": "20221013194006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "npm错误！代码解析"
+				}
+			]
+		},
+		{
+			"ID": "20221013194006-kwt9hwx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013194006-kwt9hwx",
+				"updated": "20221013194010"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "npm错误！ERESOLVE无法解析依赖关系树"
+				}
+			]
+		},
+		{
+			"ID": "20221013194014-1azc7rg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013194014-1azc7rg",
+				"updated": "20221013194023"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "查阅相关资料后说原因是：安装的包与已经存在的包有冲突。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221013194031-f8cit8w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013194031-f8cit8w",
+				"updated": "20221013194031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决方法：使用npm install xxx -- force或者npm install xxx --legacy-peer-deps来安装。"
+				}
+			]
+		},
+		{
+			"ID": "20221013194041-ejn42rv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013194041-ejn42rv",
+				"updated": "20221013194117"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221013194117-1lr9f12.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221013194118-v07r28x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013194118-v07r28x"
+			}
+		}
+	]
+}

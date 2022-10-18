@@ -1,0 +1,871 @@
+{
+	"ID": "20221010181536-v8psv6l",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010181536-v8psv6l",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221010181536-4cmp3g2\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221010182846-n8g3l3r\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221010181536-4cmp3g2\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "服务器的相关概念",
+		"updated": "20221014180435"
+	},
+	"Children": [
+		{
+			"ID": "20221010181536-4cmp3g2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010181536-4cmp3g2",
+				"updated": "20221010181612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务器和普通电脑的区别在于："
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "服务器上安装了 web 服务器软件，"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "例如：IIS、Apache 等。通过安装这些服务器软件， 就能把一台普通的电脑变成一台 web 服务器。"
+				}
+			]
+		},
+		{
+			"ID": "20221010181726-f0jcuyw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010181726-f0jcuyw"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "IP 地址"
+				}
+			]
+		},
+		{
+			"ID": "20221010181743-nlckvud",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010181743-nlckvud",
+				"updated": "20221010182532"
+			},
+			"Children": [
+				{
+					"ID": "20221010182532-7ihgcr6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010182532-7ihgcr6",
+						"updated": "20221010182532"
+					},
+					"Children": [
+						{
+							"ID": "20221010182532-ljzfp87",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182532-ljzfp87",
+								"updated": "20221010182532"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "strong text",
+									"TextMarkTextContent": "IP 地址就是互联网上每台计算机的唯一地址"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，因此 IP 地址具有唯一性。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010181805-5n2dgv5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010181805-5n2dgv5",
+				"updated": "20221010182534"
+			},
+			"Children": [
+				{
+					"ID": "20221010182534-564dxl0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010182534-564dxl0",
+						"updated": "20221010182534"
+					},
+					"Children": [
+						{
+							"ID": "20221010182534-42s2cqr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182534-42s2cqr",
+								"updated": "20221010182534"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "IP 地址的格式："
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "通常用“点分十进制”表示成（a.b.c.d）的形式，其中，a,b,c,d 都是 0~255 之间的十进制整数。例如：用 点分十进表示的 IP地址（192.168.1.1）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010181917-s31tfmp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010181917-s31tfmp",
+				"updated": "20221010181935"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "互联网中每台 Web 服务器，都有自己的 IP 地址，例如：在 Windows 的终端中运行 ping   www.baidu.com 命 令，即可查看到百度服务器的 IP 地址。"
+				}
+			]
+		},
+		{
+			"ID": "20221010182519-rzch0ln",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010182519-rzch0ln",
+				"updated": "20221010182543"
+			},
+			"Children": [
+				{
+					"ID": "20221010182543-bhai2zd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010182543-bhai2zd",
+						"updated": "20221010182543"
+					},
+					"Children": [
+						{
+							"ID": "20221010182543-cu8azte",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182543-cu8azte",
+								"updated": "20221010182543"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color3);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "127.0.0.1 对应的域名是 localhost，"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color3);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010182624-q69o01g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010182624-q69o01g",
+				"updated": "20221010182624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "网址"
+				}
+			]
+		},
+		{
+			"ID": "20221010182624-dd05haj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010182624-dd05haj",
+				"updated": "20221010182624"
+			},
+			"Children": [
+				{
+					"ID": "20221010182624-jrootfw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010182624-jrootfw",
+						"updated": "20221010182624"
+					},
+					"Children": [
+						{
+							"ID": "20221010182624-0z8zptv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182624-0z8zptv",
+								"updated": "20221010182624"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "网址的组成：协议+域名+端口"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010182002-h2pe75p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010182002-h2pe75p",
+				"updated": "20221010182421"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "域名和域名服务器(DNS)"
+				}
+			]
+		},
+		{
+			"ID": "20221010182020-kyp5gvj",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010182020-kyp5gvj",
+				"updated": "20221010182409"
+			},
+			"Children": [
+				{
+					"ID": "20221010182022-drjripl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010182022-drjripl",
+						"updated": "20221010182022"
+					},
+					"Children": [
+						{
+							"ID": "20221010182022-tp05xtc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182022-tp05xtc",
+								"updated": "20221010182029"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尽管 IP 地址能够唯一地标记网络上的计算机，但IP地址是一长串数字，不直观，而且不便于记忆，于是人们又发明了另一套 字符型的地址方案，即所谓的域名地址。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010182032-dshvcjh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010182032-dshvcjh",
+						"updated": "20221010182409"
+					},
+					"Children": [
+						{
+							"ID": "20221010182032-11067y4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182032-11067y4",
+								"updated": "20221010182409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "IP地址和域名是一一对应的关系，这份对应关系存放在一种叫做"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "域名服务器"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "(DNS)的电脑中。使用者 只需通过好记的域名访问对应的服务器即可，对应的转换工作由域名服务器实现。"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color8);"
+									},
+									"TextMarkType": "strong text",
+									"TextMarkTextContent": "域名服务器就是提供 IP 地址和域名之间的转换服务的服务器。"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color8);\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010182219-t2tmjcu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010182219-t2tmjcu",
+				"updated": "20221010182510"
+			},
+			"Children": [
+				{
+					"ID": "20221010182436-kbbn89y",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010182436-kbbn89y",
+						"updated": "20221010182510"
+					},
+					"Children": [
+						{
+							"ID": "20221010182436-w3twkvq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182436-w3twkvq",
+								"updated": "20221010182510"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在开发测试期间，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color3);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": " 127.0.0.1 对应的域名是 localhost，"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color3);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "它们都代表我们自己的这台电脑，在使用效果上没有任何区别。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010182513-1dej56k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221010182513-1dej56k",
+				"updated": "20221010182645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "端口"
+				}
+			]
+		},
+		{
+			"ID": "20221010182648-ogqhce6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010182648-ogqhce6",
+				"updated": "20221010182923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在服务器里有多个端口，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color10);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "每个 web 服务都对应一个唯一的端口号。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "客户端发送过来的 网络请求，通过服务器的端口号，可以被准确地交给对应的 web 服务进行处理。"
+				}
+			]
+		},
+		{
+			"ID": "20221010182934-9naj0u0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010182934-9naj0u0",
+				"updated": "20221010182944"
+			},
+			"Children": [
+				{
+					"ID": "20221010182944-kdl6gy7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010182944-kdl6gy7",
+						"updated": "20221010182944"
+					},
+					"Children": [
+						{
+							"ID": "20221010182944-7xz84ua",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182944-7xz84ua",
+								"updated": "20221010182944"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "每个端口号不能同时被多个 web 服务占用。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010182938-dzb7uns",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010182938-dzb7uns",
+				"updated": "20221010182946"
+			},
+			"Children": [
+				{
+					"ID": "20221010182946-tgbr4za",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010182946-tgbr4za",
+						"updated": "20221010182946"
+					},
+					"Children": [
+						{
+							"ID": "20221010182946-1e96c34",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010182946-1e96c34",
+								"updated": "20221010182946"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在实际应用中，URL 中的 80 端口可以被省略"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010182833-g7cgyod",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010182833-g7cgyod",
+				"updated": "20221010182845"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012134055-4awsejg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221012134055-4awsejg",
+				"updated": "20221012134149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "请求报文"
+				}
+			]
+		},
+		{
+			"ID": "20221012134151-nwqnhje",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012134151-nwqnhje",
+				"updated": "20221012134304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "请求报文有4部分：（1）请求行  （2）请求头  （3）空行  （4）请求体"
+				}
+			]
+		},
+		{
+			"ID": "20221012134320-r7t1v2q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012134320-r7t1v2q",
+				"updated": "20221012134427"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（1）请求行：请求方法字段，URL字段，HTTP协议版本字段，使用空格分隔"
+				}
+			]
+		},
+		{
+			"ID": "20221012134524-yq8rea9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012134524-yq8rea9",
+				"updated": "20221012134608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t请求行例子：GET  /index.html  HTTP/1.1"
+				}
+			]
+		},
+		{
+			"ID": "20221012134610-74lpxn1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012134610-74lpxn1",
+				"updated": "20221012134708"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（2）请求头 ：键值对"
+				}
+			]
+		},
+		{
+			"ID": "20221012134710-5uhe1su",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012134710-5uhe1su",
+				"updated": "20221012134740"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（4）请求体：post  put等请求携带的数据"
+				}
+			]
+		},
+		{
+			"ID": "20221014180244-5ey1zv8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221014180244-5ey1zv8",
+				"updated": "20221014180435"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "请求类型：增删改查"
+				}
+			]
+		},
+		{
+			"ID": "20221014180303-dk5sn84",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014180303-dk5sn84",
+				"updated": "20221014180428"
+			},
+			"Children": [
+				{
+					"ID": "20221014180323-ezxy4p9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014180323-ezxy4p9",
+						"updated": "20221014180409"
+					},
+					"Children": [
+						{
+							"ID": "20221014180323-auyun2y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014180323-auyun2y",
+								"updated": "20221014180409"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "POST  ——  增加"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014180340-chp5c4f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221014180340-chp5c4f",
+						"updated": "20221014180417"
+					},
+					"Children": [
+						{
+							"ID": "20221014180340-iug0daa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014180340-iug0daa",
+								"updated": "20221014180417"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "DELETE  ——  删除"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014180350-xormkv9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221014180350-xormkv9",
+						"updated": "20221014180425"
+					},
+					"Children": [
+						{
+							"ID": "20221014180350-8tg6fsd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014180350-8tg6fsd",
+								"updated": "20221014180425"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "PUT  ——  更改"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014180325-tqem2ph",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221014180325-tqem2ph",
+						"updated": "20221014180428"
+					},
+					"Children": [
+						{
+							"ID": "20221014180325-xejb8l9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014180325-xejb8l9",
+								"updated": "20221014180428"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "GET  —— 查"
+								}
+							]
+						},
+						{
+							"ID": "20221014180336-dyg7vpr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014180336-dyg7vpr"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014180255-lb2f9j1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014180255-lb2f9j1"
+			}
+		},
+		{
+			"ID": "20221014180244-ffeui0s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014180244-ffeui0s"
+			}
+		},
+		{
+			"ID": "20221012134449-gh0yy7q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012134449-gh0yy7q"
+			}
+		}
+	]
+}

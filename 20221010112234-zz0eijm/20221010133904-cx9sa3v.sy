@@ -1,0 +1,1759 @@
+{
+	"ID": "20221010133904-cx9sa3v",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010133904-cx9sa3v",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221010145128-eo8b4fx\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221011141510-2uzxmjo\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3402,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221011134402-rs9nmhe\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:21,\u0026amp;quot;focusEnd\u0026amp;quot;:21}",
+		"title": "认识 node.js",
+		"updated": "20221011134130"
+	},
+	"Children": [
+		{
+			"ID": "20221010145128-eo8b4fx",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20221010145128-eo8b4fx",
+				"updated": "20221014185941"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20221014174449-fa0mtjd",
+					"Type": "NodeHeading",
+					"HeadingLevel": 2,
+					"Properties": {
+						"id": "20221014174449-fa0mtjd",
+						"updated": "20221014174526"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "迅速查找"
+						}
+					]
+				},
+				{
+					"ID": "20221014174528-x934smd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221014174528-x934smd",
+						"updated": "20221014174902"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "Web 开发框架："
+						}
+					]
+				},
+				{
+					"ID": "20221014174932-79isnfu",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221014174932-79isnfu",
+						"updated": "20221014185941"
+					},
+					"Children": [
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "block-ref",
+							"TextMarkBlockRefID": "20221014173838-tnbvrma",
+							"TextMarkBlockRefSubtype": "d",
+							"TextMarkTextContent": "koa + koa-router插件"
+						},
+						{
+							"Type": "NodeText",
+							"Data": " Koa是开发框架，路由使用的是  "
+						},
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "block-ref",
+							"TextMarkBlockRefID": "20221014175903-cbygkjp",
+							"TextMarkBlockRefSubtype": "s",
+							"TextMarkTextContent": "Koa-Router "
+						}
+					]
+				},
+				{
+					"ID": "20221014174935-eyw8voi",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221014174935-eyw8voi",
+						"updated": "20221014174942"
+					},
+					"Children": [
+						{
+							"Type": "NodeTextMark",
+							"TextMarkType": "block-ref",
+							"TextMarkBlockRefID": "20221010112635-6bwsllk",
+							"TextMarkBlockRefSubtype": "d",
+							"TextMarkTextContent": "express 基于node.js的Web开发框架"
+						}
+					]
+				},
+				{
+					"ID": "20221014174449-03lccwu",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221014174449-03lccwu"
+					}
+				},
+				{
+					"ID": "20221010144622-1o6rb3f",
+					"Type": "NodeHeading",
+					"HeadingLevel": 2,
+					"Properties": {
+						"id": "20221010144622-1o6rb3f",
+						"updated": "20221010144630"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "什么是node.js"
+						}
+					]
+				},
+				{
+					"ID": "20221010145013-1i0t88g",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221010145013-1i0t88g",
+						"updated": "20221010150546"
+					},
+					"Children": [
+						{
+							"ID": "20221010145508-ww5nt8t",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "MS4=",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20221010145508-ww5nt8t",
+								"updated": "20221010150546"
+							},
+							"Children": [
+								{
+									"ID": "20221010145508-nqvnq1j",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010145508-nqvnq1j",
+										"updated": "20221010150546"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "node.js官网"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "： "
+										},
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "a",
+											"TextMarkAHref": "https://nodejs.org/en/",
+											"TextMarkATitle": "node.js官网",
+											"TextMarkTextContent": "https://nodejs.org/en/"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010145458-bc9bix2",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221010145458-bc9bix2",
+						"updated": "20221010154718"
+					},
+					"Children": [
+						{
+							"ID": "20221010145510-npw51kn",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20221010145510-npw51kn",
+								"updated": "20221010150532"
+							},
+							"Children": [
+								{
+									"ID": "20221010145510-qe67fgk",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010145510-qe67fgk",
+										"updated": "20221010150532"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "为什么js代码可以被浏览器运行"
+										}
+									]
+								},
+								{
+									"ID": "20221010145722-8k6yhzs",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010145722-8k6yhzs",
+										"updated": "20221010145906"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "因为浏览器有JS引擎解析JS代码，"
+										},
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "block-ref",
+											"TextMarkBlockRefID": "20221010141521-ixnzpi3",
+											"TextMarkBlockRefSubtype": "d",
+											"TextMarkTextContent": "浏览器内核引擎"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221010145959-rc9eiee",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "My4=",
+								"Num": 3
+							},
+							"Properties": {
+								"id": "20221010145959-rc9eiee",
+								"updated": "20221010150536"
+							},
+							"Children": [
+								{
+									"ID": "20221010145959-q7onk7b",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010145959-q7onk7b",
+										"updated": "20221010150536"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "为什么JS可以操作BOM，DOM?"
+										}
+									]
+								},
+								{
+									"ID": "20221010150032-i4lrp8w",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010150032-i4lrp8w",
+										"updated": "20221010150438"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "因为浏览器内置BOM,DOM操作的API，JS代码调用API通过浏览器JS引擎解析来操作DOM,BOM，不同浏览器因为内核不同内置的API也不同"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221010150320-v5sjhtb",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "NC4=",
+								"Num": 4
+							},
+							"Properties": {
+								"id": "20221010150320-v5sjhtb",
+								"updated": "20221010154718"
+							},
+							"Children": [
+								{
+									"ID": "20221010150320-owsrjru",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010150320-owsrjru",
+										"updated": "20221010150540"
+									},
+									"Children": [
+										{
+											"Type": "NodeTextMark",
+											"TextMarkType": "strong",
+											"TextMarkTextContent": "JS有两种运行环境："
+										}
+									]
+								},
+								{
+									"ID": "20221010150339-uplwgzy",
+									"Type": "NodeList",
+									"ListData": {
+										"Typ": 1
+									},
+									"Properties": {
+										"id": "20221010150339-uplwgzy",
+										"updated": "20221010154718"
+									},
+									"Children": [
+										{
+											"ID": "20221010150338-ignnr1o",
+											"Type": "NodeListItem",
+											"ListData": {
+												"Typ": 1,
+												"Delimiter": 46,
+												"Marker": "MS4=",
+												"Num": 1
+											},
+											"Properties": {
+												"id": "20221010150338-ignnr1o",
+												"updated": "20221010150513"
+											},
+											"Children": [
+												{
+													"ID": "20221010150338-ij008qj",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20221010150338-ij008qj",
+														"updated": "20221010150513"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "运行在浏览器上：进行前端开发"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20221010150346-6prdrpi",
+											"Type": "NodeListItem",
+											"ListData": {
+												"Typ": 1,
+												"Delimiter": 46,
+												"Marker": "Mi4=",
+												"Num": 2
+											},
+											"Properties": {
+												"id": "20221010150346-6prdrpi",
+												"style": "color: var(--b3-font-color8); background-color: var(--b3-card-warning-background);",
+												"updated": "20221010154718"
+											},
+											"Children": [
+												{
+													"ID": "20221010150346-mp19i9j",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20221010150346-mp19i9j",
+														"updated": "20221010154718"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "运行在node.js上：运行在服务器上，进行后端开发，"
+														},
+														{
+															"Type": "NodeTextMark",
+															"Properties": {
+																"style": "color: var(--b3-font-color11);"
+															},
+															"TextMarkType": "text",
+															"TextMarkTextContent": "node.js是基于chrome v8引擎的JS运行"
+														},
+														{
+															"Type": "NodeKramdownSpanIAL",
+															"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "环境，node.js无法调用DON,BOM等浏览器内置API"
+														}
+													]
+												},
+												{
+													"ID": "20221010154503-qzbeggu",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20221010154503-qzbeggu",
+														"updated": "20221010154543"
+													},
+													"Children": [
+														{
+															"Type": "NodeTextMark",
+															"TextMarkType": "strong",
+															"TextMarkTextContent": "即：借助node.js也可以使用JS进行后端开发"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010144622-43kygm1",
+					"Type": "NodeHeading",
+					"HeadingLevel": 2,
+					"Properties": {
+						"id": "20221010144622-43kygm1",
+						"updated": "20221010145610"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "node.js用来做什么"
+						}
+					]
+				},
+				{
+					"ID": "20221010151018-nfq7e8w",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010151018-nfq7e8w",
+						"updated": "20221010151206"
+					},
+					"Children": [
+						{
+							"Type": "NodeTextMark",
+							"Properties": {
+								"style": "font-size: 19px;"
+							},
+							"TextMarkType": "text",
+							"TextMarkTextContent": "node.js提供基础的JS语法和内置API，基于 Node.js 提供的这些基础能，很多强大的工具和框架如雨后春笋"
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"font-size: 19px;\"}"
+						}
+					]
+				},
+				{
+					"ID": "20221010151216-r2ceah4",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 1
+					},
+					"Properties": {
+						"id": "20221010151216-r2ceah4",
+						"updated": "20221010155223"
+					},
+					"Children": [
+						{
+							"ID": "20221010151237-8u6yfg5",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "MS4=",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20221010151237-8u6yfg5",
+								"updated": "20221010151237"
+							},
+							"Children": [
+								{
+									"ID": "20221010151238-444plfh",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010151238-444plfh",
+										"updated": "20221010151341"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "node.js 第三方API Express ：快速构建WEB应用"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221010151343-dwudtpz",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "Mi4=",
+								"Num": 2
+							},
+							"Properties": {
+								"id": "20221010151343-dwudtpz"
+							},
+							"Children": [
+								{
+									"ID": "20221010151343-84hl3aj",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010151343-84hl3aj",
+										"updated": "20221010151438"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Electron：构建桌面应用"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20221010151438-2ii5hdi",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 1,
+								"Delimiter": 46,
+								"Marker": "My4=",
+								"Num": 3
+							},
+							"Properties": {
+								"id": "20221010151438-2ii5hdi",
+								"updated": "20221010155223"
+							},
+							"Children": [
+								{
+									"ID": "20221010151438-9vx1s6x",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20221010151438-9vx1s6x",
+										"updated": "20221010155223"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "restify：快速构建 API 接口项目，可以写后端接口"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010144623-fmkkgxi",
+					"Type": "NodeHeading",
+					"HeadingLevel": 2,
+					"Properties": {
+						"id": "20221010144623-fmkkgxi",
+						"updated": "20221010144643"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "node.js中的JS组成部分有什么"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20221010133915-p09xwu5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010133915-p09xwu5",
+				"updated": "20221011133303"
+			},
+			"Children": [
+				{
+					"ID": "20221010141323-jf8wsi3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20221010141323-jf8wsi3",
+						"updated": "20221011133303"
+					},
+					"Children": [
+						{
+							"ID": "20221010141323-b62w1aa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010141323-b62w1aa",
+								"updated": "20221010141939"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node.js 的组成有三个："
+								}
+							]
+						},
+						{
+							"ID": "20221010143213-kqaw2lb",
+							"Type": "NodeList",
+							"ListData": {},
+							"Properties": {
+								"id": "20221010143213-kqaw2lb",
+								"updated": "20221011133303"
+							},
+							"Children": [
+								{
+									"ID": "20221010143227-s4wgych",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010143227-s4wgych",
+										"updated": "20221010151609"
+									},
+									"Children": [
+										{
+											"ID": "20221010143227-81on205",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010143227-81on205",
+												"updated": "20221010151609"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "JavaScript 基础语法"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010143213-ijg20wr",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010143213-ijg20wr",
+										"updated": "20221011133303"
+									},
+									"Children": [
+										{
+											"ID": "20221010143012-8y19obz",
+											"Type": "NodeHeading",
+											"HeadingLevel": 3,
+											"Properties": {
+												"id": "20221010143012-8y19obz",
+												"updated": "20221011133303"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "block-ref",
+													"TextMarkBlockRefID": "20221010112416-opd3ydr",
+													"TextMarkBlockRefSubtype": "d",
+													"TextMarkTextContent": "node.js内置API"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "   "
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010143253-mt0fltp",
+									"Type": "NodeListItem",
+									"ListData": {
+										"BulletChar": 42,
+										"Marker": "Kg=="
+									},
+									"Properties": {
+										"id": "20221010143253-mt0fltp",
+										"updated": "20221011133300"
+									},
+									"Children": [
+										{
+											"ID": "20221010143253-hj7vavt",
+											"Type": "NodeHeading",
+											"HeadingLevel": 3,
+											"Properties": {
+												"id": "20221010143253-hj7vavt",
+												"updated": "20221011133300"
+											},
+											"Children": [
+												{
+													"Type": "NodeTextMark",
+													"TextMarkType": "block-ref",
+													"TextMarkBlockRefID": "20221010112635-0yshozk",
+													"TextMarkBlockRefSubtype": "d",
+													"TextMarkTextContent": "node.js 第三方API模块"
+												},
+												{
+													"Type": "NodeText",
+													"Data": "  "
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010143254-4wyyaw1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010143254-4wyyaw1",
+				"updated": "20221010151745"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "node.js的安装"
+				}
+			]
+		},
+		{
+			"ID": "20221010152013-awujf0g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010152013-awujf0g",
+				"updated": "20221010152124"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221010133456-9nm8pbv",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "node.js的命令"
+				}
+			]
+		},
+		{
+			"ID": "20221010155357-1e70kqw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010155357-1e70kqw",
+				"updated": "20221010155734"
+			},
+			"Children": [
+				{
+					"ID": "20221010155403-0zlbz0j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010155403-0zlbz0j",
+						"updated": "20221010155734"
+					},
+					"Children": [
+						{
+							"ID": "20221010155403-ayqfnty",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010155403-ayqfnty",
+								"updated": "20221010155734"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "LTS：长期稳定版，对于追求稳定性的企业级项目来说，推荐安装 LTS 版本的 Node.js。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010155425-fk0zcb5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010155425-fk0zcb5",
+						"updated": "20221010155720"
+					},
+					"Children": [
+						{
+							"ID": "20221010155425-hwj2cao",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010155425-hwj2cao",
+								"updated": "20221010155720"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Current：新特性尝鲜版，可能存在隐藏的 Bug 或安全性漏洞"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010153029-57865fk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010153029-57865fk",
+				"updated": "20221011133015"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模块化"
+				}
+			]
+		},
+		{
+			"ID": "20221010152131-zakl39d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010152131-zakl39d",
+				"updated": "20221011133131"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模块化是指解决一个复杂问题时，自顶向下逐层把系统划分成若干模块的过程。对于整个系统来说，模块是可组合、分解和更换的单元"
+				}
+			]
+		},
+		{
+			"ID": "20221011133522-w6r09w4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133522-w6r09w4",
+				"updated": "20221011133530"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "模块化规范"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "就是对代码进行模块化的拆分与组合时，需要遵守的那些规则。"
+				}
+			]
+		},
+		{
+			"ID": "20221011133544-xljxe2v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133544-xljxe2v",
+				"updated": "20221011142359"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "模块化规范的好处"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：大家都遵守同样的模块化规范写代码，降低了沟通的成本，极大方便了各个模块之间的相互调用，利人利己。例：Common.js是一个"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "strong text",
+					"TextMarkTextContent": "模块化规范"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011145935-hnieed1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011145935-hnieed1",
+				"updated": "20221011150055"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Common.js 模块化规范"
+				}
+			]
+		},
+		{
+			"ID": "20221011150056-xzfwhn7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011150056-xzfwhn7",
+				"updated": "20221011150102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Node.js 遵循了 CommonJS 模块化规范，CommonJS 规定了模块的特性和各模块之间如何相互依赖。"
+				}
+			]
+		},
+		{
+			"ID": "20221011150115-vovrucl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011150115-vovrucl",
+				"updated": "20221011150115"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①每个模块内部，module 变量代表当前模块。"
+				}
+			]
+		},
+		{
+			"ID": "20221011150115-bxuqpip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011150115-bxuqpip",
+				"updated": "20221011150119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②module 变量是一个对象，它的 exports 属性（即 module.exports）是对外的接口。"
+				}
+			]
+		},
+		{
+			"ID": "20221011150115-mhzm07x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011150115-mhzm07x",
+				"updated": "20221011150141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③加载某个模块，是加载该模块的 module.exports 属性。require() 方法用于加载模块。"
+				}
+			]
+		},
+		{
+			"ID": "20221011150023-m78tuz5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011150023-m78tuz5"
+			}
+		},
+		{
+			"ID": "20221011133458-umkd5z3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011133458-umkd5z3",
+				"updated": "20221011133506"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模块化拆分的好处"
+				}
+			]
+		},
+		{
+			"ID": "20221011133458-sqw2t4y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133458-sqw2t4y",
+				"updated": "20221011133458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①提高了代码的复用性"
+				}
+			]
+		},
+		{
+			"ID": "20221011133458-5zdqwev",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133458-5zdqwev",
+				"updated": "20221011133458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②提高了代码的可维护性"
+				}
+			]
+		},
+		{
+			"ID": "20221011133458-f4gp6dp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133458-f4gp6dp",
+				"updated": "20221011133458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③可以实现按需加载"
+				}
+			]
+		},
+		{
+			"ID": "20221011133629-nvrbae7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011133629-nvrbae7",
+				"updated": "20221011133744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Node.js 模块分类："
+				}
+			]
+		},
+		{
+			"ID": "20221011133629-sfhtou5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133629-sfhtou5",
+				"updated": "20221011133629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 内置模块（内置模块是由 Node.js 官方提供的，例如 fs、path、http 等）"
+				}
+			]
+		},
+		{
+			"ID": "20221011133629-3xv0pfr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133629-3xv0pfr",
+				"updated": "20221011133629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 自定义模块（用户创建的每个 .js 文件，都是自定义模块）"
+				}
+			]
+		},
+		{
+			"ID": "20221011133629-pzg539s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133629-pzg539s",
+				"updated": "20221011133629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 第三方模块（由第三方开发出来的模块，并非官方提供的内置模块，也不是用户创建的自定义模块，使用前需要先下载）"
+				}
+			]
+		},
+		{
+			"ID": "20221011133011-bnr6zoe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011133011-bnr6zoe",
+				"updated": "20221011133710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "加载模块：require()"
+				}
+			]
+		},
+		{
+			"ID": "20221011133717-qjyby4i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133717-qjyby4i",
+				"updated": "20221011133922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用require() 方法，可以加载内置模块、用户自定义模块、第三方模块进行使用。"
+				}
+			]
+		},
+		{
+			"ID": "20221011134117-cdfzh7n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011134117-cdfzh7n",
+				"updated": "20221011143117"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "注意：使用 require() 方法加载其它模块时，会执行被加载模块中的代码。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011133923-d16581y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221011133923-d16581y",
+				"updated": "20221011143047"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//使用require() 方法，可以加载内置模块、用户自定义模块、第三方模块进行使用。\n//加载内置模块\nconst fs = require('fs')\n//加载用户自定义模块,需要路径\n//后缀名可省略\nconst custom = require('./custom.js')\nconst custom = require('./custom')\n//加载第三方模块进行使用。\nconst moment = require('moment')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221011133810-f4c5eot",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011133810-f4c5eot",
+				"updated": "20221011134130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模块作用域"
+				}
+			]
+		},
+		{
+			"ID": "20221011134140-qupqawo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011134140-qupqawo",
+				"updated": "20221011134233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "和函数作用域类似，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "在自定义模块中定义的变量、方法等成员，只能在当前模块内被访问，这种模块级别的访问限制，叫做模块作用域。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011134402-rs9nmhe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011134402-rs9nmhe",
+				"updated": "20221011141806"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text u",
+					"TextMarkTextContent": "自定义模块中定义的变量、方法"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "u",
+					"TextMarkTextContent": "是模块A的"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color8); font-size: 19px;"
+					},
+					"TextMarkType": "strong text u",
+					"TextMarkTextContent": "私有成员"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color8); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "u",
+					"TextMarkTextContent": "，导入模块A也无法访问"
+				}
+			]
+		},
+		{
+			"ID": "20221011134140-bpce4aq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011134140-bpce4aq",
+				"updated": "20221011134334"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011134334-73kks1q.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011134140-xfu1mkp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011134140-xfu1mkp",
+				"updated": "20221011134523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模块作用域的好处"
+				}
+			]
+		},
+		{
+			"ID": "20221011134529-kt3c1gu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011134529-kt3c1gu",
+				"updated": "20221011134549"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "防止了全局变量污染的问题"
+				}
+			]
+		},
+		{
+			"ID": "20221011133712-2r3ssuy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133712-2r3ssuy",
+				"updated": "20221011141731"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011141731-3039krk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011143254-cimulrp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011143254-cimulrp",
+				"updated": "20221011143635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如上图所示，发生全局变量污染问题，index.html文件引入的reg.js会将reg.js的username变量保存在window对象属性下作为全局变量使用，index.html文件再引入的index.js会将index.js的username变量也保存在window对象属性下作为全局变量使用，这时全局变量username已经被重新赋值，失去了zs值。"
+				}
+			]
+		},
+		{
+			"ID": "20221011141909-509v3k5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011141909-509v3k5",
+				"updated": "20221011144856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "向外共享模块作用域中的成员：module.exports === exports "
+				}
+			]
+		},
+		{
+			"ID": "20221011141909-54vog5o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011141909-54vog5o",
+				"updated": "20221011142025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "module 对象：存储当前模块有关的信息"
+				}
+			]
+		},
+		{
+			"ID": "20221011142027-funbi2n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011142027-funbi2n",
+				"updated": "20221011142037"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在每个 .js 自定义模块中都有一个 module 对象，它里面存储了和当前模块有关的信息，打印如下："
+				}
+			]
+		},
+		{
+			"ID": "20221011142146-zcxixbw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011142146-zcxixbw",
+				"updated": "20221011143854"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011143854-o95rmwh.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011142146-sp570nm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011142146-sp570nm",
+				"updated": "20221011143916"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "在自定义模块中，可以使用 module.exports 对象，将模块内的成员共享出去"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221011144442-4yxzcqd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011144442-4yxzcqd",
+				"updated": "20221011144538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "外界用 require() 方法导入自定义模块时，得到的就是 module.exports 所指向的对象。模块不对module.exports对象赋值，被导入时  const custom = require('./custom.js')  custom会是{} 空对象。"
+				}
+			]
+		},
+		{
+			"ID": "20221011144754-vzp3xiv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011144754-vzp3xiv",
+				"updated": "20221011144807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于 module.exports 单词写起来比较复杂，为了简化向外共享成员的代码，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color10);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "Node 提供了 exports 对象。默认情况下，exports 和 module.exports 指向同一个对象。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color10);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "最终共享的结果，还是以 module.exports 指向的对象为准。"
+				}
+			]
+		},
+		{
+			"ID": "20221011144343-cxm1d5y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011144343-cxm1d5y",
+				"updated": "20221011144536"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011144536-wl87exv.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011144115-7bpl5rr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221011144115-7bpl5rr",
+				"updated": "20221011145002"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "exports 和 module.exports 的使用误区"
+				}
+			]
+		},
+		{
+			"ID": "20221011145010-euh0ijo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011145010-euh0ijo",
+				"updated": "20221011145016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "时刻谨记，require() 模块时，得到的永远是 module.exports 指向的对象："
+				}
+			]
+		},
+		{
+			"ID": "20221011144116-euz0m1f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011144116-euz0m1f",
+				"updated": "20221011145854"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221011145854-b3o3oby.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221011144116-lvc5jua",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011144116-lvc5jua"
+			}
+		},
+		{
+			"ID": "20221011144116-czxjpra",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011144116-czxjpra"
+			}
+		},
+		{
+			"ID": "20221011134725-y83ufh7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221011134725-y83ufh7",
+				"updated": "20221011134727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模块的加载机制"
+				}
+			]
+		},
+		{
+			"ID": "20221011134725-msrx0jz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011134725-msrx0jz"
+			}
+		},
+		{
+			"ID": "20221011133102-zniow50",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133102-zniow50",
+				"updated": "20221011134152"
+			}
+		},
+		{
+			"ID": "20221011133102-410djb0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221011133102-410djb0",
+				"updated": "20221011141253"
+			}
+		},
+		{
+			"ID": "20221011141510-2uzxmjo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221011141510-2uzxmjo",
+				"updated": "20221011141608"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221011141522-76z3jqu",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "npm与包"
+				}
+			]
+		}
+	]
+}

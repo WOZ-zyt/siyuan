@@ -1,0 +1,91 @@
+{
+	"ID": "20221010143455-zuw5ed8",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010143455-zuw5ed8",
+		"title": "1010",
+		"updated": "20221010143609"
+	},
+	"Children": [
+		{
+			"ID": "20221010143603-z23edid",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010143603-z23edid",
+				"updated": "20221010143609"
+			},
+			"Children": [
+				{
+					"ID": "20221010143609-vwu0xja",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010143609-vwu0xja",
+						"updated": "20221010143609"
+					},
+					"Children": [
+						{
+							"ID": "20221010143609-a6ck3bm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010143609-a6ck3bm",
+								"updated": "20221010143621"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开始学习node.js"
+								}
+							]
+						},
+						{
+							"ID": "20221010143646-ehu8nh6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010143646-ehu8nh6"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20221010143622-vzmlo9g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010143622-vzmlo9g"
+					},
+					"Children": [
+						{
+							"ID": "20221010143622-83d6cf7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010143622-83d6cf7",
+								"updated": "20221010143639"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "学习了下——如何学习"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

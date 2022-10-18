@@ -1,0 +1,62 @@
+{
+	"ID": "20221012170934-zx5lz04",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221012170934-zx5lz04",
+		"title": "Untitled",
+		"updated": "20221012195732"
+	},
+	"Children": [
+		{
+			"ID": "20221012170934-l48ub41",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012170934-l48ub41",
+				"updated": "20221012195732"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012195732-qwjybsu.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012195732-ryuc0wq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012195732-ryuc0wq"
+			}
+		}
+	]
+}

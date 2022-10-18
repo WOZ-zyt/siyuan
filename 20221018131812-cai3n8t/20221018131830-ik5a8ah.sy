@@ -1,0 +1,332 @@
+{
+	"ID": "20221018131830-ik5a8ah",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221018131830-ik5a8ah",
+		"title": "Docker 容器技术",
+		"updated": "20221018140107"
+	},
+	"Children": [
+		{
+			"ID": "20221018131847-ye1nmd9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018131847-ye1nmd9",
+				"updated": "20221018131930"
+			},
+			"Children": [
+				{
+					"ID": "20221018131930-5kb1i4g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221018131930-5kb1i4g",
+						"updated": "20221018131930"
+					},
+					"Children": [
+						{
+							"ID": "20221018131930-i6926yi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018131930-i6926yi",
+								"updated": "20221018131930"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "认识 虚拟机 和 容器 的区别"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018133641-ap41dvk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133641-ap41dvk",
+				"updated": "20221018134707"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "虚拟化技术局限性："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "每个虚拟机都是完整的操作系统，虚拟机数量增多，安装虚拟机的操作系统本身消耗的资源增多"
+				}
+			]
+		},
+		{
+			"ID": "20221018134147-1obk4ft",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018134147-1obk4ft",
+				"updated": "20221018134712"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "容器："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "将开发后所以代码和环境一起放在容器里，方便共享，运维使用代码不需要下载环境即可使用。对软件和依赖的标准化打包，应用之间相互隔离，共享同一个OS kernel 核心，可以运行在很多主流操作系统上"
+				}
+			]
+		},
+		{
+			"ID": "20221018134723-3kgoxec",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018134723-3kgoxec",
+				"updated": "20221018134747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  容器技术的两大软件：Docker  kubernetes(k8s)"
+				}
+			]
+		},
+		{
+			"ID": "20221018131924-clx2pxp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221018131924-clx2pxp",
+				"updated": "20221018132029"
+			},
+			"Children": [
+				{
+					"ID": "20221018132029-cpjrnvm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221018132029-cpjrnvm",
+						"updated": "20221018132029"
+					},
+					"Children": [
+						{
+							"ID": "20221018132029-0v0cv23",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018132029-0v0cv23",
+								"updated": "20221018132040"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Docker 的作用"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221018132040-vr62elt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018132040-vr62elt",
+				"updated": "20221018132153"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简化配置  整合服务器  代码流水线管理  调试能力  "
+				}
+			]
+		},
+		{
+			"ID": "20221018133243-6ccix4y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133243-6ccix4y"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提高开发效率  多租户 隔离应用  快速部署"
+				}
+			]
+		},
+		{
+			"ID": "20221018132641-xlknfma",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018132641-xlknfma",
+				"updated": "20221018133639"
+			}
+		},
+		{
+			"ID": "20221018133553-bwdjril",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133553-bwdjril",
+				"updated": "20221018140107"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.bilibili.com/video/BV1ga411H7K3?p=23\u0026vd_source=ee2c91f53ddb3776c265756c270d8d8a",
+					"TextMarkTextContent": "24.Dockerfile实战-_哔哩哔哩_bilibili"
+				}
+			]
+		},
+		{
+			"ID": "20221018132824-1rutu4t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221018132824-1rutu4t",
+				"updated": "20221018132839"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Docker 环境的搭建"
+				}
+			]
+		},
+		{
+			"ID": "20221018135619-x6ds4fh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018135619-x6ds4fh",
+				"updated": "20221018135645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看 Docker : docker version"
+				}
+			]
+		},
+		{
+			"ID": "20221018132839-u617csp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018132839-u617csp"
+			}
+		},
+		{
+			"ID": "20221018132839-qhv7xz9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221018132839-qhv7xz9",
+				"updated": "20221018132915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Docker 的镜像 和容器"
+				}
+			]
+		},
+		{
+			"ID": "20221018132915-7ijoayf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018132915-7ijoayf"
+			}
+		},
+		{
+			"ID": "20221018132916-ek3tdxx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221018132916-ek3tdxx",
+				"updated": "20221018132933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Docker 的网络"
+				}
+			]
+		},
+		{
+			"ID": "20221018132933-2q6qtre",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018132933-2q6qtre"
+			}
+		},
+		{
+			"ID": "20221018132933-a3u5f59",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221018132933-a3u5f59",
+				"updated": "20221018133027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Docker 的持久化存储和数据共享"
+				}
+			]
+		},
+		{
+			"ID": "20221018133055-0fmg1sp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133055-0fmg1sp"
+			}
+		},
+		{
+			"ID": "20221018133055-mt1kgt2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133055-mt1kgt2",
+				"updated": "20221018133125"
+			}
+		},
+		{
+			"ID": "20221018133114-4mtngw7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018133114-4mtngw7"
+			}
+		}
+	]
+}

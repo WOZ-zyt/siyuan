@@ -1,0 +1,1184 @@
+{
+	"ID": "20221012132352-tdid7e6",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221012132352-tdid7e6",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221012132352-vzhpcka\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221012143921-lv4n3nc\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3934.39990234375,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221012145230-a5wudi4\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:195,\u0026amp;quot;focusEnd\u0026amp;quot;:195}",
+		"title": "CORS 跨域资源共享",
+		"updated": "20221012145512"
+	},
+	"Children": [
+		{
+			"ID": "20221012132352-vzhpcka",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221012132352-vzhpcka",
+				"updated": "20221012132403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是 CORS"
+				}
+			]
+		},
+		{
+			"ID": "20221012132410-j954zgw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132410-j954zgw",
+				"updated": "20221012132525"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CORS （Cross-Origin Resource Sharing，跨域资源共享）由一系列 HTTP 响应头组成，这些"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": " HTTP 响应头决定浏览器是否阻止前端 JS 代码跨域获取资源。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012132410-wla2gx3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132410-wla2gx3",
+				"updated": "20221012132624"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器的"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color6); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "同源安全策略"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color6); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "默认会阻止网页“跨域”获取资源。"
+				}
+			]
+		},
+		{
+			"ID": "20221012132625-me612q2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132625-me612q2",
+				"updated": "20221012132628"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color1);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "如果接口服务器配置了 CORS 相关的 HTTP 响应头，就可以解除浏览器端的跨域访问限制。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color1);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221012132404-a5hex6e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132404-a5hex6e",
+				"updated": "20221012132744"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012132719-uubt56m.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012132725-mjf3i21.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012132733-pqhk0k3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132733-pqhk0k3",
+				"updated": "20221012132809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CORS 的注意事项"
+				}
+			]
+		},
+		{
+			"ID": "20221012132816-y3x98yf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012132816-y3x98yf",
+				"updated": "20221012132918"
+			},
+			"Children": [
+				{
+					"ID": "20221012132824-be7r3mb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012132824-be7r3mb",
+						"updated": "20221012132918"
+					},
+					"Children": [
+						{
+							"ID": "20221012132824-3e5cj61",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012132824-3e5cj61",
+								"updated": "20221012132918"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color7);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "CORS 主要在服务器端进行配置。"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "客户端浏览器无须做任何额外的配置，即可请求开启了 CORS 的接口。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012132816-sj4hopu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012132816-sj4hopu",
+				"updated": "20221012132827"
+			},
+			"Children": [
+				{
+					"ID": "20221012132827-gnbeyjr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012132827-gnbeyjr",
+						"updated": "20221012132827"
+					},
+					"Children": [
+						{
+							"ID": "20221012132827-1ymnfv7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012132827-1ymnfv7",
+								"updated": "20221012132827"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "CORS 在浏览器中有兼容性。只有支持 XMLHttpRequest Level2 的浏览器，才能正常访问开启了 CORS 的服务端接口（例如：IE10+、Chrome4+、FireFox3.5+）。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012132844-7mhtovw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221012132844-7mhtovw",
+				"updated": "20221012132933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CORS 响应头部 Access-Control-Allow-Origin"
+				}
+			]
+		},
+		{
+			"ID": "20221012132926-xujtwrx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012132926-xujtwrx",
+				"updated": "20221012132943"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "响应头部中可以携带一个 Access-Control-Allow-Origin 字段"
+				}
+			]
+		},
+		{
+			"ID": "20221012132944-znwi5b3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012132944-znwi5b3",
+				"updated": "20221012144509"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//其中，origin 参数的值指定了允许访问该资源的外域 URL。\nAccess-Control-Allow-Origin: \u003corigin\u003e | *\n//例如，下面的字段值将只允许来自 http://itcast.cn 的请求：\nres.setHeader('Access-Control-Allow-Origin':'http://itcast.cn')\n//如果指定了 Access-Control-Allow-Origin 字段的值为通配符 *，表示允许来自任何域的请求\nres.setHeader('Access-Control-Allow-Origin':'*')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012133031-82lqfti",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221012133031-82lqfti",
+				"updated": "20221012133204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CORS 响应头部  Access-Control-Allow-Headers"
+				}
+			]
+		},
+		{
+			"ID": "20221012133213-9rbu2eh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012133213-9rbu2eh",
+				"updated": "20221012143503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认情况下，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "CORS 仅支持客户端向服务器发送如下的 9 个请求头"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				}
+			]
+		},
+		{
+			"ID": "20221012133213-d25a6zk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012133213-d25a6zk",
+				"updated": "20221012133213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  Accept、Accept-Language、Content-Language、DPR、Downlink、Save-Data、Viewport-Width、Width 、Content-Type （值仅限于 text/plain、multipart/form-、application/x-www-form-urlencoded 三者之一）"
+				}
+			]
+		},
+		{
+			"ID": "20221012133213-nbpyv7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012133213-nbpyv7b",
+				"updated": "20221012133213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  如果客户端向服务器发送了额外的请求头信息，则需要在服务器端，通过 Access-Control-Allow-Headers 对额外的请求头进行声明，否则这次请求会失败！"
+				}
+			]
+		},
+		{
+			"ID": "20221012143533-mq4rb8t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143533-mq4rb8t",
+				"updated": "20221012143534"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012143534-wf55ndk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012143538-g685n4g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221012143538-g685n4g",
+				"updated": "20221012143558"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CORS 响应头部  Access-Control-Allow-Methods"
+				}
+			]
+		},
+		{
+			"ID": "20221012143614-k16f4in",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143614-k16f4in",
+				"updated": "20221012143620"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "默认情况下，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "CORS 仅支持客户端发起 GET、POST、HEAD 请求"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20221012143614-wzarja8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143614-wzarja8",
+				"updated": "20221012143614"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  如果客户端希望通过 PUT、DELETE 等方式请求服务器的资源，则需要在服务器端，通过 Access-Control-Alow-Methods来指明实际请求所允许使用的 HTTP 方法。"
+				}
+			]
+		},
+		{
+			"ID": "20221012143627-nh89z4m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143627-nh89z4m",
+				"updated": "20221012143632"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012143632-3knygwh.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012143622-mf3njq1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221012143622-mf3njq1",
+				"updated": "20221012143655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CORS请求的分类"
+				}
+			]
+		},
+		{
+			"ID": "20221012143707-x4sq76j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143707-x4sq76j",
+				"updated": "20221012143732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端在请求 CORS 接口时，根据请求方式和请求头的不同，可以将 CORS 的请求分为两大类，分别是：(1)  简单请求     (2)  预检请求"
+				}
+			]
+		},
+		{
+			"ID": "20221012143732-sn2qkpw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221012143732-sn2qkpw",
+				"updated": "20221012143750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单请求"
+				}
+			]
+		},
+		{
+			"ID": "20221012143813-gxfdkyq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143813-gxfdkyq",
+				"updated": "20221012143813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同时满足以下两大条件的请求，就属于简单请求："
+				}
+			]
+		},
+		{
+			"ID": "20221012143813-15oill1",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012143813-15oill1",
+				"updated": "20221012143822"
+			},
+			"Children": [
+				{
+					"ID": "20221012143822-bwl9k2g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012143822-bwl9k2g",
+						"updated": "20221012143822"
+					},
+					"Children": [
+						{
+							"ID": "20221012143822-ruaullo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012143822-ruaullo",
+								"updated": "20221012143822"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求方式：GET、POST、HEAD 三者之一"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012143813-51rcgjk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012143813-51rcgjk",
+				"updated": "20221012143825"
+			},
+			"Children": [
+				{
+					"ID": "20221012143825-zbz9f6t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012143825-zbz9f6t",
+						"updated": "20221012143825"
+					},
+					"Children": [
+						{
+							"ID": "20221012143825-obptmzv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012143825-obptmzv",
+								"updated": "20221012143825"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP 头部信息不超过以下几种字段：无自定义头部字段、Accept、Accept-Language、Content-Language、DPR、Downlink、Save-Data、Viewport-Width、Width 、Content-Type（只有三个值application/x-www-form-urlencoded、multipart/form-、text/plain）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012143753-byjjjof",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221012143753-byjjjof",
+				"updated": "20221012143754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "预检请求"
+				}
+			]
+		},
+		{
+			"ID": "20221012143841-hrqil0b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143841-hrqil0b",
+				"updated": "20221012143841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "只要符合以下任何一个条件的请求，都需要进行预检请求："
+				}
+			]
+		},
+		{
+			"ID": "20221012143841-bv0xw4x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143841-bv0xw4x",
+				"updated": "20221012143841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① 请求方式为 GET、POST、HEAD 之外的请求 Method 类型"
+				}
+			]
+		},
+		{
+			"ID": "20221012143841-rxwt1ea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143841-rxwt1ea",
+				"updated": "20221012143841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② 请求头中包含自定义头部字段"
+				}
+			]
+		},
+		{
+			"ID": "20221012143841-u6dsqyi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143841-u6dsqyi",
+				"updated": "20221012143841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③ 向服务器发送了 application/json 格式的数据"
+				}
+			]
+		},
+		{
+			"ID": "20221012143841-ahdzsg3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143841-ahdzsg3",
+				"updated": "20221012143903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     在浏览器与服务器正式通信之前，浏览器会先发送 OPTION 请求进行预检，以获知服务器是否允许该实际请求，所以这一次的 OPTION 请求称为“预检请求”。服务器成功响应预检请求后，才会发送真正的请求，并且携带真实数据。"
+				}
+			]
+		},
+		{
+			"ID": "20221012144940-gi5wsma",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012144940-gi5wsma",
+				"updated": "20221012144941"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221012144941-x8lfrgd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221012144947-ew805vp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012144947-ew805vp",
+				"updated": "20221012145027"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "客户端与服务器之间会发生两次请求，如上图"
+				}
+			]
+		},
+		{
+			"ID": "20221012145307-ir4a8zc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012145307-ir4a8zc",
+				"updated": "20221012145307"
+			},
+			"Children": [
+				{
+					"ID": "20221012145307-tt1zjae",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012145307-tt1zjae",
+						"updated": "20221012145307"
+					},
+					"Children": [
+						{
+							"ID": "20221012145307-ftkvmht",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012145307-ftkvmht",
+								"updated": "20221012145307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建基本服务器，为路由添加前缀"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012145307-j3k7y3b",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012145307-j3k7y3b",
+				"updated": "20221012145307"
+			},
+			"Children": [
+				{
+					"ID": "20221012145307-tycga01",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012145307-tycga01",
+						"updated": "20221012145307"
+					},
+					"Children": [
+						{
+							"ID": "20221012145307-1v3hfpm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012145307-1v3hfpm",
+								"updated": "20221012145307"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建路由模块，路由挂载POST，将路由实例导出"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012145254-s8vkdcq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012145254-s8vkdcq",
+				"updated": "20221012145309"
+			},
+			"Children": [
+				{
+					"ID": "20221012145309-w1ytwnb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012145309-w1ytwnb",
+						"updated": "20221012145309"
+					},
+					"Children": [
+						{
+							"ID": "20221012145309-aepdtah",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012145309-aepdtah",
+								"updated": "20221012145309"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用JQ的ajax测试接口"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012145210-119j4ib",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012145210-119j4ib",
+				"updated": "20221012145210"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//服务器实例文件.js\n// 导入 express\nconst express = require('express')\n// 创建服务器实例\nconst app = express()\n// 导入路由模块\nconst router = require('./16.apiRouter')\n\n// 一定要在路由之前，配置 cors 这个中间件，从而解决接口跨域的问题\nconst cors = require('cors')\napp.use(cors())\n\n// 把路由模块，注册到 app 上\napp.use('/api', router)\n\n// 配置解析表单数据的中间件\napp.use(express.urlencoded({ extended: false }))\n\n// 启动服务器\napp.listen(80, () =\u003e {\n  console.log('express server running at http://127.0.0.1')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012145230-a5wudi4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012145230-a5wudi4",
+				"updated": "20221012145512"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//路有模块.js\nconst express = require('express')\nconst router = express.Router()\n\n// 定义 DELETE 接口\nrouter.delete('/delete', (req, res) =\u003e {\n  res.send({\n    status: 0,\n    msg: 'DELETE请求成功',\n  })\n})\n\nmodule.exports = router  //将路由实例导出\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012145246-8bmwobl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221012145246-8bmwobl",
+				"updated": "20221012145430"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "‍‍```html\n\u003c!-- 使用JQ的ajax测试接口 --\u003e\n\u003c!DOCTYPE html\u003e\n\u003chtml lang=\"en\"\u003e\n  \u003chead\u003e\n    \u003cmeta charset=\"UTF-8\" /\u003e\n    \u003cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /\u003e\n    \u003ctitle\u003eDocument\u003c/title\u003e\n    \u003cscript src=\"https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js\"\u003e\u003c/script\u003e\n  \u003c/head\u003e\n  \u003cbody\u003e\n    \u003cbutton id=\"btnGET\"\u003eGET\u003c/button\u003e\n    \u003cbutton id=\"btnPOST\"\u003ePOST\u003c/button\u003e\n    \u003cbutton id=\"btnDelete\"\u003eDELETE\u003c/button\u003e\n    \u003cbutton id=\"btnJSONP\"\u003eJSONP\u003c/button\u003e\n\n    \u003cscript\u003e\n        // 3. 这个是 预检请求\n        $('#btnDelete').on('click', function () {\n          $.ajax({\n            type: 'DELETE',\n            url: 'http://127.0.0.1/api/delete',\n            success: function (res) {\n              console.log(res)\n            },\n          })\n        })\n    \u003c/script\u003e\n  \u003c/body\u003e\n\u003c/html\u003e\n\n\n\n‍‍```\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221012143856-3ofp9rb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221012143856-3ofp9rb",
+				"updated": "20221012143919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单请求和预检请求的区别"
+				}
+			]
+		},
+		{
+			"ID": "20221012143927-rsa9xfq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012143927-rsa9xfq",
+				"updated": "20221012143932"
+			},
+			"Children": [
+				{
+					"ID": "20221012143932-aup32tr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012143932-aup32tr",
+						"updated": "20221012143932"
+					},
+					"Children": [
+						{
+							"ID": "20221012143932-crtksgb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012143932-crtksgb",
+								"updated": "20221012143932"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "简单请求的特点：客户端与服务器之间只会发生一次请求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012143927-oszv846",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012143927-oszv846",
+				"updated": "20221012143935"
+			},
+			"Children": [
+				{
+					"ID": "20221012143935-6ifaqib",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012143935-6ifaqib",
+						"updated": "20221012143935"
+					},
+					"Children": [
+						{
+							"ID": "20221012143935-tir27gd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012143935-tir27gd",
+								"updated": "20221012143935"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "预检请求的特点：客户端与服务器之间会发生两次请求，OPTION 预检请求成功之后，才会发起真正的请求。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012143921-lv4n3nc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012143921-lv4n3nc"
+			}
+		}
+	]
+}

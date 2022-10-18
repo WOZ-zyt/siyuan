@@ -1,0 +1,1798 @@
+{
+	"ID": "20221012151440-o2vhfkp",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221012151440-o2vhfkp",
+		"title": "MySQL安装",
+		"updated": "20221012161240"
+	},
+	"Children": [
+		{
+			"ID": "20221012161240-6n16egc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012161240-6n16egc",
+				"updated": "20221012161240"
+			},
+			"Children": [
+				{
+					"ID": "20221012161240-6nevthl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012161240-6nevthl",
+						"updated": "20221012161407"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-knr2cdx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-knr2cdx",
+								"updated": "20221012161407"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "双击"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "mysql-installer-community-8.0.19.0.msi"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，启动 MySQL 安装程序。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-x7zittg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012161240-x7zittg",
+						"updated": "20221012161420"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-cyt90lm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-cyt90lm",
+								"updated": "20221012161420"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "**如果弹框提示如下的警告信息，证明你的电脑需要安装额外的 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": ".NET Framework"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 依赖包。此时，先退出 MySQL 的安装程序，然后双击 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "NDP452-KB2901907-x86-x64-AllOS-ENU.exe"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​，启动 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": ".NET Framework 4.5.2"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​ 的安装程序。\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\0.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-7j65e64",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012161240-7j65e64",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-b1tfwm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-b1tfwm1",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "重新启动 MySQL 的安装程序，看到如下界面："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\1.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-jstckmu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221012161240-jstckmu",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-9s8l3s0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-9s8l3s0",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "进入如下界面："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\2.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-u0d6fdj",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221012161240-u0d6fdj",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-6skhgwe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-6skhgwe",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "正在安装依赖项："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\3.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\4.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\5.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\6.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\7.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\9.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\10.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-xtparj9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221012161240-xtparj9",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-aqz3vhi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-aqz3vhi",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "完成依赖项的安装："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\11.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "此时，会弹出如下警告窗，直接点击 Yes 即可："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\12.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-2cuux83",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221012161240-2cuux83",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-kafvbvr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-kafvbvr",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "进入 MySQL 的安装页面："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\14.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\15.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-lysl2gt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20221012161240-lysl2gt",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-8ur6lxg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-8ur6lxg",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "完成 MySQL 功能项的安装："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\16.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-pt5vesm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20221012161240-pt5vesm",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-gubjvf9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-gubjvf9",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "配置 MySQL："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\17.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-pu142ms",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20221012161240-pu142ms",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-k1t2lqa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-k1t2lqa",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "选择 MySQL 数据库的运行模式："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\18.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-e2h4dnh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20221012161240-e2h4dnh",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-o3tyqvr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-o3tyqvr",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "设置网络模式："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\19.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-4dtt5k3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20221012161240-4dtt5k3",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-2m0brt7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-2m0brt7",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "配置身份认证方式："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\20.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-tdybbb5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20221012161240-tdybbb5",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-2dts5in",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-2dts5in",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "将 MySQL 的默认 root 用户密码，设置为 admin123"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\21.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-qznzlgb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20221012161240-qznzlgb",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-3qeyb44",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-3qeyb44",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "将 MySQL 配置为 Windows 的服务："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\22.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-il0l9qg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTUu",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20221012161240-il0l9qg",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-6xwuu2q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-6xwuu2q",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "保存刚才对 MySQL 配置的修改："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\23.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\24.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\25.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-vmpv9zm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTYu",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20221012161240-vmpv9zm",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-uokiufi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-uokiufi",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "继续完成后续的配置流程："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\26.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\27.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-llwqkq6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTcu",
+						"Num": 17
+					},
+					"Properties": {
+						"id": "20221012161240-llwqkq6",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-ronsbnf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-ronsbnf",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "最后一个配置项："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\28.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "测试能否正常连接到刚才安装的 MySQL 数据库："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\29.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-zc18qh8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTgu",
+						"Num": 18
+					},
+					"Properties": {
+						"id": "20221012161240-zc18qh8",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-91hobgj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-91hobgj",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "保存刚才的配置："
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\30.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\31.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\32.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "\n​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "file://C:\\Users\\woshi\\Desktop\\day5\\%E7%B4%A0%E6%9D%90\\MySQL%20for%20Windows\\%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B%20-%20Windows%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85MySql\\imgs\\33.jpg?lastModify=1665562352"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012161240-td2uv0u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTku",
+						"Num": 19
+					},
+					"Properties": {
+						"id": "20221012161240-td2uv0u",
+						"updated": "20221012161240"
+					},
+					"Children": [
+						{
+							"ID": "20221012161240-ipgtjbm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012161240-ipgtjbm",
+								"updated": "20221012161240"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "完成 MySQL 的安装与配置："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012151440-ivb8zim",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012151440-ivb8zim",
+				"updated": "20221012161511"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "34"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/34-20221012161511-y5rngef.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

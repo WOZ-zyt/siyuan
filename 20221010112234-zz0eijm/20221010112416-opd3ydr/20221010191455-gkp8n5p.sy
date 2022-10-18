@@ -1,0 +1,402 @@
+{
+	"ID": "20221010191455-gkp8n5p",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010191455-gkp8n5p",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221010191455-9xqp131\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221010193739-jvg6tcf\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221010191455-9xqp131\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:15,\u0026amp;quot;focusEnd\u0026amp;quot;:15}",
+		"title": "http模块常用方法和属性",
+		"updated": "20221010194126"
+	},
+	"Children": [
+		{
+			"ID": "20221010191455-9xqp131",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010191455-9xqp131",
+				"updated": "20221010193000"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "tag",
+					"TextMarkTextContent": "http模块常用方法和属性"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221010193001-xv0jbi5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010193001-xv0jbi5",
+				"updated": "20221010193721"
+			},
+			"Children": [
+				{
+					"ID": "20221010193308-50fsfd4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221010193308-50fsfd4",
+						"updated": "20221010193308"
+					},
+					"Children": [
+						{
+							"ID": "20221010193308-fkhe72u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010193308-fkhe72u",
+								"updated": "20221010193328"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导入http模块：const http = require('http')"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010193328-rgi66ar",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221010193328-rgi66ar"
+					},
+					"Children": [
+						{
+							"ID": "20221010193328-d3m8sqa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010193328-d3m8sqa",
+								"updated": "20221010193340"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建 web 服务器实例：const  server = http.createServer()"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010193342-dn272ty",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010193342-dn272ty",
+						"updated": "20221010193721"
+					},
+					"Children": [
+						{
+							"ID": "20221010193342-5p7rrbf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010193342-5p7rrbf",
+								"updated": "20221010193628"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为服务器实例绑定 request 事件：（on方法绑定 request 事件）"
+								}
+							]
+						},
+						{
+							"ID": "20221010193604-iqhtlfy",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20221010193604-iqhtlfy",
+								"updated": "20221010193721"
+							},
+							"Children": [
+								{
+									"ID": "20221010193603-009sbff",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20221010193603-009sbff"
+									},
+									"Children": [
+										{
+											"ID": "20221010193603-jiizm3f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010193603-jiizm3f",
+												"updated": "20221010193704"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "req请求对象访问：与客户端相关的数据或属性"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20221010193705-9ppb78c",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20221010193705-9ppb78c",
+										"updated": "20221010193721"
+									},
+									"Children": [
+										{
+											"ID": "20221010193705-m9ctrti",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20221010193705-m9ctrti",
+												"updated": "20221010193721"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "res响应对象访问：与服务器响应相关的数据或属性"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010193416-vh4xn7u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010193416-vh4xn7u",
+				"updated": "20221010193431"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//为服务器实例绑定 request 事件，即可监听客户端发送过来的网络请求\nserver.on(\"request\",(req,res)=\u003e{\n   console.log(\"收到客户端请求\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010193431-159dms9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221010193431-159dms9",
+				"updated": "20221010193634"
+			},
+			"Children": [
+				{
+					"ID": "20221010193442-5pjrfbz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010193442-5pjrfbz",
+						"updated": "20221010193634"
+					},
+					"Children": [
+						{
+							"ID": "20221010193442-be2bqku",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010193442-be2bqku",
+								"updated": "20221010193634"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "启动服务器：（listen方法）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221010193449-ukj8znv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010193449-ukj8znv",
+				"updated": "20221010193501"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//调用服务器实例的 .listen(端口号,cb回调) 方法，即可启动当前的 web 服务器实例\nserver.listen(80,()=\u003e{\n   console.log(\"启动服务器\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010193504-n0lg07u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010193504-n0lg07u",
+				"updated": "20221010193802"
+			}
+		},
+		{
+			"ID": "20221010193746-2oi6hs1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010193746-2oi6hs1",
+				"updated": "20221010193820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "req对象属性和方法"
+				}
+			]
+		},
+		{
+			"ID": "20221010193844-0keq0nc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010193844-0keq0nc",
+				"updated": "20221010194126"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "req.url//属性,客户端请求网址\nreq.method //属性,客户端请求方式\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221010193823-hdlmv0z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010193823-hdlmv0z"
+			}
+		},
+		{
+			"ID": "20221010193823-g7sotw5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221010193823-g7sotw5",
+				"updated": "20221010193839"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "res对象属性和方法"
+				}
+			]
+		},
+		{
+			"ID": "20221010193739-jvg6tcf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221010193739-jvg6tcf",
+				"updated": "20221010193953"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "res.end(str)//向客户端发送指定内容，并结束这次请求\nres.setHeader('Content-Type','text/html;charset=utf-8')//设置发送内容的编码格式\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

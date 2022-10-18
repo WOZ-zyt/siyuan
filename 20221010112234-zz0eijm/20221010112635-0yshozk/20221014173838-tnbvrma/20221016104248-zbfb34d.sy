@@ -1,0 +1,63 @@
+{
+	"ID": "20221016104248-zbfb34d",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221016104248-zbfb34d",
+		"title": "Vite ",
+		"updated": "20221016112348"
+	},
+	"Children": [
+		{
+			"ID": "20221016104248-ldlljlk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016104248-ldlljlk",
+				"updated": "20221016104327"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://cn.vitejs.dev/",
+					"TextMarkTextContent": "Vite | 下一代的前端工具链 (vitejs.dev)"
+				}
+			]
+		},
+		{
+			"ID": "20221016104327-cb5zr5l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016104327-cb5zr5l",
+				"updated": "20221016104402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 ：npm create vite@latest"
+				}
+			]
+		},
+		{
+			"ID": "20221016104405-8sn72ly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016104405-8sn72ly",
+				"updated": "20221016111814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特点：能够迅速启动项目"
+				}
+			]
+		},
+		{
+			"ID": "20221016112348-qx84gvg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221016112348-qx84gvg"
+			}
+		}
+	]
+}

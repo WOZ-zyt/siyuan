@@ -1,0 +1,326 @@
+{
+	"ID": "20221012135203-3cbmzs7",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221012135203-3cbmzs7",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221012135211-do8ix27\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221013002039-gdjyqn1\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221013002039-gdjyqn1\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "Ajax (异步javascript和xml)",
+		"updated": "20221013002039"
+	},
+	"Children": [
+		{
+			"ID": "20221012135211-do8ix27",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012135211-do8ix27",
+				"updated": "20221012141118"
+			},
+			"Children": [
+				{
+					"ID": "20221012135305-ghp7tkf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012135305-ghp7tkf",
+						"updated": "20221012135305"
+					},
+					"Children": [
+						{
+							"ID": "20221012135305-znx6gtj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012135305-znx6gtj",
+								"updated": "20221012140524"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "ajax 是 异步 javascript 和 xml ，用于网页前后端交互的技术，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color12);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "无需重新加载整个网页的情况下能够更新部分网页的技术"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012140521-ev97jp6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012140521-ev97jp6"
+					},
+					"Children": [
+						{
+							"ID": "20221012140521-t0mev8i",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012140521-t0mev8i",
+								"updated": "20221012140713"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过在后台与服务器进行少量数据交换，"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "ajax可以让网页实现异步更新（不知道什么意思）"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新，传统不使用ajax的化网页某部分更新需要重载整个网页"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012140334-7jkozyo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012140334-7jkozyo"
+					},
+					"Children": [
+						{
+							"ID": "20221012140334-zetl494",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012140334-zetl494",
+								"updated": "20221012140442"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "我的理解：在前端JS代码代码里使用ajax进行网络请求，可以得到服务器的响应数据"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012140752-v7a0kuv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221012140752-v7a0kuv",
+						"updated": "20221012141118"
+					},
+					"Children": [
+						{
+							"ID": "20221012140752-7ecdi0m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012140752-7ecdi0m",
+								"updated": "20221012141118"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点：ajax是针对MVC编程的，不符合前端MVVM浪潮，基于原生XHR开发，XHR本身的架构不清晰，不符合"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "关注分离（什么意思）"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "的原则，配置和调用方式混乱，基于事件的异步模型不友好"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012135203-nx49uzr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221012135203-nx49uzr",
+				"updated": "20221012141141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对比fetch"
+				}
+			]
+		},
+		{
+			"ID": "20221012141154-i77wiiw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221012141154-i77wiiw",
+				"updated": "20221012141843"
+			},
+			"Children": [
+				{
+					"ID": "20221012141212-j7fcmjr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221012141212-j7fcmjr",
+						"updated": "20221012141212"
+					},
+					"Children": [
+						{
+							"ID": "20221012141212-sqrc274",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012141212-sqrc274",
+								"updated": "20221012141543"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fetch号称是ajax的替代品，是在es6出现的，使用了es6的primise对象，基于promise设计的，其代码结构比ajax简单多，fetch不是ajax的进一步封装，fetch使用的是原生js，没有使用XMLHttpRequest对象。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012141554-hk7ko2e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221012141554-hk7ko2e"
+					},
+					"Children": [
+						{
+							"ID": "20221012141554-jb90kfz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012141554-jb90kfz",
+								"updated": "20221012141746"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点：语法简洁，基于promise实现，支持async/await，更加底层，脱离了XHR，是ES规范里新的实现方式"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221012141754-ntmlypn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221012141754-ntmlypn",
+						"updated": "20221012141843"
+					},
+					"Children": [
+						{
+							"ID": "20221012141754-iv6clk4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221012141754-iv6clk4",
+								"updated": "20221012141843"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点：只对网络请求报错，对400，500当中成功的请求"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221012141145-8chw2x6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221012141145-8chw2x6",
+				"updated": "20221013002024"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1233"
+				}
+			]
+		},
+		{
+			"ID": "20221013002039-gdjyqn1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013002039-gdjyqn1"
+			}
+		}
+	]
+}

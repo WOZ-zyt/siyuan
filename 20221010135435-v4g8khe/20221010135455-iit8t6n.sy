@@ -1,0 +1,2021 @@
+{
+	"ID": "20221010135455-iit8t6n",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221010135455-iit8t6n",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221013225705-j7190cd\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221014005608-ikldvnh\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:3320,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221014005146-ezztod2\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:3,\u0026amp;quot;focusEnd\u0026amp;quot;:3,\u0026amp;quot;zoomInId\u0026amp;quot;:\u0026amp;quot;20221013225705-j7190cd\u0026amp;quot;}",
+		"title": "2022年10月13",
+		"updated": "20221014005343"
+	},
+	"Children": [
+		{
+			"ID": "20221013225658-tvz5iee",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"fold": "1",
+				"id": "20221013225658-tvz5iee",
+				"updated": "20221013225659"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20221010135455-alolp68",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221010135455-alolp68",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "思维：《高效能人士的7个习惯》"
+						},
+						{
+							"Type": "NodeTextMark",
+							"Properties": {
+								"style": "color: var(--b3-font-color11);"
+							},
+							"TextMarkType": "text",
+							"TextMarkTextContent": "《卓有成效的管理者-作者：德鲁克》"
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "《金字塔原理》"
+						}
+					]
+				},
+				{
+					"ID": "20221013154804-iug768a",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013154804-iug768a",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "《第五项修炼》《系统化思维导论》《最后期限》《拆掉思维里的墙》"
+						}
+					]
+				},
+				{
+					"ID": "20221013154953-duphok0",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013154953-duphok0",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "时间管理："
+						}
+					]
+				},
+				{
+					"ID": "20221013155313-28pp3qv",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013155313-28pp3qv",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "碎片时间：记单词"
+						}
+					]
+				},
+				{
+					"ID": "20221013160655-b0hcl92",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013160655-b0hcl92",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "长期主义：立即行动，从被动到主动，结果驱动"
+						}
+					]
+				},
+				{
+					"ID": "20221013160815-en9ust1",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013160815-en9ust1",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "我感觉学的不会，没有立即看到效果的反馈，所以就没啥动力——我还是不喜欢复盘的人"
+						}
+					]
+				},
+				{
+					"ID": "20221013155226-kuu4tqt",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013155226-kuu4tqt",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "资料库的东西太多了——这就意味着多搜索多思考总结多，一个项目都要多实践"
+						}
+					]
+				},
+				{
+					"ID": "20221013162458-hrmi4fz",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013162458-hrmi4fz",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "但是不能放过干货，资料库的东西要原封保存，不要打乱，还需要保存资料的路径"
+						}
+					]
+				},
+				{
+					"ID": "20221013162607-88las98",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013162607-88las98",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "知识库：绝对不能复制粘贴，而是在脑子里总结一遍，再收集记录"
+						}
+					]
+				},
+				{
+					"ID": "20221013162732-qhj7rnr",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013162732-qhj7rnr",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "经验库：需要实践和复盘，复盘主要是指回忆和复习"
+						}
+					]
+				},
+				{
+					"ID": "20221013162617-fuzxpds",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221013162617-fuzxpds",
+						"updated": "20221013225659"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "写日记——写大概学了什么"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20221013163055-f8p3a1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013163055-f8p3a1m"
+			}
+		},
+		{
+			"ID": "20221013225705-j7190cd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221013225705-j7190cd",
+				"updated": "20221013225712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今日英语"
+				}
+			]
+		},
+		{
+			"ID": "20221014000022-03pdlns",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20221014000022-03pdlns",
+				"updated": "20221014005343"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "名词"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "动词"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "形容词"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "同义词"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "art  艺术   artist  艺术家"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "artistic  艺术的"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "reservation  保存，预定"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "reserve 保存"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "meeting  会议"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "meet 遭遇，发生"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "appeal 上诉,吸引力，呼吁"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "appeal  上诉;引起兴趣;呼吁恳求"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "refusal  拒绝  "
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "refuse 拒绝"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "reject  残次品，被弃之物"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "reject 拒绝"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "decline  下降，衰退，婉拒"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "decline  下降，衰退，婉拒"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "拒绝：refuse，reject   减少：decrease"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "desert [ˈdezət , dɪˈzɜːt]  沙漠"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "desert  抛弃"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "抛弃：discard"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014000023-nk4s77e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014000023-nk4s77e",
+				"updated": "20221014100742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四季单词   spring summer autumn winter"
+				}
+			]
+		},
+		{
+			"ID": "20221013230209-g2erbxl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013230209-g2erbxl",
+				"updated": "20221013230216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "方位介词"
+				}
+			]
+		},
+		{
+			"ID": "20221013230217-7n2rsf6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230217-7n2rsf6",
+				"updated": "20221013230644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "above  介词：在...上面，副词：在上面   "
+				}
+			]
+		},
+		{
+			"ID": "20221013230727-ywmqz4l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230727-ywmqz4l",
+				"updated": "20221013230914"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abroad  副词：在国外，动词+副词的组合：出国  go abroad；出国旅游：travel  abroad"
+				}
+			]
+		},
+		{
+			"ID": "20221013233442-59e6ah6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233442-59e6ah6",
+				"updated": "20221013233538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "aboard  介词：在（车，船）上，副词：在（车，船）上"
+				}
+			]
+		},
+		{
+			"ID": "20221013230217-r7se8zc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013230217-r7se8zc",
+				"updated": "20221013230226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见动词"
+				}
+			]
+		},
+		{
+			"ID": "20221013225715-0dvj9ol",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013225715-0dvj9ol",
+				"updated": "20221013230018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abound  [əˈbaʊnd]  动词，有许多，大量存在"
+				}
+			]
+		},
+		{
+			"ID": "20221013230043-krlw9fd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230043-krlw9fd",
+				"updated": "20221013230104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abolish  动词  废除；取消"
+				}
+			]
+		},
+		{
+			"ID": "20221013231548-i5zt7lr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013231548-i5zt7lr",
+				"updated": "20221013231552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "absent  缺席"
+				}
+			]
+		},
+		{
+			"ID": "20221013233035-rfdpl5e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233035-rfdpl5e",
+				"updated": "20221013233108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "absorb 吸引，理解，吸收"
+				}
+			]
+		},
+		{
+			"ID": "20221013233630-fcuv5i5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233630-fcuv5i5",
+				"updated": "20221013233641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abid  遵守"
+				}
+			]
+		},
+		{
+			"ID": "20221013234311-g5fj2sc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013234311-g5fj2sc",
+				"updated": "20221013234322"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abstract   抽取"
+				}
+			]
+		},
+		{
+			"ID": "20221013235425-l6i93ad",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013235425-l6i93ad",
+				"updated": "20221013235447"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "hurt   受伤"
+				}
+			]
+		},
+		{
+			"ID": "20221013235452-s37l6ii",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013235452-s37l6ii",
+				"updated": "20221013235500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "arm 武装"
+				}
+			]
+		},
+		{
+			"ID": "20221014003713-q8mzirg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014003713-q8mzirg",
+				"updated": "20221014101016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "deserve 值得,应得"
+				}
+			]
+		},
+		{
+			"ID": "20221014005318-4qqjg1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014005318-4qqjg1o",
+				"updated": "20221014005326"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cancel 取消"
+				}
+			]
+		},
+		{
+			"ID": "20221014001306-79163vw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221014001306-79163vw",
+				"updated": "20221014001647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同义词"
+				}
+			]
+		},
+		{
+			"ID": "20221014001705-5hi7iy9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221014001705-5hi7iy9",
+				"updated": "20221014001705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "希望 "
+				}
+			]
+		},
+		{
+			"ID": "20221014001709-91dnr2q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014001709-91dnr2q",
+				"updated": "20221014002916"
+			},
+			"Children": [
+				{
+					"ID": "20221014001718-drg1ul1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014001718-drg1ul1",
+						"updated": "20221014001718"
+					},
+					"Children": [
+						{
+							"ID": "20221014001718-pccae2b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014001718-pccae2b",
+								"updated": "20221014001718"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "wish"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221014002900-yjn81d3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221014002900-yjn81d3",
+						"updated": "20221014002916"
+					},
+					"Children": [
+						{
+							"ID": "20221014002900-8htvhuj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014002900-8htvhuj",
+								"updated": "20221014002916"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "desire  渴望，期待"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014001610-rblb759",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221014001610-rblb759",
+				"updated": "20221014001628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "拒绝  "
+				}
+			]
+		},
+		{
+			"ID": "20221014001714-0h475l5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014001714-0h475l5",
+				"updated": "20221014001722"
+			},
+			"Children": [
+				{
+					"ID": "20221014001722-24ys1ot",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014001722-24ys1ot",
+						"updated": "20221014001722"
+					},
+					"Children": [
+						{
+							"ID": "20221014001722-ribd37x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014001722-ribd37x",
+								"updated": "20221014001722"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "refuse  reject  decline"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221013230110-wyyc2r7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221013230110-wyyc2r7",
+				"updated": "20221014003855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "建议"
+				}
+			]
+		},
+		{
+			"ID": "20221014003856-o05yil1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014003856-o05yil1",
+				"updated": "20221014003913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "proposal 名词，英 [prəˈpəʊzl]"
+				}
+			]
+		},
+		{
+			"ID": "20221014004001-ms4onax",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221014004001-ms4onax",
+				"updated": "20221014005048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "保存"
+				}
+			]
+		},
+		{
+			"ID": "20221014005049-uothf0a",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221014005049-uothf0a",
+				"updated": "20221014005140"
+			},
+			"Children": [
+				{
+					"ID": "20221014005125-x79acws",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221014005125-x79acws",
+						"updated": "20221014005140"
+					},
+					"Children": [
+						{
+							"ID": "20221014005125-u43ea64",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221014005125-u43ea64",
+								"updated": "20221014005140"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "storage  存储"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014004001-0t3taig",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221014004001-0t3taig",
+				"updated": "20221014004209"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同词根"
+				}
+			]
+		},
+		{
+			"ID": "20221014004213-unpraxx",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "width: 135px;|||||",
+				"id": "20221014004213-unpraxx",
+				"updated": "20221014004529"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "deserve  值得"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "reserve 存储"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "conserve保护，保存"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "preserve 保护,保存"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "observe 观察"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "service 服务"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221014004204-1b576hm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014004204-1b576hm"
+			}
+		},
+		{
+			"ID": "20221013231010-ciutuny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013231010-ciutuny",
+				"updated": "20221013231058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见形容词"
+				}
+			]
+		},
+		{
+			"ID": "20221013225933-2feglz4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013225933-2feglz4",
+				"updated": "20221013231147"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abrupt  突然的，粗鲁的"
+				}
+			]
+		},
+		{
+			"ID": "20221013231445-brplhrg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013231445-brplhrg",
+				"updated": "20221013231542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "absent  缺席的，也可以是动词，缺席"
+				}
+			]
+		},
+		{
+			"ID": "20221013231456-ypl2urw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013231456-ypl2urw",
+				"updated": "20221013234034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abnormal  不正常的   normal  正常的"
+				}
+			]
+		},
+		{
+			"ID": "20221013234113-70oi4ey",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013234113-70oi4ey",
+				"updated": "20221013234143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "abstract  抽象的，摘要"
+				}
+			]
+		},
+		{
+			"ID": "20221013234425-ag4z0u8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013234425-ag4z0u8",
+				"updated": "20221014002110"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "afraid  害怕的，担心的"
+				}
+			]
+		},
+		{
+			"ID": "20221013234750-tx4pi1a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013234750-tx4pi1a",
+				"updated": "20221013234801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "angry  生气的"
+				}
+			]
+		},
+		{
+			"ID": "20221013235252-3qcwp33",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013235252-3qcwp33",
+				"updated": "20221013235301"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "correct  正确的"
+				}
+			]
+		},
+		{
+			"ID": "20221014004633-ox3bl8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014004633-ox3bl8y",
+				"updated": "20221014004634"
+			},
+			"Children": [
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				}
+			]
+		},
+		{
+			"ID": "20221013230647-tik2js8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230647-tik2js8"
+			}
+		},
+		{
+			"ID": "20221013230647-ahdprwk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013230647-ahdprwk",
+				"updated": "20221013230657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "词组"
+				}
+			]
+		},
+		{
+			"ID": "20221013230652-8ydhf3q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230652-8ydhf3q",
+				"updated": "20221013230652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "七岁以上：ten and above"
+				}
+			]
+		},
+		{
+			"ID": "20221013230703-p0ttzbt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230703-p0ttzbt",
+				"updated": "20221013230713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "废除奴隶制  abolish  slavery"
+				}
+			]
+		},
+		{
+			"ID": "20221013230801-rgerw31",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230801-rgerw31",
+				"updated": "20221013230814"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "出国  go abroad"
+				}
+			]
+		},
+		{
+			"ID": "20221013230922-w5u6vuk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013230922-w5u6vuk",
+				"updated": "20221013230923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "出国旅游：travel  abroad"
+				}
+			]
+		},
+		{
+			"ID": "20221013231351-pqhrf3r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013231351-pqhrf3r",
+				"updated": "20221013231411"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "缺课  absence from school"
+				}
+			]
+		},
+		{
+			"ID": "20221013233118-gsnno33",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233118-gsnno33",
+				"updated": "20221013233133"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "吸引注意力  absorb attention"
+				}
+			]
+		},
+		{
+			"ID": "20221013233135-nqw66gs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233135-nqw66gs",
+				"updated": "20221013233203"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "理解知识  absorb the knowleage"
+				}
+			]
+		},
+		{
+			"ID": "20221013233206-5iwgkp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233206-5iwgkp5",
+				"updated": "20221013233308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "吸收营养  absorb nutrition"
+				}
+			]
+		},
+		{
+			"ID": "20221013233547-r4op0i4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233547-r4op0i4",
+				"updated": "20221013233607"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在船上  aboard  the ship"
+				}
+			]
+		},
+		{
+			"ID": "20221013233643-4bdz900",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233643-4bdz900",
+				"updated": "20221013233656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "遵守规则  abid  the rules"
+				}
+			]
+		},
+		{
+			"ID": "20221013233932-d9i3zuh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233932-d9i3zuh",
+				"updated": "20221013234014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "异常行为 abnormal  behavior"
+				}
+			]
+		},
+		{
+			"ID": "20221013234448-7t1c74y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013234448-7t1c74y",
+				"updated": "20221013234520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "别害怕  Do  not  be afraid"
+				}
+			]
+		},
+		{
+			"ID": "20221014001153-knq2sup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014001153-knq2sup",
+				"updated": "20221014001206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "盛情邀请  kind invitation"
+				}
+			]
+		},
+		{
+			"ID": "20221014001918-vdtxnz1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014001918-vdtxnz1",
+				"updated": "20221014001933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "拒绝上述  reject  appeal"
+				}
+			]
+		},
+		{
+			"ID": "20221014004551-4bnekrf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014004551-4bnekrf",
+				"updated": "20221014004626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自然资源  natural  resources"
+				}
+			]
+		},
+		{
+			"ID": "20221013231320-k2ksaym",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221013231320-k2ksaym",
+				"updated": "20221013231326"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "名词"
+				}
+			]
+		},
+		{
+			"ID": "20221013231328-u7l0n6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013231328-u7l0n6m",
+				"updated": "20221013231347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "absence  缺席，缺乏"
+				}
+			]
+		},
+		{
+			"ID": "20221013234202-jrrruyu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013234202-jrrruyu",
+				"updated": "20221013234251"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "article  文章"
+				}
+			]
+		},
+		{
+			"ID": "20221013234535-85j0grf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013234535-85j0grf",
+				"updated": "20221013234542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "risk  风险"
+				}
+			]
+		},
+		{
+			"ID": "20221014001127-99q5j2h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014001127-99q5j2h",
+				"updated": "20221014001137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "invitation  邀请"
+				}
+			]
+		},
+		{
+			"ID": "20221014003219-9vey7x5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014003219-9vey7x5",
+				"updated": "20221014003226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "reward 奖励"
+				}
+			]
+		},
+		{
+			"ID": "20221013233350-0sehc25",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221013233350-0sehc25"
+			}
+		},
+		{
+			"ID": "20221014000723-yovzxex",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221014000723-yovzxex",
+				"updated": "20221014000737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "地点词"
+				}
+			]
+		},
+		{
+			"ID": "20221014000743-tm25wpb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014000743-tm25wpb",
+				"updated": "20221014000752"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学校  school"
+				}
+			]
+		},
+		{
+			"ID": "20221014000752-v7fhfys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014000752-v7fhfys",
+				"updated": "20221014000817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修道院  abbey  [ˈæbi]"
+				}
+			]
+		},
+		{
+			"ID": "20221014002617-a30udz8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014002617-a30udz8",
+				"updated": "20221014002647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "沙漠  desert [ˈdezət , dɪˈzɜːt]"
+				}
+			]
+		},
+		{
+			"ID": "20221014005225-eldc068",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014005225-eldc068",
+				"updated": "20221014005231"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "洞穴  cave"
+				}
+			]
+		},
+		{
+			"ID": "20221014005146-23yoskk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014005146-23yoskk"
+			}
+		},
+		{
+			"ID": "20221014005146-ezztod2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221014005146-ezztod2",
+				"updated": "20221014005149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "计算机"
+				}
+			]
+		},
+		{
+			"ID": "20221014005150-rn8kwuu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014005150-rn8kwuu",
+				"updated": "20221014005209"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据存储   storage"
+				}
+			]
+		},
+		{
+			"ID": "20221014005250-rz2xp5z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014005250-rz2xp5z",
+				"updated": "20221014005304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "取消订单  cancel  order"
+				}
+			]
+		},
+		{
+			"ID": "20221014005608-ikldvnh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014005608-ikldvnh"
+			}
+		}
+	]
+}
