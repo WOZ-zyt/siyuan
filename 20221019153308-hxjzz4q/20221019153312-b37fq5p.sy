@@ -1,0 +1,62 @@
+{
+	"ID": "20221019153312-b37fq5p",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019153312-b37fq5p",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221019153337-i3uu2gb\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221019160314-gr28v87\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221019160314-gr28v87\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:0,\u0026amp;quot;focusEnd\u0026amp;quot;:0}",
+		"title": "云开发 HTTP API",
+		"updated": "20221019160320"
+	},
+	"Children": [
+		{
+			"ID": "20221019153337-i3uu2gb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019153337-i3uu2gb",
+				"updated": "20221019155235"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获取 接口调用凭证（access_token）"
+				}
+			]
+		},
+		{
+			"ID": "20221019155225-at5865c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019155225-at5865c"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://developers.weixin.qq.com/miniprogram/dev/OpenApiDoc/mp-access-token/getAccessToken.html",
+					"TextMarkTextContent": "获取接口调用凭据 | 微信开放文档 (qq.com)"
+				}
+			]
+		},
+		{
+			"ID": "20221019153357-0kw1eiu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019153357-0kw1eiu",
+				"updated": "20221019155222"
+			}
+		},
+		{
+			"ID": "20221019160314-gr28v87",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019160314-gr28v87"
+			}
+		}
+	]
+}

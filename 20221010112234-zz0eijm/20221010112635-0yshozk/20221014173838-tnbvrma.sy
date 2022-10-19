@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221014173838-tnbvrma",
 		"title": "koa + koa-router插件",
-		"updated": "20221016183222"
+		"updated": "20221019163329"
 	},
 	"Children": [
 		{
@@ -187,6 +187,53 @@
 			]
 		},
 		{
+			"ID": "20221019161952-w96m17s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019161952-w96m17s",
+				"updated": "20221019161952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上下文（Context）"
+				}
+			]
+		},
+		{
+			"ID": "20221019161952-kk7fc6o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161952-kk7fc6o",
+				"updated": "20221019161952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Koa Context 将 node 的 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "request"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 和 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "response"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​ 对象封装到单个对象中"
+				}
+			]
+		},
+		{
 			"ID": "20221014193003-ol3aedq",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -202,16 +249,30 @@
 			]
 		},
 		{
-			"ID": "20221014173838-91wqmg2",
+			"ID": "20221019161534-9uqacy7",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221014173838-91wqmg2",
-				"updated": "20221014174240"
+				"id": "20221019161534-9uqacy7",
+				"updated": "20221019161557"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "安装 koa+koa-router ：npm install koa -S"
+					"Data": "使用 项目初始化命令：npm init "
+				}
+			]
+		},
+		{
+			"ID": "20221014173838-91wqmg2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221014173838-91wqmg2",
+				"updated": "20221019161605"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 koa+koa-router ：npm install koa -S "
 				}
 			]
 		},
@@ -221,7 +282,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20221014175158-fpje9a7",
-				"updated": "20221014175653"
+				"updated": "20221019161916"
 			},
 			"Children": [
 				{
@@ -234,82 +295,13 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "//引入koa \nconst Koa = require('koa')\n//实例化\nconst app = new Koa()\n//搭建服务\napp.use(async ctx=\u003e{\n  ctx.body=\"啊哈哈哈\"\n})\n//监听端口\napp.listen(5000,()=\u003e{\n  console.log(\"启动成功\")\n})\n"
+					"Data": "//新建js文件，代码如下，这时缺少路由\n//引入koa \nconst Koa = require('koa')\n//实例化\nconst app = new Koa()\n//搭建服务\napp.use(async ctx=\u003e{\n  ctx.body=\"啊哈哈哈\"\n})\n//监听端口\napp.listen(5000,()=\u003e{\n  console.log(\"启动成功\")\n})\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```"
 				}
 			]
-		},
-		{
-			"ID": "20221014192526-3ouctg5",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20221014192526-3ouctg5",
-				"updated": "20221014200707"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "上下文（Context）"
-				}
-			]
-		},
-		{
-			"ID": "20221014200711-f8wdpym",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221014200711-f8wdpym",
-				"updated": "20221014200711"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "Koa Context 将 node 的 "
-				},
-				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "code",
-					"TextMarkTextContent": "request"
-				},
-				{
-					"Type": "NodeText",
-					"Data": "​ 和 "
-				},
-				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "code",
-					"TextMarkTextContent": "response"
-				},
-				{
-					"Type": "NodeText",
-					"Data": "​ 对象封装到单个对象中"
-				}
-			]
-		},
-		{
-			"ID": "20221014193127-dbs0uyo",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221014193127-dbs0uyo",
-				"updated": "20221014200651"
-			}
-		},
-		{
-			"ID": "20221014194659-bf1sz6v",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221014194659-bf1sz6v"
-			}
-		},
-		{
-			"ID": "20221014192526-ghgeopz",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221014192526-ghgeopz"
-			}
 		},
 		{
 			"ID": "20221014175903-cbygkjp",
@@ -346,7 +338,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20221014180059-of4v0lq",
-				"updated": "20221014202819"
+				"updated": "20221019161938"
 			},
 			"Children": [
 				{
@@ -359,7 +351,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "//引入模块\nconst Koa = require(\"Koa\")\nconst Router = require(\"koa-router\") \n//实例化\nconst app = new Koa()\nconst router = new Router()\n//路由挂载\nrouter.gat(\"/index\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"哈哈哈\"\n})\nrouter.post(\"/index1\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"heheh\"\n})\n//配置路由——注册路由\napp.use(router.routes()).use(router.allowedMethods())\n//监听端口\napp.listen(5000,()=\u003e{\n  console.log(\"hehe\")\n})\n"
+					"Data": "//新建js文件，代码如下，补充了路由\n//引入模块\nconst Koa = require(\"Koa\")\nconst Router = require(\"koa-router\") \n//实例化\nconst app = new Koa()\nconst router = new Router()\n//路由挂载\nrouter.gat(\"/index\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"哈哈哈\"\n})\nrouter.post(\"/index1\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"heheh\"\n})\n//配置路由——注册路由\napp.use(router.routes()).use(router.allowedMethods())\n//监听端口\napp.listen(5000,()=\u003e{\n  console.log(\"hehe\")\n})\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -412,6 +404,252 @@
 					"TextMarkTextContent": "3小时快速入门node+vue3全栈（2022最新课程）"
 				}
 			]
+		},
+		{
+			"ID": "20221019161816-lauqppg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221019161816-lauqppg",
+				"updated": "20221019161855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 Koa 进行后端开发步骤："
+				}
+			]
+		},
+		{
+			"ID": "20221019162344-y8xmj3t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019162344-y8xmj3t",
+				"updated": "20221019163329"
+			},
+			"Children": [
+				{
+					"ID": "20221019162344-4txv552",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221019162344-4txv552",
+						"updated": "20221019163253"
+					},
+					"Children": [
+						{
+							"ID": "20221019161856-d933xdh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019161856-d933xdh",
+								"updated": "20221019163253"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "初始化项目：npm init  生成 package.json"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019162344-pf53woi",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221019162344-pf53woi",
+						"updated": "20221019163329"
+					},
+					"Children": [
+						{
+							"ID": "20221019162118-1emvwln",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019162118-1emvwln",
+								"updated": "20221019163329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "npm install 下载依赖包 "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019162344-ypmw4sl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221019162344-ypmw4sl"
+					},
+					"Children": [
+						{
+							"ID": "20221019162241-pvgz90a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019162241-pvgz90a",
+								"updated": "20221019162350"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装 Koa : npm install koa -S"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019162344-ae1res9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221019162344-ae1res9"
+					},
+					"Children": [
+						{
+							"ID": "20221019162336-vlnewjy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019162336-vlnewjy",
+								"updated": "20221019162408"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "安装 koa 的路由 ：npm install koa-router -s"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019162344-8e43eqv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221019162344-8e43eqv"
+					},
+					"Children": [
+						{
+							"ID": "20221019162148-s1bi0yz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019162148-s1bi0yz",
+								"updated": "20221019162351"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新建 index.js 作为 koa 文件"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019162412-n0k2rcp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221019162412-n0k2rcp",
+				"updated": "20221019162434"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//新建 index.js 作为 koa 文件\nconst Koa = require(\"Koa\")\nconst Router = require(\"koa-router\") \n//实例化\nconst app = new Koa()\nconst router = new Router()\n//路由挂载\nrouter.gat(\"/index\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"哈哈哈\"\n})\nrouter.post(\"/index1\",async ctx=\u003e{\n  ctx.status = 200;\n  ctx.body = \"heheh\"\n})\n//配置路由——注册路由\napp.use(router.routes()).use(router.allowedMethods())\n//监听端口\napp.listen(5000,()=\u003e{\n  console.log(\"hehe\")\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019162331-px07gtx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019162331-px07gtx",
+				"updated": "20221019162334"
+			}
+		},
+		{
+			"ID": "20221019162237-zj035cs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019162237-zj035cs",
+				"updated": "20221019162239"
+			}
+		},
+		{
+			"ID": "20221019161816-7nuuc6b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161816-7nuuc6b"
+			}
+		},
+		{
+			"ID": "20221019161816-hbuphga",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161816-hbuphga"
+			}
+		},
+		{
+			"ID": "20221019161816-tif359t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161816-tif359t"
+			}
+		},
+		{
+			"ID": "20221019161817-abki0p3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161817-abki0p3"
+			}
 		},
 		{
 			"ID": "20221016135639-ayyzs5g",

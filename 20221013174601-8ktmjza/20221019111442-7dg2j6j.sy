@@ -1,0 +1,476 @@
+{
+	"ID": "20221019111442-7dg2j6j",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019111442-7dg2j6j",
+		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221019111512-eyz2fyj\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221019141141-mano7oh\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0,\u0026amp;quot;focusId\u0026amp;quot;:\u0026amp;quot;20221019141639-ls90tb9\u0026amp;quot;,\u0026amp;quot;focusStart\u0026amp;quot;:335,\u0026amp;quot;focusEnd\u0026amp;quot;:335}",
+		"title": "vue 的各种实现",
+		"updated": "20221019141927"
+	},
+	"Children": [
+		{
+			"ID": "20221019111512-eyz2fyj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019111512-eyz2fyj",
+				"updated": "20221019111512"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "利用 VUE 生成二维码（两种方式）",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221019111641-rast3sg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019111641-rast3sg",
+				"updated": "20221019111745"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用 qrcode 生成",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221019111746-g7tw4xx",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "anM=",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20221019111746-g7tw4xx",
+				"updated": "20221019111906"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM=",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//安装 qrcode\nnpm install --save qrcodejs2\n//所需页面导入\nimport QRCode from 'qrcodejs2'\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221019111909-86jigdd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221019111909-86jigdd",
+				"updated": "20221019141731"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//简单例子\n\u003cdiv class=\"qrcode\" ref=\"qrCodeUrl\"\u003e\u003c/div\u003e\n\u003cscript\u003e\nimport QRCode from 'qrcodejs2'\nexport default {\n  data() {\n    return {\n  },\n  methods: {\n    creatQrCode() {\n        var qrcode = new QRCode(this.$refs.qrCodeUrl, {\n            // 需要转换为二维码的内容\n            text: 'https://blog.csdn.net/weixin_42601136', \n            width: 100,\n            height: 100,\n            colorDark: '#000000',\n            colorLight: '#ffffff',\n            correctLevel: QRCode.CorrectLevel.H\n        })\n    },\n},\nmounted() {\n    this.creatQrCode();\n},\n};\n\u003c/script\u003e\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019111746-eh86nkz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019111746-eh86nkz",
+				"updated": "20221019111757"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "使用 vie-qr 生成",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20221019141758-6ex7kbw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221019141758-6ex7kbw",
+				"updated": "20221019141841"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npm install vue-qr --save\nimport vueQr from 'vue-qr'\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019141639-ls90tb9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221019141639-ls90tb9",
+				"updated": "20221019141927"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cvue-qr :logoSrc=\"imageUrl\" text=\"https://blog.csdn.net/weixin_42601136\" :size=\"200\"\u003e\u003c/vue-qr\u003e\n\u003cscript\u003e\n    export default {\n        name: \"qecode\",\n        data() {\n            return {\n                imageUrl: require(\"../img/logo.png\"),//icon路径\n            }\n        },\n        components: {\n            vueQr\n        },\n    },\n}\n\u003c/script\u003e\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019141353-331t4la",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019141353-331t4la",
+				"updated": "20221019141402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "利用 VUE 生成动态二维码"
+				}
+			]
+		},
+		{
+			"ID": "20221019141902-9xxksjc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221019141902-9xxksjc",
+				"updated": "20221019141908"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//首先安装 vie-qr ：\nnpm install vue-qr --save\nimport vueQr from 'vue-qr'\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019141403-1zv0ftw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221019141403-1zv0ftw",
+				"updated": "20221019141744"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate\u003e\n  \u003csection\u003e\n    \u003ch1\u003ehello world~\u003c/h1\u003e\n    \u003cvue-qr :logoSrc=\"imageUrl\" :text=\"this.value+''\" :size=\"200\"\u003e\u003c/vue-qr\u003e\n  \u003c/section\u003e\n\u003c/template\u003e\n\n\u003cscript\u003e\n  import vueQr from 'vue-qr'\n  export default {\n    data() {\n      return {\n        imageUrl: require(\"../assets/1.png\"),//icon路径\n        timer: '',\n        value: 0,   \n      };\n    },\n\n    methods: {\n      get() {\n        //基于时间动态刷新\n        this.value = new Date().getSeconds() / 59;\n        console.log(this.value);\n      }\n    },\n    components: {\n      vueQr\n    },\n    mounted() {\n      this.timer = setInterval(this.get, 1000);\n    },\n\n    beforeDestroy() {\n      clearInterval(this.timer);\n    }\n  };\n\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019134432-u0eg153",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019134432-u0eg153"
+			}
+		},
+		{
+			"ID": "20221019140806-wj679ee",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019140806-wj679ee",
+				"updated": "20221019140823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vue.js 中如何用定时器"
+				}
+			]
+		},
+		{
+			"ID": "20221019140809-hr1l5ph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019140809-hr1l5ph",
+				"updated": "20221019140829"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vue.js中使用定时器的方法："
+				}
+			]
+		},
+		{
+			"ID": "20221019141021-pfj5mgp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019141021-pfj5mgp",
+				"updated": "20221019141627"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "text",
+					"TextMarkTextContent": "循环执行 setInterval"
+				}
+			]
+		},
+		{
+			"ID": "20221019140831-engeoma",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019140831-engeoma",
+				"updated": "20221019141005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、使用"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "循环执行setInterval"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，每过一段时间都会执行一次这个方法，直到这个定时器被销毁掉；"
+				}
+			]
+		},
+		{
+			"ID": "20221019141038-zaohc4c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "0",
+				"id": "20221019141038-zaohc4c",
+				"linewrap": "true",
+				"updated": "20221019141322"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n\u003ctemplate\u003e\n  \u003csection\u003e\n    \u003ch1\u003ehello world~\u003c/h1\u003e\n  \u003c/section\u003e\n\u003c/template\u003e\n\u003cscript\u003e\n  export default {\n    data() {\n      return {\n        timer: '',\n        value: 0\n      };\n    },\n\n    methods: {\n      get() {\n        this.value ++;\n        console.log(this.value);\n      }\n    },\n\n    mounted() {\n      this.timer = setInterval(this.get, 1000);\n    },\n\n    beforeDestroy() {\n      clearInterval(this.timer);\n   }\n  };\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019141025-pss8lhp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019141025-pss8lhp",
+				"updated": "20221019141635"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "text",
+					"TextMarkTextContent": "只执行一次"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " setTimeout"
+				}
+			]
+		},
+		{
+			"ID": "20221019140834-bjcv72d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019140834-bjcv72d",
+				"updated": "20221019141014"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、定时执行setTimeout，定时执行setTimeout是设置一个时间，等待时间到达的时候"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "只执行一次。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221019140923-r0mf713",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "0",
+				"id": "20221019140923-r0mf713",
+				"updated": "20221019141208"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate\u003e\n  \u003csection\u003e\n    \u003ch1\u003ehello world~\u003c/h1\u003e\n  \u003c/section\u003e\n\u003c/template\u003e\n\n\u003cscript\u003e\n  export default {\n    data() {\n      return {\n        timer: '',\n        value: 0\n      };\n    },\n\n    methods: {\n      get() {\n        this.value ++;\n        console.log(this.value);\n      }\n    },\n\n    mounted() {\n      this.timer = setTimeout(this.get, 1000);\n    },\n\n    beforeDestroy() {\n      clearTimeout(this.timer);\n    }\n  };\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019141141-mano7oh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019141141-mano7oh"
+			}
+		}
+	]
+}

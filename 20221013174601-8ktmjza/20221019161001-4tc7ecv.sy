@@ -1,0 +1,40 @@
+{
+	"ID": "20221019161001-4tc7ecv",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019161001-4tc7ecv",
+		"title": "Vue 的初识",
+		"updated": "20221019163510"
+	},
+	"Children": [
+		{
+			"ID": "20221019161008-0jpwwqe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161008-0jpwwqe",
+				"updated": "20221019161128"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快捷模板：Vue-admin-template  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221019160452-nllek1b",
+					"TextMarkTextContent": "使用Vue-admin-template的项目"
+				}
+			]
+		},
+		{
+			"ID": "20221019161001-5n9kuwl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161001-5n9kuwl",
+				"updated": "20221019163510"
+			}
+		}
+	]
+}

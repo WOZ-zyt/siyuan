@@ -1,0 +1,1172 @@
+{
+	"ID": "20221019160438-ugpl542",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019160438-ugpl542",
+		"title": "毕设 - 图书馆座位预约系统后台管理系统",
+		"updated": "20221019203808"
+	},
+	"Children": [
+		{
+			"ID": "20221019160542-52jgyim",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019160542-52jgyim",
+				"updated": "20221019160634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "云开发图书馆座位预约小程序"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 设计其后端管理系统 - 使用云开发的 HTTP API"
+				}
+			]
+		},
+		{
+			"ID": "20221019160544-ijhglt4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019160544-ijhglt4",
+				"updated": "20221019160803"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221019160803-78h8h01.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221019160452-cyrtcqg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019160452-cyrtcqg",
+				"updated": "20221019185204"
+			},
+			"Children": [
+				{
+					"ID": "20221019160452-5stnlk9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221019160452-5stnlk9",
+						"updated": "20221019185157"
+					},
+					"Children": [
+						{
+							"ID": "20221019160452-csv752e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019160452-csv752e",
+								"updated": "20221019185157"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "轮播图管理 banner.vue"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019160452-hltv0ow",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221019160452-hltv0ow",
+						"updated": "20221019185201"
+					},
+					"Children": [
+						{
+							"ID": "20221019160452-c04qgho",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019160452-c04qgho",
+								"updated": "20221019185201"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "座位信息管理  tsgzw.vue (复杂)"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019160452-rcor47l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221019160452-rcor47l",
+						"updated": "20221019185204"
+					},
+					"Children": [
+						{
+							"ID": "20221019160452-6v319p2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019160452-6v319p2",
+								"updated": "20221019185204"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "图书信息管理 tsjs.vue"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019193740-e4syi9l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019193740-e4syi9l"
+			}
+		},
+		{
+			"ID": "20221019193740-yh103me",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019193740-yh103me",
+				"updated": "20221019193751"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "毕设相关信息"
+				}
+			]
+		},
+		{
+			"ID": "20221019193754-okux88t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019193754-okux88t",
+				"updated": "20221019193935"
+			},
+			"Children": [
+				{
+					"ID": "20221019193935-fbggl65",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221019193935-fbggl65",
+						"updated": "20221019193935"
+					},
+					"Children": [
+						{
+							"ID": "20221019193935-gb64p72",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019193935-gb64p72",
+								"updated": "20221019193935"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "关于选题，一篇优良的论文（作品），如能使用很牛掰劲爆的技术、设计独特的算法、改进现有算法现有模型，那最好！将令人激动！"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019193917-tbktx0k",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019193917-tbktx0k",
+				"updated": "20221019193937"
+			},
+			"Children": [
+				{
+					"ID": "20221019193937-r0nc43b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221019193937-r0nc43b",
+						"updated": "20221019193937"
+					},
+					"Children": [
+						{
+							"ID": "20221019193937-i632xu1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019193937-i632xu1",
+								"updated": "20221019193937"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如能设计完整作品，抓住目标业务的痛点，在功能上有创新、有创意、有特色，也很好！将令人心动！"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019193926-lo2nlt5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019193926-lo2nlt5",
+				"updated": "20221019193940"
+			},
+			"Children": [
+				{
+					"ID": "20221019193940-7wzwu8m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221019193940-7wzwu8m",
+						"updated": "20221019193940"
+					},
+					"Children": [
+						{
+							"ID": "20221019193940-8j06gpy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019193940-8j06gpy",
+								"updated": "20221019193940"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如没有牛掰技术，也没有创意功能，则从工作量上下功天，采用主流技术，实现一个有相当量、功能完整的系统，这也很难得！将通过超大工作量令人感动。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019193930-e7xh390",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019193930-e7xh390"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以上三种都是好选题，如努力耕耘，都能取得好成绩！"
+				}
+			]
+		},
+		{
+			"ID": "20221019193751-zzdlukw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019193751-zzdlukw",
+				"updated": "20221019200410"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "text",
+					"TextMarkTextContent": "论文题目："
+				}
+			]
+		},
+		{
+			"ID": "20221019200406-0w5wme4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019200406-0w5wme4"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于 vue + node.js  的 图书馆座位预约系统 的设计和开发"
+				}
+			]
+		},
+		{
+			"ID": "20221019193741-ta0ia0v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019193741-ta0ia0v",
+				"updated": "20221019194702"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "题目类型：生产实践"
+				}
+			]
+		},
+		{
+			"ID": "20221019194703-uenvj3j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019194703-uenvj3j",
+				"updated": "20221019195436"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "课题简介："
+				}
+			]
+		},
+		{
+			"ID": "20221019195656-a0skwtd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221019195656-a0skwtd",
+				"updated": "20221019195657"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "课题的背景"
+				}
+			]
+		},
+		{
+			"ID": "20221019202635-ifyxj4e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019202635-ifyxj4e",
+				"updated": "20221019202709"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      依据国家统计发布的数据，我国在校大学生约有两千六百万人，且我国高校总计两千五百多所。以每所学校有一个图书馆，每个图书馆只能容纳五千人给每人一个座位学习，那这些资源远远不够。"
+				}
+			]
+		},
+		{
+			"ID": "20221019202645-lz7z3dv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019202645-lz7z3dv",
+				"updated": "20221019202707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     占座，在各个学校图书馆中都是个极度平凡，却让图书馆管理人员头疼的一个问题。这样不但不利于座位的使用，而且图书馆有限的资源得不到充分利用，还时常带来各种矛盾。"
+				}
+			]
+		},
+		{
+			"ID": "20221019202704-kxve7xi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019202704-kxve7xi",
+				"updated": "20221019202712"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      前面两种情况，使得在图书馆找座位已经非常不容易。如果遇上期末，图书馆人多的时候，学生到图书馆就需要将每个楼层都跑遍，花十几或二十分钟，甚至更长时间才能找到座位或者找不到座位，这样减少了学生学习时间。"
+				}
+			]
+		},
+		{
+			"ID": "20221019195658-jauf92k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221019195658-jauf92k",
+				"updated": "20221019195700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "课题要做的主要内容"
+				}
+			]
+		},
+		{
+			"ID": "20221019200908-41ywb2l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019200908-41ywb2l",
+				"updated": "20221019203656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户使用小程序预约当天或者明天的座位，预约时间段间需要签到签离，使用Web网页上展示的动态二维码签到签离确保用户来到图书馆，不按时签到，超过时间签离，不签到签离这三种情况会扣积分，每个用户可以通过正常签到签离获得积分，当积分清空时不可预约座位需要联系管理员，管理员在后端管理系统管理用户信息和积分信息。"
+				}
+			]
+		},
+		{
+			"ID": "20221019195700-2t4jhbe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221019195700-2t4jhbe"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需求功能模块简介"
+				}
+			]
+		},
+		{
+			"ID": "20221019200744-x48r011",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019200744-x48r011",
+				"updated": "20221019201556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序预约座位模块：用户使用小程序预约座位"
+				}
+			]
+		},
+		{
+			"ID": "20221019201215-ev73kjx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019201215-ev73kjx",
+				"updated": "20221019201715"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序签到签离模块：用户用小程序于Web网页的动态二维码上进行扫码签到签离"
+				}
+			]
+		},
+		{
+			"ID": "20221019201945-gdx8lwc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019201945-gdx8lwc",
+				"updated": "20221019202141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户积分模块：对积分清零的用户限制预约座位功能，正常签到签离增加积分"
+				}
+			]
+		},
+		{
+			"ID": "20221019201417-0c3x13t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019201417-0c3x13t",
+				"updated": "20221019201850"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前后端交互模块：使用koa2d对小程序云数据库写接口通过AJAX让前端进行请求"
+				}
+			]
+		},
+		{
+			"ID": "20221019201247-xgp053e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019201247-xgp053e",
+				"updated": "20221019202223"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理员后端管理用户模块：管理员在Web网页管理用户的录入和积分"
+				}
+			]
+		},
+		{
+			"ID": "20221019201410-hyv36dw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019201410-hyv36dw",
+				"updated": "20221019202242"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理员后端管理座位模块：管理员在Web网页管理座位的开放"
+				}
+			]
+		},
+		{
+			"ID": "20221019195436-wpakt9c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221019195436-wpakt9c",
+				"updated": "20221019195645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "课题的技术路线："
+				}
+			]
+		},
+		{
+			"ID": "20221019195502-86tqq8r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195502-86tqq8r",
+				"updated": "20221019195528"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前后端分离，云开发微信小程序，Web网页"
+				}
+			]
+		},
+		{
+			"ID": "20221019195529-04vaij7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195529-04vaij7",
+				"updated": "20221019195543"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前端：vue  "
+				}
+			]
+		},
+		{
+			"ID": "20221019195544-58fimll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195544-58fimll",
+				"updated": "20221019195629"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后端：node.js 的 koa2"
+				}
+			]
+		},
+		{
+			"ID": "20221019195549-ykypb5e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195549-ykypb5e",
+				"updated": "20221019195608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据库：微信小程序云数据库"
+				}
+			]
+		},
+		{
+			"ID": "20221019195536-8i3pe1z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195536-8i3pe1z"
+			}
+		},
+		{
+			"ID": "20221019194713-0abx4lq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019194713-0abx4lq",
+				"updated": "20221019195817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "课题要求：(包括所具备的条件)"
+				}
+			]
+		},
+		{
+			"ID": "20221019195833-73hezco",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195833-73hezco",
+				"updated": "20221019200224"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完成课题所需的技术：koa ，vue，小程序"
+				}
+			]
+		},
+		{
+			"ID": "20221019195959-zovrxrp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195959-zovrxrp",
+				"updated": "20221019200111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "硬件：Web网页运行 在树莓派 模拟 屏幕"
+				}
+			]
+		},
+		{
+			"ID": "20221019195839-02pvlue",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195839-02pvlue",
+				"updated": "20221019200231"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前所具备的条件：在学 koa ，vue，小程序"
+				}
+			]
+		},
+		{
+			"ID": "20221019195841-8pek1fn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195841-8pek1fn",
+				"updated": "20221019200236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "已经掌握了哪些技术：小程序"
+				}
+			]
+		},
+		{
+			"ID": "20221019194825-sk29yns",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019194825-sk29yns",
+				"updated": "20221019200350"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "text",
+					"TextMarkTextContent": "课题工作量要求："
+				}
+			]
+		},
+		{
+			"ID": "20221019195801-5fjsg35",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019195801-5fjsg35"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "对完成课题各个环节、各个功能模块要做到什么程度，及所需的工作量做个简要量化说明。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221019203730-eglivk7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019203730-eglivk7",
+				"updated": "20221019203757"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序预约座位模块：用户能够使用小程序预约座位"
+				}
+			]
+		},
+		{
+			"ID": "20221019203730-zlnqhnh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019203730-zlnqhnh",
+				"updated": "20221019203801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序签到签离模块：用户能够用小程序于Web网页的动态二维码上进行扫码签到签离"
+				}
+			]
+		},
+		{
+			"ID": "20221019203730-0wlv6gu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019203730-0wlv6gu",
+				"updated": "20221019203803"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户积分模块：能够对积分清零的用户限制预约座位功能，正常签到签离增加积分"
+				}
+			]
+		},
+		{
+			"ID": "20221019203730-x2snm79",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019203730-x2snm79",
+				"updated": "20221019203805"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前后端交互模块：能够使用koa2d对小程序云数据库写接口通过AJAX让前端进行请求"
+				}
+			]
+		},
+		{
+			"ID": "20221019203730-l0e8j2m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019203730-l0e8j2m",
+				"updated": "20221019203807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理员后端管理用户模块：管理员能够在Web网页管理用户的录入和积分"
+				}
+			]
+		},
+		{
+			"ID": "20221019203730-w14pw9d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019203730-w14pw9d",
+				"updated": "20221019203808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "管理员后端管理座位模块：管理员能够在Web网页管理座位的开放"
+				}
+			]
+		},
+		{
+			"ID": "20221019193741-f6xnpyd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019193741-f6xnpyd",
+				"updated": "20221019194936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "选题类别：毕业设计"
+				}
+			]
+		},
+		{
+			"ID": "20221019194842-3ru71l4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019194842-3ru71l4",
+				"updated": "20221019194919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "论文研究方向：需与指导老师确认"
+				}
+			]
+		},
+		{
+			"ID": "20221019194848-mo7pe8d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019194848-mo7pe8d",
+				"updated": "20221019194913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "课题来源：学生自拟题目"
+				}
+			]
+		},
+		{
+			"ID": "20221019194856-oc9j9xe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019194856-oc9j9xe"
+			}
+		},
+		{
+			"ID": "20221019193741-7rbcj9k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019193741-7rbcj9k"
+			}
+		},
+		{
+			"ID": "20221019160452-nllek1b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019160452-nllek1b",
+				"updated": "20221019160452"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前端使用 Vue-admin-template   "
+				}
+			]
+		},
+		{
+			"ID": "20221019160829-lkd5g0v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019160829-lkd5g0v",
+				"updated": "20221019163801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装 Vue-admin-template ：在 github 下载项目"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://github.com/PanJiaChen/vue-admin-template",
+					"TextMarkTextContent": " 在 github 下载项目"
+				}
+			]
+		},
+		{
+			"ID": "20221019160524-pwzka92",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221019160524-pwzka92",
+				"updated": "20221019164353"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "# clone the project 克隆项目，注意路径不要包含中文\ngit clone https://github.com/PanJiaChen/vue-admin-template.git\n# enter the project directory 进入项目目录\ncd vue-admin-template\n# install dependency 安装依赖\nnpm install\n# develop 运行\nnpm run dev\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221019160524-i28pda3",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019160524-i28pda3",
+				"updated": "20221019185303"
+			},
+			"Children": [
+				{
+					"ID": "20221019165902-6ufaqsz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221019165902-6ufaqsz",
+						"updated": "20221019165902"
+					},
+					"Children": [
+						{
+							"ID": "20221019165902-jt8egi9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019165902-jt8egi9",
+								"updated": "20221019170000"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "删掉不要的文件：删掉 view 文件夹下 除了 login 和 404.vue 的文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221019170001-k883sak",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221019170001-k883sak",
+						"updated": "20221019185303"
+					},
+					"Children": [
+						{
+							"ID": "20221019170001-rgk9348",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019170001-rgk9348",
+								"updated": "20221019185303"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新建 轮播图文件夹有banner.vue，座位信息文件夹有tsgzw.vue，图书信息文件夹有tsjs.vue"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019165828-22cgq44",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221019165828-22cgq44",
+				"updated": "20221019185519"
+			},
+			"Children": [
+				{
+					"ID": "20221019185411-plppubg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221019185411-plppubg",
+						"updated": "20221019185519"
+					},
+					"Children": [
+						{
+							"ID": "20221019185411-snk0yyq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221019185411-snk0yyq",
+								"updated": "20221019185519"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在 route 里设置侧边导航栏路由 —— 新建view 一定记得设置路由"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221019165828-fyjcy40",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165828-fyjcy40"
+			}
+		},
+		{
+			"ID": "20221019165828-bpum1i9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165828-bpum1i9"
+			}
+		},
+		{
+			"ID": "20221019165829-a54myju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165829-a54myju"
+			}
+		},
+		{
+			"ID": "20221019160452-otfym6k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019160452-otfym6k"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后端使用 Koa2"
+				}
+			]
+		},
+		{
+			"ID": "20221019160517-sxl9nea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019160517-sxl9nea",
+				"updated": "20221019161343"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221014173838-tnbvrma",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "koa + koa-router插件"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Koa是开发框架，路由使用的是  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221014175903-cbygkjp",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "Koa-Router "
+				}
+			]
+		},
+		{
+			"ID": "20221019161343-7pukeeb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019161343-7pukeeb"
+			}
+		}
+	]
+}

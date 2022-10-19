@@ -1,0 +1,292 @@
+{
+	"ID": "20221019164632-lh2gore",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221019164632-lh2gore",
+		"title": "总目录",
+		"updated": "20221019165621"
+	},
+	"Children": [
+		{
+			"ID": "20221019164638-ax8gaa0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019164638-ax8gaa0"
+			}
+		},
+		{
+			"ID": "20221019165052-hklux7i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019165052-hklux7i",
+				"updated": "20221019165111"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 node.js 进行后端开发"
+				}
+			]
+		},
+		{
+			"ID": "20221019165130-aubt4ys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165130-aubt4ys",
+				"updated": "20221019165130"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221014173838-tnbvrma",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "koa + koa-router插件"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Koa是开发框架，路由使用的是  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221014175903-cbygkjp",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "Koa-Router "
+				}
+			]
+		},
+		{
+			"ID": "20221019165130-syfxgao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165130-syfxgao",
+				"updated": "20221019165130"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221010112635-6bwsllk",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "express 基于node.js的Web开发框架"
+				}
+			]
+		},
+		{
+			"ID": "20221019165052-agqvnmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165052-agqvnmh"
+			}
+		},
+		{
+			"ID": "20221019165052-31eauvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165052-31eauvo"
+			}
+		},
+		{
+			"ID": "20221019164653-5dxh0rx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019164653-5dxh0rx",
+				"updated": "20221019164713"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用 Vue 进行前端开发"
+				}
+			]
+		},
+		{
+			"ID": "20221019164632-qhtqcgf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019164632-qhtqcgf",
+				"updated": "20221019164651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快捷模板：Vue-admin-template  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221019160452-nllek1b",
+					"TextMarkTextContent": "使用Vue-admin-template的项目"
+				}
+			]
+		},
+		{
+			"ID": "20221019165604-dgxu8bw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165604-dgxu8bw"
+			}
+		},
+		{
+			"ID": "20221019165557-2lk96k1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019165557-2lk96k1",
+				"updated": "20221019165601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信小程序"
+				}
+			]
+		},
+		{
+			"ID": "20221019164725-ckus7kc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019164725-ckus7kc",
+				"updated": "20221019165621"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221019153312-b37fq5p",
+					"TextMarkTextContent": "云开发微信小程序，使用 云开发的 HTTP API 自建  后端管理系统"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  例子："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221019160438-ugpl542",
+					"TextMarkTextContent": "毕设 - 图书馆座位预约后台管理系统"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				}
+			]
+		},
+		{
+			"ID": "20221019165307-w9n7cpi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165307-w9n7cpi"
+			}
+		},
+		{
+			"ID": "20221019164726-0rfrhzx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221019164726-0rfrhzx",
+				"updated": "20221019164730"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目"
+				}
+			]
+		},
+		{
+			"ID": "20221019164730-2sbvzuq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019164730-2sbvzuq",
+				"updated": "20221019165005"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221019160438-ugpl542",
+					"TextMarkTextContent": "毕设 - 图书馆座位预约后台管理系统"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				}
+			]
+		},
+		{
+			"ID": "20221019165030-igea1f2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165030-igea1f2",
+				"updated": "20221019165034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t前端使用 Vue-admin-template ，后端使用 Koa，前后交互 AJAX"
+				}
+			]
+		},
+		{
+			"ID": "20221019165034-tpy732a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019165034-tpy732a"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t基于 "
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "云开发图书馆座位预约小程序"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 设计其后端管理系统 - 使用云开发的 HTTP API"
+				}
+			]
+		},
+		{
+			"ID": "20221019164806-2lno0hj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019164806-2lno0hj",
+				"updated": "20221019165529"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "       "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221019153312-b37fq5p",
+					"TextMarkTextContent": "云开发微信小程序，使用 云开发的 HTTP API 自建  后端管理系统"
+				}
+			]
+		},
+		{
+			"ID": "20221019164843-rwb9mdx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221019164843-rwb9mdx"
+			}
+		}
+	]
+}
