@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221017095903-g3a7pxy",
 		"title": "JS 原理",
-		"updated": "20221018153912"
+		"updated": "20221018202412"
 	},
 	"Children": [
 		{
@@ -224,12 +224,12 @@
 			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20221017170056-oc1w926",
-				"updated": "20221017170120"
+				"updated": "20221018184806"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "隐式绑定 "
+					"Data": "隐式绑定 "
 				}
 			]
 		},
@@ -246,12 +246,12 @@
 			"HeadingLevel": 4,
 			"Properties": {
 				"id": "20221017170056-7kicqs7",
-				"updated": "20221017170121"
+				"updated": "20221018184807"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "显示绑定 "
+					"Data": "显示绑定 "
 				}
 			]
 		},
@@ -827,6 +827,28 @@
 			]
 		},
 		{
+			"ID": "20221018185924-2ja1p1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018185924-2ja1p1r",
+				"updated": "20221018190201"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "什么是作用域：函数的大括号，全局作用域，记住对象的大括号不是作用域"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
 			"ID": "20221018142827-708gto8",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
@@ -923,12 +945,84 @@
 			]
 		},
 		{
+			"ID": "20221018190115-pjdesin",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221018190115-pjdesin",
+				"updated": "20221018190346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "箭头函数中this的使用"
+				}
+			]
+		},
+		{
+			"ID": "20221018190347-5wy1fpa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018190347-5wy1fpa"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "模拟网络请求的案例："
+				}
+			]
+		},
+		{
+			"ID": "20221018190814-evl1q5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018190814-evl1q5k",
+				"updated": "20221018191207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "这里我使用setTimeout来模拟网络请求，请求到数据后如何可以存放到data中呢？ "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\n 我们需要拿到obj对象，设置data； \n 但是直接拿到的this是window，我们需要在外层定义：var _this = this "
+				}
+			]
+		},
+		{
+			"ID": "20221018190815-z6dxvw4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018190815-z6dxvw4",
+				"updated": "20221018190815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " 在setTimeout的回调函数中使用_this就代表了obj对象"
+				}
+			]
+		},
+		{
 			"ID": "20221017104210-09u01vg",
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20221017104210-09u01vg",
-				"updated": "20221018142649"
+				"updated": "20221018190813"
 			},
 			"Children": [
 				{
@@ -941,7 +1035,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "// 我们来看一个模拟网络请求的案例： \n这里我使用setTimeout来模拟网络请求，请求到数据后如何可以存放到data中呢？ \n 我们需要拿到obj对象，设置data；  但是直接拿到的this是window，我们需要在外层定义：var _this = this  在setTimeout的回调函数中使用_this就代表了obj对象\n"
+					"Data": "// 我们来看一个模拟网络请求的案例： \n  // 网络请求的工具函数\n    function request(url, callbackFn) {\n      var results = [\"abc\", \"cba\", \"nba\"]\n      callbackFn(results)\n    }\n\n    // 实际操作的位置(业务)\n    var obj = {\n      names: [],\n      network: function() {\n        // 1.早期的时候\n        // var _this = this\n        // request(\"/names\", function(res) {\n        //   _this.names = [].concat(res)\n        // })\n\n        // 2.箭头函数写法\n        request(\"/names\", (res) =\u003e {\n          this.names = [].concat(res)\n        })\n      }\n    }\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -959,36 +1053,186 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "之前的代码在ES6之前是我们最常用的方式，从ES6开始，我们会使用箭头函数：  为什么在setTimeout的回调函数中可以直接使用this呢？  因为箭头函数并不绑定this对象，那么this引用就会从上层作用于中找到对应的this                       b "
+					"Data": "之前的代码在ES6之前是我们最常用的方式，从ES6开始，我们会使用箭头函数：  "
 				}
 			]
 		},
 		{
-			"ID": "20221018103919-y3hvx46",
+			"ID": "20221018191018-0494ayc",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221018103919-y3hvx46"
-			}
+				"id": "20221018191018-0494ayc",
+				"updated": "20221018191125"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "为什么在setTimeout的回调函数中可以直接使用this呢？"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color6);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": " "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color6);\"}"
+				}
+			]
 		},
 		{
-			"ID": "20221017104210-agy0vyq",
+			"ID": "20221018191026-ej434ge",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221017104210-agy0vyq",
-				"updated": "20221018103916"
+				"id": "20221018191026-ej434ge",
+				"updated": "20221018191028"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "如果getData也是一个箭头函数，那么setTimeout中的回调函数中的this指向谁呢？"
+					"Data": "因为箭头函数并不绑定this对象，那么this引用就会从上层作用于中找到对应的this                       "
 				}
 			]
 		},
 		{
-			"ID": "20221018103913-e5ugwlg",
+			"ID": "20221018195645-vmnt0k8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221018195645-vmnt0k8",
+				"updated": "20221018195652"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "练习"
+				}
+			]
+		},
+		{
+			"ID": "20221018195703-8zvucbf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018195703-8zvucbf",
+				"updated": "20221018200151"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var name = \"window\";\n\nvar person = {\n  name: \"person\",\n  sayName: function () {\n    console.log(this.name);\n  }\n};\n\nfunction sayName() {\n  var sss = person.sayName;\n\n  sss(); // 绑定: 默认绑定, window -\u003e window\n\n  person.sayName(); // 绑定: 隐式绑定, person -\u003e person\n\n  (person.sayName)(); // 绑定: 隐式绑定, person -\u003e person\n\n  (b = person.sayName)(); // 术语: 间接函数引用, window -\u003e window\n}\n\nsayName();\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018195647-1vaty8u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018195647-1vaty8u",
+				"updated": "20221018201533"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var name = 'window'\n\n\n// {} -\u003e 对象\n// {} -\u003e 代码块\nvar person1 = {\n  name: 'person1',\n  foo1: function () {\n    console.log(this.name)\n  },\n  foo2: () =\u003e console.log(this.name),\n  foo3: function () {\n    return function () {\n      console.log(this.name)\n    }\n  },\n  foo4: function () {\n    // console.log(this) // 第一个表达式this -\u003e person1\n    // console.log(this) // 第二个表达式this -\u003e person2\n    // console.log(this) // 第三个表达式this -\u003e person1\n  \n    return () =\u003e {\n      console.log(this.name)\n    }\n  }\n}\n\nvar person2 = { name: 'person2' }\n\n\n// 开始题目:\nperson1.foo1(); // 隐式绑定: person1\nperson1.foo1.call(person2); // 显式绑定: person2\n\nperson1.foo2(); // 上层作用域: window\nperson1.foo2.call(person2); // 上层作用域: window\n\nperson1.foo3()(); // 默认绑定: window\nperson1.foo3.call(person2)(); // 默认绑定: window\nperson1.foo3().call(person2); // 显式绑定: person2\n\nperson1.foo4()(); // person1\nperson1.foo4.call(person2)(); // person2\nperson1.foo4().call(person2); // person1\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018195647-idmu6h2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018195647-idmu6h2",
+				"updated": "20221018201551"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var name = 'window'\n\n/*\n  1.创建一个空的对象\n  2.将这个空的对象赋值给this\n  3.执行函数体中代码\n  4.将这个新的对象默认返回\n*/\nfunction Person(name) {\n  this.name = name\n  this.foo1 = function () {\n    console.log(this.name)\n  },\n  this.foo2 = () =\u003e console.log(this.name),\n  this.foo3 = function () {\n    return function () {\n      console.log(this.name)\n    }\n  },\n  this.foo4 = function () {\n    return () =\u003e {\n      console.log(this.name)\n    }\n  }\n}\n\n// person1/person都是对象(实例instance)\nvar person1 = new Person('person1')\nvar person2 = new Person('person2')\n\n\n// 面试题目:\nperson1.foo1() // 隐式绑定: person1\nperson1.foo1.call(person2) // 显式绑定: person2\n\nperson1.foo2() // 上层作用域查找: person1\nperson1.foo2.call(person2) // 上层作用域查找: person1\n\nperson1.foo3()() // 默认绑定: window\nperson1.foo3.call(person2)() // 默认绑定: window\nperson1.foo3().call(person2) // 显式绑定: person2\n\nperson1.foo4()() // 上层作用域查找: person1(隐式绑定)\nperson1.foo4.call(person2)() //  上层作用域查找: person2(显式绑定)\nperson1.foo4().call(person2) // 上层作用域查找: person1(隐式绑定)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018200210-l4ek4kj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221018200210-l4ek4kj",
+				"updated": "20221018201603"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var name = 'window'\n\n/*\n  1.创建一个空的对象\n  2.将这个空的对象赋值给this\n  3.执行函数体中代码\n  4.将这个新的对象默认返回\n*/\nfunction Person(name) {\n  this.name = name\n  this.obj = {\n    name: 'obj',\n    foo1: function () {\n      return function () {\n        console.log(this.name)\n      }\n    },\n    foo2: function () {\n      return () =\u003e {\n        console.log(this.name)\n      }\n    }\n  }\n}\n\nvar person1 = new Person('person1')\nvar person2 = new Person('person2')\n\nperson1.obj.foo1()() // 默认绑定: window\nperson1.obj.foo1.call(person2)() // 默认绑定: window\nperson1.obj.foo1().call(person2) // 显式绑定: person2\n\nperson1.obj.foo2()() // 上层作用域查找: obj(隐式绑定)\nperson1.obj.foo2.call(person2)() // 上层作用域查找: person2(显式绑定)\nperson1.obj.foo2().call(person2) // 上层作用域查找: obj(隐式绑定)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221018200210-h948jzs",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221018103913-e5ugwlg"
+				"id": "20221018200210-h948jzs"
 			}
 		},
 		{
@@ -1009,8 +1253,22 @@
 			"ID": "20221017100716-mw69bpo",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221017100716-mw69bpo"
-			}
+				"id": "20221017100716-mw69bpo",
+				"updated": "20221018202412"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221010141521-ixnzpi3",
+					"TextMarkBlockRefSubtype": "d",
+					"TextMarkTextContent": "浏览器内核引擎"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 这时一个引用，点击可看"
+				}
+			]
 		},
 		{
 			"ID": "20221017100716-zqlt2jn",
@@ -1040,181 +1298,6 @@
 			"Properties": {
 				"id": "20221017100456-n1zvqsc"
 			}
-		},
-		{
-			"ID": "20221017100456-90v2w1y",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017100456-90v2w1y"
-			}
-		},
-		{
-			"ID": "20221017095903-ug42km6",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017095903-ug42km6",
-				"updated": "20221017105840"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "函数的细节"
-				}
-			]
-		},
-		{
-			"ID": "20221017105841-nt35zxt",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105841-nt35zxt",
-				"updated": "20221017105846"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "对象的细节"
-				}
-			]
-		},
-		{
-			"ID": "20221017105846-it4hzuh",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105846-it4hzuh",
-				"updated": "20221017105850"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "原理性"
-				}
-			]
-		},
-		{
-			"ID": "20221017105853-75k2abu",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105853-75k2abu",
-				"updated": "20221017105904"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "浏览器的原理"
-				}
-			]
-		},
-		{
-			"ID": "20221017105904-x4hnjlx",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105904-x4hnjlx",
-				"updated": "20221017105913"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "函数的本质"
-				}
-			]
-		},
-		{
-			"ID": "20221017105913-1fivtec",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105913-1fivtec",
-				"updated": "20221017105930"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "微任务和宏队列"
-				}
-			]
-		},
-		{
-			"ID": "20221017105931-gw5g5vd",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105931-gw5g5vd",
-				"updated": "20221017105947"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "面向对象——继承"
-				}
-			]
-		},
-		{
-			"ID": "20221017105947-tq89i2r",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105947-tq89i2r",
-				"updated": "20221017105957"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "原型链"
-				}
-			]
-		},
-		{
-			"ID": "20221017105958-4bfekig",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017105958-4bfekig",
-				"updated": "20221017110006"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "ES6~ES13"
-				}
-			]
-		},
-		{
-			"ID": "20221017110007-w33mb9k",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017110007-w33mb9k",
-				"updated": "20221017110022"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "Promise"
-				}
-			]
-		},
-		{
-			"ID": "20221017110024-su30mtt",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017110024-su30mtt",
-				"updated": "20221017110056"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "节流/防抖/深拷贝/eventbus"
-				}
-			]
-		},
-		{
-			"ID": "20221017110100-2wlz5hs",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221017110100-2wlz5hs",
-				"updated": "20221017110107"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "响应式原理n"
-				}
-			]
 		},
 		{
 			"ID": "20221017110034-pihgtpy",
@@ -1363,6 +1446,7 @@
 			"ID": "20221017154347-h3xhwhl",
 			"Type": "NodeBlockquote",
 			"Properties": {
+				"fold": "0",
 				"id": "20221017154347-h3xhwhl",
 				"style": "background-color: var(--b3-font-background2);",
 				"updated": "20221017154506"
@@ -2242,6 +2326,28 @@
 									"Data": "资源库 的东西保存在 百度网盘 "
 								}
 							]
+						}
+					]
+				},
+				{
+					"ID": "20221018184954-1brufwo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221018184954-1brufwo"
+					},
+					"Children": [
+						{
+							"ID": "20221018184954-utdws30",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221018184954-utdws30"
+							}
 						}
 					]
 				}

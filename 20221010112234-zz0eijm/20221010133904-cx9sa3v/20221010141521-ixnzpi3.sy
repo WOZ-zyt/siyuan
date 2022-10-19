@@ -6,22 +6,111 @@
 		"id": "20221010141521-ixnzpi3",
 		"scroll": "{\u0026amp;quot;startId\u0026amp;quot;:\u0026amp;quot;20221010141521-8j3om7l\u0026amp;quot;,\u0026amp;quot;endId\u0026amp;quot;:\u0026amp;quot;20221010141554-zkrfxwz\u0026amp;quot;,\u0026amp;quot;scrollTop\u0026amp;quot;:0}",
 		"title": "浏览器内核引擎",
-		"updated": "20221017103829"
+		"updated": "20221018204316"
 	},
 	"Children": [
 		{
-			"ID": "20221010141521-8j3om7l",
+			"ID": "20221018203429-pbh00mm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018203429-pbh00mm",
+				"updated": "20221018203440"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "一个网页URL从输入到浏览器中，到显示经历过怎么样的解析过程呢？"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221018203430-5a6pwij",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018203430-5a6pwij",
+				"updated": "20221018204035"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "程序员写的前端代码部署在服务器上，服务器得到浏览器请求首先将 index.html 文件响应给 浏览器， 浏览器通过 index.html 中的 link 和 sprict 标签知道需要在从服务器哪里下载css文件和js文件，下载完成后浏览器通过引擎解析代码渲染页面。"
+				}
+			]
+		},
+		{
+			"ID": "20221018203430-ex948ej",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018203430-ex948ej",
+				"updated": "20221018204144"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "浏览器怎么解析 html文件，css文件和js文件"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " —— 使用内核"
+				}
+			]
+		},
+		{
+			"ID": "20221018204123-26jsr07",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221018204123-26jsr07"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器有JS解析引擎，解析JS代码，谷歌的JS解析引擎是V8，v8解析引擎性能最好"
+				}
+			]
+		},
+		{
+			"ID": "20221010141728-90ko69l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221010141728-90ko69l",
+				"updated": "20221018204316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不同浏览器使用不同解析引擎："
+				}
+			]
+		},
+		{
+			"ID": "20221010154322-2wm0t0y",
 			"Type": "NodeList",
 			"ListData": {
 				"Typ": 1
 			},
 			"Properties": {
-				"id": "20221010141521-8j3om7l",
-				"updated": "20221010154348"
+				"id": "20221010154322-2wm0t0y",
+				"updated": "20221018204232"
 			},
 			"Children": [
 				{
-					"ID": "20221010141552-r19q9hi",
+					"ID": "20221010145933-1oo8u0h",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -30,28 +119,28 @@
 						"Num": 1
 					},
 					"Properties": {
-						"id": "20221010141552-r19q9hi",
-						"updated": "20221010141805"
+						"id": "20221010145933-1oo8u0h",
+						"updated": "20221010154348"
 					},
 					"Children": [
 						{
-							"ID": "20221010141552-i6ripyp",
+							"ID": "20221010145933-pvak95f",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221010141552-i6ripyp",
-								"updated": "20221010141805"
+								"id": "20221010145933-pvak95f",
+								"updated": "20221010154348"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": " 浏览器有JS解析引擎，解析JS代码，谷歌的JS解析引擎是V8，v8解析引擎性能最好"
+									"Data": "Chrome 浏览器 =\u003e V8 （v8解析引擎性能最好）"
 								}
 							]
 						}
 					]
 				},
 				{
-					"ID": "20221010141728-vxhcg0e",
+					"ID": "20221010154312-c6jwjlj",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
@@ -60,172 +149,78 @@
 						"Num": 2
 					},
 					"Properties": {
-						"id": "20221010141728-vxhcg0e",
-						"updated": "20221010154348"
+						"id": "20221010154312-c6jwjlj"
 					},
 					"Children": [
 						{
-							"ID": "20221010141728-90ko69l",
+							"ID": "20221010154312-z4metrg",
 							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221010141728-90ko69l",
-								"updated": "20221010154328"
+								"id": "20221010154312-z4metrg",
+								"updated": "20221010154316"
 							},
 							"Children": [
 								{
 									"Type": "NodeText",
-									"Data": "不同浏览器使用不同解析引擎："
+									"Data": "Firefox 浏览器 =\u003e OdinMonkey（奥丁猴） "
 								}
 							]
-						},
+						}
+					]
+				},
+				{
+					"ID": "20221010154317-k56agkp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221010154317-k56agkp"
+					},
+					"Children": [
 						{
-							"ID": "20221010154322-2wm0t0y",
-							"Type": "NodeList",
-							"ListData": {
-								"Typ": 1
-							},
+							"ID": "20221010154317-qlk2r4i",
+							"Type": "NodeParagraph",
 							"Properties": {
-								"id": "20221010154322-2wm0t0y",
-								"updated": "20221010154348"
+								"id": "20221010154317-qlk2r4i",
+								"updated": "20221010154318"
 							},
 							"Children": [
 								{
-									"ID": "20221010145933-1oo8u0h",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "MS4=",
-										"Num": 1
-									},
-									"Properties": {
-										"id": "20221010145933-1oo8u0h",
-										"updated": "20221010154348"
-									},
-									"Children": [
-										{
-											"ID": "20221010145933-pvak95f",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20221010145933-pvak95f",
-												"updated": "20221010154348"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "Chrome 浏览器 =\u003e V8 （v8解析引擎性能最好）"
-												}
-											]
-										}
-									]
-								},
+									"Type": "NodeText",
+									"Data": " Safri 浏览器 =\u003e JSCore "
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221010154319-ngypfwo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221010154319-ngypfwo",
+						"updated": "20221010154319"
+					},
+					"Children": [
+						{
+							"ID": "20221010154319-f2knop4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221010154319-f2knop4"
+							},
+							"Children": [
 								{
-									"ID": "20221010154312-c6jwjlj",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "Mi4=",
-										"Num": 2
-									},
-									"Properties": {
-										"id": "20221010154312-c6jwjlj"
-									},
-									"Children": [
-										{
-											"ID": "20221010154312-z4metrg",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20221010154312-z4metrg",
-												"updated": "20221010154316"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": "Firefox 浏览器 =\u003e OdinMonkey（奥丁猴） "
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20221010154317-k56agkp",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "My4=",
-										"Num": 3
-									},
-									"Properties": {
-										"id": "20221010154317-k56agkp"
-									},
-									"Children": [
-										{
-											"ID": "20221010154317-qlk2r4i",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20221010154317-qlk2r4i",
-												"updated": "20221010154318"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": " Safri 浏览器 =\u003e JSCore "
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20221010154319-ngypfwo",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "NC4=",
-										"Num": 4
-									},
-									"Properties": {
-										"id": "20221010154319-ngypfwo"
-									},
-									"Children": [
-										{
-											"ID": "20221010154319-f2knop4",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20221010154319-f2knop4"
-											},
-											"Children": [
-												{
-													"Type": "NodeText",
-													"Data": " IE 浏览器 =\u003e Chakra（查克拉）"
-												}
-											]
-										}
-									]
-								},
-								{
-									"ID": "20221011230125-sbwqimf",
-									"Type": "NodeListItem",
-									"ListData": {
-										"Typ": 1,
-										"Delimiter": 46,
-										"Marker": "NS4=",
-										"Num": 5
-									},
-									"Properties": {
-										"id": "20221011230125-sbwqimf"
-									},
-									"Children": [
-										{
-											"ID": "20221011230125-x2duoyj",
-											"Type": "NodeParagraph",
-											"Properties": {
-												"id": "20221011230125-x2duoyj"
-											}
-										}
-									]
+									"Type": "NodeText",
+									"Data": " IE 浏览器 =\u003e Chakra（查克拉）"
 								}
 							]
 						}
@@ -274,17 +269,8 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221017103829-c2wcsuq",
-				"updated": "20221017103829"
-			},
-			"Children": [
-				{
-					"Type": "NodeTextMark",
-					"TextMarkType": "block-ref",
-					"TextMarkBlockRefID": "20221010141521-ixnzpi3",
-					"TextMarkBlockRefSubtype": "d",
-					"TextMarkTextContent": "浏览器内核引擎"
-				}
-			]
+				"updated": "20221018202525"
+			}
 		},
 		{
 			"ID": "20221017103829-1y983sv",
