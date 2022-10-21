@@ -1,0 +1,48 @@
+{
+	"ID": "20221020155530-8zifzyw",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221020155530-8zifzyw",
+		"title": "布局",
+		"updated": "20221020155705"
+	},
+	"Children": [
+		{
+			"ID": "20221020155531-40rm329",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020155531-40rm329",
+				"updated": "20221020155633"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "弹性布局  flex"
+				}
+			]
+		},
+		{
+			"ID": "20221020155637-9sq39fw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020155637-9sq39fw",
+				"updated": "20221020155705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "justify-content  属性：定义了项目在主轴上的对齐方式。"
+				}
+			]
+		},
+		{
+			"ID": "20221020155633-b1tm7q1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020155633-b1tm7q1"
+			}
+		}
+	]
+}

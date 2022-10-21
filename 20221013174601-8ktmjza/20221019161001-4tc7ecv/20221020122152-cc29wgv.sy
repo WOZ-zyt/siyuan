@@ -1,0 +1,39 @@
+{
+	"ID": "20221020122152-cc29wgv",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221020122152-cc29wgv",
+		"title": "vue-element-admin",
+		"updated": "20221020122226"
+	},
+	"Children": [
+		{
+			"ID": "20221020122152-2yybquw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020122152-2yybquw",
+				"updated": "20221020122225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中文文档："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://panjiachen.github.io/vue-element-admin-site/zh/guide/#%E5%89%8D%E5%BA%8F%E5%87%86%E5%A4%87",
+					"TextMarkTextContent": "介绍 | vue-element-admin (panjiachen.github.io)"
+				}
+			]
+		},
+		{
+			"ID": "20221020122226-pi8drvn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020122226-pi8drvn"
+			}
+		}
+	]
+}

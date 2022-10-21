@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221019160438-ugpl542",
 		"title": "毕设 - 图书馆座位预约系统后台管理系统",
-		"updated": "20221019203808"
+		"updated": "20221020122813"
 	},
 	"Children": [
 		{
@@ -908,9 +908,183 @@
 		},
 		{
 			"ID": "20221019194856-oc9j9xe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221019194856-oc9j9xe",
+				"updated": "20221020105545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考论文"
+				}
+			]
+		},
+		{
+			"ID": "20221020105601-5o08ksk",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221019194856-oc9j9xe"
+				"id": "20221020105601-5o08ksk",
+				"updated": "20221020110220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于小程序的图书馆座位预约系统设计与实现 沈慧，吴仪，徐慧雯，安梦生"
+				}
+			]
+		},
+		{
+			"ID": "20221020105538-bkjj0w4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020105538-bkjj0w4"
+			}
+		},
+		{
+			"ID": "20221020105539-zt9dn4f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020105539-zt9dn4f",
+				"updated": "20221020122452"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我的考虑"
+				}
+			]
+		},
+		{
+			"ID": "20221020122504-4fy03ug",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020122504-4fy03ug",
+				"updated": "20221020122813"
+			},
+			"Children": [
+				{
+					"ID": "20221020122505-9x2ygkg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020122505-9x2ygkg",
+						"updated": "20221020122505"
+					},
+					"Children": [
+						{
+							"ID": "20221020122505-tq96jl9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020122505-tq96jl9",
+								"updated": "20221020122713"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "确定 预约选择时间，是一天还是一周"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020122524-n74mkit",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020122524-n74mkit"
+					},
+					"Children": [
+						{
+							"ID": "20221020122524-4sfkjax",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020122524-4sfkjax",
+								"updated": "20221020122657"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加 同一个位不同时间段选择功能 —— 一个快速通道"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020122720-d3dska4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020122720-d3dska4",
+						"updated": "20221020122813"
+					},
+					"Children": [
+						{
+							"ID": "20221020122720-y0yscpp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020122720-y0yscpp",
+								"updated": "20221020122813"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "添加 座位离位功能 离位字段，搞懂离位机制"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020105539-o4rek01",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020105539-o4rek01"
+			}
+		},
+		{
+			"ID": "20221020105539-a9nax7o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020105539-a9nax7o"
+			}
+		},
+		{
+			"ID": "20221020105539-0mavq7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020105539-0mavq7d"
+			}
+		},
+		{
+			"ID": "20221020105539-iyvtvdr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020105539-iyvtvdr"
 			}
 		},
 		{

@@ -1,0 +1,7957 @@
+{
+	"ID": "20221020141435-x18m1zb",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221020141435-x18m1zb",
+		"title": "微信小程序的初识",
+		"updated": "20221020215002"
+	},
+	"Children": [
+		{
+			"ID": "20221020150938-ablynuw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020150938-ablynuw",
+				"updated": "20221020150940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "宿主环境（微信）提供为小程序开发提供了：各种API , 运行机制，组件，通信模式 "
+				}
+			]
+		},
+		{
+			"ID": "20221020150939-ycxo7dq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020150939-ycxo7dq",
+				"updated": "20221020212125"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快捷："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221020204621-m7mwee0",
+					"TextMarkTextContent": "导航栏"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221020210343-16yigjw",
+					"TextMarkTextContent": "网络请求"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  下拉刷新  上拉触底"
+				}
+			]
+		},
+		{
+			"ID": "20221020210658-cd9vd6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210658-cd9vd6m"
+			}
+		},
+		{
+			"ID": "20221020210659-wxuevsn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210659-wxuevsn"
+			}
+		},
+		{
+			"ID": "20221020210659-9oqlme4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210659-9oqlme4"
+			}
+		},
+		{
+			"ID": "20221020141449-thp587d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020141449-thp587d",
+				"updated": "20221020142310"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "能够知道如何创建小程序项目"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9); font-size: 19px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020142313-zhu9zkp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020142313-zhu9zkp",
+				"updated": "20221020142321"
+			},
+			"Children": [
+				{
+					"ID": "20221020142321-rphd0h1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020142321-rphd0h1",
+						"updated": "20221020142321"
+					},
+					"Children": [
+						{
+							"ID": "20221020142321-v8obmdj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020142321-v8obmdj",
+								"updated": "20221020142848"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "首先注册小程序开发账号，获取小程序：AppID"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020142933-vhg8baf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020142933-vhg8baf"
+					},
+					"Children": [
+						{
+							"ID": "20221020142933-d8qs1q8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020142933-d8qs1q8",
+								"updated": "20221020143018"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "更改代理：不使用任何代理，直接连接，什么是网络的代理"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020142649-wf3c5g5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020142649-wf3c5g5"
+					},
+					"Children": [
+						{
+							"ID": "20221020142649-ym5754a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020142649-ym5754a",
+								"updated": "20221020143433"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用微信开发者工具新建项目"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020170857-pjl1eo6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020170857-pjl1eo6",
+				"updated": "20221020170919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目文件解析"
+				}
+			]
+		},
+		{
+			"ID": "20221020142320-5yl4biu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020142320-5yl4biu"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "能够清楚小程序项目的基本组成结构"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9); font-size: 19px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020143509-w1dnyl2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143509-w1dnyl2",
+				"updated": "20221020143602"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① pages 用来存放所有小程序的页面"
+				}
+			]
+		},
+		{
+			"ID": "20221020143509-or6oysy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143509-or6oysy",
+				"updated": "20221020143509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② utils 用来存放工具性质的模块（例如：格式化时间的自定义模块）"
+				}
+			]
+		},
+		{
+			"ID": "20221020143509-3qhg8xb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143509-3qhg8xb",
+				"updated": "20221020143509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③ app.js 小程序项目的入口文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020143509-m2fyeqd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143509-m2fyeqd",
+				"updated": "20221020143509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④ app.json 小程序项目的全局配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020143509-j657d19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143509-j657d19",
+				"updated": "20221020143509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑤ app.wxss 小程序项目的全局样式文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020143509-obsy466",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143509-obsy466",
+				"updated": "20221020143509"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑥ project.config.json 项目的配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020143509-920urjj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143509-920urjj",
+				"updated": "20221020143810"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑦ sitemap.json 用来配置小程序及其页面"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "是否允许被微信索引 "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020143631-6pgs7k4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020143631-6pgs7k4"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color9); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "能够知道小程序页面由几部分组成"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color9); font-size: 19px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020170818-tjznvm1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170818-tjznvm1",
+				"updated": "20221020170818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中，每个页面由 4 个基本文件组成，它们分别是："
+				}
+			]
+		},
+		{
+			"ID": "20221020170818-qwa760v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170818-qwa760v",
+				"updated": "20221020170818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① .js 文件（页面的脚本文件，存放页面的数据、事件处理函数等）"
+				}
+			]
+		},
+		{
+			"ID": "20221020170818-a1mv8e0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170818-a1mv8e0",
+				"updated": "20221020170818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② .json 文件（当前页面的配置文件，配置窗口的外观、表现等）"
+				}
+			]
+		},
+		{
+			"ID": "20221020170818-g7pcafv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170818-g7pcafv",
+				"updated": "20221020170818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③ .wxml 文件（页面的模板结构文件）"
+				}
+			]
+		},
+		{
+			"ID": "20221020170818-8sf0831",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170818-8sf0831",
+				"updated": "20221020170818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④ .wxss 文件（当前页面的样式表文件）"
+				}
+			]
+		},
+		{
+			"ID": "20221020170915-vsyy1s6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020170915-vsyy1s6",
+				"updated": "20221020170922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JSON 配置文件的作用"
+				}
+			]
+		},
+		{
+			"ID": "20221020170915-rfrdzrn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170915-rfrdzrn",
+				"updated": "20221020171356"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JSON 是一种数据格式，在实际开发中，JSON 总是以配置文件的形式出现。小程序项目中也不例外：通过不同的 .json 配置文件，可以对小程序项目进行不同级别的配置。"
+				}
+			]
+		},
+		{
+			"ID": "20221020171405-q1iy8a0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171405-q1iy8a0",
+				"updated": "20221020171405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序项目中有 4 种 json 配置文件，分别是："
+				}
+			]
+		},
+		{
+			"ID": "20221020171405-7wxri4u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020171405-7wxri4u",
+				"updated": "20221020210208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①app.json 全局配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020171419-pxzfhel",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171419-pxzfhel",
+				"updated": "20221020171433"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "app.json 是当前小程序的全局配置，包括了小程序的所有"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "页面路径、窗口外观、界面表现、底部 tab "
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "等。Demo 项目里边的 app.json 配置内容如下："
+				}
+			]
+		},
+		{
+			"ID": "20221020204945-72tshpm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020204945-72tshpm",
+				"updated": "20221020205038"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 67%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020204948-h2masj3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 67%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020171500-jeuvlh5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171500-jeuvlh5",
+				"updated": "20221020171500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单了解下这 4 个配置项的作用："
+				}
+			]
+		},
+		{
+			"ID": "20221020171500-9qf1fiu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020171500-9qf1fiu",
+				"updated": "20221020171500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①pages：用来记录当前小程序所有页面的路径"
+				}
+			]
+		},
+		{
+			"ID": "20221020171500-ks53jpd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020171500-ks53jpd",
+				"updated": "20221020171500"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②window：全局定义小程序所有页面的背景色、文字颜色等"
+				}
+			]
+		},
+		{
+			"ID": "20221020204855-cf8vejw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020204855-cf8vejw",
+				"updated": "20221020205119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "—— 是配置上图中 导航栏区域 和 背景区域"
+				}
+			]
+		},
+		{
+			"ID": "20221020205132-kh7z0h1",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||width: 407px;",
+				"id": "20221020205132-kh7z0h1",
+				"updated": "20221020205639"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性名"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "默认值"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "navigationBarTitleText"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "字符串"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导航栏标题文字内容"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "navigationBarBackgroundColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HexColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "#000000"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导航栏背景颜色，如#000000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "navigationBarTextStyle"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "white"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "导航栏标题颜色，仅支持black/white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "backgroundColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HexColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "#ffffff"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "窗口的背景色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "backgroundTextStyle"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "dark"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "下拉loading的样式，仅支持dark/light"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "enablePullDownRefresh"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Boolean"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "false"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是否全局开启下拉刷新"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onReachBottomDistance"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Number"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "50"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "页面上拉触底事件触发时距页面底部距离，单位为px，注意：默认距离为50px，如果没有特殊需求，建议使用默认值即可。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020171500-vjrxe3g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020171500-vjrxe3g",
+				"updated": "20221020204616"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③style：全局定义小程序组件所使用的样式版本，是否使用新版样式"
+				}
+			]
+		},
+		{
+			"ID": "20221020171500-w0hjtwm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020171500-w0hjtwm",
+				"updated": "20221020204832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④sitemapLocation：用来指明 sitemap.json 的位置 "
+				}
+			]
+		},
+		{
+			"ID": "20221020204621-m7mwee0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020204621-m7mwee0",
+				"updated": "20221020210637"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑤tabBar：导航栏"
+				}
+			]
+		},
+		{
+			"ID": "20221020210617-9ugt2vi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210617-9ugt2vi",
+				"updated": "20221020210626"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "        底部tabBar   顶部 tabBar"
+				}
+			]
+		},
+		{
+			"ID": "20221020205801-i6ygyrm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020205801-i6ygyrm",
+				"updated": "20221020205807"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\ttabBar中只能配置最少 2 个、最多 5 个 tab 页签"
+				}
+			]
+		},
+		{
+			"ID": "20221020205801-7sncawi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020205801-7sncawi",
+				"updated": "20221020205801"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \t当渲染顶部 tabBar 时，不显示 icon，只显示文本"
+				}
+			]
+		},
+		{
+			"ID": "20221020212518-2ic5rog",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020212518-2ic5rog",
+				"updated": "20221020213001"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020213001-o4fcas2.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020205922-pwwvmyk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020205922-pwwvmyk",
+				"updated": "20221020205942"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "每个 tab 项的配置选项"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020205938-0x4i3y1",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20221020205938-0x4i3y1",
+				"updated": "20221020205938"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "必填"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "pagePath"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "页面路径，页面必须在pages中预先定义"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "text"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tab上显示的文字"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "iconPath"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "未选中时的图标路径；当postion为top时，不显示icon"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "selectedIconPath"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "选中时的图标路径；当postion为top时，不显示icon"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020205852-9vaxwpc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020205852-9vaxwpc",
+				"updated": "20221020205919"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "tabBar 节点的配置项"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12); font-size: 19px;\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020205823-9oxtq4o",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "||||",
+				"id": "20221020205823-9oxtq4o",
+				"updated": "20221020205823"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "必填"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "默认值"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "position"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bottom"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tabBar的位置，仅支持bottom/top"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "borderStyle"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "black"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tabBar上边框的颜色，仅支持black/white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "color"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HexColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tab上文字的默认（未选中）颜色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "selectedColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HexColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tab上的文字选中时的颜色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "backgroundColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HexColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tabBar的背景色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "list"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Array"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tab页签的列表， 最少2个、最多5个tab"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020171422-6zvriix",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020171422-6zvriix",
+				"updated": "20221020214331"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"pages\":[\n    \"pages/main/main\",\n    \"pages/index/index\",\n    \"pages/logs/logs\"\n  ],\n  \"window\":{\n    \"backgroundTextStyle\":\"light\",\n    \"navigationBarBackgroundColor\": \"#fff\",\n    \"navigationBarTitleText\": \"Weixin\",\n    \"navigationBarTextStyle\":\"black\"\n  },\n  \"tabBar\": {\n    \"position\":\"top\",\n    \"list\": [\n    {\n      \"pagePath\":\"pages/index/index\",\n      \"text\":\"开始\"\n    },\n    {\n      \"pagePath\":\"pages/main/main\",\n      \"text\":\"主页\"\n    },\n    {\n      \"pagePath\": \"pages/logs/logs\",\n      \"text\":\"历史\"\n    }\n  ]},\n  \"style\": \"v2\",\n  \"sitemapLocation\": \"sitemap.json\"\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020171405-g647lw5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020171405-g647lw5",
+				"updated": "20221020185842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②project.config.json 配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020171540-i6pb4t3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171540-i6pb4t3",
+				"updated": "20221020171541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目配置文件，用来记录我们对小程序开发工具所做的个性化配置"
+				}
+			]
+		},
+		{
+			"ID": "20221020171555-tpv7is9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171555-tpv7is9",
+				"updated": "20221020171558"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l setting 中保存了编译相关的配置"
+				}
+			]
+		},
+		{
+			"ID": "20221020171555-yenmakc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171555-yenmakc",
+				"updated": "20221020171555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l projectname 中保存的是项目名称"
+				}
+			]
+		},
+		{
+			"ID": "20221020171555-e1o19hg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171555-e1o19hg",
+				"updated": "20221020171555"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l appid 中保存的是小程序的账号 ID"
+				}
+			]
+		},
+		{
+			"ID": "20221020171405-dubtr7p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020171405-dubtr7p",
+				"updated": "20221020185844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③sitemap.json 配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020171659-dzu3c1b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171659-dzu3c1b",
+				"updated": "20221020171704"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信现已开放小程序内搜索，效果类似于 PC 网页的 SEO。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "sitemap.json 文件用来配置小程序页面是否允许微信索引。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020171659-2khbe7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171659-2khbe7d",
+				"updated": "20221020171659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  当开发者允许微信索引时，微信会通过爬虫的形式，为小程序的页面内容建立索引。当用户的搜索关键字和页面的索引匹配成功的时候，小程序的页面将可能展示在搜索结果中。"
+				}
+			]
+		},
+		{
+			"ID": "20221020171736-yep3kip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171736-yep3kip",
+				"updated": "20221020171737"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "关闭 sitemap 的索引提示"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				}
+			]
+		},
+		{
+			"ID": "20221020171716-v8isp3q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171716-v8isp3q",
+				"updated": "20221020171729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：sitemap 的索引提示是默认开启的，如需要"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "关闭 sitemap 的索引提示"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，可在小程序项目配置文件 project.config.json 的 setting 中配置字段 checkSiteMap 为 false"
+				}
+			]
+		},
+		{
+			"ID": "20221020171405-6jt41gh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020171405-6jt41gh",
+				"updated": "20221020202215"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "④每个页面文件夹中的 .json 配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020171614-3iegn9l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171614-3iegn9l",
+				"updated": "20221020171631"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "小程序中的每一个页面，可以使用 .json 文件来对本页面的窗口外观进行配置，页面中的配置项会覆盖 app.json 的 window 中相同的配置项"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020214530-w6fv7u8",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20221020214530-w6fv7u8",
+				"style": "background-color: var(--b3-font-background6); color: var(--b3-font-color6);",
+				"updated": "20221020214530"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "默认值"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "navigationBarBackgroundColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HexColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "#000000"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前页面导航栏背景颜色，如#000000"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "navigationBarTextStyle"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "white"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前页面导航栏标题颜色，仅支持black /white"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "navigationBarTitleText"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前页面导航栏标题文字内容"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "backgroundColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HexColor"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "#ffffff"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前页面窗口的背景色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "backgroundTextStyle"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "dark"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前页面下拉loading的样式，仅支持dark / light"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "enablePullDownRefresh"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Boolean"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "false"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是否为当前页面开启下拉刷新的效果"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "onReachBottomDistance"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Number"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "50"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "页面上拉触底事件触发时距页面底部距离，单位为px"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020214542-ztu7ol4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020214542-ztu7ol4",
+				"updated": "20221020214546"
+			}
+		},
+		{
+			"ID": "20221020210217-26x5v0p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020210217-26x5v0p",
+				"updated": "20221020210222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "页面配置和全局配置的关系"
+				}
+			]
+		},
+		{
+			"ID": "20221020210235-2e36g4r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210235-2e36g4r",
+				"updated": "20221020210235"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序中，app.json 中的 window 节点，可以全局配置小程序中每个页面的窗口表现。"
+				}
+			]
+		},
+		{
+			"ID": "20221020210235-vg3psnj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210235-vg3psnj",
+				"updated": "20221020210257"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  如果某些小程序页面想要拥有特殊的窗口表现，此时，“页面级别的 .json 配置文件”就可以实现这种需求，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "当页面配置与全局配置冲突时，根据就近原则，最终的效果以页面配置为准。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020170935-x5zw05u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020170935-x5zw05u",
+				"updated": "20221020170936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXML 模板"
+				}
+			]
+		},
+		{
+			"ID": "20221020170915-atdy2yz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170915-atdy2yz",
+				"updated": "20221020171245"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXML（WeiXin Markup Language）是小程序框架设计的一套标签语言，用来构建小程序页面的结构，其作用类似于网页开发中的 HTML。"
+				}
+			]
+		},
+		{
+			"ID": "20221020171246-wnwrqvu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020171246-wnwrqvu",
+				"updated": "20221020171340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXML 和 HTML 的区别"
+				}
+			]
+		},
+		{
+			"ID": "20221020171256-v1bes13",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020171256-v1bes13",
+				"updated": "20221020171259"
+			},
+			"Children": [
+				{
+					"ID": "20221020171259-86vr900",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020171259-86vr900",
+						"updated": "20221020171259"
+					},
+					"Children": [
+						{
+							"ID": "20221020171259-8ovpm8q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020171259-8ovpm8q",
+								"updated": "20221020171259"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "标签名称不同"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020171256-jrl4o7l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171256-jrl4o7l",
+				"updated": "20221020171310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  HTML （div, span, img, a）"
+				}
+			]
+		},
+		{
+			"ID": "20221020171256-sruslup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171256-sruslup",
+				"updated": "20221020171311"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  WXML（view, text, image, navigator）"
+				}
+			]
+		},
+		{
+			"ID": "20221020171256-zc2m7s4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020171256-zc2m7s4",
+				"updated": "20221020171302"
+			},
+			"Children": [
+				{
+					"ID": "20221020171302-4pvzj3k",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020171302-4pvzj3k",
+						"updated": "20221020171302"
+					},
+					"Children": [
+						{
+							"ID": "20221020171302-n1vydug",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020171302-n1vydug",
+								"updated": "20221020171302"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "属性节点不同"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020171256-fv6c0d0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171256-fv6c0d0",
+				"updated": "20221020171307"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \u003ca href=\"#\"\u003e超链接\u003c/a\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20221020171256-jt3cqbu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171256-jt3cqbu",
+				"updated": "20221020171308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \u003cnavigator url=\"/pages/home/home\"\u003e\u003c/navigator\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20221020171256-xwqbw8p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020171256-xwqbw8p",
+				"updated": "20221020171304"
+			},
+			"Children": [
+				{
+					"ID": "20221020171304-0jugdmh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020171304-0jugdmh",
+						"updated": "20221020171304"
+					},
+					"Children": [
+						{
+							"ID": "20221020171304-v89ckkx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020171304-v89ckkx",
+								"updated": "20221020171304"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提供了类似于 Vue 中的模板语法"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020183554-5kctg3d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020183554-5kctg3d",
+				"updated": "20221020185750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      数据绑定   列表渲染    条件渲染  "
+				}
+			]
+		},
+		{
+			"ID": "20221020183603-3znsl73",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020183603-3znsl73",
+				"updated": "20221020183604"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "数据绑定"
+				}
+			]
+		},
+		{
+			"ID": "20221020183734-sg3d3vs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020183734-sg3d3vs",
+				"updated": "20221020183758"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在页面对应的 .js 文件中，把数据定义到 data 对象中即可："
+				}
+			]
+		},
+		{
+			"ID": "20221020183747-tis9m54",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020183747-tis9m54",
+				"updated": "20221020183949"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "把data中的数据绑定到页面中渲染，使用 Mustache 语法（双大括号）将变量包起来即可。Mustache 语法的应用场景：绑定内容   绑定属性  运算（三元运算、算术运算等）"
+				}
+			]
+		},
+		{
+			"ID": "20221020183956-l0l5s83",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020183956-l0l5s83",
+				"updated": "20221020185403"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n  data: {\n      name:\"哈哈哈\",\n      src1:\"\",\n      youbin:true,\n      num:100\n  }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020183833-wrsjz48",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020183833-wrsjz48",
+				"updated": "20221020185513"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cview\u003e{{name}}\u003c/view\u003e  \u003c!-- 绑定内容 --\u003e\n\u003ca href=\"{{src1}}\"\u003e百度\u003c/a\u003e  \u003c!-- 绑定属性 --\u003e\n\u003cimage src=\"{{src1}}\"\u003e\u003c/image\u003e  \u003c!-- 绑定属性 --\u003e\n\u003cview\u003e{{youbin ? \"haha\" : \"heheh\"}}\u003c/view\u003e  \u003c!-- 三元运算 --\u003e\n\u003cview\u003e{{num*2}}\u003c/view\u003e  \u003c!-- 算术运算 --\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020185552-vttvc32",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020185552-vttvc32",
+				"updated": "20221020185602"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事件绑定"
+				}
+			]
+		},
+		{
+			"ID": "20221020185552-8rl4b9u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020185552-8rl4b9u",
+				"updated": "20221020185804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事件是渲染层到逻辑层的通讯方式。通过事件可以将用户在渲染层产生的行为，反馈到逻辑层进行业务的处理"
+				}
+			]
+		},
+		{
+			"ID": "20221020190001-q47a585",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|width: 119px;|",
+				"id": "20221020190001-q47a585",
+				"style": "color: var(--b3-font-color12);",
+				"updated": "20221020190001"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "绑定方式"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "事件描述"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tap"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bindtap或bind:tap"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "手指触摸后马上离开，类似于HTML中的click事件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "input"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bindinput或bind:input"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "文本框的输入事件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "change"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "bindchange或bind:change"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "状态改变时触发"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020190022-odqeu9q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020190022-odqeu9q",
+				"updated": "20221020190054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当事件回调触发的时候，JS会收到一个事件对象 event，它的详细属性如下表所示："
+				}
+			]
+		},
+		{
+			"ID": "20221020190119-tgtfa1p",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "||",
+				"id": "20221020190119-tgtfa1p",
+				"style": "color: var(--b3-font-color11);",
+				"updated": "20221020190119"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "type"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "String"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "事件类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "timeStamp"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Integer"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "页面打开到触发事件所经过的毫秒数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "target"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "触发事件的组件的一些属性值集合"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "currentTarget"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前组件的一些属性值集合"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "detail"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Object"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "额外的信息"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "touches"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Array"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "触摸事件，当前停留在屏幕中的触摸点信息的数组"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "changedTouches"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Array"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "触摸事件，当前变化的触摸点信息的数组"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020190143-xzdxn5m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20221020190143-xzdxn5m",
+				"updated": "20221020190902"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "target 和 currentTarget 的区别"
+				}
+			]
+		},
+		{
+			"ID": "20221020190909-c9h4izh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020190909-c9h4izh",
+				"updated": "20221020190922"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020190922-ita98h4.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020190143-eq21m56",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020190143-eq21m56",
+				"updated": "20221020190936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "bindtap 的语法格式"
+				}
+			]
+		},
+		{
+			"ID": "20221020191452-hl7l8gb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020191452-hl7l8gb",
+				"updated": "20221020191456"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过调用 this.setData(dataObject) 方法，可以给页面 data 中的数据重新赋值"
+				}
+			]
+		},
+		{
+			"ID": "20221020192614-0bul5ck",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020192614-0bul5ck",
+				"updated": "20221020192614"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序中的事件传参比较特殊，不能在绑定事件的同时为事件处理函数传递参数。例如，下面的代码将不能正常工作：\u003cbutton bindtap=\"hahah(123)\"\u003e事件绑定\u003c/button\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20221020192810-yg2vm5a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020192810-yg2vm5a",
+				"updated": "20221020192957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "—— 事件传参 可以为组件提供 data-* 自定义属性传参，其中 * 代表的是参数的名字"
+				}
+			]
+		},
+		{
+			"ID": "20221020193134-b2gvg6e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020193134-b2gvg6e",
+				"updated": "20221020193207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "—— 事件触发函数得到参数：通过 event.target.dataset.参数名 即可获取到具体参数值"
+				}
+			]
+		},
+		{
+			"ID": "20221020193003-bvi56gh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020193003-bvi56gh",
+				"updated": "20221020193116"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cbutton bindtap=\"hahah\" data-name = \"{{123}}\"\u003e事件绑定\u003c/button\u003e\n\u003c!--name是参数名字；123是参数值--\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020191034-dk5j32b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020191034-dk5j32b",
+				"updated": "20221020193500"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n  data: {\n      name:\"哈哈哈\",\n      src1:\"\",\n      youbin:true,\n      num:100\n  },\n hahah(e){\n    console.log(e)\n//通过调用 this.setData(dataObject) 方法，可以给页面 data 中的数据重新赋值\n    this.setData({\n      num:this.data.num+1  \n    })\n    console.log(this.data.num)\n  },\n  hahah1(e){\n//通过 event.target.dataset.参数名 即可获取到具体参数值\n    console.log(e.target.dataset.name)\n  },\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020191034-6mdj2d7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020191034-6mdj2d7",
+				"updated": "20221020193231"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cbutton bindtap=\"hahah\"\u003e事件绑定\u003c/button\u003e\n\u003cbutton bindtap=\"hahah1\" data-name = \"{{123}}\"\u003e事件绑定\u003c/button\u003e\n\u003c!--name是参数名字；123是参数值--\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020190956-mqzlfbz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020190956-mqzlfbz",
+				"updated": "20221020190957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "bindinput 的语法格式"
+				}
+			]
+		},
+		{
+			"ID": "20221020193605-9y4u0lf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020193605-9y4u0lf",
+				"updated": "20221020193640"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过 input 事件来响应文本框的输入事件，input 事件的触发函数是 bindinput()"
+				}
+			]
+		},
+		{
+			"ID": "20221020193706-rl41djv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020193706-rl41djv",
+				"updated": "20221020193804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "input  输入框的数值通过 e.detail.value 得到，得到的是最新值"
+				}
+			]
+		},
+		{
+			"ID": "20221020191039-g7uhuoh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020191039-g7uhuoh",
+				"updated": "20221020194143"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n  data: {\n      name:\"哈哈哈\",\n      src1:\"\",\n      youbin:true,\n      num:100\n  },\n  hehhe(e){\n//input  输入框的数值通过 e.detail.value 得到，得到的是最新值\n    console.log(e.detail.value)\n  },\n\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020191039-917v4a3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020191039-917v4a3",
+				"updated": "20221020194130"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cinput bindinput=\"hehhe\" type=\"text\"/\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020183607-wnkkg24",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020183607-wnkkg24",
+				"updated": "20221020183608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列表渲染 "
+				}
+			]
+		},
+		{
+			"ID": "20221020201436-10jg43q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020201436-10jg43q",
+				"updated": "20221020201500"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "wx:for-index=\u0026quot;i\u0026quot;  wx:for-item=\u0026quot;yuan\u0026quot;  wx:if=\u0026quot;id\u0026quot;  的使用"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020200459-kvtpkzp",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020200459-kvtpkzp",
+				"updated": "20221020201505"
+			},
+			"Children": [
+				{
+					"ID": "20221020201505-0mk25nd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020201505-0mk25nd",
+						"updated": "20221020201505"
+					},
+					"Children": [
+						{
+							"ID": "20221020201505-21me8pf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020201505-21me8pf",
+								"updated": "20221020201505"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过 wx:for 可以根据指定的数组，循环渲染重复的组件结构默认情况下，当前循环项的索引用 index 表示；当前循环项用 item 表示"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020200540-s3jcn1z",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020200540-s3jcn1z",
+				"updated": "20221020201512"
+			},
+			"Children": [
+				{
+					"ID": "20221020201512-koii747",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020201512-koii747",
+						"updated": "20221020201512"
+					},
+					"Children": [
+						{
+							"ID": "20221020201512-qaukof2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020201512-qaukof2",
+								"updated": "20221020201512"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "手动指定索引和当前项的变量名："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020200550-ycgsbth",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200550-ycgsbth",
+				"updated": "20221020200557"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l  使用 wx:for-index 可以指定当前循环项的索引的变量名"
+				}
+			]
+		},
+		{
+			"ID": "20221020200550-zm5qydn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200550-zm5qydn",
+				"updated": "20221020200550"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 使用 wx:for-item 可以指定当前项的变量名"
+				}
+			]
+		},
+		{
+			"ID": "20221020201426-42yx5bg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020201426-42yx5bg",
+				"updated": "20221020201516"
+			},
+			"Children": [
+				{
+					"ID": "20221020201516-700q1p8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020201516-700q1p8",
+						"updated": "20221020201516"
+					},
+					"Children": [
+						{
+							"ID": "20221020201516-txig0ay",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020201516-txig0ay",
+								"updated": "20221020201516"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "类似于 Vue 列表渲染中的 :key，小程序在实现列表渲染时，也建议为渲染出来的列表项指定唯一的 key 值，从而提高渲染的效率，示例代码如下："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020194940-rbp9zzr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020194940-rbp9zzr",
+				"updated": "20221020201415"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n  data: {\n      name:\"哈哈哈\",\n      src1:\"\",\n      youbin:true,\n      num:100,\n      bushu: [\n      {id:\"1\",name:\"sd\"},\n      {id:\"2\",name:\"sxdc\"},\n      {id:\"3\",name:\"xsd\"}\n    ]\n  },\n  hehhe(e){\n//input  输入框的数值通过 e.detail.value 得到，得到的是最新值\n    console.log(e.detail.value)\n  },\n\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020194940-iq3nsmt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020194940-iq3nsmt",
+				"updated": "20221020201357"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cview wx:for=\"{{bushu}}\" wx:for-index=\"i\" wx:for-item=\"yuan\" wx:if=\"id\"\u003e\n   \u003cview\u003e{{i}} {{yuan.name}}\u003c/view\u003e\n\u003c/view\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020183610-sio0fu4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020183610-sio0fu4",
+				"updated": "20221020183612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "条件渲染"
+				}
+			]
+		},
+		{
+			"ID": "20221020183625-ur5oag9",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020183625-ur5oag9",
+				"updated": "20221020195917"
+			},
+			"Children": [
+				{
+					"ID": "20221020195917-ywsrnyq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020195917-ywsrnyq",
+						"updated": "20221020195917"
+					},
+					"Children": [
+						{
+							"ID": "20221020195917-hj10od3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020195917-hj10od3",
+								"updated": "20221020195917"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在小程序中，使用 wx:if=\"{{condition}}\" 来判断是否需要渲染该代码块："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020194905-wl7oiy5",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020194905-wl7oiy5",
+				"updated": "20221020195918"
+			},
+			"Children": [
+				{
+					"ID": "20221020195918-pxqj4q8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020195918-pxqj4q8",
+						"updated": "20221020195918"
+					},
+					"Children": [
+						{
+							"ID": "20221020195918-josidnd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020195918-josidnd",
+								"updated": "20221020195918"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "也可以用 wx:elif 和 wx:else 来添加 else 判断："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020195609-y7e2lnw",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020195609-y7e2lnw",
+				"updated": "20221020195921"
+			},
+			"Children": [
+				{
+					"ID": "20221020195921-d9ah2sy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020195921-d9ah2sy",
+						"updated": "20221020195921"
+					},
+					"Children": [
+						{
+							"ID": "20221020195921-plrojzj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020195921-plrojzj",
+								"updated": "20221020195921"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "如果要一次性控制多个组件的展示与隐藏，可以使用一个 \u003cblock\u003e\u003c/block\u003e 标签将多个组件包装起来，并在\u003cblock\u003e 标签上使用 wx:if 控制属性"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020195912-e1b0vz4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020195912-e1b0vz4",
+				"updated": "20221020195923"
+			},
+			"Children": [
+				{
+					"ID": "20221020195923-4gz0z1d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221020195923-4gz0z1d",
+						"updated": "20221020195923"
+					},
+					"Children": [
+						{
+							"ID": "20221020195923-n9hbncl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020195923-n9hbncl",
+								"updated": "20221020195923"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在小程序中，直接使用 hidden=\"{{ condition }}\" 也能控制元素的显示与隐藏："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020200419-3rwzrdi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020200419-3rwzrdi",
+				"updated": "20221020200421"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "wx:if 与 hidden 的对比"
+				}
+			]
+		},
+		{
+			"ID": "20221020200431-1tgpbeg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200431-1tgpbeg",
+				"updated": "20221020200431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①运行方式不同"
+				}
+			]
+		},
+		{
+			"ID": "20221020200431-33jc3p0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200431-33jc3p0",
+				"updated": "20221020200431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l wx:if 以动态创建和移除元素的方式，控制元素的展示与隐藏"
+				}
+			]
+		},
+		{
+			"ID": "20221020200431-pmsh3dc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200431-pmsh3dc",
+				"updated": "20221020200431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l hidden 以切换样式的方式（display: none/block;），控制元素的显示与隐藏"
+				}
+			]
+		},
+		{
+			"ID": "20221020200437-c292i5k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200437-c292i5k"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②使用建议"
+				}
+			]
+		},
+		{
+			"ID": "20221020200431-htqo8jn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200431-htqo8jn",
+				"updated": "20221020200431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 频繁切换时，建议使用 hidden"
+				}
+			]
+		},
+		{
+			"ID": "20221020200431-itbiszw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020200431-itbiszw",
+				"updated": "20221020200431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 控制条件复杂时，建议使用 wx:if 搭配 wx:elif、wx:else 进行展示与隐藏的切换"
+				}
+			]
+		},
+		{
+			"ID": "20221020194942-wu5fmjz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020194942-wu5fmjz",
+				"updated": "20221020195459"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n  data: {\n      name:\"哈哈哈\",\n      src1:\"\",\n      youbin:true,\n      num:100,\n      tyle:4\n  },\n\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020194942-mjox3mc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020194942-mjox3mc",
+				"updated": "20221020200102"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cview wx:if=\"{{tyle == 1}}\"\u003ehahah\u003c/view\u003e\n\u003cview wx:elif=\"{{tyle == 2}}\"\u003eheer\u003c/view\u003e\n\u003cview wx:elif=\"{{tyle == 3}}\"\u003edcnj\u003c/view\u003e\n\u003cview wx:else=\"{{tyle == 4}}\"\u003edcn\u003c/view\u003e\n\u003c!--注意： \u003cblock\u003e 并不是一个组件，它只是一个包裹性质的容器，不会在页面中做任何渲染。--\u003e\n\u003cblock wx:if=\"{{tyle == 1}}\"\u003e\n\t\u003cview\u003eshdji\u003c/view\u003e\n\t\u003cview\u003escdvfbg\u003c/view\u003e\n\t\u003cview\u003esdcf\u003c/view\u003e\n\u003c/block\u003e\n\u003cblock wx:else=\"{{tyle == 2}}\"\u003e\n\t\u003cview\u003eswd\u003c/view\u003e\n\t\u003cview\u003eer4r\u003c/view\u003e\n\t\u003cview\u003ergb\u003c/view\u003e\n\u003c/block\u003e\n\n\u003c!-- hidden=\"{{ condition }}\" 也能控制元素的显示与隐藏：--\u003e\n\u003cview hidden=\"{{tyle == 2}}\"\u003e哈哈啥\u003c/view\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020170933-wdh359y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020170933-wdh359y",
+				"updated": "20221020170942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXSS 样式"
+				}
+			]
+		},
+		{
+			"ID": "20221020170951-f4oncak",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020170951-f4oncak",
+				"updated": "20221020171105"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXSS (WeiXin Style Sheets)是一套样式语言，用于描述 WXML 的组件样式，类似于网页开发中的 CSS。"
+				}
+			]
+		},
+		{
+			"ID": "20221020204139-796wgip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020204139-796wgip",
+				"updated": "20221020204144"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全局样式（app.wxss） 局部样式（page内的wxss文件）外部样式（@import\"\";引入）"
+				}
+			]
+		},
+		{
+			"ID": "20221020204311-prnvclq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020204311-prnvclq",
+				"updated": "20221020204313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当局部样式和全局样式冲突时，根据就近原则，局部样式会覆盖全局样式"
+				}
+			]
+		},
+		{
+			"ID": "20221020204311-k023r0h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020204311-k023r0h",
+				"updated": "20221020204315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当局部样式的权重大于或等于全局样式的权重时，才会覆盖全局的样式"
+				}
+			]
+		},
+		{
+			"ID": "20221020203946-t6dz8c8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020203946-t6dz8c8"
+			}
+		},
+		{
+			"ID": "20221020171118-k3uvvv0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020171118-k3uvvv0",
+				"updated": "20221020171118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXSS 和 CSS 的区别"
+				}
+			]
+		},
+		{
+			"ID": "20221020171126-tffa5ez",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020171126-tffa5ez",
+				"updated": "20221020171126"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新增了 rpx 尺寸单位"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-2yad7tr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-2yad7tr",
+				"updated": "20221020171129"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \tCSS 中需要手动进行像素单位换算，例如 rem"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-u7uv13w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-u7uv13w",
+				"updated": "20221020171228"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \t"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "WXSS 在底层支持新的尺寸单位 rpx，在不同大小的屏幕上小程序会自动进行换算"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221020203739-7pk6ubp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020203739-7pk6ubp",
+				"updated": "20221020203741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "rpx（responsive pixel）是微信小程序独有的，用来解决屏适配的尺寸单位。"
+				}
+			]
+		},
+		{
+			"ID": "20221020202343-c7ctahm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020202343-c7ctahm",
+				"style": "background-color: var(--b3-font-background6);",
+				"updated": "20221020202406"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是rpx 尺寸单位"
+				}
+			]
+		},
+		{
+			"ID": "20221020202709-avw3s2v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020202709-avw3s2v",
+				"style": "background-color: var(--b3-font-background6);",
+				"updated": "20221020203748"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​rpx 的实现原理非常简单：鉴于不同设备屏幕的大小不同，为了实现屏幕的自动适配，rpx 把所有设备的屏幕，在宽度上等分为 750 份（即：当前屏幕的总宽度为 750rpx）。"
+				}
+			]
+		},
+		{
+			"ID": "20221020203804-3raw2de",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020203804-3raw2de",
+				"style": "background-color: var(--b3-font-background6);",
+				"updated": "20221020203804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l在较小的设备上，1rpx 所代表的宽度较小"
+				}
+			]
+		},
+		{
+			"ID": "20221020203804-gtnph6f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020203804-gtnph6f",
+				"style": "background-color: var(--b3-font-background6);",
+				"updated": "20221020203804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l在较大的设备上，1rpx 所代表的宽度较大"
+				}
+			]
+		},
+		{
+			"ID": "20221020203804-ovl63qd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020203804-ovl63qd",
+				"style": "background-color: var(--b3-font-background6);",
+				"updated": "20221020203804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  小程序在不同设备上运行的时候，会自动把 rpx 的样式单位换算成对应的像素单位来渲染，从而实现屏幕适配。"
+				}
+			]
+		},
+		{
+			"ID": "20221020203827-a3p9bpd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020203827-a3p9bpd",
+				"updated": "20221020203925"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020203925-1hvxnc3.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-cxw7hnz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020171112-cxw7hnz",
+				"updated": "20221020171134"
+			},
+			"Children": [
+				{
+					"ID": "20221020171134-ofy35bu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020171134-ofy35bu",
+						"updated": "20221020171134"
+					},
+					"Children": [
+						{
+							"ID": "20221020171134-ilbd2fu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020171134-ilbd2fu",
+								"updated": "20221020171134"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "提供了全局的样式和局部样式"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-ewp2lus",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-ewp2lus",
+				"updated": "20221020171137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  \t项目根目录中的 app.wxss 会作用于所有小程序页面"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-4mm6439",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-4mm6439",
+				"updated": "20221020171136"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t 局部页面的 .wxss 样式仅对当前页面生效"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-hrqdnp4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020171112-hrqdnp4",
+				"updated": "20221020171139"
+			},
+			"Children": [
+				{
+					"ID": "20221020171139-d4vok5n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020171139-d4vok5n",
+						"updated": "20221020171139"
+					},
+					"Children": [
+						{
+							"ID": "20221020171139-jfiop51",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020171139-jfiop51",
+								"updated": "20221020171139"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "WXSS 仅支持部分 CSS 选择器"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-jn2r7hq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-jn2r7hq",
+				"updated": "20221020171143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t.class 和 #id\t"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-vgardko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-vgardko",
+				"updated": "20221020171145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\telement"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-337d66p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-337d66p",
+				"updated": "20221020171147"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t并集选择器、后代选择器"
+				}
+			]
+		},
+		{
+			"ID": "20221020171112-7pah7gd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171112-7pah7gd",
+				"updated": "20221020171148"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t::after 和 ::before 等伪类选择器"
+				}
+			]
+		},
+		{
+			"ID": "20221020202258-sn8shgq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221020202258-sn8shgq",
+				"updated": "20221020202259"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "@import 样式导入"
+				}
+			]
+		},
+		{
+			"ID": "20221020203228-tnbrukn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020203228-tnbrukn",
+				"updated": "20221020203248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "外部样式一般放在 common 文件夹下"
+				}
+			]
+		},
+		{
+			"ID": "20221020203437-vg8s8aa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020203437-vg8s8aa",
+				"updated": "20221020203534"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/*common 文件夹下的1.css文件*/\n.haha{\n  color:red;\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020203055-j51i9ps",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020203055-j51i9ps",
+				"updated": "20221020203435"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "@import \"../common/1.css\";\n\u003c!--不要忘了分号--\u003e\n\u003c!--使用--\u003e\n\u003cview class = \"haha\"\u003ehaha\u003c/view\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020170952-zuyenlr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020170952-zuyenlr",
+				"updated": "20221020170952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS 逻辑交互"
+				}
+			]
+		},
+		{
+			"ID": "20221020171031-s4lezx1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171031-s4lezx1",
+				"updated": "20221020171031"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序中的 JS 文件分为三大类，分别是："
+				}
+			]
+		},
+		{
+			"ID": "20221020171031-basq5yz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171031-basq5yz",
+				"updated": "20221020171037"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①app.js：是整个小程序项目的入口文件，通过调用 App() 函数来启动整个小程序"
+				}
+			]
+		},
+		{
+			"ID": "20221020171031-n12gyed",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171031-n12gyed",
+				"updated": "20221020171042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②页面的 .js 文件：是页面的入口文件，通过调用 Page() 函数来创建并运行页面"
+				}
+			]
+		},
+		{
+			"ID": "20221020171031-v3s9tju",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171031-v3s9tju",
+				"updated": "20221020171048"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③普通的 .js 文件：是普通的功能模块文件，用来封装公共的函数或属性供页面使用"
+				}
+			]
+		},
+		{
+			"ID": "20221020171019-av6ctmy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171019-av6ctmy"
+			}
+		},
+		{
+			"ID": "20221020171020-lzku2wy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171020-lzku2wy"
+			}
+		},
+		{
+			"ID": "20221020151033-hylmw5c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020151033-hylmw5c",
+				"updated": "20221020151034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通信模式"
+				}
+			]
+		},
+		{
+			"ID": "20221020151506-9l7yp04",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020151506-9l7yp04",
+				"updated": "20221020151514"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 75%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020151506-38haq5x.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 75%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020151036-ssxz5oq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020151036-ssxz5oq",
+				"updated": "20221020151113"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序的通信模式是："
+				}
+			]
+		},
+		{
+			"ID": "20221020151218-szdggv8",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020151218-szdggv8",
+				"updated": "20221020151609"
+			},
+			"Children": [
+				{
+					"ID": "20221020151524-4f8yvii",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020151524-4f8yvii",
+						"updated": "20221020151609"
+					},
+					"Children": [
+						{
+							"ID": "20221020151524-jydpu0z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020151524-jydpu0z",
+								"updated": "20221020151609"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "渲染层 和 逻辑层之间通过微信客户端 进行通信"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020151114-g4fs07v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020151114-g4fs07v",
+				"updated": "20221020151532"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t渲染层：WXML 模板和 WXSS 样式工作在渲染层"
+				}
+			]
+		},
+		{
+			"ID": "20221020150749-01xgbge",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020150749-01xgbge",
+				"updated": "20221020151534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t逻辑层：JS 脚本工作在逻辑层"
+				}
+			]
+		},
+		{
+			"ID": "20221020185917-ya6gqvf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020185917-ya6gqvf",
+				"updated": "20221020185919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事件是渲染层到逻辑层的通讯方式。通过事件可以将用户在渲染层产生的行为，反馈到逻辑层进行业务的处理"
+				}
+			]
+		},
+		{
+			"ID": "20221020151227-631k7ap",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020151227-631k7ap",
+				"updated": "20221020151628"
+			},
+			"Children": [
+				{
+					"ID": "20221020151526-t69tauy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020151526-t69tauy",
+						"updated": "20221020151628"
+					},
+					"Children": [
+						{
+							"ID": "20221020151526-3r5jp1z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020151526-3r5jp1z",
+								"updated": "20221020151628"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "逻辑层 和 第三方服务器之间通过微信客户端进行通信（l由微信客户端进行转发）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020150749-bur9j9a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020150749-bur9j9a"
+			}
+		},
+		{
+			"ID": "20221020151648-dw3xbix",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020151648-dw3xbix",
+				"updated": "20221020151650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "运行机制"
+				}
+			]
+		},
+		{
+			"ID": "20221020151652-10vec44",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020151652-10vec44",
+				"updated": "20221020171824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序启动过程"
+				}
+			]
+		},
+		{
+			"ID": "20221020171842-6a5opsk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171842-6a5opsk",
+				"updated": "20221020171844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①把小程序的代码包下载到本地"
+				}
+			]
+		},
+		{
+			"ID": "20221020171842-vug97sc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171842-vug97sc",
+				"updated": "20221020171842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②解析 app.json 全局配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020171842-j86byam",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171842-j86byam",
+				"updated": "20221020171842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③执行 app.js 小程序入口文件，调用 App() 创建小程序实例"
+				}
+			]
+		},
+		{
+			"ID": "20221020171842-aqwty63",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171842-aqwty63",
+				"updated": "20221020171842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④渲染小程序首页"
+				}
+			]
+		},
+		{
+			"ID": "20221020171842-gsa6pha",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171842-gsa6pha",
+				"updated": "20221020171842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑤小程序启动完成"
+				}
+			]
+		},
+		{
+			"ID": "20221020171824-e3z210k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020171824-e3z210k",
+				"updated": "20221020171831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "页面渲染过程"
+				}
+			]
+		},
+		{
+			"ID": "20221020171903-4hewbbs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171903-4hewbbs",
+				"updated": "20221020171907"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " ①加载解析页面的 .json 配置文件"
+				}
+			]
+		},
+		{
+			"ID": "20221020171903-j0ui44m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171903-j0ui44m",
+				"updated": "20221020171903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②加载页面的 .wxml 模板和 .wxss 样式"
+				}
+			]
+		},
+		{
+			"ID": "20221020171903-chv098m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171903-chv098m",
+				"updated": "20221020171903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③执行页面的 .js 文件，调用 Page() 创建页面实例"
+				}
+			]
+		},
+		{
+			"ID": "20221020171903-1n4xjfb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020171903-1n4xjfb",
+				"updated": "20221020171903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④页面渲染完成"
+				}
+			]
+		},
+		{
+			"ID": "20221020151648-ypwgmso",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020151648-ypwgmso",
+				"updated": "20221020151837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-616efel",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-616efel",
+				"updated": "20221020171928"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①视图容器"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-ey1j4wo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-ey1j4wo",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②基础内容"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-rv7zut2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-rv7zut2",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③表单组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-7afox9t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-7afox9t",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④导航组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-244op2j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-244op2j",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑤媒体组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-bu4cjtd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-bu4cjtd",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑥map 地图组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-njkzmyn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-njkzmyn",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑦canvas 画布组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-nchdsd3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-nchdsd3",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑧开放能力"
+				}
+			]
+		},
+		{
+			"ID": "20221020152351-gzsui00",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152351-gzsui00",
+				"updated": "20221020152351"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑨无障碍访问"
+				}
+			]
+		},
+		{
+			"ID": "20221020151648-5yjjz4s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020151648-5yjjz4s",
+				"updated": "20221020152401"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "视图组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152403-rk4nffq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020152403-rk4nffq",
+				"updated": "20221020152458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "view 普通视图组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152643-96m3knm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152643-96m3knm",
+				"updated": "20221020152754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "l类似于 HTML 中的 div，是一个块级元素，常用来实现页面的布局效果"
+				}
+			]
+		},
+		{
+			"ID": "20221020161429-nrcuow6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020161429-nrcuow6",
+				"updated": "20221020161430"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020161430-g2e3wvn.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020152412-uq9oaxm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020152412-uq9oaxm",
+				"updated": "20221020161330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!--flex 横向布局效果：--\u003e\n\u003cview class=\"container1\"\u003e\n\u003cview\u003eA\u003c/view\u003e\n\u003cview\u003eB\u003c/view\u003e\n\u003cview\u003eC\u003c/view\u003e\n\u003c/view\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020160000-662e4rk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020160000-662e4rk",
+				"updated": "20221020161328"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/* pages/main/main.wxss */\n.container1{\n  display: flex;\n  justify-content: space-around;\n}\n.container1 view{\n  width: 100px;\n  height: 100px;\n  text-align: center;\n  list-style: 100px;\n}\n.container1 view:nth-child(1){\n  background-color: blueviolet;\n}\n.container1 view:nth-child(2){\n  background-color: blueviolet;\n}\n.container1 view:nth-child(3){\n  background-color: blueviolet;\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020152412-grg7irw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020152412-grg7irw",
+				"updated": "20221020152513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "scroll-view 滚动视图组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152419-nagrm16",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152419-nagrm16",
+				"updated": "20221020152719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可滚动的视图区域，常用来实现滚动列表效果"
+				}
+			]
+		},
+		{
+			"ID": "20221020153026-odd8p3a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020153026-odd8p3a",
+				"updated": "20221020153210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "滚轮方向设置："
+				}
+			]
+		},
+		{
+			"ID": "20221020153220-izrcjr4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020153220-izrcjr4"
+			},
+			"Children": [
+				{
+					"ID": "20221020153220-1kery3b",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020153220-1kery3b"
+					},
+					"Children": [
+						{
+							"ID": "20221020153212-0gdcyeo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020153212-0gdcyeo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "scroll-x 允许横向滚轮"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020153220-narixk8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020153220-narixk8"
+					},
+					"Children": [
+						{
+							"ID": "20221020153213-g1jvy0r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020153213-g1jvy0r",
+								"updated": "20221020153216"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "scrooll-y  允许纵向滚轮，需要设定一个固定高度"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020162302-gz4117i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020162302-gz4117i",
+				"updated": "20221020162324"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!--pages/main/main.wxml--\u003e\n\u003cscroll-view class=\"container1\" scroll-y\u003e\n\u003cview\u003eA\u003c/view\u003e\n\u003cview\u003eB\u003c/view\u003e\n\u003cview\u003eC\u003c/view\u003e\n\u003c/scroll-view\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020152654-o54yxv3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020152654-o54yxv3",
+				"updated": "20221020162356"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " /* pages/main/main.wxss */\n/*scroll-view  需要设定一个固定高度*/\n.container1{\n  border: 1px solid rebeccapurple;\n  width: 100px;\n  height: 100px;\n}\n.container1 view{\n  width: 100px;\n  height: 100px;\n  text-align: center;\n  list-style: 100px;\n}\n.container1 view:nth-child(1){\n  background-color: blueviolet;\n}\n.container1 view:nth-child(2){\n  background-color: blueviolet;\n}\n.container1 view:nth-child(3){\n  background-color: blueviolet;\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020152419-mw63bnb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020152419-mw63bnb",
+				"updated": "20221020152538"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "swiper  和 swiper-item 轮播图容器组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020152355-scpnyeq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020152355-scpnyeq",
+				"updated": "20221020152727"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "轮播图容器组件 和 轮播图 item 组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020163837-30boqbn",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20221020163837-30boqbn",
+				"style": "color: var(--b3-font-color11);",
+				"updated": "20221020163837"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "默认值"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "indicator-dots"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "boolean"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "false"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是否显示面板指示点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "indicator-color"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "color"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "rgba(0,  0, 0, .3)"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指示点颜色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "indicator-active-color"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "color"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "#000000"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "当前选中的指示点颜色"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "autoplay"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "boolean"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "false"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是否自动切换"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "interval"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "number"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "5000"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自动切换时间间隔"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "circular"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "boolean"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "false"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是否采用衔接滑动"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020152355-cz27702",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020152355-cz27702",
+				"updated": "20221020163822"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!--pages/main/main.wxml--\u003e\n\u003c!--indicator-dots:显示面板指示点--\u003e\n\u003cswiper class=\"container1\" indicator-dots\u003e\n  \u003cswiper-item\u003e\n     \u003cview\u003ehaha\u003c/view\u003e\n  \u003c/swiper-item\u003e\n  \u003cswiper-item\u003e\n    \u003cview\u003ehehe\u003c/view\u003e\n   \u003c/swiper-item\u003e\n  \u003cswiper-item\u003e \n    \u003cview\u003eananw\u003c/view\u003e\n  \u003c/swiper-item\u003e\n  \u003cswiper-item\u003e \n    \u003cview\u003eebhh1w\u003c/view\u003e\n  \u003c/swiper-item\u003e\n\u003c/swiper\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020152355-i9r78iu",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020152355-i9r78iu",
+				"updated": "20221020163741"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": ".container1{\n  height: 150px;\n  border: 1px solid rebeccapurple;\n}\n\nswiper swiper-item{\n  width: 100%;\n  line-height: 150px;\n}\n\nswiper-item:nth-child(1){\n  background-color: salmon;\n}\nswiper-item:nth-child(2){\n  background-color: seagreen;\n}\nswiper-item:nth-child(3){\n  background-color: sienna;\n}\nswiper-item:nth-child(4){\n  background-color: skyblue;\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020163935-8pdcxfj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020163935-8pdcxfj",
+				"updated": "20221020163941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基础内容组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020163941-t670lmk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020163941-t670lmk",
+				"updated": "20221020164018"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "text 文本组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020164003-75j5cn2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020164003-75j5cn2",
+				"updated": "20221020164049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类似于 HTML 中的 span 标签，是一个行内元素"
+				}
+			]
+		},
+		{
+			"ID": "20221020164238-g09g7m4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020164238-g09g7m4",
+				"updated": "20221020164258"
+			},
+			"Children": [
+				{
+					"ID": "20221020164258-09ar0x7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020164258-09ar0x7",
+						"updated": "20221020164258"
+					},
+					"Children": [
+						{
+							"ID": "20221020164258-1l7am1u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020164258-1l7am1u",
+								"updated": "20221020164258"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "长按选中文本："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;text selectable\u0026gt;hahah\u0026lt;/text\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020164004-j6xm188",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221020164004-j6xm188",
+				"updated": "20221020164030"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "rich-text 富文本组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020163935-blcendg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020163935-blcendg",
+				"updated": "20221020164424"
+			},
+			"Children": [
+				{
+					"ID": "20221020164355-f1h84hh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020164355-f1h84hh",
+						"updated": "20221020164424"
+					},
+					"Children": [
+						{
+							"ID": "20221020164355-23fg032",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020164355-23fg032",
+								"updated": "20221020164424"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTML渲染为WXML结构："
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "code",
+									"TextMarkTextContent": "\u0026lt;rich-text nodes=\u0026quot;\u0026lt;h1\u0026gt;hshid\u0026lt;h1\u0026gt;\u0026quot;\u0026gt;\u0026lt;/rich-text\u0026gt;"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020163935-r8549uu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020163935-r8549uu",
+				"updated": "20221020164603"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "button 按钮"
+				}
+			]
+		},
+		{
+			"ID": "20221020165027-x0sj0x3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165027-x0sj0x3",
+				"updated": "20221020165027"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020165027-ug0lppf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020164607-n3tqssh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221020164607-n3tqssh",
+				"updated": "20221020165010"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003c!--tyle--\u003e\n\u003cbutton type=\"primary\"\u003e初级\u003c/button\u003e\n\u003cbutton type=\"warn\"\u003e警告\u003c/button\u003e\n\u003c!--size--\u003e\n\u003cbutton type=\"primary\" size=\"mini\"\u003e初级\u003c/button\u003e\n\u003cbutton type=\"warn\" size=\"mini\"\u003e警告\u003c/button\u003e\n\u003c!--plan 镂空--\u003e\n\u003cbutton type=\"primary\" size=\"mini\" plain\u003e镂空按钮\u003c/button\u003e\n\u003cbutton type=\"warn\" size=\"mini\" plain\u003e警告镂空按钮\u003c/button\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020164516-qme2sp2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020164516-qme2sp2",
+				"updated": "20221020165050"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "image 组件"
+				}
+			]
+		},
+		{
+			"ID": "20221020165052-8o95njf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165052-8o95njf",
+				"updated": "20221020165120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过 src 指定图片来源"
+				}
+			]
+		},
+		{
+			"ID": "20221020182110-gwd6dxr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020182110-gwd6dxr",
+				"updated": "20221020182150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mode 属性指定图片的裁剪和缩放模式，常用的mode属性值为："
+				}
+			]
+		},
+		{
+			"ID": "20221020182237-msxoz5w",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020182237-msxoz5w",
+				"updated": "20221020182835"
+			},
+			"Children": [
+				{
+					"ID": "20221020182240-rc200o9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020182240-rc200o9",
+						"updated": "20221020182240"
+					},
+					"Children": [
+						{
+							"ID": "20221020182240-dphwojf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020182240-dphwojf",
+								"updated": "20221020182413"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "scaleToFill（默认）：图片的宽高完全拉伸至填满image元素，图片不会有空白间隙，但是会失真"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020182434-dqttgz5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020182434-dqttgz5"
+					},
+					"Children": [
+						{
+							"ID": "20221020182434-xxbatg2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020182434-xxbatg2",
+								"updated": "20221020182536"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "aspectFit：可以完整地将图片显示出来，但左右两边会有空白间隙"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020182539-zsac3zu",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221020182539-zsac3zu"
+					},
+					"Children": [
+						{
+							"ID": "20221020182539-rza6ylh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020182539-rza6ylh",
+								"updated": "20221020182642"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "aspectFill：图片你会有裁剪"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020182644-lnurrue",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221020182644-lnurrue",
+						"updated": "20221020182835"
+					},
+					"Children": [
+						{
+							"ID": "20221020182644-6est2sn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020182644-6est2sn",
+								"updated": "20221020182835"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "widthFix：宽度保持系统默认，高度自动变化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221020182654-phmcyfr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221020182654-phmcyfr",
+						"updated": "20221020182816"
+					},
+					"Children": [
+						{
+							"ID": "20221020182654-xytyzlp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020182654-xytyzlp",
+								"updated": "20221020182816"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "heightFix：高度保存系统默认，宽度自动变化"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020165129-6ijcv4g",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|width: 350px;",
+				"id": "20221020165129-6ijcv4g",
+				"style": "width: 71%; flex: 0 0 auto; color: var(--b3-font-color11);",
+				"updated": "20221020165129"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "mode值"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "scaleToFill"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "（默认值）缩放模式，不保持纵横比缩放图片，使图片的宽高完全拉伸至填满image元素"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "aspectFit"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缩放模式，保持纵横比缩放图片，使图片的长边能完全显示出来。也就是说，可以完整地将图片显示出来。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "aspectFill"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缩放模式，保持纵横比缩放图片，只保证图片的短边能完全显示出来。也就是说，图片通常只在水平或垂直方向是完整的，另一个方向将会发生截取。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "widthFix"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缩放模式，宽度不变，高度自动变化，保持原图宽高比不变"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "heightFix"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缩放模式，高度不变，宽度自动变化，保持原图宽高比不变"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020164516-v683alg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020164516-v683alg"
+			}
+		},
+		{
+			"ID": "20221020142059-chg9fg8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020142059-chg9fg8",
+				"updated": "20221020142109"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信 API"
+				}
+			]
+		},
+		{
+			"ID": "20221020153255-mbq2rqn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020153255-mbq2rqn",
+				"updated": "20221020153313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "事件监听 API"
+				}
+			]
+		},
+		{
+			"ID": "20221020165743-y1o3dup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165743-y1o3dup",
+				"updated": "20221020165746"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特点：以 on 开头，用来监听某些事件的触发"
+				}
+			]
+		},
+		{
+			"ID": "20221020165743-3smm3cp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165743-3smm3cp",
+				"updated": "20221020165745"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "举例：wx.onWindowResize(function callback) 监听窗口尺寸变化的事件"
+				}
+			]
+		},
+		{
+			"ID": "20221020153314-ss9zlei",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020153314-ss9zlei",
+				"updated": "20221020153323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同步 API"
+				}
+			]
+		},
+		{
+			"ID": "20221020165757-6k0lntt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165757-6k0lntt",
+				"updated": "20221020165822"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特点1：以 Sync 结尾的 API 都是同步 API"
+				}
+			]
+		},
+		{
+			"ID": "20221020165757-79qqe4z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165757-79qqe4z",
+				"updated": "20221020165824"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特点2：同步 API 的执行结果，可以通过函数返回值直接获取，如果执行出错会抛出异常"
+				}
+			]
+		},
+		{
+			"ID": "20221020165757-anq1lal",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165757-anq1lal",
+				"updated": "20221020165825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "举例：wx.setStorageSync('key', 'value') 向本地存储中写入内容"
+				}
+			]
+		},
+		{
+			"ID": "20221020153318-gkymt8u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020153318-gkymt8u",
+				"updated": "20221020153326"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "异步 API"
+				}
+			]
+		},
+		{
+			"ID": "20221020165837-q8d6lwt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165837-q8d6lwt",
+				"updated": "20221020210417"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "特点：类似于 jQuery 中的 $.ajax(options) 函数，需要通过 success、fail、complete 接收调用的结果  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221020210343-16yigjw",
+					"TextMarkTextContent": "siyuan://blocks/20221020210343-16yigjw"
+				}
+			]
+		},
+		{
+			"ID": "20221020165835-03utjfc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165835-03utjfc",
+				"updated": "20221020165844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "举例：wx.request() 发起网络数据请求，通过 success 回调函数接收数据"
+				}
+			]
+		},
+		{
+			"ID": "20221020153256-e0tkaka",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020153256-e0tkaka"
+			}
+		},
+		{
+			"ID": "20221020153256-ml41a6i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020153256-ml41a6i"
+			}
+		},
+		{
+			"ID": "20221020153256-i61qw0y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020153256-i61qw0y",
+				"updated": "20221020165344"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获取用户信息"
+				}
+			]
+		},
+		{
+			"ID": "20221020165344-v5pzofg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165344-v5pzofg",
+				"updated": "20221020165348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "本地存储"
+				}
+			]
+		},
+		{
+			"ID": "20221020142115-qpk4pvz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020142115-qpk4pvz",
+				"updated": "20221020142216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "地理定位"
+				}
+			]
+		},
+		{
+			"ID": "20221020142119-l31dfac",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020142119-l31dfac",
+				"updated": "20221020142122"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "扫码"
+				}
+			]
+		},
+		{
+			"ID": "20221020142122-m04kiho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020142122-m04kiho",
+				"updated": "20221020142518"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "支付：对个人不开放"
+				}
+			]
+		},
+		{
+			"ID": "20221020165859-5plyege",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020165859-5plyege"
+			}
+		},
+		{
+			"ID": "20221020165900-vzjshrv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020165900-vzjshrv",
+				"updated": "20221020165905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "协同工作和发布"
+				}
+			]
+		},
+		{
+			"ID": "20221020171934-gkyazam",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020171934-gkyazam",
+				"updated": "20221020172120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序成员管理"
+				}
+			]
+		},
+		{
+			"ID": "20221020172317-onrfwfv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172317-onrfwfv",
+				"updated": "20221020172327"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 67%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020172318-np3x5pc.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 67%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020172018-f7m8cp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172018-f7m8cp5",
+				"updated": "20221020172142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序成员管理体现在管理员对"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "小程序项目成员"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "及"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "体验成员"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的管理："
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-2ehkso6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-2ehkso6",
+				"updated": "20221020172218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①项目成员："
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-23rt3sn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-23rt3sn",
+				"updated": "20221020172222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t l表示参与小程序开发、运营的成员"
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-mld54yi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-mld54yi",
+				"updated": "20221020172218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t l可登录小程序管理后台"
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-f6j0pmd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-f6j0pmd",
+				"updated": "20221020172248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t l管理员可以添加、删除项目成员，并设置项目成员的角色"
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-h3plyms",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-h3plyms",
+				"updated": "20221020172234"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②体验成员："
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-2yed0ya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-2yed0ya",
+				"updated": "20221020172218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t l表示参与小程序内测体验的成员"
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-up03cm5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-up03cm5",
+				"updated": "20221020172246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t l可使用体验版小程序，但不属于项目成员"
+				}
+			]
+		},
+		{
+			"ID": "20221020172218-maolgc8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172218-maolgc8",
+				"updated": "20221020172218"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " \t l管理员及项目成员均可添加、删除体验成员"
+				}
+			]
+		},
+		{
+			"ID": "20221020172301-i8b3it6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020172301-i8b3it6",
+				"updated": "20221020172442"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发布上线"
+				}
+			]
+		},
+		{
+			"ID": "20221020172539-kh3kbrk",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|",
+				"id": "20221020172539-kh3kbrk",
+				"updated": "20221020172539"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "版本阶段"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开发版本"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用开发者工具，可将代码上传到开发版本中。  开发版本只保留每人最新的一份上传的代码。"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 点击提交审核，可将代码提交审核。开发版本可删除，不影响线上版本和审核中版本的代码。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "体验版本"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"colspan": "1",
+								"rowspan": "2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "可以选择某个开发版本作为体验版，并且选取一份体验版。"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "只能有一份代码处于审核中。有审核结果后可以发布到线上，也可直接重新提交审核，覆盖原审核版本。"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" rowspan=\"2\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "审核中的版本"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Properties": {
+								"class": "fn__none"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: class=\"fn__none\"}"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线上版本"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "线上所有用户使用的代码版本，该版本代码在新版本代码发布后被覆盖更新。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020172523-933kyyj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020172523-933kyyj",
+				"updated": "20221020172607"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个小程序的发布上线，一般要经过上传代码 -\u003e 提交审核 -\u003e 发布这三个步骤。"
+				}
+			]
+		},
+		{
+			"ID": "20221020180026-9mc0in8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020180026-9mc0in8",
+				"updated": "20221020180037"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "获取小程序码"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的 5 个步骤："
+				}
+			]
+		},
+		{
+			"ID": "20221020180026-7pixde2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020180026-7pixde2",
+				"updated": "20221020180028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "登录小程序管理后台 -\u003e 设置 -\u003e 基本设置 -\u003e 基本信息 -\u003e 小程序码及线下物料下载"
+				}
+			]
+		},
+		{
+			"ID": "20221020180040-s9aaf6w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020180040-s9aaf6w",
+				"updated": "20221020180258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "页面导航"
+				}
+			]
+		},
+		{
+			"ID": "20221020181012-3xzgzwj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181012-3xzgzwj",
+				"updated": "20221020181355"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "声明式导航："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "在页面上声明一个 \u003cnavigator\u003e 导航组件，通过点击 \u003cnavigator\u003e 组件实现页面跳转"
+				}
+			]
+		},
+		{
+			"ID": "20221020181012-cm3ivcq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181012-cm3ivcq",
+				"updated": "20221020181351"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "编程式导航："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11); font-size: 19px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "调用小程序的导航 API，实现页面的跳转"
+				}
+			]
+		},
+		{
+			"ID": "20221020181033-p8gf7g6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181033-p8gf7g6",
+				"updated": "20221020181628"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "导航到 tabBar 页面"
+				}
+			]
+		},
+		{
+			"ID": "20221020181648-yhdno1n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181648-yhdno1n",
+				"updated": "20221020181648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tabBar 页面指的是被配置为 tabBar 的页面。"
+				}
+			]
+		},
+		{
+			"ID": "20221020181648-iw6vjxd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181648-iw6vjxd",
+				"updated": "20221020181648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在使用 \u003cnavigator\u003e 组件跳转到指定的 tabBar 页面时，需要指定 url 属性和 open-type 属性，其中："
+				}
+			]
+		},
+		{
+			"ID": "20221020181648-bvgxkqd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181648-bvgxkqd",
+				"updated": "20221020181648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  lurl 表示要跳转的页面的地址，必须以 / 开头"
+				}
+			]
+		},
+		{
+			"ID": "20221020181648-be7qseb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181648-be7qseb",
+				"updated": "20221020181648"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  lopen-type 表示跳转的方式，必须为 switchTab"
+				}
+			]
+		},
+		{
+			"ID": "20221020181653-tjjdapo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181653-tjjdapo",
+				"updated": "20221020181654"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "导航到非 tabBar 页面"
+				}
+			]
+		},
+		{
+			"ID": "20221020181700-q48muaq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181700-q48muaq",
+				"updated": "20221020181700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "非 tabBar 页面指的是没有被配置为 tabBar 的页面。"
+				}
+			]
+		},
+		{
+			"ID": "20221020181700-ze73aon",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181700-ze73aon",
+				"updated": "20221020181700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在使用 \u003cnavigator\u003e 组件跳转到普通的非 tabBar 页面时，则需要指定 url 属性和 open-type 属性，其中："
+				}
+			]
+		},
+		{
+			"ID": "20221020181700-fzntekq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181700-fzntekq",
+				"updated": "20221020181700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  lurl 表示要跳转的页面的地址，必须以 / 开头"
+				}
+			]
+		},
+		{
+			"ID": "20221020181700-49imphf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020181700-49imphf",
+				"updated": "20221020181700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  open-type 表示跳转的方式，必须为 navigate"
+				}
+			]
+		},
+		{
+			"ID": "20221020210342-x3jmebc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210342-x3jmebc"
+			}
+		},
+		{
+			"ID": "20221020210342-v6wig1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020210342-v6wig1l"
+			}
+		},
+		{
+			"ID": "20221020210343-16yigjw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221020210343-16yigjw",
+				"updated": "20221020210343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "网络数据请求"
+				}
+			]
+		},
+		{
+			"ID": "20221020214759-5ic5din",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020214759-5ic5din",
+				"updated": "20221020214816"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "出于安全性方面的考虑，小程序官方对数据接口的请求，做出了如下两个限制："
+				}
+			]
+		},
+		{
+			"ID": "20221020214759-gzb2nih",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020214759-gzb2nih",
+				"updated": "20221020214803"
+			},
+			"Children": [
+				{
+					"ID": "20221020214803-nsl5pfa",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221020214803-nsl5pfa",
+						"updated": "20221020214803"
+					},
+					"Children": [
+						{
+							"ID": "20221020214803-1iptpzo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020214803-1iptpzo",
+								"updated": "20221020214803"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "只能请求 HTTPS 类型的接口"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020214759-12sq94a",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221020214759-12sq94a",
+				"updated": "20221020214809"
+			},
+			"Children": [
+				{
+					"ID": "20221020214809-x15mbta",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221020214809-x15mbta",
+						"updated": "20221020214809"
+					},
+					"Children": [
+						{
+							"ID": "20221020214809-kgmftr1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020214809-kgmftr1",
+								"updated": "20221020214857"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color12); font-size: 19px;"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "必须将接口的域名添加到信任列表中"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12); font-size: 19px;\"}"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221020214942-aihdint",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020214942-aihdint",
+				"updated": "20221020215002"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221020214948-lltugvd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020214940-zocirx4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221020214940-zocirx4"
+			}
+		}
+	]
+}
