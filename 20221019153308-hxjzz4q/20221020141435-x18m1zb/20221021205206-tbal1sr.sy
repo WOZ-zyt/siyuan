@@ -1,0 +1,20 @@
+{
+	"ID": "20221021205206-tbal1sr",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221021205206-tbal1sr",
+		"title": "组件库：vant-weaapp  ",
+		"updated": "20221021205249"
+	},
+	"Children": [
+		{
+			"ID": "20221021205206-w8a9xct",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021205206-w8a9xct",
+				"updated": "20221021205249"
+			}
+		}
+	]
+}

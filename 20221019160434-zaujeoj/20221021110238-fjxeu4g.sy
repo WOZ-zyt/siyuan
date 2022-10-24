@@ -1,0 +1,1033 @@
+{
+	"ID": "20221021110238-fjxeu4g",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221021110238-fjxeu4g",
+		"title": "微信小程序\u0026quot;本地生活\u0026quot;原生开发",
+		"updated": "20221021203022"
+	},
+	"Children": [
+		{
+			"ID": "20221021142506-saeqkca",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021142506-saeqkca",
+				"updated": "20221021202952"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快捷："
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221020204621-m7mwee0",
+					"TextMarkTextContent": "导航栏"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221020210343-16yigjw",
+					"TextMarkTextContent": "网络请求"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "    "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021142506-eqxucen",
+					"TextMarkTextContent": "九宫格"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021143304-9mm41l6",
+					"TextMarkTextContent": "轮播图"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021142507-q7tflxg",
+					"TextMarkTextContent": "美食列表开发：下拉刷新  上拉触底"
+				}
+			]
+		},
+		{
+			"ID": "20221021142506-q296cz1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021142506-q296cz1",
+				"updated": "20221021143119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首页"
+				}
+			]
+		},
+		{
+			"ID": "20221021143304-9mm41l6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021143304-9mm41l6",
+				"updated": "20221021143308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "轮播图"
+				}
+			]
+		},
+		{
+			"ID": "20221021143337-ui3j2n1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021143337-ui3j2n1",
+				"updated": "20221021143351"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cswiper class=\"container1\" indicator-dots circular\u003e\n  \u003cswiper-item wx:for=\"{{swiperList}}\" wx:key=\"id\"\u003e\n    \u003cimage src=\"{{item.image}}\"\u003e\u003c/image\u003e\n  \u003c/swiper-item\u003e\n\u003c/swiper\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021143324-a1hqod4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021143324-a1hqod4",
+				"updated": "20221021143411"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": ".container1{\n  height: 150px;\n  border: 1px solid rebeccapurple;\n}\n\nswiper swiper-item{\n  width: 100%;\n  line-height: 150px;\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021143259-w7787t6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021143259-w7787t6",
+				"updated": "20221021143523"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n\n  /**\n   * 页面的初始数据\n   */\n  data: {\n    juigongge:[] //九宫格\n  },\n//轮播图函数\n  getswiperList(){\n    wx.request({\n      url: `https://applet-base-api-t.itheima.net/slides`,\n      method:\"get\",\n      success: (result) =\u003e {\n        this.setData({\n          swiperList:result.data\n        })\n      },\n      fail: (res) =\u003e {\n        console.log(res)\n      }\n    })\n  },\n /**\n   * 生命周期函数--监听页面加载\n   */\n  onLoad(options) {\n    this.getswiperList()\n  \n  },\n\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021142506-eqxucen",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021142506-eqxucen",
+				"updated": "20221021142655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "九宫格"
+				}
+			]
+		},
+		{
+			"ID": "20221021142709-xwphm0a",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021142709-xwphm0a",
+				"updated": "20221021142849"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": ".grid-list {\n  display: flex;\n  flex-wrap: wrap;\n  border-left: 1rpx solid #efefef;\n  border-top: 1rpx solid #efefef;\n}\n\n.grid-item {\n  width: 33.33%;\n  height: 200rpx;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  border-right: 1rpx solid #efefef;\n  border-bottom: 1rpx solid #efefef;\n  box-sizing: border-box;\n}\n.grid-item image {\n  width: 60rpx;\n  height: 60rpx;\n}\n\n.grid-item text {\n  font-size: 24rpx;\n  margin-top: 10rpx;\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021142700-kl1m57e",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021142700-kl1m57e",
+				"updated": "20221021142823"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cview class=\"grid-list\"\u003e\n  \u003cview class=\"grid-item\" wx:for=\"{{juigongge}}\" wx:key=\"id\"\u003e\n    \u003cimage src=\"{{item.icon}}\"\u003e\u003c/image\u003e\n    \u003ctext\u003e{{item.name}}\u003c/text\u003e\n  \u003c/view\u003e\n\u003c/view\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021142655-qc3oqzm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021142655-qc3oqzm",
+				"updated": "20221021143529"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n\n  /**\n   * 页面的初始数据\n   */\n  data: {\n    juigongge:[] //九宫格\n  },\n//九宫格函数\n  getjuigongge(){\n    wx.request({\n      url: 'https://applet-base-api-t.itheima.net/categories',\n      method:\"get\",\n      success: (result) =\u003e {\n       this.setData({\n        juigongge:result.data\n       })\n\n      },\n      fail: (res) =\u003e {\n        console.log(res)\n      },\n\n    })\n  },\n /**\n   * 生命周期函数--监听页面加载\n   */\n  onLoad(options) {\n     this.getjuigongge()\n  },\n\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021142507-q7tflxg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021142507-q7tflxg",
+				"updated": "20221021200813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列表开发：分页请求"
+				}
+			]
+		},
+		{
+			"ID": "20221021201946-v1v7hfm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021201946-v1v7hfm",
+				"updated": "20221021201957"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 25%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021201947-hhtbreo.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 25%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021200303-g3hwurr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021200303-g3hwurr",
+				"updated": "20221021200514"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "请求是分页进行的，需要的请求参数有：请求第几页的数据，每页请求几条数据"
+				}
+			]
+		},
+		{
+			"ID": "20221021200544-mo7gmn4",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221021200544-mo7gmn4"
+			}
+		},
+		{
+			"ID": "20221021200542-c911nik",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021200542-c911nik",
+				"updated": "20221021200542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列表页面的 API 接口 GET  ：https://applet-base-api-t.itheima.net/categories/:cate_id/shops"
+				}
+			]
+		},
+		{
+			"ID": "20221021200542-j2hjqm4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221021200542-j2hjqm4"
+			},
+			"Children": [
+				{
+					"ID": "20221021200542-pg35cu8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221021200542-pg35cu8"
+					},
+					"Children": [
+						{
+							"ID": "20221021200542-a7czu73",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021200542-a7czu73",
+								"updated": "20221021200542"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "URL 地址中的 :cate_id 是动态参数，表示分类的 Id"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021200542-g61pskl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021200542-g61pskl"
+					},
+					"Children": [
+						{
+							"ID": "20221021200542-u5lxzfr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021200542-u5lxzfr",
+								"updated": "20221021200542"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求参数："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021200542-v2lc6o9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021200542-v2lc6o9",
+				"updated": "20221021200542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  _page 表示请求第几页的数据"
+				}
+			]
+		},
+		{
+			"ID": "20221021200542-71xu8u9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021200542-71xu8u9",
+				"updated": "20221021200542"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  _limit 表示每页请求几条数据"
+				}
+			]
+		},
+		{
+			"ID": "20221021200540-3ik5yfg",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221021200540-3ik5yfg"
+			}
+		},
+		{
+			"ID": "20221021201000-qr8yc50",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021201000-qr8yc50",
+				"updated": "20221021201045"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意："
+				}
+			]
+		},
+		{
+			"ID": "20221021202721-2e1fki0",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221021202721-2e1fki0",
+				"updated": "20221021202725"
+			},
+			"Children": [
+				{
+					"ID": "20221021202721-6hvz5pe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221021202721-6hvz5pe",
+						"updated": "20221021202725"
+					},
+					"Children": [
+						{
+							"ID": "20221021201328-5udx0si",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021201328-5udx0si",
+								"updated": "20221021202725"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过页面参数 "
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "设置页面的标题"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "（需要在onReady页面初次渲染函数设置） 和  URL 地址中的"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong",
+									"TextMarkTextContent": " :cate_id 动态参数"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，表示分类的 Id"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021202721-kciyczg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021202721-kciyczg",
+						"updated": "20221021202721"
+					},
+					"Children": [
+						{
+							"ID": "20221021202306-7oj8zvs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021202306-7oj8zvs",
+								"updated": "20221021202721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用wx.showLoading() 加载框，一定和wx.hideLoading() 取消加载框 配套使用"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021202721-nyta6r0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221021202721-nyta6r0",
+						"updated": "20221021202721"
+					},
+					"Children": [
+						{
+							"ID": "20221021201327-fje1hu2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021201327-fje1hu2",
+								"updated": "20221021202721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置上拉刷新，下拉刷新则，请求函数需要早加载，上拉，下拉时调用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021202721-r32o0wn",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221021202721-r32o0wn",
+						"updated": "20221021202721"
+					},
+					"Children": [
+						{
+							"ID": "20221021201001-75s2n63",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021201001-75s2n63",
+								"updated": "20221021202721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置上拉刷新：需要"
+								},
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "a",
+									"TextMarkAHref": "siyuan://blocks/20221021153521-adlvjxu",
+									"TextMarkTextContent": "对上拉触底进行节流处理"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，请求前一定要改变页码，没有可响应的数据后不需请求"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021202721-32oj62c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221021202721-32oj62c",
+						"updated": "20221021202721"
+					},
+					"Children": [
+						{
+							"ID": "20221021201033-fg6ugv1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021201033-fg6ugv1",
+								"updated": "20221021202721"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "设置下拉刷新：启动下拉刷新，调用请求函数前需要清空页面相关的请求参数，还需关闭下拉"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021201536-kwvj7vn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021201536-kwvj7vn",
+				"updated": "20221021201601"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anNvbg=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n{\n  \"usingComponents\": {},\n  \"enablePullDownRefresh\":true  //启动下拉刷新\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021200540-0xxc7cb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021200540-0xxc7cb",
+				"updated": "20221021202701"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// pages/food/food.js\nPage({\n\n  /**\n   * 页面的初始数据\n   */\n  data: {\n    food:[], //页面参数\n    shopList:[], //每页请求的数据\n    page:1, //请求第几页的数据\n    pagelimit:10,//每页请求几条数据\n    total:0,  //列表的总数据\n    isloading:false  //对上拉触底进行节流处理\n\n  },\n    //请求函数，需要早加载，上拉，下拉时调用\n  getshopList(cb){\n  //对上拉触底进行节流处理\n    this.setData({\n      isloading:true\n    })\n   //使用加载框，一定和wx.hideLoading() 配套使用\n    wx.showLoading({\n      title: '加载中',\n    })\n    wx.request({\n      url: `https://applet-base-api-t.itheima.net/categories/${this.data.food.id}/shops`,\n      method:\"GET\",\n      data:{\n        _page:this.data.page,\n        _limitthis:this.data.pagelimit\n      },\n      success:(res)=\u003e{\n//收集每页请求的数据和列表的总数据\n        this.setData({\n          shopList:[...this.data.shopList,...res.data],\n          total: res.header['X-Total-Count'] - 0,\n      \n        })\n      },\n      complete:()=\u003e{\n//保证 上拉后的网络请求是在上一次得到响应后执行。\n        this.setData({\n          isloading:false  \n        })\n//取消加载框\n        wx.hideLoading() \n        cb \u0026\u0026 cb() \n      }\n    })\n  },\n\n  /**\n   * 生命周期函数--监听页面加载\n   */\n  onLoad(options) {\n//页面参数赋值\n    this.setData({\n      food:options\n    })\n//请求函数\n    this.getshopList()  \n  \n  },\n\n  /**\n   * 生命周期函数--监听页面初次渲染完成\n   */\n  onReady() {\n     //通过页面参数设置页面的标题\n    wx.setNavigationBarTitle({\n      title: this.data.food.title\n    })\n  },\n\n\n  /**\n   * 页面相关事件处理函数--监听用户下拉动作\n   */\n  onPullDownRefresh() {\n//清空页面相关的请求参数\n    this.setData({\n      page:1,\n      shopList:[],\n      total:0\n    })\n//请求函数\n    this.getshopList(()=\u003e{  \n      wx.stopPullDownRefresh() //关闭下拉\n    })\n  },\n\n  /**\n   * 页面上拉触底事件的处理函数\n   */\n  onReachBottom() {\n//没有可响应的数据后不需请求\n    if(this.data.page * this.data.pagelimit \u003e= this.data.total){\n      return wx.showToast({\n        title: '数据已全部展示',\n        icon: 'none',\n        duration: 2000\n      })\n    }\n    if(this.data.isloading) return\n//注意分页请求的问题：请求前一定要改变页码\n    this.setData({\n      page:this.data.page + 1\n    })\n//请求函数\n    this.getshopList()  \n  },\n\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021200540-gkk2pb3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021200540-gkk2pb3",
+				"updated": "20221021201910"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cview class=\"shop-item\" wx:for=\"{{shopList}}\" wx:key=\"id\"\u003e\n  \u003cview class=\"thumb\"\u003e\n    \u003cimage src=\"{{item.images[0]}}\"\u003e\u003c/image\u003e\n  \u003c/view\u003e\n  \u003cview class=\"info\"\u003e\n    \u003ctext class=\"shop-title\"\u003e{{item.name}}\u003c/text\u003e\n    \u003ctext\u003e电话：{{tools.splitPhone(item.phone)}}\u003c/text\u003e\n    \u003ctext\u003e地址：{{item.address}}\u003c/text\u003e\n    \u003ctext\u003e营业时间：{{item.businessHours}}\u003c/text\u003e\n  \u003c/view\u003e\n\u003c/view\u003e\n\u003cwxs src=\"../../utils/tools.wxs\" module=\"tools\"\u003e\u003c/wxs\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021160926-djtrlt6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021160926-djtrlt6",
+				"updated": "20221021201924"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "/* pages/shoplist/shoplist.wxss */\n.shop-item {\n  display: flex;\n  padding: 15rpx;\n  border: 1rpx solid #efefef;\n  border-radius: 8rpx;\n  margin: 15rpx;\n  box-shadow: 1rpx 1rpx 15rpx #ddd;\n}\n\n.thumb image {\n  width: 250rpx;\n  height: 250rpx;\n  display: block;\n  margin-right: 15rpx;\n}\n\n.info {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  font-size: 24rpx;\n}\n\n.shop-title {\n  font-weight: bold;\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021202805-pre5a2e",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021202805-pre5a2e",
+				"updated": "20221021202825"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//tools.wxs\nfunction splitPhone(str) {\n  if(str.length !== 11) return str\n\n  var arr = str.split('')\n\n  arr.splice(3, 0, '-')\n  arr.splice(8, 0, '-')\n\n  return arr.join('')\n}\n\nmodule.exports = {\n  splitPhone: splitPhone\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021110355-zpiflha",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021110355-zpiflha",
+				"updated": "20221021110358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "接口"
+				}
+			]
+		},
+		{
+			"ID": "20221021110320-77bvk7w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021110320-77bvk7w",
+				"updated": "20221021203022"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "轮播图 GET "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "https://applet-base-api-t.itheima.net/slides"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021110327-qrz5vu2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021110327-qrz5vu2",
+				"updated": "20221021145842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "九宫格  GET  https://applet-base-api-t.itheima.net/categories"
+				}
+			]
+		},
+		{
+			"ID": "20221021110329-6slp6zd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021110329-6slp6zd",
+				"updated": "20221021145912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获随机颜色  GET  https://applet-base-api-t.itheima.net/api/color"
+				}
+			]
+		},
+		{
+			"ID": "20221021162851-vf8kqf1",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221021162851-vf8kqf1",
+				"updated": "20221021162852"
+			}
+		},
+		{
+			"ID": "20221021162850-l4hh25k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021162850-l4hh25k",
+				"updated": "20221021163239"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列表页面的 API 接口 GET  ：https://applet-base-api-t.itheima.net/categories/:cate_id/shops"
+				}
+			]
+		},
+		{
+			"ID": "20221021162922-cle5c9j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221021162922-cle5c9j",
+				"updated": "20221021162922"
+			},
+			"Children": [
+				{
+					"ID": "20221021162922-5j37va5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221021162922-5j37va5",
+						"updated": "20221021162922"
+					},
+					"Children": [
+						{
+							"ID": "20221021162850-blnsnq5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021162850-blnsnq5",
+								"updated": "20221021162922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "URL 地址中的 :cate_id 是动态参数，表示分类的 Id"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021162922-n8cg6h3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021162922-n8cg6h3",
+						"updated": "20221021162922"
+					},
+					"Children": [
+						{
+							"ID": "20221021162850-gbir0ij",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021162850-gbir0ij",
+								"updated": "20221021162922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "请求参数："
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021162850-z9j0yxn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021162850-z9j0yxn",
+				"updated": "20221021162910"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  _page 表示请求第几页的数据"
+				}
+			]
+		},
+		{
+			"ID": "20221021162850-4f0axu0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021162850-4f0axu0",
+				"updated": "20221021162911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  _limit 表示每页请求几条数据"
+				}
+			]
+		},
+		{
+			"ID": "20221021162857-iegetvf",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221021162857-iegetvf",
+				"updated": "20221021162858"
+			}
+		},
+		{
+			"ID": "20221021163031-30ryjkf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021163031-30ryjkf"
+			}
+		}
+	]
+}

@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221019164632-lh2gore",
 		"title": "总目录",
-		"updated": "20221020155510"
+		"updated": "20221021205226"
 	},
 	"Children": [
 		{
@@ -250,8 +250,18 @@
 			"ID": "20221020141418-wpw73to",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020141418-wpw73to"
-			}
+				"id": "20221020141418-wpw73to",
+				"updated": "20221021205226"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221021205206-tbal1sr",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "组件库：vant-weaapp  "
+				}
+			]
 		},
 		{
 			"ID": "20221020141418-9i059sl",

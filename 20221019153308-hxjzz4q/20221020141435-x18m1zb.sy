@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221020141435-x18m1zb",
 		"title": "微信小程序的初识",
-		"updated": "20221020215002"
+		"updated": "20221021205206"
 	},
 	"Children": [
 		{
@@ -27,7 +27,7 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221020150939-ycxo7dq",
-				"updated": "20221020212125"
+				"updated": "20221021203549"
 			},
 			"Children": [
 				{
@@ -52,7 +52,255 @@
 				},
 				{
 					"Type": "NodeText",
-					"Data": "  下拉刷新  上拉触底"
+					"Data": "    "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221020152419-mw63bnb",
+					"TextMarkTextContent": "轮播图"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021142506-eqxucen",
+					"TextMarkTextContent": "使用原生实现九宫格"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021203518-gg3hznv",
+					"TextMarkTextContent": "自定义 tabBar"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021203222-9q2o6q6",
+					"TextMarkTextContent": "自定义组件"
+				}
+			]
+		},
+		{
+			"ID": "20221021204703-yjbp3pg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021204703-yjbp3pg",
+				"updated": "20221021205206"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221021205206-tbal1sr",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "组件库：vant-weaapp  "
+				}
+			]
+		},
+		{
+			"ID": "20221021174716-dlzmlkl",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221021174716-dlzmlkl",
+				"updated": "20221021174726"
+			}
+		},
+		{
+			"ID": "20221021174709-99evujb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021174709-99evujb"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021144204-w3z97qh",
+					"TextMarkTextContent": "下拉刷新 "
+				}
+			]
+		},
+		{
+			"ID": "20221021174715-stwiycr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021174715-stwiycr",
+				"updated": "20221021175032"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需要在JSON文件启动下拉刷新，可以设置下拉样式"
+				}
+			]
+		},
+		{
+			"ID": "20221021175023-1cafsao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021175023-1cafsao"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "真机调试下拉刷新后需要添加停止下拉刷新的效果"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221021174910-kzevpw0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021174910-kzevpw0",
+				"updated": "20221021174922"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在下拉监听函数设置函数调用"
+				}
+			]
+		},
+		{
+			"ID": "20221021174730-1iwws0e",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20221021174730-1iwws0e"
+			}
+		},
+		{
+			"ID": "20221021154208-v6uo1dt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021154208-v6uo1dt",
+				"updated": "20221021170328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021144155-w5hkgb7",
+					"TextMarkTextContent": "上拉触底"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				}
+			]
+		},
+		{
+			"ID": "20221021170332-fm7iwp5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021170332-fm7iwp5",
+				"updated": "20221021170744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不需启动上拉，设置上拉只需在上拉监听函数设置函数调用即可"
+				}
+			]
+		},
+		{
+			"ID": "20221021170356-cildk9r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021170356-cildk9r",
+				"updated": "20221021171348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户只可以对上拉的长度设置，需要"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021153521-adlvjxu",
+					"TextMarkTextContent": "对上拉触底进行节流处理"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，"
+				}
+			]
+		},
+		{
+			"ID": "20221021154215-d4p8fed",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021154215-d4p8fed",
+				"updated": "20221021203121"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//动态参数\nwx.request({\n      url: `https://applet-base-api-t.itheima.net/categories/${this.data.food.id}/shops`,\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021151921-1tbth2h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021151921-1tbth2h",
+				"updated": "20221021152002"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//数据拼接：一般用在下拉刷新\n this.setData({\n        colorList:[...this.data.colorList,...res.data]\n })\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
 				}
 			]
 		},
@@ -60,7 +308,8 @@
 			"ID": "20221020210658-cd9vd6m",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020210658-cd9vd6m"
+				"id": "20221020210658-cd9vd6m",
+				"updated": "20221021151929"
 			}
 		},
 		{
@@ -81,6 +330,7 @@
 			"ID": "20221020141449-thp587d",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "0",
 				"id": "20221020141449-thp587d",
 				"updated": "20221020142310"
 			},
@@ -106,6 +356,7 @@
 				"Typ": 1
 			},
 			"Properties": {
+				"fold": "1",
 				"id": "20221020142313-zhu9zkp",
 				"updated": "20221020142321"
 			},
@@ -206,7 +457,7 @@
 			"HeadingLevel": 2,
 			"Properties": {
 				"id": "20221020170857-pjl1eo6",
-				"updated": "20221020170919"
+				"updated": "20221021195337"
 			},
 			"Children": [
 				{
@@ -237,112 +488,239 @@
 			]
 		},
 		{
-			"ID": "20221020143509-w1dnyl2",
-			"Type": "NodeParagraph",
+			"ID": "20221021204036-jetbyzn",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20221020143509-w1dnyl2",
-				"updated": "20221020143602"
+				"fold": "1",
+				"id": "20221021204036-jetbyzn",
+				"updated": "20221021204037"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "  ① pages 用来存放所有小程序的页面"
-				}
-			]
-		},
-		{
-			"ID": "20221020143509-or6oysy",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020143509-or6oysy",
-				"updated": "20221020143509"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ② utils 用来存放工具性质的模块（例如：格式化时间的自定义模块）"
-				}
-			]
-		},
-		{
-			"ID": "20221020143509-3qhg8xb",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020143509-3qhg8xb",
-				"updated": "20221020143509"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ③ app.js 小程序项目的入口文件"
-				}
-			]
-		},
-		{
-			"ID": "20221020143509-m2fyeqd",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020143509-m2fyeqd",
-				"updated": "20221020143509"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ④ app.json 小程序项目的全局配置文件"
-				}
-			]
-		},
-		{
-			"ID": "20221020143509-j657d19",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020143509-j657d19",
-				"updated": "20221020143509"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑤ app.wxss 小程序项目的全局样式文件"
-				}
-			]
-		},
-		{
-			"ID": "20221020143509-obsy466",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020143509-obsy466",
-				"updated": "20221020143509"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑥ project.config.json 项目的配置文件"
-				}
-			]
-		},
-		{
-			"ID": "20221020143509-920urjj",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020143509-920urjj",
-				"updated": "20221020143810"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑦ sitemap.json 用来配置小程序及其页面"
-				},
-				{
-					"Type": "NodeTextMark",
-					"Properties": {
-						"style": "color: var(--b3-font-color7);"
+					"ID": "20221021204036-p2wurcf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
 					},
-					"TextMarkType": "text",
-					"TextMarkTextContent": "是否允许被微信索引 "
+					"Properties": {
+						"id": "20221021204036-p2wurcf",
+						"updated": "20221021204037"
+					},
+					"Children": [
+						{
+							"ID": "20221020143509-w1dnyl2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"fold": "1",
+								"id": "20221020143509-w1dnyl2",
+								"updated": "20221021204037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ① pages 用来存放所有小程序的页面"
+								}
+							]
+						}
+					]
 				},
 				{
-					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+					"ID": "20221021204036-xix0pmz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021204036-xix0pmz",
+						"updated": "20221021204037"
+					},
+					"Children": [
+						{
+							"ID": "20221020143509-or6oysy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020143509-or6oysy",
+								"updated": "20221021204037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ② utils 用来存放工具性质的模块（例如：格式化时间的自定义模块）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021204036-7kyd09m",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221021204036-7kyd09m",
+						"updated": "20221021204037"
+					},
+					"Children": [
+						{
+							"ID": "20221020143509-3qhg8xb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020143509-3qhg8xb",
+								"updated": "20221021204037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ③ app.js 小程序项目的入口文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021204036-rjsy17d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221021204036-rjsy17d",
+						"updated": "20221021204037"
+					},
+					"Children": [
+						{
+							"ID": "20221020143509-m2fyeqd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020143509-m2fyeqd",
+								"updated": "20221021204037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ④ app.json 小程序项目的全局配置文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021204036-t0ssfx8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221021204036-t0ssfx8",
+						"updated": "20221021204037"
+					},
+					"Children": [
+						{
+							"ID": "20221020143509-j657d19",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020143509-j657d19",
+								"updated": "20221021204037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ⑤ app.wxss 小程序项目的全局样式文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021204036-wsdh374",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20221021204036-wsdh374",
+						"updated": "20221021204037"
+					},
+					"Children": [
+						{
+							"ID": "20221020143509-obsy466",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020143509-obsy466",
+								"updated": "20221021204037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ⑥ project.config.json 项目的配置文件"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021204036-g5d3623",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20221021204036-g5d3623",
+						"updated": "20221021204037"
+					},
+					"Children": [
+						{
+							"ID": "20221020143509-920urjj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020143509-920urjj",
+								"updated": "20221021204037"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ⑦ sitemap.json 用来配置小程序及其页面"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color7);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "是否允许被微信索引 "
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -368,72 +746,166 @@
 			]
 		},
 		{
-			"ID": "20221020170818-tjznvm1",
-			"Type": "NodeParagraph",
+			"ID": "20221021204059-61k3qyq",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20221020170818-tjznvm1",
-				"updated": "20221020170818"
+				"fold": "1",
+				"id": "20221021204059-61k3qyq",
+				"updated": "20221021204059"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "其中，每个页面由 4 个基本文件组成，它们分别是："
-				}
-			]
-		},
-		{
-			"ID": "20221020170818-qwa760v",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020170818-qwa760v",
-				"updated": "20221020170818"
-			},
-			"Children": [
+					"ID": "20221021204059-sr1q9vl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221021204059-sr1q9vl",
+						"updated": "20221021204059"
+					},
+					"Children": [
+						{
+							"ID": "20221020170818-tjznvm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020170818-tjznvm1",
+								"updated": "20221021204059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "其中，每个页面由 4 个基本文件组成，它们分别是："
+								}
+							]
+						}
+					]
+				},
 				{
-					"Type": "NodeText",
-					"Data": "  ① .js 文件（页面的脚本文件，存放页面的数据、事件处理函数等）"
-				}
-			]
-		},
-		{
-			"ID": "20221020170818-a1mv8e0",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020170818-a1mv8e0",
-				"updated": "20221020170818"
-			},
-			"Children": [
+					"ID": "20221021204059-30j33s8",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021204059-30j33s8",
+						"updated": "20221021204059"
+					},
+					"Children": [
+						{
+							"ID": "20221020170818-qwa760v",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020170818-qwa760v",
+								"updated": "20221021204059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ① .js 文件（页面的脚本文件，存放页面的数据、事件处理函数等）"
+								}
+							]
+						}
+					]
+				},
 				{
-					"Type": "NodeText",
-					"Data": "  ② .json 文件（当前页面的配置文件，配置窗口的外观、表现等）"
-				}
-			]
-		},
-		{
-			"ID": "20221020170818-g7pcafv",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020170818-g7pcafv",
-				"updated": "20221020170818"
-			},
-			"Children": [
+					"ID": "20221021204059-opslrfb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221021204059-opslrfb",
+						"updated": "20221021204059"
+					},
+					"Children": [
+						{
+							"ID": "20221020170818-a1mv8e0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020170818-a1mv8e0",
+								"updated": "20221021204059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ② .json 文件（当前页面的配置文件，配置窗口的外观、表现等）"
+								}
+							]
+						}
+					]
+				},
 				{
-					"Type": "NodeText",
-					"Data": "  ③ .wxml 文件（页面的模板结构文件）"
-				}
-			]
-		},
-		{
-			"ID": "20221020170818-8sf0831",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020170818-8sf0831",
-				"updated": "20221020170818"
-			},
-			"Children": [
+					"ID": "20221021204059-e7aoa23",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20221021204059-e7aoa23",
+						"updated": "20221021204059"
+					},
+					"Children": [
+						{
+							"ID": "20221020170818-g7pcafv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020170818-g7pcafv",
+								"updated": "20221021204059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ③ .wxml 文件（页面的模板结构文件）"
+								}
+							]
+						}
+					]
+				},
 				{
-					"Type": "NodeText",
-					"Data": "  ④ .wxss 文件（当前页面的样式表文件）"
+					"ID": "20221021204059-tjgq6e5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20221021204059-tjgq6e5",
+						"updated": "20221021204059"
+					},
+					"Children": [
+						{
+							"ID": "20221020170818-8sf0831",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221020170818-8sf0831",
+								"updated": "20221021204059"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  ④ .wxss 文件（当前页面的样式表文件）"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -530,14 +1002,14 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221020204945-72tshpm",
-				"updated": "20221020205038"
+				"updated": "20221021204116"
 			},
 			"Children": [
 				{
 					"Type": "NodeImage",
 					"Data": "span",
 					"Properties": {
-						"parent-style": "width: 67%;",
+						"parent-style": "width: 33%;",
 						"style": "width: 10000px;"
 					},
 					"Children": [
@@ -568,7 +1040,7 @@
 				},
 				{
 					"Type": "NodeKramdownSpanIAL",
-					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 67%;\"}"
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 33%;\"}"
 				},
 				{
 					"Type": "NodeText",
@@ -1683,12 +2155,28 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
+							"Properties": {
+								"colspan": "1",
+								"rowspan": "2"
+							},
 							"Children": [
 								{
 									"Type": "NodeText",
 									"Data": "tab上文字的默认（未选中）颜色"
+								},
+								{
+									"Type": "NodeBr",
+									"Data": "br"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "tab上的文字选中时的颜色"
 								}
 							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: colspan=\"1\" rowspan=\"2\"}"
 						}
 					]
 				},
@@ -1733,12 +2221,13 @@
 						{
 							"Type": "NodeTableCell",
 							"Data": "td",
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "tab上的文字选中时的颜色"
-								}
-							]
+							"Properties": {
+								"class": "fn__none"
+							}
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: class=\"fn__none\"}"
 						}
 					]
 				},
@@ -1849,8 +2338,9 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
+				"fold": "0",
 				"id": "20221020171422-6zvriix",
-				"updated": "20221020214331"
+				"updated": "20221021103213"
 			},
 			"Children": [
 				{
@@ -1863,13 +2353,169 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "{\n  \"pages\":[\n    \"pages/main/main\",\n    \"pages/index/index\",\n    \"pages/logs/logs\"\n  ],\n  \"window\":{\n    \"backgroundTextStyle\":\"light\",\n    \"navigationBarBackgroundColor\": \"#fff\",\n    \"navigationBarTitleText\": \"Weixin\",\n    \"navigationBarTextStyle\":\"black\"\n  },\n  \"tabBar\": {\n    \"position\":\"top\",\n    \"list\": [\n    {\n      \"pagePath\":\"pages/index/index\",\n      \"text\":\"开始\"\n    },\n    {\n      \"pagePath\":\"pages/main/main\",\n      \"text\":\"主页\"\n    },\n    {\n      \"pagePath\": \"pages/logs/logs\",\n      \"text\":\"历史\"\n    }\n  ]},\n  \"style\": \"v2\",\n  \"sitemapLocation\": \"sitemap.json\"\n}\n\n"
+					"Data": "{\n  \"pages\":[\n    \"pages/main/main\",\n    \"pages/index/index\",\n    \"pages/logs/logs\"\n  ],\n  \"window\":{\n    \"backgroundTextStyle\":\"light\",\n    \"navigationBarBackgroundColor\": \"#fff\",\n    \"navigationBarTitleText\": \"Weixin\",\n    \"navigationBarTextStyle\":\"black\"\n  },\n  \"tabBar\": {\n    \"position\":\"top\",\n    \"list\": [\n    {\n      \"pagePath\":\"pages/home/home\",\n      \"text\":\"首页\",\n      \"iconPath\":\"/images/tabs/home.png\",\n      \"selectedIconPath\":\"/images/tabs/home-active.png\"\n\n    },\n    {\n      \"pagePath\": \"pages/message/message\",\n      \"text\":\"消息\",\n      \"iconPath\":\"/images/tabs/message.png\",\n      \"selectedIconPath\":\"/images/tabs/message-active.png\"\n    },\n    {\n      \"pagePath\": \"pages/contact/contact\",\n      \"text\":\"联系我们\",\n      \"iconPath\":\"/images/tabs/contact.png\",\n      \"selectedIconPath\":\"/images/tabs/contact-active.png\"\n    }\n  ]},\n  \"style\": \"v2\",\n  \"sitemapLocation\": \"sitemap.json\"\n}\n\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
 					"Data": "```"
 				}
 			]
+		},
+		{
+			"ID": "20221021203518-gg3hznv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20221021203518-gg3hznv",
+				"updated": "20221021203521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自定义 tabBar"
+				}
+			]
+		},
+		{
+			"ID": "20221021203519-lttg3p3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20221021203519-lttg3p3",
+				"updated": "20221021203653"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建组件"
+				}
+			]
+		},
+		{
+			"ID": "20221021203636-behumyh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203636-behumyh",
+				"updated": "20221021203636"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①在项目的根目录中，鼠标右键，创建 components -\u003e test 文件夹"
+				}
+			]
+		},
+		{
+			"ID": "20221021203636-gkodfr9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203636-gkodfr9",
+				"updated": "20221021203639"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②在新建的 components -\u003e test 文件夹上，鼠标右键，点击“新建 Component”"
+				}
+			]
+		},
+		{
+			"ID": "20221021203642-s21syho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203642-s21syho"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③键入组件的名称之后回车，会自动生成组件对应的 4 个文件，后缀名分别为 .js，.json， .wxml 和 .wxss"
+				}
+			]
+		},
+		{
+			"ID": "20221021203636-hvzgscl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203636-hvzgscl",
+				"updated": "20221021203636"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ●  注意：为了保证目录结构的清晰，建议把不同的组件，存放到单独目录中，例如："
+				}
+			]
+		},
+		{
+			"ID": "20221021203519-xq1gsmi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"id": "20221021203519-xq1gsmi",
+				"updated": "20221021203708"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "引用组件"
+				}
+			]
+		},
+		{
+			"ID": "20221021203714-3n2n0sb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203714-3n2n0sb",
+				"updated": "20221021203714"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "组件的引用方式分为“局部引用”和“全局引用”，顾名思义："
+				}
+			]
+		},
+		{
+			"ID": "20221021203714-5zbtub5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203714-5zbtub5",
+				"updated": "20221021203722"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  局部引用：组件只能在当前被引用的页面内使用"
+				}
+			]
+		},
+		{
+			"ID": "20221021203714-jdm6nc0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203714-jdm6nc0",
+				"updated": "20221021203724"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  全局引用：组件可以在每个小程序页面中使用"
+				}
+			]
+		},
+		{
+			"ID": "20221021203709-e3gbnb5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203709-e3gbnb5"
+			}
+		},
+		{
+			"ID": "20221021203710-j4j1knn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203710-j4j1knn"
+			}
 		},
 		{
 			"ID": "20221020171405-g647lw5",
@@ -2565,220 +3211,6 @@
 				{
 					"Type": "NodeText",
 					"Data": "WXML（WeiXin Markup Language）是小程序框架设计的一套标签语言，用来构建小程序页面的结构，其作用类似于网页开发中的 HTML。"
-				}
-			]
-		},
-		{
-			"ID": "20221020171246-wnwrqvu",
-			"Type": "NodeHeading",
-			"HeadingLevel": 4,
-			"Properties": {
-				"id": "20221020171246-wnwrqvu",
-				"updated": "20221020171340"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "WXML 和 HTML 的区别"
-				}
-			]
-		},
-		{
-			"ID": "20221020171256-v1bes13",
-			"Type": "NodeList",
-			"ListData": {
-				"Typ": 1
-			},
-			"Properties": {
-				"id": "20221020171256-v1bes13",
-				"updated": "20221020171259"
-			},
-			"Children": [
-				{
-					"ID": "20221020171259-86vr900",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "MS4=",
-						"Num": 1
-					},
-					"Properties": {
-						"id": "20221020171259-86vr900",
-						"updated": "20221020171259"
-					},
-					"Children": [
-						{
-							"ID": "20221020171259-8ovpm8q",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221020171259-8ovpm8q",
-								"updated": "20221020171259"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "标签名称不同"
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20221020171256-jrl4o7l",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020171256-jrl4o7l",
-				"updated": "20221020171310"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  HTML （div, span, img, a）"
-				}
-			]
-		},
-		{
-			"ID": "20221020171256-sruslup",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020171256-sruslup",
-				"updated": "20221020171311"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  WXML（view, text, image, navigator）"
-				}
-			]
-		},
-		{
-			"ID": "20221020171256-zc2m7s4",
-			"Type": "NodeList",
-			"ListData": {
-				"Typ": 1
-			},
-			"Properties": {
-				"id": "20221020171256-zc2m7s4",
-				"updated": "20221020171302"
-			},
-			"Children": [
-				{
-					"ID": "20221020171302-4pvzj3k",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "Mi4=",
-						"Num": 2
-					},
-					"Properties": {
-						"id": "20221020171302-4pvzj3k",
-						"updated": "20221020171302"
-					},
-					"Children": [
-						{
-							"ID": "20221020171302-n1vydug",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221020171302-n1vydug",
-								"updated": "20221020171302"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "属性节点不同"
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20221020171256-fv6c0d0",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020171256-fv6c0d0",
-				"updated": "20221020171307"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  \u003ca href=\"#\"\u003e超链接\u003c/a\u003e"
-				}
-			]
-		},
-		{
-			"ID": "20221020171256-jt3cqbu",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020171256-jt3cqbu",
-				"updated": "20221020171308"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  \u003cnavigator url=\"/pages/home/home\"\u003e\u003c/navigator\u003e"
-				}
-			]
-		},
-		{
-			"ID": "20221020171256-xwqbw8p",
-			"Type": "NodeList",
-			"ListData": {
-				"Typ": 1
-			},
-			"Properties": {
-				"id": "20221020171256-xwqbw8p",
-				"updated": "20221020171304"
-			},
-			"Children": [
-				{
-					"ID": "20221020171304-0jugdmh",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "My4=",
-						"Num": 3
-					},
-					"Properties": {
-						"id": "20221020171304-0jugdmh",
-						"updated": "20221020171304"
-					},
-					"Children": [
-						{
-							"ID": "20221020171304-v89ckkx",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20221020171304-v89ckkx",
-								"updated": "20221020171304"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "提供了类似于 Vue 中的模板语法"
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20221020183554-5kctg3d",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020183554-5kctg3d",
-				"updated": "20221020185750"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "      数据绑定   列表渲染    条件渲染  "
 				}
 			]
 		},
@@ -4366,13 +4798,6 @@
 			]
 		},
 		{
-			"ID": "20221020203946-t6dz8c8",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020203946-t6dz8c8"
-			}
-		},
-		{
 			"ID": "20221020171118-k3uvvv0",
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
@@ -5314,130 +5739,26 @@
 			]
 		},
 		{
-			"ID": "20221020152351-616efel",
-			"Type": "NodeParagraph",
+			"ID": "20221021203222-9q2o6q6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221020152351-616efel",
-				"updated": "20221020171928"
+				"id": "20221021203222-9q2o6q6",
+				"updated": "20221021203226"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "  ①视图容器"
+					"Data": "自定义组件"
 				}
 			]
 		},
 		{
-			"ID": "20221020152351-ey1j4wo",
+			"ID": "20221021203230-f24yewe",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020152351-ey1j4wo",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ②基础内容"
-				}
-			]
-		},
-		{
-			"ID": "20221020152351-rv7zut2",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020152351-rv7zut2",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ③表单组件"
-				}
-			]
-		},
-		{
-			"ID": "20221020152351-7afox9t",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020152351-7afox9t",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ④导航组件"
-				}
-			]
-		},
-		{
-			"ID": "20221020152351-244op2j",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020152351-244op2j",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑤媒体组件"
-				}
-			]
-		},
-		{
-			"ID": "20221020152351-bu4cjtd",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020152351-bu4cjtd",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑥map 地图组件"
-				}
-			]
-		},
-		{
-			"ID": "20221020152351-njkzmyn",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020152351-njkzmyn",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑦canvas 画布组件"
-				}
-			]
-		},
-		{
-			"ID": "20221020152351-nchdsd3",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020152351-nchdsd3",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑧开放能力"
-				}
-			]
-		},
-		{
-			"ID": "20221020152351-gzsui00",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020152351-gzsui00",
-				"updated": "20221020152351"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  ⑨无障碍访问"
-				}
-			]
+				"id": "20221021203230-f24yewe"
+			}
 		},
 		{
 			"ID": "20221020151648-5yjjz4s",
@@ -5747,6 +6068,13 @@
 			]
 		},
 		{
+			"ID": "20221021154210-emkh48b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021154210-emkh48b"
+			}
+		},
+		{
 			"ID": "20221020152419-mw63bnb",
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
@@ -5758,6 +6086,26 @@
 				{
 					"Type": "NodeText",
 					"Data": "swiper  和 swiper-item 轮播图容器组件"
+				}
+			]
+		},
+		{
+			"ID": "20221021143819-ozdxkos",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021143819-ozdxkos",
+				"updated": "20221021143823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例子： "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221021143304-9mm41l6",
+					"TextMarkTextContent": "网络请求轮播图"
 				}
 			]
 		},
@@ -6817,6 +7165,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20221020142059-chg9fg8",
 				"updated": "20221020142109"
 			},
@@ -6828,10 +7177,29 @@
 			]
 		},
 		{
-			"ID": "20221020153255-mbq2rqn",
+			"ID": "20221021161905-0hua62h",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021161905-0hua62h",
+				"updated": "20221021161913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微信 API 类别"
+				}
+			]
+		},
+		{
+			"ID": "20221020153255-mbq2rqn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020153255-mbq2rqn",
 				"updated": "20221020153313"
 			},
@@ -6846,6 +7214,8 @@
 			"ID": "20221020165743-y1o3dup",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165743-y1o3dup",
 				"updated": "20221020165746"
 			},
@@ -6860,6 +7230,8 @@
 			"ID": "20221020165743-3smm3cp",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165743-3smm3cp",
 				"updated": "20221020165745"
 			},
@@ -6873,8 +7245,10 @@
 		{
 			"ID": "20221020153314-ss9zlei",
 			"Type": "NodeHeading",
-			"HeadingLevel": 3,
+			"HeadingLevel": 4,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020153314-ss9zlei",
 				"updated": "20221020153323"
 			},
@@ -6889,6 +7263,8 @@
 			"ID": "20221020165757-6k0lntt",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165757-6k0lntt",
 				"updated": "20221020165822"
 			},
@@ -6903,6 +7279,8 @@
 			"ID": "20221020165757-79qqe4z",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165757-79qqe4z",
 				"updated": "20221020165824"
 			},
@@ -6917,6 +7295,8 @@
 			"ID": "20221020165757-anq1lal",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165757-anq1lal",
 				"updated": "20221020165825"
 			},
@@ -6930,8 +7310,10 @@
 		{
 			"ID": "20221020153318-gkymt8u",
 			"Type": "NodeHeading",
-			"HeadingLevel": 3,
+			"HeadingLevel": 4,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020153318-gkymt8u",
 				"updated": "20221020153326"
 			},
@@ -6946,6 +7328,8 @@
 			"ID": "20221020165837-q8d6lwt",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165837-q8d6lwt",
 				"updated": "20221020210417"
 			},
@@ -6966,6 +7350,8 @@
 			"ID": "20221020165835-03utjfc",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165835-03utjfc",
 				"updated": "20221020165844"
 			},
@@ -6977,23 +7363,144 @@
 			]
 		},
 		{
-			"ID": "20221020153256-e0tkaka",
+			"ID": "20221021162013-ereogro",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021162013-ereogro",
+				"updated": "20221021162108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "动态设置当前页面的标题"
+				}
+			]
+		},
+		{
+			"ID": "20221021162127-9c97jzv",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020153256-e0tkaka"
-			}
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021162127-9c97jzv",
+				"updated": "20221021162127"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "wx.setNavigationBarTitle(Object object)"
+				}
+			]
 		},
 		{
 			"ID": "20221020153256-ml41a6i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221020153256-ml41a6i",
+				"updated": "20221021162520"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n\n  /**\n   * 页面的初始数据\n   */\n  data: {\n    food:[]\n  },\n//得到页面参数\n  onLoad(options) {\n    this.setData({\n      food:options\n    })\n  \n  },\n  onReady() {\n//动态设置当前页面的标题\n    wx.setNavigationBarTitle({\n      title: this.data.food.title\n    })\n  },\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021165744-m86xugj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021165744-m86xugj",
+				"updated": "20221021173750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "显示加载提示框"
+				}
+			]
+		},
+		{
+			"ID": "20221021174000-dew0gy4",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020153256-ml41a6i"
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021174000-dew0gy4",
+				"updated": "20221021174001"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "显示 loading 提示框。需主动调用 wx.hideLoading 才能关闭提示框"
+				}
+			]
+		},
+		{
+			"ID": "20221021165744-j0xwrk9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021165744-j0xwrk9",
+				"updated": "20221021174008"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wx.showLoading({\n  title: '加载中',\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021165744-y8rfsyh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021165744-y8rfsyh"
 			}
 		},
 		{
 			"ID": "20221020153256-i61qw0y",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020153256-i61qw0y",
 				"updated": "20221020165344"
 			},
@@ -7008,6 +7515,8 @@
 			"ID": "20221020165344-v5pzofg",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165344-v5pzofg",
 				"updated": "20221020165348"
 			},
@@ -7022,6 +7531,8 @@
 			"ID": "20221020142115-qpk4pvz",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020142115-qpk4pvz",
 				"updated": "20221020142216"
 			},
@@ -7036,6 +7547,8 @@
 			"ID": "20221020142119-l31dfac",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020142119-l31dfac",
 				"updated": "20221020142122"
 			},
@@ -7050,6 +7563,8 @@
 			"ID": "20221020142122-m04kiho",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020142122-m04kiho",
 				"updated": "20221020142518"
 			},
@@ -7064,6 +7579,8 @@
 			"ID": "20221020165859-5plyege",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020165859-5plyege"
 			}
 		},
@@ -7072,6 +7589,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20221020165900-vzjshrv",
 				"updated": "20221020165905"
 			},
@@ -7087,6 +7605,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020171934-gkyazam",
 				"updated": "20221020172120"
 			},
@@ -7101,6 +7621,8 @@
 			"ID": "20221020172317-onrfwfv",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172317-onrfwfv",
 				"updated": "20221020172327"
 			},
@@ -7152,6 +7674,8 @@
 			"ID": "20221020172018-f7m8cp5",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172018-f7m8cp5",
 				"updated": "20221020172142"
 			},
@@ -7198,6 +7722,8 @@
 			"ID": "20221020172218-2ehkso6",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-2ehkso6",
 				"updated": "20221020172218"
 			},
@@ -7212,6 +7738,8 @@
 			"ID": "20221020172218-23rt3sn",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-23rt3sn",
 				"updated": "20221020172222"
 			},
@@ -7226,6 +7754,8 @@
 			"ID": "20221020172218-mld54yi",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-mld54yi",
 				"updated": "20221020172218"
 			},
@@ -7240,6 +7770,8 @@
 			"ID": "20221020172218-f6j0pmd",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-f6j0pmd",
 				"updated": "20221020172248"
 			},
@@ -7254,6 +7786,8 @@
 			"ID": "20221020172218-h3plyms",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-h3plyms",
 				"updated": "20221020172234"
 			},
@@ -7268,6 +7802,8 @@
 			"ID": "20221020172218-2yed0ya",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-2yed0ya",
 				"updated": "20221020172218"
 			},
@@ -7282,6 +7818,8 @@
 			"ID": "20221020172218-up03cm5",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-up03cm5",
 				"updated": "20221020172246"
 			},
@@ -7296,6 +7834,8 @@
 			"ID": "20221020172218-maolgc8",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172218-maolgc8",
 				"updated": "20221020172218"
 			},
@@ -7311,6 +7851,8 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172301-i8b3it6",
 				"updated": "20221020172442"
 			},
@@ -7330,6 +7872,8 @@
 			],
 			"Properties": {
 				"colgroup": "|",
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172539-kh3kbrk",
 				"updated": "20221020172539"
 			},
@@ -7501,6 +8045,8 @@
 			"ID": "20221020172523-933kyyj",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020172523-933kyyj",
 				"updated": "20221020172607"
 			},
@@ -7515,6 +8061,8 @@
 			"ID": "20221020180026-9mc0in8",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020180026-9mc0in8",
 				"updated": "20221020180037"
 			},
@@ -7541,6 +8089,8 @@
 			"ID": "20221020180026-7pixde2",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020180026-7pixde2",
 				"updated": "20221020180028"
 			},
@@ -7556,6 +8106,7 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
 			"Properties": {
+				"fold": "1",
 				"id": "20221020180040-s9aaf6w",
 				"updated": "20221020180258"
 			},
@@ -7568,10 +8119,13 @@
 		},
 		{
 			"ID": "20221020181012-3xzgzwj",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020181012-3xzgzwj",
-				"updated": "20221020181355"
+				"updated": "20221021114951"
 			},
 			"Children": [
 				{
@@ -7588,16 +8142,747 @@
 				},
 				{
 					"Type": "NodeText",
+					"Data": "使用\u003cnavigator\u003e 导航参数在 页面加载onload函数的"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "options"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "中"
+				}
+			]
+		},
+		{
+			"ID": "20221021114829-i3e8o7b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021114829-i3e8o7b"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
 					"Data": "在页面上声明一个 \u003cnavigator\u003e 导航组件，通过点击 \u003cnavigator\u003e 组件实现页面跳转"
 				}
 			]
 		},
 		{
-			"ID": "20221020181012-cm3ivcq",
+			"ID": "20221021123557-jqqtytq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021123557-jqqtytq",
+				"updated": "20221021123624"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//goods.js文件\nPage({\n\n  /**\n   * 页面的初始数据\n   */\n  data: {\n    params:[]\n  },\n\n  /**\n   * 生命周期函数--监听页面加载\n   */\n  onLoad(options) {\n    this.setData({\n      params:options\n    })\n    console.log(this.data.params)\n  },\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021115301-0ijokwy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115301-0ijokwy",
+				"updated": "20221021123541"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cnavigator url=\"/pages/contact/contact\" open-type=\"switchTab\"\u003e导航到 tabBar 页面\u003c/navigator\u003e\n\u003cnavigator url=\"/pages/goods/goods?name=hehe\" open-type=\"navigate\"\u003e导航到 非 tabBar 页面\u003c/navigator\u003e\n\u003cnavigator open-type=\"navigateBack\" delta=\"1\"\u003e上一跳\u003c/navigator\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021115030-atw4ea6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115030-atw4ea6",
+				"updated": "20221021115030"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "导航到 tabBar 页面"
+				}
+			]
+		},
+		{
+			"ID": "20221021115231-ao1xjok",
 			"Type": "NodeParagraph",
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115231-ao1xjok",
+				"updated": "20221021115231"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tabBar 页面指的是被配置为 tabBar 的页面。在使用 \u003cnavigator\u003e 组件跳转到指定的 tabBar 页面时，需要指定 url 属性和 open-type 属性，其中："
+				}
+			]
+		},
+		{
+			"ID": "20221021115231-nzqce4j",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115231-nzqce4j"
+			},
+			"Children": [
+				{
+					"ID": "20221021115231-2io5gkt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221021115231-2io5gkt"
+					},
+					"Children": [
+						{
+							"ID": "20221021115231-kc102m1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021115231-kc102m1",
+								"updated": "20221021115231"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  url 表示要跳转的页面的地址，必须以 / 开头"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021115231-jg96tys",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021115231-jg96tys"
+					},
+					"Children": [
+						{
+							"ID": "20221021115231-f8ayx35",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021115231-f8ayx35",
+								"updated": "20221021115231"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  open-type 表示跳转的方式，必须为 switchTab"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021115115-fdjnad7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115115-fdjnad7",
+				"updated": "20221021115152"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021115152-30fbp4k.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021115130-gstwp09",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115130-gstwp09",
+				"updated": "20221021115130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "导航到非 tabBar 页面"
+				}
+			]
+		},
+		{
+			"ID": "20221021115248-8g8l207",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115248-8g8l207",
+				"updated": "20221021115248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "非 tabBar 页面指的是没有被配置为 tabBar 的页面。在使用 \u003cnavigator\u003e 组件跳转到普通的非 tabBar 页面时，则需要指定 url 属性和 open-type 属性，其中："
+				}
+			]
+		},
+		{
+			"ID": "20221021115248-588wl89",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115248-588wl89"
+			},
+			"Children": [
+				{
+					"ID": "20221021115248-9qwkv6a",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221021115248-9qwkv6a"
+					},
+					"Children": [
+						{
+							"ID": "20221021115248-emvswsl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021115248-emvswsl",
+								"updated": "20221021115248"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  url 表示要跳转的页面的地址，必须以 / 开头"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20221021115248-w6aa91n",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021115248-w6aa91n"
+					},
+					"Children": [
+						{
+							"ID": "20221021115248-02b7nt2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021115248-02b7nt2",
+								"updated": "20221021115248"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "  open-type 表示跳转的方式，必须为 navigate"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021115218-ck3m1fl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115218-ck3m1fl",
+				"updated": "20221021115219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：为了简便，在导航到非 tabBar 页面时，open-type=\"navigate\" 属性可以省略。"
+				}
+			]
+		},
+		{
+			"ID": "20221021115131-v7zyoxv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115131-v7zyoxv",
+				"updated": "20221021115256"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021115203-805i9qy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021115253-inhv9l5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115253-inhv9l5",
+				"updated": "20221021115338"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后退导航"
+				}
+			]
+		},
+		{
+			"ID": "20221021121021-b4ibzw2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121021-b4ibzw2",
+				"updated": "20221021121021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果要后退到上一页面或多级页面，则需要指定 open-type 属性和 delta 属性，其中："
+				}
+			]
+		},
+		{
+			"ID": "20221021121021-0rrhi7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121021-0rrhi7h",
+				"updated": "20221021121021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l open-type 的值必须是 navigateBack，表示要进行后退导航"
+				}
+			]
+		},
+		{
+			"ID": "20221021121021-u1w5ybe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121021-u1w5ybe",
+				"updated": "20221021121021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l delta 的值必须是数字，表示要后退的层级"
+				}
+			]
+		},
+		{
+			"ID": "20221021121035-tlb8zya",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121035-tlb8zya",
+				"updated": "20221021121036"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意：为了简便，如果只是后退到上一页面，则可以省略 delta 属性，因为其默认值就是 1。"
+				}
+			]
+		},
+		{
+			"ID": "20221021121023-qq1vvxe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121023-qq1vvxe",
+				"updated": "20221021121027"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021121026-ere8oun.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021121210-i6c4ewa",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121210-i6c4ewa",
+				"updated": "20221021121212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "声明式导航传参"
+				}
+			]
+		},
+		{
+			"ID": "20221021121220-zur692b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121220-zur692b",
+				"updated": "20221021121220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "navigator 组件的 url 属性用来指定将要跳转到的页面的路径。同时，路径的后面还可以携带参数："
+				}
+			]
+		},
+		{
+			"ID": "20221021121220-z9yaj08",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121220-z9yaj08",
+				"updated": "20221021121220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 参数与路径之间使用 ? 分隔"
+				}
+			]
+		},
+		{
+			"ID": "20221021121220-pajivfq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121220-pajivfq",
+				"updated": "20221021121220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 参数键与参数值用 = 相连"
+				}
+			]
+		},
+		{
+			"ID": "20221021121220-eq80kw8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121220-eq80kw8",
+				"updated": "20221021121220"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l 不同参数用 \u0026 分隔"
+				}
+			]
+		},
+		{
+			"ID": "20221021121210-dk6s4i2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121210-dk6s4i2",
+				"updated": "20221021121241"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021121241-rgaypku.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021121456-0l6xoq4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121456-0l6xoq4",
+				"updated": "20221021121501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 onLoad 中接收导航参数"
+				}
+			]
+		},
+		{
+			"ID": "20221021121504-ezhrqw0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121504-ezhrqw0",
+				"updated": "20221021121517"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过声明式导航传参或编程式导航传参所携带的参数，可以直接在 onLoad 事件中直接获取到"
+				}
+			]
+		},
+		{
+			"ID": "20221021121504-s6mlnkw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121504-s6mlnkw",
+				"updated": "20221021121521"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021121521-wk3e9f6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221020181012-cm3ivcq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020181012-cm3ivcq",
-				"updated": "20221020181351"
+				"updated": "20221021114957"
 			},
 			"Children": [
 				{
@@ -7614,14 +8899,99 @@
 				},
 				{
 					"Type": "NodeText",
+					"Data": "导航参数在 页面加载onload函数的"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "code",
+					"TextMarkTextContent": "options"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "中"
+				}
+			]
+		},
+		{
+			"ID": "20221021114830-9je63xm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021114830-9je63xm"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
 					"Data": "调用小程序的导航 API，实现页面的跳转"
 				}
 			]
 		},
 		{
-			"ID": "20221020181033-p8gf7g6",
-			"Type": "NodeParagraph",
+			"ID": "20221021115316-3pwp6uw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115316-3pwp6uw",
+				"updated": "20221021124404"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cbutton type=\"primary\" bindtap=\"tabber\"\u003e导航到 tabBar 页面\u003c/button\u003e\n\u003cbutton type=\"primary\" bindtap=\"distabber\"\u003e导航到非 tabBar 页面\u003c/button\u003e\n\u003cbutton type=\"primary\" bindtap=\"back\"\u003e后退导航\u003c/button\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021115324-ojr3hne",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115324-ojr3hne",
+				"updated": "20221021131338"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n\n  /**\n   * 页面的初始数据\n   */\n  data: {\n    params:[]\n  },\n  tabber(){\n    wx.switchTab({\n      url:\"/pages/contact/contact\"\n    })\n  },\n  distabber(){\n    wx.navigateTo({\n      url:\"/pages/goods/goods\"\n    })\n  },\n  back(){\n   wx.navigateBack({\n    delta:\"1\"\n   })\n  },\n\n  /**\n   * 生命周期函数--监听页面加载\n   */\n  onLoad(options) {\n    this.setData({\n      params:options\n    })\n    console.log(this.data.params)\n  },\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221020181033-p8gf7g6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020181033-p8gf7g6",
 				"updated": "20221020181628"
 			},
@@ -7633,65 +9003,283 @@
 			]
 		},
 		{
-			"ID": "20221020181648-yhdno1n",
+			"ID": "20221021115055-0a8pgja",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020181648-yhdno1n",
-				"updated": "20221020181648"
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115055-0a8pgja",
+				"updated": "20221021121048"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "tabBar 页面指的是被配置为 tabBar 的页面。"
+					"Data": "调用 wx.switchTab(Object object) 方法，可以跳转到 tabBar 页面。其中 Object 参数对象的属性列表如下："
 				}
 			]
 		},
 		{
-			"ID": "20221020181648-iw6vjxd",
-			"Type": "NodeParagraph",
+			"ID": "20221021121054-9xindkb",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
 			"Properties": {
-				"id": "20221020181648-iw6vjxd",
-				"updated": "20221020181648"
+				"colgroup": "|||",
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121054-9xindkb",
+				"updated": "20221021121054"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "  在使用 \u003cnavigator\u003e 组件跳转到指定的 tabBar 页面时，需要指定 url 属性和 open-type 属性，其中："
-				}
-			]
-		},
-		{
-			"ID": "20221020181648-bvgxkqd",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020181648-bvgxkqd",
-				"updated": "20221020181648"
-			},
-			"Children": [
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "是否必选"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
 				{
-					"Type": "NodeText",
-					"Data": "  lurl 表示要跳转的页面的地址，必须以 / 开头"
-				}
-			]
-		},
-		{
-			"ID": "20221020181648-be7qseb",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020181648-be7qseb",
-				"updated": "20221020181648"
-			},
-			"Children": [
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "url"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "string"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要跳转的tabBar页面的路径，路径后不能带参数"
+								}
+							]
+						}
+					]
+				},
 				{
-					"Type": "NodeText",
-					"Data": "  lopen-type 表示跳转的方式，必须为 switchTab"
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "success"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用成功的回调函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fail"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用失败的回调函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "complete"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用结束的回调函数（调用成功、失败都会执行）"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
 		{
 			"ID": "20221020181653-tjjdapo",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
 			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
 				"id": "20221020181653-tjjdapo",
 				"updated": "20221020181654"
 			},
@@ -7703,73 +9291,760 @@
 			]
 		},
 		{
-			"ID": "20221020181700-q48muaq",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020181700-q48muaq",
-				"updated": "20221020181700"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "非 tabBar 页面指的是没有被配置为 tabBar 的页面。"
-				}
-			]
-		},
-		{
-			"ID": "20221020181700-ze73aon",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020181700-ze73aon",
-				"updated": "20221020181700"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  在使用 \u003cnavigator\u003e 组件跳转到普通的非 tabBar 页面时，则需要指定 url 属性和 open-type 属性，其中："
-				}
-			]
-		},
-		{
-			"ID": "20221020181700-fzntekq",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020181700-fzntekq",
-				"updated": "20221020181700"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  lurl 表示要跳转的页面的地址，必须以 / 开头"
-				}
-			]
-		},
-		{
-			"ID": "20221020181700-49imphf",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221020181700-49imphf",
-				"updated": "20221020181700"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "  open-type 表示跳转的方式，必须为 navigate"
-				}
-			]
-		},
-		{
 			"ID": "20221020210342-x3jmebc",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020210342-x3jmebc"
-			}
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221020210342-x3jmebc",
+				"updated": "20221021121103"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调用 wx.navigateTo(Object object) 方法，可以跳转到非 tabBar 的页面。其中 Object 参数对象的属性列表如下："
+				}
+			]
 		},
 		{
-			"ID": "20221020210342-v6wig1l",
+			"ID": "20221021121109-nc6m9f9",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121109-nc6m9f9",
+				"updated": "20221021121109"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "是否必选"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "url"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "string"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "是"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "需要跳转到的非tabBar页面的路径，路径后可以带参数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "success"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用成功的回调函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fail"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用失败的回调函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "complete"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用结束的回调函数（调用成功、失败都会执行）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021115347-eeaj4ve",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115347-eeaj4ve",
+				"updated": "20221021115347"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后退导航"
+				}
+			]
+		},
+		{
+			"ID": "20221021115344-kgbc7qf",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020210342-v6wig1l"
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021115344-kgbc7qf",
+				"updated": "20221021121117"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调用 wx.navigateBack(Object object) 方法，可以返回上一页面或多级页面。其中 Object 参数对象可选的属性列表如下："
+				}
+			]
+		},
+		{
+			"ID": "20221021121123-p7cw6yr",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "||||",
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121123-p7cw6yr",
+				"updated": "20221021121123"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "属性"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "类型"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "默认值"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "是否必选"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "说明"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "delta"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "number"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "返回的页面数，如果delta大于现有页面数，则返回到首页"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "success"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用成功的回调函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "fail"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用失败的回调函数"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "complete"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "function"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "否"
+								}
+							]
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td",
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "接口调用结束的回调函数（调用成功、失败都会执行）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021121251-iaom7x6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121251-iaom7x6",
+				"updated": "20221021121254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "编程式导航传参"
+				}
+			]
+		},
+		{
+			"ID": "20221021121255-pkd5bbp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121255-pkd5bbp",
+				"updated": "20221021121300"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调用 wx.navigateTo(Object object) 方法跳转页面时，也可以携带参数，代码示例如下："
+				}
+			]
+		},
+		{
+			"ID": "20221021121252-ar99hvm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121252-ar99hvm",
+				"updated": "20221021121305"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021121305-u03o1kx.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021121552-de9gv0z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121552-de9gv0z",
+				"updated": "20221021121552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 onLoad 中接收导航参数"
+				}
+			]
+		},
+		{
+			"ID": "20221021121552-rsrt3oc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121552-rsrt3oc",
+				"updated": "20221021121552"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过声明式导航传参或编程式导航传参所携带的参数，可以直接在 onLoad 事件中直接获取到"
+				}
+			]
+		},
+		{
+			"ID": "20221021121539-fjqe86i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121539-fjqe86i",
+				"updated": "20221021121541"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021121521-wk3e9f6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021121540-xqpbgkk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021121540-xqpbgkk"
 			}
 		},
 		{
@@ -7788,16 +10063,142 @@
 			]
 		},
 		{
+			"ID": "20221021094803-2tuxy8y",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221021094803-2tuxy8y",
+				"updated": "20221021094817"
+			},
+			"Children": [
+				{
+					"ID": "20221021094805-obv5ope",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221021094805-obv5ope",
+						"updated": "20221021094817"
+					},
+					"Children": [
+						{
+							"ID": "20221021094805-o0vgwrx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021094805-o0vgwrx",
+								"updated": "20221021094817"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跨域问题只存在于基于浏览器的 Web 开发中。由于小程序的宿主环境不是浏览器，而是微信客户端，所以"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color12);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "小程序中不存在跨域的问题"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221021094803-ycanijz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221021094803-ycanijz",
+				"updated": "20221021094826"
+			},
+			"Children": [
+				{
+					"ID": "20221021094810-mq95vey",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221021094810-mq95vey",
+						"updated": "20221021094826"
+					},
+					"Children": [
+						{
+							"ID": "20221021094810-4kdj2ya",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221021094810-4kdj2ya",
+								"updated": "20221021094826"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Ajax 技术的核心是依赖于浏览器中的 XMLHttpRequest 这个对象，由于小程序的宿主环境是微信客户端，所以"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "小程序中不能叫做“发起 Ajax 请求”"
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "，而是叫做“发起网络数据请求”。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"ID": "20221020214759-5ic5din",
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221020214759-5ic5din",
-				"updated": "20221020214816"
+				"updated": "20221021094839"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "出于安全性方面的考虑，小程序官方对数据接口的请求，做出了如下两个限制："
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "出于安全性方面的考虑，小程序官方对数据接口的请求，做出了如下两个限制："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px;\"}"
 				}
 			]
 		},
@@ -7948,9 +10349,1701 @@
 		},
 		{
 			"ID": "20221020214940-zocirx4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221020214940-zocirx4",
+				"updated": "20221021094455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置 request 合法域名"
+				}
+			]
+		},
+		{
+			"ID": "20221021094515-yklbfrj",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221020214940-zocirx4"
+				"id": "20221021094515-yklbfrj",
+				"updated": "20221021094515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "需求描述：假设在自己的微信小程序中，希望请求 https://www.escook.cn/ 域名下的接口"
+				}
+			]
+		},
+		{
+			"ID": "20221021094519-brxqlr5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094519-brxqlr5",
+				"updated": "20221021094547"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置：微信小程序管理后台 -\u003e 开发 -\u003e 开发设置 -\u003e 服务器域名 -\u003e 修改 request 合法域名"
+				}
+			]
+		},
+		{
+			"ID": "20221021094533-kzxxllq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094533-kzxxllq",
+				"updated": "20221021094533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注意事项："
+				}
+			]
+		},
+		{
+			"ID": "20221021094533-3z62h5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094533-3z62h5s",
+				"updated": "20221021094533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①域名只支持 https 协议"
+				}
+			]
+		},
+		{
+			"ID": "20221021094533-i2baar2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094533-i2baar2",
+				"updated": "20221021094533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②域名不能使用 IP 地址或 localhost"
+				}
+			]
+		},
+		{
+			"ID": "20221021094533-wb217co",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094533-wb217co",
+				"updated": "20221021094533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③域名必须经过 ICP 备案"
+				}
+			]
+		},
+		{
+			"ID": "20221021094533-fvnfrsy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094533-fvnfrsy",
+				"updated": "20221021094533"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④服务器域名一个月内最多可申请 5 次修改"
+				}
+			]
+		},
+		{
+			"ID": "20221021094555-yq8jhn6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021094555-yq8jhn6",
+				"updated": "20221021094608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跳过 request 合法域名校验"
+				}
+			]
+		},
+		{
+			"ID": "20221021094709-gyq1ra9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094709-gyq1ra9",
+				"updated": "20221021094714"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 50%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021094710-i6oaguh.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 50%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021094655-8dpq7x5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094655-8dpq7x5",
+				"updated": "20221021094655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果后端程序员仅仅提供了 http 协议的接口、暂时没有提供 https 协议的接口。"
+				}
+			]
+		},
+		{
+			"ID": "20221021094655-wgjfx6h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094655-wgjfx6h",
+				"updated": "20221021094655"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  此时为了不耽误开发的进度，我们可以在微信开发者工具中，临时开启「开发环境不校验请求域名、TLS 版本及 HTTPS 证书」选项，跳过 request 合法域名的校验。"
+				}
+			]
+		},
+		{
+			"ID": "20221021094721-tf8cso4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021094721-tf8cso4",
+				"updated": "20221021094733"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color12);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "注意：跳过 request 合法域名校验的选项，仅限在开发与调试阶段使用！"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color12);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221021094906-0b8jsxw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021094906-0b8jsxw",
+				"updated": "20221021095053"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发起GET请求"
+				}
+			]
+		},
+		{
+			"ID": "20221021095417-noe9thf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021095417-noe9thf",
+				"updated": "20221021095418"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调用微信小程序提供的 wx.request() 方法，可以发起 GET 数据请求"
+				}
+			]
+		},
+		{
+			"ID": "20221021095053-qffb1hm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021095053-qffb1hm",
+				"updated": "20221021095405"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wx.request({\n  url:\"域名\",\n  method:\"get\",\n  data:{\n    name:\"annan\",\n    age:\"12\"\n  },\n  success(res)=\u003e{\n    //得到响应数据\n     console.log(res.data)\n  }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021095053-ib3bu4z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021095053-ib3bu4z",
+				"updated": "20221021095100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "发起POST请求"
+				}
+			]
+		},
+		{
+			"ID": "20221021095426-hm2hgh0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021095426-hm2hgh0",
+				"updated": "20221021095426"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调用微信小程序提供的 wx.request() 方法，可以发起 POST 数据请求"
+				}
+			]
+		},
+		{
+			"ID": "20221021095121-c2logzc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021095121-c2logzc",
+				"updated": "20221021095439"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "wx.request({\n  url:\"域名\",\n  method:\"post\",\n  data:{\n    name:\"annan\",\n    age:\"12\"\n  },\n  success(res)=\u003e{\n    //得到响应数据\n     console.log(res.data)\n  }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021095502-yrxp31w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021095502-yrxp31w",
+				"updated": "20221021095503"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在页面刚加载时请求数据"
+				}
+			]
+		},
+		{
+			"ID": "20221021095513-masm6p5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021095513-masm6p5",
+				"updated": "20221021095548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在很多情况下，我们需要在页面刚加载的时候，自动请求一些初始化的数据。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "此时需要在页面的 onLoad 事件中调用获取数据的函数"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，示例代码如下："
+				}
+			]
+		},
+		{
+			"ID": "20221021095548-rml5gyg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021095548-rml5gyg",
+				"updated": "20221021095742"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " /**\n   * 生命周期函数--监听页面加载\n   */\n  onLoad(options) {\n//在页面刚加载的时候，自动请求一些初始化的数据\n     this.getList()\n     this.getHIst()\n  },\n//获取轮播图数据\ngetList(){}\n//获取九宫格数据\ngetHIst(){}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021144138-3tryme9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021144138-3tryme9",
+				"updated": "20221021144200"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "页面事件"
+				}
+			]
+		},
+		{
+			"ID": "20221021144204-w3z97qh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021144204-w3z97qh",
+				"updated": "20221021144226"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下拉刷新"
+				}
+			]
+		},
+		{
+			"ID": "20221021144201-2ass0xz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021144201-2ass0xz",
+				"updated": "20221021151047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "下拉刷新是移动端的专有名词，指的是通过手指在屏幕上的下拉滑动操作，从而重新加载页面数据的行为。启用下拉刷新有两种方式："
+				}
+			]
+		},
+		{
+			"ID": "20221021151612-sbsao5y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221021151612-sbsao5y",
+				"updated": "20221021151614"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "启用下拉刷新"
+				}
+			]
+		},
+		{
+			"ID": "20221021151102-e5dipwl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151102-e5dipwl",
+				"updated": "20221021151121"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  "
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "①全局开启下拉刷新"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221021151102-3tep2bb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151102-3tep2bb",
+				"updated": "20221021151107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " 在 app.json 的 window 节点中，将 enablePullDownRefresh 设置为 true"
+				}
+			]
+		},
+		{
+			"ID": "20221021151137-5mgnqs5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151137-5mgnqs5",
+				"updated": "20221021151137"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在全局或页面的 .json 配置文件中，通过 backgroundColor 和 backgroundTextStyle 来配置下拉刷新窗口的样式，其中："
+				}
+			]
+		},
+		{
+			"ID": "20221021151137-r63fyhe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151137-r63fyhe",
+				"updated": "20221021151143"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  backgroundColor 用来配置下拉刷新窗口的背景颜色，仅支持16 进制的颜色值"
+				}
+			]
+		},
+		{
+			"ID": "20221021151137-v7bcvqp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151137-v7bcvqp",
+				"updated": "20221021151141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  backgroundTextStyle 用来配置下拉刷新 loading 的样式，仅支持 dark 和 light"
+				}
+			]
+		},
+		{
+			"ID": "20221021151102-sfcofnn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151102-sfcofnn",
+				"updated": "20221021151126"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color9);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "  ②局部开启下拉刷新"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color9);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221021151102-swmpekv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151102-swmpekv",
+				"updated": "20221021151109"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在页面的 .json 配置文件中，将 enablePullDownRefresh 设置为 true"
+				}
+			]
+		},
+		{
+			"ID": "20221021151102-czwvbzl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151102-czwvbzl",
+				"updated": "20221021151102"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在实际开发中，推荐使用第 2 种方式，为需要的页面单独开启下拉刷新的效果。"
+				}
+			]
+		},
+		{
+			"ID": "20221021151205-92i4f43",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221021151205-92i4f43",
+				"updated": "20221021151212"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "监听页面的下拉刷新事件 onPullDownRefresh() 函数"
+				}
+			]
+		},
+		{
+			"ID": "20221021151218-v3bml94",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151218-v3bml94",
+				"updated": "20221021151230"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在页面的 .js 文件中，通过 onPullDownRefresh() 函数即可监听当前页面的下拉刷新事件。"
+				}
+			]
+		},
+		{
+			"ID": "20221021151219-7a5uio3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151219-7a5uio3",
+				"updated": "20221021151422"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "真机调试下拉刷新后需要添加停止下拉刷新的效果"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221021151336-c3yk17a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151336-c3yk17a",
+				"updated": "20221021151433"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当处理完下拉刷新后，下拉刷新的 loading 效果会一直显示，不会主动消失，所以需要手动隐藏下拉刷新的 loading 效果。此时，调用 wx.stopPullDownRefresh() 可以停止当前页面的下拉刷新。"
+				}
+			]
+		},
+		{
+			"ID": "20221021151219-8hyyg19",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151219-8hyyg19",
+				"updated": "20221021151447"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021151447-ct6qo18.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021144155-w5hkgb7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221021144155-w5hkgb7",
+				"updated": "20221021144508"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上拉触底"
+				}
+			]
+		},
+		{
+			"ID": "20221021144508-m9dz5hw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021144508-m9dz5hw",
+				"updated": "20221021151455"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上拉触底是移动端的专有名词，通过手指在屏幕上的上拉滑动操作，从而加载更多数据的行为。"
+				}
+			]
+		},
+		{
+			"ID": "20221021151545-19gagwi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221021151545-19gagwi",
+				"updated": "20221021151559"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置上拉触底距离"
+				}
+			]
+		},
+		{
+			"ID": "20221021151546-9230iuk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151546-9230iuk",
+				"updated": "20221021151546"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "上拉触底距离指的是触发上拉触底事件时，滚动条距离页面底部的距离。可以在全局或页面的 .json 配置文件中，通过 onReachBottomDistance 属性来配置上拉触底的距离。小程序默认的触底距离是 50px，在实际开发中，可以根据自己的需求修改这个默认值。"
+				}
+			]
+		},
+		{
+			"ID": "20221021151506-mzliwd2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221021151506-mzliwd2",
+				"updated": "20221021151513"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "监听页面的上拉触底事件 onReachBottom() 函数"
+				}
+			]
+		},
+		{
+			"ID": "20221021151518-airr1m0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021151518-airr1m0",
+				"updated": "20221021151528"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021151528-cb7r9yk.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021153521-adlvjxu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221021153521-adlvjxu",
+				"updated": "20221021153521"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对上拉触底进行节流处理"
+				}
+			]
+		},
+		{
+			"ID": "20221021154524-yjn7uc9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021154524-yjn7uc9",
+				"updated": "20221021154618"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "保证 上拉后的网络请求是在上一次得到响应后执行。"
+				}
+			]
+		},
+		{
+			"ID": "20221021153529-lqynu96",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021153529-lqynu96",
+				"updated": "20221021154143"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021154143-djvhzcj.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021154146-8ftf5rb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221021154146-8ftf5rb",
+				"updated": "20221021173212"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Page({\n\n  /**\n   * 页面的初始数据\n   */\n  data: {\n    colorList:[], //随机颜色\n    isloading:false\n  },\n//获取随机颜色\n  getcolorList(){\n    this.setData({\n      isloading:true\n    })\n//使用交互\n    wx.showLoading({\n      title: '数据在加载中',\n    })\n   wx.request({ \n     url: 'https://applet-base-api-t.itheima.net/api/color',\n     method:\"GET\",\n     success:({data:res})=\u003e{\n       console.log(this.data)\n       this.setData({\n        colorList:[...this.data.colorList,...res.data],\n      \n       })\n     },\n     complete:()=\u003e{\n       wx.hideLoading()  //wx.showLoading 和 wx.hideLoading 是配套使用的\n       this.setData({\n          isloading:false  //保证 上拉后的网络请求是在上一次得到响应后执行。\n        })\n     }\n   })\n  },\n  /**\n   * 生命周期函数--监听页面加载\n   */\n  onLoad(options) {\n\n    this.getcolorList()\n  },\n/**\n   * 页面上拉触底事件的处理函数\n   */\n  onReachBottom() {\n    if(this.data.isloading) return\n    this.getcolorList()\n  },\n\n\n\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221021155013-hl3kgrk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20221021155013-hl3kgrk",
+				"updated": "20221021155019"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生命周期"
+				}
+			]
+		},
+		{
+			"ID": "20221021155859-aixct5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021155859-aixct5s",
+				"updated": "20221021155859"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在小程序中，生命周期分为两类，分别是："
+				}
+			]
+		},
+		{
+			"ID": "20221021155859-m8kddep",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021155859-m8kddep",
+				"updated": "20221021155906"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① 应用生命周期：特指小程序从启动 -\u003e 运行 -\u003e 销毁的过程"
+				}
+			]
+		},
+		{
+			"ID": "20221021155939-mcgvyxy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021155939-mcgvyxy",
+				"updated": "20221021155940"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序的应用生命周期函数需要在 app.js 中进行声明"
+				}
+			]
+		},
+		{
+			"ID": "20221021155941-3pjrpzd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021155941-3pjrpzd",
+				"updated": "20221021155944"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021155944-jkmztnl.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021155859-nn8gxvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021155859-nn8gxvo",
+				"updated": "20221021155909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② 页面生命周期：特指小程序中，每个页面的加载 -\u003e 渲染 -\u003e 销毁的过程"
+				}
+			]
+		},
+		{
+			"ID": "20221021155955-f1b62bo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021155955-f1b62bo",
+				"updated": "20221021155956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "小程序的页面生命周期函数需要在页面的 .js 文件中进行声明"
+				}
+			]
+		},
+		{
+			"ID": "20221021155957-s57k1er",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021155957-s57k1er",
+				"updated": "20221021160001"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021160001-g20utle.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021155753-sm5wwk5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"fold": "1",
+				"id": "20221021155753-sm5wwk5",
+				"updated": "20221021155828"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "wxs 脚本"
+				}
+			]
+		},
+		{
+			"ID": "20221021160008-jancha3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160008-jancha3",
+				"updated": "20221021160025"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "WXS（WeiXin Script）是小程序独有的一套脚本语言"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，结合 WXML，可以构建出页面的结构。"
+				}
+			]
+		},
+		{
+			"ID": "20221021160016-3jxdibd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160016-3jxdibd",
+				"updated": "20221021160051"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "wxml 中无法调用在页面的 .js 中定义的函数，但是，wxml 中可以调用 wxs 中定义的函数。因此，小程序中 wxs 的典型应用场景就是“"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color6);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "过滤器"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color6);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "”。"
+				}
+			]
+		},
+		{
+			"ID": "20221021160328-f21ycf0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160328-f21ycf0",
+				"updated": "20221021160328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "隔离性指的是 wxs 的运行环境和其他 JavaScript 代码是隔离的。体现在如下两方面："
+				}
+			]
+		},
+		{
+			"ID": "20221021160328-zxigiig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160328-zxigiig",
+				"updated": "20221021160328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ①wxs 不能调用 js 中定义的函数"
+				}
+			]
+		},
+		{
+			"ID": "20221021160328-pc5c6uv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160328-pc5c6uv",
+				"updated": "20221021160328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ②wxs 不能调用小程序提供的 API"
+				}
+			]
+		},
+		{
+			"ID": "20221021160502-p9g3fkt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160502-p9g3fkt",
+				"updated": "20221021160511"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WXS 的特点："
+				}
+			]
+		},
+		{
+			"ID": "20221021160520-ar4vfgu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160520-ar4vfgu",
+				"updated": "20221021160523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l在 iOS 设备上，小程序内的 WXS 会比 JavaScript 代码快 2 ~ 20 倍"
+				}
+			]
+		},
+		{
+			"ID": "20221021160520-phtkl8c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160520-phtkl8c",
+				"updated": "20221021160520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l在 android 设备上，二者的运行效率无差异"
+				}
+			]
+		},
+		{
+			"ID": "20221021160051-yn7c8df",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160051-yn7c8df",
+				"updated": "20221021160108"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021160108-nyefqfd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021160113-v17xi9s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160113-v17xi9s",
+				"updated": "20221021160134"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "内嵌 wxs 脚本"
+				}
+			]
+		},
+		{
+			"ID": "20221021160156-b6jaapd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160156-b6jaapd",
+				"updated": "20221021160156"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "wxs 代码可以编写在 wxml 文件中的 \u003cwxs\u003e 标签内，就像 Javascript 代码可以编写在 html 文件中的 \u003cscript\u003e 标签内一样。"
+				}
+			]
+		},
+		{
+			"ID": "20221021160156-iaf24em",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160156-iaf24em",
+				"updated": "20221021160204"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "wxml 文件中的每个 \u003cwxs\u003e\u003c/wxs\u003e 标签，必须提供 module 属性，用来指定当前 wxs 的模块名称，方便在 wxml 中访问模块中的成员："
+				}
+			]
+		},
+		{
+			"ID": "20221021160142-e78e7za",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160142-e78e7za",
+				"updated": "20221021160218"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021160218-qxme2xq.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021160142-c76pu1v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160142-c76pu1v",
+				"updated": "20221021160149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "外联的 wxs 脚本"
+				}
+			]
+		},
+		{
+			"ID": "20221021160245-mefhg7k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160245-mefhg7k",
+				"updated": "20221021160246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "wxs 代码还可以编写在以 .wxs 为后缀名的文件内，就像 javascript 代码可以编写在以 .js 为后缀名的文件中一样。示例代码如下："
+				}
+			]
+		},
+		{
+			"ID": "20221021160249-dy0b7y2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160249-dy0b7y2",
+				"updated": "20221021160250"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021160250-fhtfejb.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021160354-cif6moy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160354-cif6moy",
+				"updated": "20221021160354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 wxml 中引入外联的 wxs 脚本时，必须为 \u003cwxs\u003e 标签添加 module 和 src 属性，其中："
+				}
+			]
+		},
+		{
+			"ID": "20221021160354-jicg30u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160354-jicg30u",
+				"updated": "20221021160354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l module 用来指定模块的名称"
+				}
+			]
+		},
+		{
+			"ID": "20221021160354-n15fhgq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160354-n15fhgq",
+				"updated": "20221021160358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  l src 用来指定要引入的脚本的路径，且必须是相对路径"
+				}
+			]
+		},
+		{
+			"ID": "20221021160357-rg8x5ee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160357-rg8x5ee",
+				"updated": "20221021160401"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021160401-ghd2bdg.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021160403-0f9eqoc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20221021160403-0f9eqoc",
+				"updated": "20221021160426"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221021160426-ma4rhvo.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221021160843-nal5iyq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021160843-nal5iyq",
+				"updated": "20221021203308"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全局数据共享"
+				}
+			]
+		},
+		{
+			"ID": "20221021203309-4qeue95",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203309-4qeue95"
+			}
+		},
+		{
+			"ID": "20221021203312-r1tp220",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203312-r1tp220"
+			}
+		},
+		{
+			"ID": "20221021203312-uzo7qen",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221021203312-uzo7qen",
+				"updated": "20221021203316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "分包"
+				}
+			]
+		},
+		{
+			"ID": "20221021203317-080e45y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203317-080e45y"
+			}
+		},
+		{
+			"ID": "20221021203317-zhhk5do",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221021203317-zhhk5do"
 			}
 		}
 	]
