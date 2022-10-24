@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221024113151-xw4oty2",
 		"title": "git 的使用教程",
-		"updated": "20221024133454"
+		"updated": "20221024134939"
 	},
 	"Children": [
 		{
@@ -97,12 +97,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221024123825-fywfzf0",
-				"updated": "20221024131547"
+				"updated": "20221024133909"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "\tA：在暂存区已暂存需要提交"
+					"Data": "\tA：新增未被跟踪的文件 变为 在暂存区已暂存需要提交的文件"
 				}
 			]
 		},
@@ -139,12 +139,12 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221024123850-7v47yt3",
-				"updated": "20221024131556"
+				"updated": "20221024133712"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "\t??：未被跟踪 "
+					"Data": "\t??：未被跟踪 （新增未被GIT 管理的文件，介入跟踪即是让新增文件被GIT管理）"
 				}
 			]
 		},
@@ -177,11 +177,11 @@
 			]
 		},
 		{
-			"ID": "20221024133401-s0vpqhr",
+			"ID": "20221024134703-nng5h2f",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024133401-s0vpqhr",
-				"updated": "20221024133454"
+				"id": "20221024134703-nng5h2f",
+				"updated": "20221024134703"
 			},
 			"Children": [
 				{
@@ -191,11 +191,39 @@
 			]
 		},
 		{
-			"ID": "20221024124000-eh38bf8",
+			"ID": "20221024134716-0jjlll0",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024124000-eh38bf8",
-				"updated": "20221024133241"
+				"id": "20221024134716-0jjlll0",
+				"updated": "20221024134816"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "撤销加入暂存区的文件：git reset HEAD 文件名"
+				}
+			]
+		},
+		{
+			"ID": "20221024134858-j41qrpj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134858-j41qrpj",
+				"updated": "20221024134939"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "撤销加入暂存区的所有文件：git reset HEAD . "
+				}
+			]
+		},
+		{
+			"ID": "20221024134703-g14mbob",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134703-g14mbob",
+				"updated": "20221024134703"
 			},
 			"Children": [
 				{
@@ -205,11 +233,11 @@
 			]
 		},
 		{
-			"ID": "20221024123948-xlgp9hg",
+			"ID": "20221024134703-9pdw9pi",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024123948-xlgp9hg",
-				"updated": "20221024133325"
+				"id": "20221024134703-9pdw9pi",
+				"updated": "20221024134703"
 			},
 			"Children": [
 				{
@@ -217,6 +245,104 @@
 					"Data": "撤销对文件的修改：对工作区对于文件修改还原成GIT中所保存的版本，git checkout -- 需要还原版本的文件"
 				}
 			]
+		},
+		{
+			"ID": "20221024134331-uhr9z5g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134331-uhr9z5g"
+			}
+		},
+		{
+			"ID": "20221024133946-0kczbgy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024133946-0kczbgy",
+				"updated": "20221024134034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新增的文件是未被跟踪的文件需要使用 git add 新文件 直接将新增文件暂存在暂存区 "
+				}
+			]
+		},
+		{
+			"ID": "20221024134050-xj21nzp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134050-xj21nzp",
+				"updated": "20221024134119"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t文件的状态变化是：?? 变为 A"
+				}
+			]
+		},
+		{
+			"ID": "20221024133947-fh8a0kt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024133947-fh8a0kt",
+				"updated": "20221024134258"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "已修改文件在提交前使用 git add 文件名 将文件放在暂存区"
+				}
+			]
+		},
+		{
+			"ID": "20221024134304-67g9l7w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134304-67g9l7w",
+				"updated": "20221024134328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t文件的状态变化是：红色M 变为 绿色M"
+				}
+			]
+		},
+		{
+			"ID": "20221024134356-s1ssrg5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134356-s1ssrg5",
+				"updated": "20221024134501"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以直接使用向暂存区添加所有新增和已修改的文件：git add .  "
+				}
+			]
+		},
+		{
+			"ID": "20221024134328-n42ozre",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134328-n42ozre",
+				"updated": "20221024134352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "暂存区文件提交：git commit -m \"提交信息\""
+				}
+			]
+		},
+		{
+			"ID": "20221024134333-j00j3ni",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024134333-j00j3ni"
+			}
 		},
 		{
 			"ID": "20221024133259-wzk6ugc",
