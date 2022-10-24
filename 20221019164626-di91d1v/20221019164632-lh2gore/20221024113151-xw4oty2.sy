@@ -5,85 +5,963 @@
 	"Properties": {
 		"id": "20221024113151-xw4oty2",
 		"title": "git 的使用教程",
-		"updated": "20221024135314"
+		"updated": "20221024180949"
 	},
 	"Children": [
 		{
-			"ID": "20221024113151-ykoovwb",
+			"ID": "20221024153124-3k65351",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024113151-ykoovwb",
-				"updated": "20221024113210"
+				"id": "20221024153124-3k65351",
+				"updated": "20221024153227"
 			},
 			"Children": [
 				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color7);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "版本控制软件"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color7);\"}"
+				},
+				{
 					"Type": "NodeText",
-					"Data": "能够知道如何在现有目录中初始化Git仓库\n能够知道如何检查文件的状态\n能够知道如何把文件加入暂存区\n能够说出提交更新的命令\n能够知道如何向暂存区中一次性添加多个文件\n能够知道如何使用 .gitignore 文件"
+					"Data": "：版本控制软件是一个用来记录文件变化，以便将来查阅特定版本修订情况的系统，因此有时也叫做“版本控制系统”。"
 				}
 			]
 		},
 		{
-			"ID": "20221024114152-ieutjk5",
+			"ID": "20221024153126-93yo4kr",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024114152-ieutjk5"
-			}
-		},
-		{
-			"ID": "20221024114154-97xnxjn",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221024114154-97xnxjn",
-				"updated": "20221024114154"
+				"id": "20221024153126-93yo4kr",
+				"updated": "20221024153231"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "能够知道Github的作用\n能够创建并配置Github账号\n能够在Github中创建仓库并使用\n能够知道分支的作用\n能够创建分支与合并\n能够操作远程分支"
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color7); font-size: 19px;"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "版本控制系统的分类："
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color7); font-size: 19px;\"}"
 				}
 			]
 		},
 		{
-			"ID": "20221024120503-2psdxxf",
-			"Type": "NodeParagraph",
+			"ID": "20221024153223-hrqir9t",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20221024120503-2psdxxf"
-			}
-		},
-		{
-			"ID": "20221024120504-jnf4elc",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221024120504-jnf4elc"
-			}
-		},
-		{
-			"ID": "20221024120504-w78e6l9",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221024120504-w78e6l9",
-				"updated": "20221024120515"
+				"id": "20221024153223-hrqir9t",
+				"updated": "20221024153614"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "配置用户名和邮箱"
+					"ID": "20221024153602-jcdrnyo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221024153602-jcdrnyo",
+						"updated": "20221024153614"
+					},
+					"Children": [
+						{
+							"ID": "20221024153602-addz1ta",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024153602-addz1ta",
+								"updated": "20221024153614"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "font-size: 19px; color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "分布式版本控制系统："
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "基于服务器、客户端的运行模式联网运行，支持多人协作开发；服务器保存文件的所有更新版本，客户端是服务器的完整备份，并不是只保留文件的最新版本，客户端断网后支持离线本地提交版本更新，服务器故障或损坏后，可使用任何一个客户端的备份进行恢复，如GIT"
+								}
+							]
+						}
+					]
 				}
 			]
 		},
 		{
-			"ID": "20221024132742-mkez4sq",
-			"Type": "NodeParagraph",
+			"ID": "20221024153240-0h5qfeu",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
 			"Properties": {
-				"id": "20221024132742-mkez4sq"
-			}
+				"id": "20221024153240-0h5qfeu",
+				"updated": "20221024153757"
+			},
+			"Children": [
+				{
+					"ID": "20221024153604-760njym",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221024153604-760njym",
+						"updated": "20221024153757"
+					},
+					"Children": [
+						{
+							"ID": "20221024153604-8ieywlq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024153604-8ieywlq",
+								"updated": "20221024153757"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "font-size: 19px; color: var(--b3-font-color11);"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "集中化的版本控制系统："
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color11);\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "基于服务器、客户端的运行模式联网运行，支持多人协作开发；服务器保存文件的所有更新记录，客户端只保留最新的文件，不支持离线提交版本更新，中心服务器崩溃后，所有人无法正常工作，版本数据库故障后，所有历史更新记录会丢失，如SVN "
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
-			"ID": "20221024123825-8uxp67f",
+			"ID": "20221024153845-ymnltvi",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024123825-8uxp67f",
-				"updated": "20221024123928"
+				"id": "20221024153845-ymnltvi",
+				"updated": "20221024153908"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "     传统的版本控制系统例如 SVN，是基于差异的版本控制，它们存储的是一组基本文件和每个文件随时间逐步累积的差异，好处：节省磁盘空间，缺点：耗时、效率低，在每次切换版本的时候，都需要在基本文件的基础上，应用每个差异，从而生成目标版本对应的文件。"
+				}
+			]
+		},
+		{
+			"ID": "20221024153240-8b4gmnk",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024153240-8b4gmnk",
+				"updated": "20221024153625"
+			},
+			"Children": [
+				{
+					"ID": "20221024153607-zah0aq3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221024153607-zah0aq3",
+						"updated": "20221024153625"
+					},
+					"Children": [
+						{
+							"ID": "20221024153607-cervnim",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024153607-cervnim",
+								"updated": "20221024153625"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"style": "color: var(--b3-font-color11); font-size: 19px;"
+									},
+									"TextMarkType": "text",
+									"TextMarkTextContent": "本地版本控制系统："
+								},
+								{
+									"Type": "NodeKramdownSpanIAL",
+									"Data": "{: style=\"color: var(--b3-font-color11); font-size: 19px;\"}"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "单机运行，不支持多人协作开发，版本数据库故障后，所有历史更新记录会丢失"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024153253-cgdxl72",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024153253-cgdxl72",
+				"updated": "20221024153647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "什么是Git "
+				}
+			]
+		},
+		{
+			"ID": "20221024154422-92h3d47",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154422-92h3d47",
+				"updated": "20221024154423"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://git-scm.com/downloads",
+					"TextMarkTextContent": "https://git-scm.com/downloads"
+				}
+			]
+		},
+		{
+			"ID": "20221024153641-ouugatw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024153641-ouugatw",
+				"updated": "20221024153641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Git 是一个开源的分布式版本控制系统，是目前世界上最先进、最流行的版本控制系统。可以快速高效地处理从很小到非常大的项目版本管理。"
+				}
+			]
+		},
+		{
+			"ID": "20221024153641-yjt8jdc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024153641-yjt8jdc",
+				"updated": "20221024153728"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  特点：直接记录快照，而非差异比较，近乎所有操作都是本地执行"
+				}
+			]
+		},
+		{
+			"ID": "20221024153924-9t0ut36",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024153924-9t0ut36",
+				"updated": "20221024153939"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024153939-em3w0pm.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221024154205-xz1rgvx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024154205-xz1rgvx",
+				"updated": "20221024154213"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Git 中的三个区域"
+				}
+			]
+		},
+		{
+			"ID": "20221024153652-xs0eno0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024153652-xs0eno0",
+				"updated": "20221024154013"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color6);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "使用 Git 管理的项目，拥有三个区域，分别是工作区、暂存区、Git 仓库。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color6);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221024154003-fygzjrx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154003-fygzjrx",
+				"updated": "20221024155439"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工作区：git 所管理的区域"
+				}
+			]
+		},
+		{
+			"ID": "20221024154003-64gjj3z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154003-64gjj3z",
+				"updated": "20221024154140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "暂存区：已完成的工作的临时存放区域，等待被提交"
+				}
+			]
+		},
+		{
+			"ID": "20221024154124-0u17h0i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154124-0u17h0i",
+				"updated": "20221024155304"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git仓库： .git 目录就是当前项目的 Git 仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024154153-cse4daz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024154153-cse4daz",
+				"updated": "20221024155341"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "工作区中的文件 4 种状态："
+				}
+			]
+		},
+		{
+			"ID": "20221024154218-g9qcvk6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154218-g9qcvk6",
+				"updated": "20221024155408"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024155408-g2tx6kt.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221024155519-b6zt9nu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155519-b6zt9nu",
+				"updated": "20221024155530"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "siyuan://blocks/20221024154448-lp6stct",
+					"TextMarkTextContent": "查看文件状态"
+				}
+			]
+		},
+		{
+			"ID": "20221024154404-4a48cln",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154404-4a48cln",
+				"updated": "20221024154404"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基本的 Git 工作流程如下："
+				}
+			]
+		},
+		{
+			"ID": "20221024155539-ds0amcg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024155539-ds0amcg",
+				"updated": "20221024155643"
+			},
+			"Children": [
+				{
+					"ID": "20221024155541-hqot2nc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221024155541-hqot2nc",
+						"updated": "20221024155643"
+					},
+					"Children": [
+						{
+							"ID": "20221024155541-wgcdm31",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024155541-wgcdm31",
+								"updated": "20221024155643"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "新增的文件是未被跟踪的文件需要将新增文件暂存在暂存区"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024154404-dv1e5gz",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024154404-dv1e5gz",
+				"updated": "20221024155829"
+			},
+			"Children": [
+				{
+					"ID": "20221024155723-e3kp9vq",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221024155723-e3kp9vq",
+						"updated": "20221024155829"
+					},
+					"Children": [
+						{
+							"ID": "20221024155723-nty2btn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024155723-nty2btn",
+								"updated": "20221024155829"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在工作区中修改文件，将已修改的文件暂存在暂存区"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024154404-ve4utq4",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024154404-ve4utq4",
+				"updated": "20221024155800"
+			},
+			"Children": [
+				{
+					"ID": "20221024155745-4jfakhz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20221024155745-4jfakhz",
+						"updated": "20221024155800"
+					},
+					"Children": [
+						{
+							"ID": "20221024155745-jvajc5l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024155745-jvajc5l",
+								"updated": "20221024155800"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "将暂存区的文件快照永久性存储到 Git 仓库"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024154402-vke3ycx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024154402-vke3ycx",
+				"updated": "20221024154710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置信息"
+				}
+			]
+		},
+		{
+			"ID": "20221024154451-d3xwzh9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154451-d3xwzh9",
+				"updated": "20221024154452"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "设置自己的用户名和邮件地址。因为通过 Git 对项目进行版本管理的时候，Git 需要使用这些基本信息，来记录是谁对项目进行了操作："
+				}
+			]
+		},
+		{
+			"ID": "20221024154611-3fgmwpw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154611-3fgmwpw",
+				"updated": "20221024154612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果使用了 --global 选项，那么该命令只需要运行一次，即可永久生效。"
+				}
+			]
+		},
+		{
+			"ID": "20221024154633-x2ddwxz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024154633-x2ddwxz",
+				"updated": "20221024154633"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置的用户名和邮箱地址，会被写入到 C:/Users/用户名文件夹/.gitconfig 文件中。这个文件是 Git 的全局配置文件，配置一次即可永久生效。"
+				}
+			]
+		},
+		{
+			"ID": "20221024154448-umomtwr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024154448-umomtwr",
+				"updated": "20221024154855"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git config --global user.name \"用户名\" # 配置用户名\ngit config --global user.email \"用户邮箱\" #配置用户邮箱\ngit config --list --globai # 查看所有配置项\ngit config user.name #查看用户名\ngit config user.email # 查看用户邮箱\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024154448-acgqqf8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024154448-acgqqf8",
+				"updated": "20221024154909"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获得帮助信息"
+				}
+			]
+		},
+		{
+			"ID": "20221024154653-sbe205s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024154653-sbe205s",
+				"updated": "20221024155112"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git help config #无需联网即可在浏览器中打开帮助手册\ngit config -h #用 -h 选项获得更简明的“help”输出\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024155142-vtrzlgk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024155142-vtrzlgk",
+				"updated": "20221024155152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在现有目录中初始化Git仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024155131-q9n6psa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155131-q9n6psa",
+				"updated": "20221024155132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获取 Git 仓库的两种方式"
+				}
+			]
+		},
+		{
+			"ID": "20221024155138-0iijcqk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155138-0iijcqk",
+				"updated": "20221024155138"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①将尚未进行版本控制的本地目录转换为 Git 仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024155138-0846lmg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155138-0846lmg",
+				"updated": "20221024155140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②从其它服务器克隆一个已存在的 Git 仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024163119-pytpxz2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024163119-pytpxz2",
+				"updated": "20221024163120"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git init 命令会创建一个名为 .git 的隐藏目录，这个 .git 目录就是当前项目的 Git 仓库，里面包含了初始的必要文件，这些文件是 Git 仓库的必要组成部分。"
+				}
+			]
+		},
+		{
+			"ID": "20221024155201-svoo832",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024155201-svoo832",
+				"updated": "20221024163109"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git init #执行 git init 命令将当前的目录转化为 Git 仓库\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024155205-zrwit05",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024155205-zrwit05",
+				"updated": "20221024155206"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "克隆一个已存在的 Git 仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024155211-tnls1e2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155211-tnls1e2",
+				"updated": "20221024155211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获取 Git 仓库的两种方式"
+				}
+			]
+		},
+		{
+			"ID": "20221024155211-qd7rfa3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155211-qd7rfa3",
+				"updated": "20221024155211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①将尚未进行版本控制的本地目录转换为 Git 仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024155211-6op4gdt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155211-6op4gdt",
+				"updated": "20221024155211"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②从其它服务器克隆一个已存在的 Git 仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024155201-tlphe8h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024155201-tlphe8h",
+				"updated": "20221024163156"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git clone 远程仓库地址\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024154448-lp6stct",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024154448-lp6stct",
+				"updated": "20221024154935"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "检查文件的状态"
+				}
+			]
+		},
+		{
+			"ID": "20221024155000-9wcg0zw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155000-9wcg0zw",
+				"updated": "20221024155000"
 			},
 			"Children": [
 				{
@@ -93,11 +971,25 @@
 			]
 		},
 		{
-			"ID": "20221024123825-fywfzf0",
+			"ID": "20221024155924-1bzsnzs",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024123825-fywfzf0",
-				"updated": "20221024133909"
+				"id": "20221024155924-1bzsnzs",
+				"updated": "20221024155925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Untracked files（未跟踪的文件）"
+				}
+			]
+		},
+		{
+			"ID": "20221024155000-dsingbo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024155000-dsingbo",
+				"updated": "20221024155853"
 			},
 			"Children": [
 				{
@@ -107,11 +999,11 @@
 			]
 		},
 		{
-			"ID": "20221024123841-pclavx9",
+			"ID": "20221024155000-4mrqnw3",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024123841-pclavx9",
-				"updated": "20221024132155"
+				"id": "20221024155000-4mrqnw3",
+				"updated": "20221024155853"
 			},
 			"Children": [
 				{
@@ -121,11 +1013,11 @@
 			]
 		},
 		{
-			"ID": "20221024132203-o7xx3co",
+			"ID": "20221024155000-1c9xxwe",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024132203-o7xx3co",
-				"updated": "20221024132242"
+				"id": "20221024155000-1c9xxwe",
+				"updated": "20221024155853"
 			},
 			"Children": [
 				{
@@ -135,11 +1027,11 @@
 			]
 		},
 		{
-			"ID": "20221024123850-7v47yt3",
+			"ID": "20221024155000-hqpmk5v",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024123850-7v47yt3",
-				"updated": "20221024133712"
+				"id": "20221024155000-hqpmk5v",
+				"updated": "20221024155853"
 			},
 			"Children": [
 				{
@@ -149,228 +1041,2000 @@
 			]
 		},
 		{
-			"ID": "20221024131904-4w238zx",
+			"ID": "20221024155000-yi0wwyg",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024131904-4w238zx",
-				"updated": "20221024131923"
+				"id": "20221024155000-yi0wwyg",
+				"updated": "20221024155853"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "跟踪新文件：git add 新文件"
+					"Data": "\tD：从仓库和工作区同时移除的文件名"
 				}
 			]
 		},
 		{
-			"ID": "20221024123935-sjtld56",
-			"Type": "NodeParagraph",
+			"ID": "20221024154922-gonqq0b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
-				"id": "20221024123935-sjtld56",
-				"updated": "20221024124000"
+				"id": "20221024154922-gonqq0b",
+				"updated": "20221024155909"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "把文件加入暂存区：git add 文件名"
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git status -s\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
 				}
 			]
 		},
 		{
-			"ID": "20221024134703-nng5h2f",
-			"Type": "NodeParagraph",
+			"ID": "20221024135520-dr3vn05",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221024134703-nng5h2f",
-				"updated": "20221024134703"
+				"id": "20221024135520-dr3vn05",
+				"updated": "20221024135542"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "向暂存区添加所有新增和已修改的文件：git add ."
+					"Data": "暂存区相关命令："
 				}
 			]
 		},
 		{
-			"ID": "20221024134716-0jjlll0",
-			"Type": "NodeParagraph",
+			"ID": "20221024160904-evxwbkg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221024134716-0jjlll0",
-				"updated": "20221024134816"
+				"id": "20221024160904-evxwbkg",
+				"updated": "20221024160908"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "撤销加入暂存区的文件：git reset HEAD 文件名"
+					"Data": "暂存文件"
 				}
 			]
 		},
 		{
-			"ID": "20221024134858-j41qrpj",
-			"Type": "NodeParagraph",
+			"ID": "20221024160928-3f7krfh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
-				"id": "20221024134858-j41qrpj",
-				"updated": "20221024134939"
+				"id": "20221024160928-3f7krfh",
+				"updated": "20221024161014"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "撤销加入暂存区的所有文件：git reset HEAD . "
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git add 新文件 \n#跟踪新文件并将文件加入暂存区\n#把已跟踪的、且已修改的文件放到暂存区\n#把有冲突的文件标记为已解决状态\n\ngit add . #向暂存区添加所有新增和已修改的文件\ngit commit -m \"提交信息\"#暂存区文件提交仓库\n\ngit commit -a -m \"提交提示\" #跳过使用git add命令直接从工作区到GIT仓库\n#Git 工作的流程简化为了工作区 → Git 仓库。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
 				}
 			]
 		},
 		{
-			"ID": "20221024134703-g14mbob",
-			"Type": "NodeParagraph",
+			"ID": "20221024160908-x6f1t0a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
-				"id": "20221024134703-g14mbob",
-				"updated": "20221024134703"
+				"id": "20221024160908-x6f1t0a",
+				"updated": "20221024160959"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "提交更新的命令：git commit -m \"提交信息\""
+					"Data": "撤销暂存"
 				}
 			]
 		},
 		{
-			"ID": "20221024135126-kj151jy",
-			"Type": "NodeParagraph",
+			"ID": "20221024160324-ofuki1c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
-				"id": "20221024135126-kj151jy",
-				"updated": "20221024135314"
+				"id": "20221024160324-ofuki1c",
+				"updated": "20221024161044"
 			},
 			"Children": [
 				{
-					"Type": "NodeText",
-					"Data": "跳过使用git add命令直接从工作区到GIT仓库：git commit -a -m \"提交提示\""
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#撤销暂存\ngit reset HEAD 文件名 #撤销加入暂存区的文件\ngit reset HEAD . #撤销加入暂存区的所有文件\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
 				}
 			]
 		},
 		{
-			"ID": "20221024134703-9pdw9pi",
-			"Type": "NodeParagraph",
+			"ID": "20221024135735-mgttkrr",
+			"Type": "NodeBlockquote",
 			"Properties": {
-				"id": "20221024134703-9pdw9pi",
-				"updated": "20221024134703"
+				"id": "20221024135735-mgttkrr",
+				"style": "background-color: var(--b3-font-background1);"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20221024135509-njxettn",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024135509-njxettn",
+						"updated": "20221024135509"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "新增的文件是未被跟踪的文件需要使用 git add 新文件 直接将新增文件暂存在暂存区 "
+						}
+					]
+				},
+				{
+					"ID": "20221024135509-j8g1gv9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024135509-j8g1gv9",
+						"updated": "20221024135509"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "\t文件的状态变化是：?? 变为 A"
+						}
+					]
+				},
+				{
+					"ID": "20221024135509-6k6sv68",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024135509-6k6sv68",
+						"updated": "20221024135509"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "已修改文件在提交前使用 git add 文件名 将文件放在暂存区"
+						}
+					]
+				},
+				{
+					"ID": "20221024135509-xn4p6gh",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20221024135509-xn4p6gh",
+						"updated": "20221024135509"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "\t文件的状态变化是：红色M 变为 绿色M"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024135503-v5qbsdq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024135503-v5qbsdq",
+				"updated": "20221024135816"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "撤销对文件的修改：对工作区对于文件修改还原成GIT中所保存的版本，git checkout -- 需要还原版本的文件"
+					"Data": "GIT仓库相关命令"
+				}
+			]
+		},
+		{
+			"ID": "20221024161103-lsmffla",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024161103-lsmffla",
+				"updated": "20221024161108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看提交历史​"
+				}
+			]
+		},
+		{
+			"ID": "20221024160745-6g2kdk8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024160745-6g2kdk8",
+				"updated": "20221024162518"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git log #查看提交历史\ngit log -2 #只展示最新两条历史\ngit log --pretty=oneline #在一行展示所有提交历史\ngit log -2 --pretty=format:\"%h | %an | %ar | %s\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024161056-e70g46i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024161056-e70g46i",
+				"updated": "20221024161100"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "提交文件"
+				}
+			]
+		},
+		{
+			"ID": "20221024161118-qmd6p1w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024161118-qmd6p1w",
+				"updated": "20221024161134"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git commit -m \"提交信息\"#暂存区文件提交仓库\n\ngit commit -a -m \"提交提示\" #跳过使用git add命令直接从工作区到GIT仓库\n#Git 工作的流程简化为了工作区 → Git 仓库。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024135647-1iuqlyg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024135647-1iuqlyg",
+				"updated": "20221024161216"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "还原文件为GIT中所保存的版本"
+				}
+			]
+		},
+		{
+			"ID": "20221024161219-rs65uer",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024161219-rs65uer",
+				"updated": "20221024161231"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git checkout -- 需要还原版本的文件\n#对工作区对于文件修改还原成GIT中所保存的版本，\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024135822-te5veae",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024135822-te5veae",
+				"updated": "20221024135838"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "从GIT仓库移除文件："
+				}
+			]
+		},
+		{
+			"ID": "20221024161241-wldcrxc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024161241-wldcrxc",
+				"updated": "20221024161302"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git rm -f  文件名\n#从仓库和工作区同时移除对应文件\ngit rm --cached 文件名\n#只移除仓库文件，保留工作区文件\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024135906-s7kz8kp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024135906-s7kz8kp",
+				"updated": "20221024140548"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t从仓库和工作区同时移除对应文件：git rm -f  文件名 "
+				}
+			]
+		},
+		{
+			"ID": "20221024140602-isvor98",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024140602-isvor98",
+				"updated": "20221024141104"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t\tgit status -s文件状态出现：D从仓库和工作区同时移 除的文件名"
+				}
+			]
+		},
+		{
+			"ID": "20221024140006-x8kjnbi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024140006-x8kjnbi",
+				"updated": "20221024140449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t只移除仓库文件，保留工作区文件：git rm --cached 文件名"
+				}
+			]
+		},
+		{
+			"ID": "20221024140651-wup2qth",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024140651-wup2qth",
+				"updated": "20221024140737"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\t\tgit status -s文件状态出现：D文件名  和  ?? 文件名 两个文件"
 				}
 			]
 		},
 		{
 			"ID": "20221024134331-uhr9z5g",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
 			"Properties": {
-				"id": "20221024134331-uhr9z5g"
-			}
-		},
-		{
-			"ID": "20221024133946-0kczbgy",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20221024133946-0kczbgy",
-				"updated": "20221024134034"
+				"id": "20221024134331-uhr9z5g",
+				"updated": "20221024163545"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "新增的文件是未被跟踪的文件需要使用 git add 新文件 直接将新增文件暂存在暂存区 "
+					"Data": "忽略文件：使用 .gitignore 文件（难点）"
 				}
 			]
 		},
 		{
-			"ID": "20221024134050-xj21nzp",
+			"ID": "20221024161348-kqu9101",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024134050-xj21nzp",
-				"updated": "20221024134119"
+				"id": "20221024161348-kqu9101",
+				"updated": "20221024161348"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "\t文件的状态变化是：?? 变为 A"
+					"Data": "一般我们总会有些文件无需纳入 Git 的管理，也不希望它们总出现在未跟踪文件列表。 在这种情况下，我们可以创建一个名为 .gitignore 的配置文件，列出要忽略的文件的匹配模式。 文件 .gitignore 的格式规范如下："
 				}
 			]
 		},
 		{
-			"ID": "20221024133947-fh8a0kt",
+			"ID": "20221024161348-k73pgad",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024133947-fh8a0kt",
-				"updated": "20221024134258"
+				"id": "20221024161348-k73pgad",
+				"updated": "20221024161348"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "已修改文件在提交前使用 git add 文件名 将文件放在暂存区"
+					"Data": "  ①以 # 开头的是注释"
 				}
 			]
 		},
 		{
-			"ID": "20221024134304-67g9l7w",
+			"ID": "20221024161348-vybwjfm",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024134304-67g9l7w",
-				"updated": "20221024134328"
+				"id": "20221024161348-vybwjfm",
+				"updated": "20221024161348"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "\t文件的状态变化是：红色M 变为 绿色M"
+					"Data": "  ②以 / 结尾的是目录"
 				}
 			]
 		},
 		{
-			"ID": "20221024134356-s1ssrg5",
+			"ID": "20221024161348-e7hc0ej",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024134356-s1ssrg5",
-				"updated": "20221024134501"
+				"id": "20221024161348-e7hc0ej",
+				"updated": "20221024161348"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "可以直接使用向暂存区添加所有新增和已修改的文件：git add .  "
+					"Data": "  ③以 / 开头防止递归"
 				}
 			]
 		},
 		{
-			"ID": "20221024134328-n42ozre",
+			"ID": "20221024161348-h30uqm6",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024134328-n42ozre",
-				"updated": "20221024134352"
+				"id": "20221024161348-h30uqm6",
+				"updated": "20221024161348"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "暂存区文件提交：git commit -m \"提交信息\""
+					"Data": "  ④以 ! 开头表示取反"
+				}
+			]
+		},
+		{
+			"ID": "20221024161348-lpknwpj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161348-lpknwpj",
+				"updated": "20221024161348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑤可以使用 glob 模式进行文件和文件夹的匹配（glob 指简化了的正则表达式）"
+				}
+			]
+		},
+		{
+			"ID": "20221024161327-q5cfs9y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024161327-q5cfs9y",
+				"updated": "20221024161425"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " glob 模式"
+				}
+			]
+		},
+		{
+			"ID": "20221024161437-wwwnao7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161437-wwwnao7",
+				"updated": "20221024161437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所谓的 glob 模式是指简化了的正则表达式："
+				}
+			]
+		},
+		{
+			"ID": "20221024161437-6tvpzl9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161437-6tvpzl9",
+				"updated": "20221024161437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ① 星号 * 匹配零个或多个任意字符"
+				}
+			]
+		},
+		{
+			"ID": "20221024161437-skz0k7w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161437-skz0k7w",
+				"updated": "20221024161456"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ② [abc] 匹配任何一个列在方括号中的字符 （匹配一个 a 或一个 b 或一个 c）"
+				}
+			]
+		},
+		{
+			"ID": "20221024161437-z42cvgd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161437-z42cvgd",
+				"updated": "20221024161437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ③ 问号 ? 只匹配一个任意字符"
+				}
+			]
+		},
+		{
+			"ID": "20221024161437-t5rvflc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161437-t5rvflc",
+				"updated": "20221024161437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ④ 在方括号中使用短划线分隔两个字符， 表示所有在这两个字符范围内的都可以匹配（比如 [0-9] 表示匹配所有 0 到 9 的数字）"
+				}
+			]
+		},
+		{
+			"ID": "20221024161437-rs2hjva",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161437-rs2hjva",
+				"updated": "20221024161437"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ⑤ 两个星号 ** 表示匹配任意中间目录（比如 a/**/z 可以匹配 a/z 、 a/b/z 或 a/b/c/z 等）"
+				}
+			]
+		},
+		{
+			"ID": "20221024161512-d6pot5r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161512-d6pot5r",
+				"updated": "20221024161527"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "width: 75%;",
+						"style": "width: 10000px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024161513-v5gh9s4.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 10000px;\" parent-style=\"width: 75%;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
 				}
 			]
 		},
 		{
 			"ID": "20221024134333-j00j3ni",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024134333-j00j3ni",
+				"updated": "20221024142010"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "回退到指定版本"
+				}
+			]
+		},
+		{
+			"ID": "20221024161957-91asa77",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024161957-91asa77",
+				"updated": "20221024162330"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git log --pretty=oneline #在一行展示所有提交历史\ngit reset --hard \u003cCommitID\u003e #回退到指定版本\ngit reflog  --pretty=oneline #在旧版本查看所有提交历史\ngit reset --hard \u003c最新CommitID\u003e #回退到最新版本\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024161328-q89c01b",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024134333-j00j3ni"
+				"id": "20221024161328-q89c01b",
+				"updated": "20221024162337"
 			}
+		},
+		{
+			"ID": "20221024161328-hazbv90",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024161328-hazbv90",
+				"updated": "20221024161751"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开源许可协议"
+				}
+			]
 		},
 		{
 			"ID": "20221024133259-wzk6ugc",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024133259-wzk6ugc"
+				"id": "20221024133259-wzk6ugc",
+				"updated": "20221024161759"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开源并不意味着完全没有限制，为了限制使用者的使用范围和保护作者的权利，每个开源项目都应该遵守开源许可协议（ Open Source License ）。"
+				}
+			]
+		},
+		{
+			"ID": "20221024161759-mgyqchd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161759-mgyqchd",
+				"updated": "20221024161808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://www.runoob.com/w3cnote/open-source-license.html",
+					"TextMarkTextContent": "https://www.runoob.com/w3cnote/open-source-license.html"
+				}
+			]
+		},
+		{
+			"ID": "20221024161759-8kfl5as",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024161759-8kfl5as"
 			}
 		},
 		{
-			"ID": "20221024132746-svy0oby",
+			"ID": "20221024161922-tuzg67i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024161922-tuzg67i",
+				"updated": "20221024161924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "远程仓库的两种访问方式"
+				}
+			]
+		},
+		{
+			"ID": "20221024162544-tt28t7j",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024132746-svy0oby"
+				"id": "20221024162544-tt28t7j",
+				"updated": "20221024162544"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Github 上的远程仓库，有两种访问方式，分别是 HTTPS 和 SSH。它们的区别是："
+				}
+			]
+		},
+		{
+			"ID": "20221024162544-0ty31p2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024162544-0ty31p2",
+				"updated": "20221024162548"
+			},
+			"Children": [
+				{
+					"ID": "20221024162548-2lk9kl3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221024162548-2lk9kl3",
+						"updated": "20221024162548"
+					},
+					"Children": [
+						{
+							"ID": "20221024162548-b185k73",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024162548-b185k73",
+								"updated": "20221024162548"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTPS：零配置；但是每次访问仓库时，需要重复输入 Github 的账号和密码才能访问成功"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024162544-2qtug78",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024162544-2qtug78",
+				"updated": "20221024162601"
+			},
+			"Children": [
+				{
+					"ID": "20221024162550-zt614et",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221024162550-zt614et",
+						"updated": "20221024162601"
+					},
+					"Children": [
+						{
+							"ID": "20221024162550-79hasqh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024162550-79hasqh",
+								"updated": "20221024162601"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SSH：需要进行额外的配置；但是配置成功后，每次访问仓库时，不需重复输入 Github 的账号和密码，在实际开发中，推荐使用 SSH 的方式访问远程仓库。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024161923-2qzbr11",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024161923-2qzbr11",
+				"updated": "20221024162615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于 HTTPS 将本地仓库上传到 Github"
+				}
+			]
+		},
+		{
+			"ID": "20221024162615-qgopmuk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162615-qgopmuk",
+				"updated": "20221024162620"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024162620-0fh1xdy.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221024162615-g9b6r91",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162615-g9b6r91"
 			}
+		},
+		{
+			"ID": "20221024162704-xqmcv6e",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024162704-xqmcv6e",
+				"updated": "20221024162710"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于 SSH 将本地仓库上传到 Github"
+				}
+			]
+		},
+		{
+			"ID": "20221024162937-qjdsc3s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162937-qjdsc3s",
+				"updated": "20221024162938"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024162938-fo9yoe5.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221024162659-5wzx3sp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162659-5wzx3sp",
+				"updated": "20221024162659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SSH key 的作用：实现本地仓库和 Github 之间免登录的加密数据传输。"
+				}
+			]
+		},
+		{
+			"ID": "20221024162659-pcnt96c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162659-pcnt96c",
+				"updated": "20221024163341"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SSH key 的好处：免登录身份认证、数据加密传输。"
+				}
+			]
+		},
+		{
+			"ID": "20221024162659-ncq41kf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162659-ncq41kf",
+				"updated": "20221024163346"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "SSH key 由两部分组成，分别是："
+				}
+			]
+		},
+		{
+			"ID": "20221024162659-tnchv8q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024162659-tnchv8q",
+				"updated": "20221024163349"
+			},
+			"Children": [
+				{
+					"ID": "20221024163349-inxk73g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20221024163349-inxk73g",
+						"updated": "20221024163349"
+					},
+					"Children": [
+						{
+							"ID": "20221024163349-4207wq8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024163349-4207wq8",
+								"updated": "20221024163349"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "id_rsa（私钥文件，存放于客户端的电脑中即可）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024162659-pr1f5lf",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20221024162659-pr1f5lf",
+				"updated": "20221024163352"
+			},
+			"Children": [
+				{
+					"ID": "20221024163352-busawan",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20221024163352-busawan",
+						"updated": "20221024163352"
+					},
+					"Children": [
+						{
+							"ID": "20221024163352-0ggnt2n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20221024163352-0ggnt2n",
+								"updated": "20221024163352"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "id_rsa.pub（公钥文件，需要配置到 Github 中）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20221024162658-t57pfd1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221024162658-t57pfd1",
+				"updated": "20221024162747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "生成 SSH key"
+				}
+			]
+		},
+		{
+			"ID": "20221024162817-shiupma",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024162817-shiupma",
+				"updated": "20221024162823"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "ssh-keygen -t rsa -b 4096 -C \"your_email@example.com\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024162754-kwn11lt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162754-kwn11lt",
+				"updated": "20221024162842"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "连续敲击 3 次回车可在 C:\\Users\\用户名文件夹.ssh生成 id_rsa 和 id_rsa.pub 两个文件"
+				}
+			]
+		},
+		{
+			"ID": "20221024162743-p7zdl7t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221024162743-p7zdl7t",
+				"updated": "20221024162856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置 SSH key"
+				}
+			]
+		},
+		{
+			"ID": "20221024162903-5pjompc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162903-5pjompc",
+				"updated": "20221024162903"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①使用记事本打开 id_rsa.pub 文件，复制里面的文本内容"
+				}
+			]
+		},
+		{
+			"ID": "20221024162908-6fmdylg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162908-6fmdylg"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②在浏览器中登录 Github，点击头像 -\u003e Settings -\u003e SSH and GPG Keys -\u003e New SSH key"
+				}
+			]
+		},
+		{
+			"ID": "20221024162912-zrm80c2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162912-zrm80c2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③将 id_rsa.pub 文件中的内容，粘贴到 Key 对应的文本框中"
+				}
+			]
+		},
+		{
+			"ID": "20221024162914-bvhhi2v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162914-bvhhi2v"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "④在 Title 文本框中任意填写一个名称，来标识这个 Key 从何而来"
+				}
+			]
+		},
+		{
+			"ID": "20221024162744-ryj1f4g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221024162744-ryj1f4g",
+				"updated": "20221024162925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "检测 Github 的 SSH key 是否配置成功"
+				}
+			]
+		},
+		{
+			"ID": "20221024162925-026t770",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024162925-026t770",
+				"updated": "20221024163633"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "ssh -T git@github.com\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024162925-red41ua",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162925-red41ua",
+				"updated": "20221024163316"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024163316-aqjegzd.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221024163312-d4ok61e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024163312-d4ok61e",
+				"updated": "20221024163313"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输入 yes 之后，如果能看到类似于下面的提示消息，证明 SSH key 已经配置成功了："
+				}
+			]
+		},
+		{
+			"ID": "20221024162926-fkmkjl8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024162926-fkmkjl8",
+				"updated": "20221024163320"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20221024163320-0l17y39.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20221024163320-s95fz6l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024163320-s95fz6l",
+				"updated": "20221024163434"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "本地分支操作"
+				}
+			]
+		},
+		{
+			"ID": "20221024163321-kk3nm7j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024163321-kk3nm7j",
+				"updated": "20221024173153"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "master 主分支："
+				}
+			]
+		},
+		{
+			"ID": "20221024173926-y0re8o0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024173926-y0re8o0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在初始化本地 Git 仓库的时候，Git 默认已经帮我们创建了一个名字叫做 master 的分支。通常我们把这个 master 分支叫做主分支。master 主分支的作用是：用来保存和记录整个项目已完成的功能代码。"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "不允许程序员直接在 master 分支上修改代码，因为这样做的风险太高，容易导致整个项目崩溃。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221024163321-97l0pd3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024163321-97l0pd3",
+				"updated": "20221024173901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "功能分支："
+				}
+			]
+		},
+		{
+			"ID": "20221024173928-z0rzo0e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024173928-z0rzo0e"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "指的是专门用来开发新功能的分支，它是临时从 master 主分支上分叉出来的，当新功能开发且测试完毕后，"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "font-size: 19px; color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "最终需要合并到 master 主分支上"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"font-size: 19px; color: var(--b3-font-color11);\"}"
+				}
+			]
+		},
+		{
+			"ID": "20221024132746-svy0oby",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024132746-svy0oby",
+				"updated": "20221024174140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看分支列表"
+				}
+			]
+		},
+		{
+			"ID": "20221024174144-kb9oyun",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024174144-kb9oyun",
+				"updated": "20221024174250"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git branch #可以查看当前Git仓库中所有的分支列表\n#分支名字前面的 * 号表示当前所处的分支。\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024174142-gd34ew0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024174142-gd34ew0",
+				"updated": "20221024174253"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建新分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024175055-2f1wu5s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024175055-2f1wu5s",
+				"updated": "20221024175055"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以基于当前分支，创建一个新的分支，此时，新分支中的代码和当前分支完全一样："
+				}
+			]
+		},
+		{
+			"ID": "20221024174254-c5ecko5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024174254-c5ecko5",
+				"updated": "20221024175145"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git branch 新分支\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024161920-uba45xb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024161920-uba45xb",
+				"updated": "20221024174306"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "切换分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024180402-rs89k1v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024180402-rs89k1v",
+				"updated": "20221024180420"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git checkout 分支名称\n# 切换分支\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024180038-zlre81n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180038-zlre81n",
+				"updated": "20221024180039"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建指定名称的新分支，并立即切换到新分支上："
+				}
+			]
+		},
+		{
+			"ID": "20221024174307-8d1gdp1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024174307-8d1gdp1",
+				"updated": "20221024180258"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#-b 表示创建一个新分支\n#checkout 表示切换到刚才新建的分支上\ngit checkout -b 分支名称\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024174441-bxxhf17",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024174441-bxxhf17",
+				"updated": "20221024174449"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "合并分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024174522-ii84o6s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024174522-ii84o6s",
+				"updated": "20221024180324"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "功能分支的代码开发测试完毕之后，可以使用如下的命令，将完成后的代码合并到 master 主分支上"
+				}
+			]
+		},
+		{
+			"ID": "20221024180338-s1g5a4e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180338-s1g5a4e",
+				"updated": "20221024180343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "假设要把 C 分支的代码合并到 A 分支，则必须先切换到 A 分支上，再运行 git merge 命令，来合并 C 分支！"
+				}
+			]
+		},
+		{
+			"ID": "20221024174449-cj2zk9c",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024174449-cj2zk9c",
+				"updated": "20221024180514"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#\ngit checkout master #切换到master \ngit merge login\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024174525-hf636z4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024174525-hf636z4",
+				"updated": "20221024174526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "遇到冲突时的分支合并"
+				}
+			]
+		},
+		{
+			"ID": "20221024180603-39ot0tu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180603-39ot0tu",
+				"updated": "20221024180610"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"style": "color: var(--b3-font-color11);"
+					},
+					"TextMarkType": "text",
+					"TextMarkTextContent": "如果在两个不同的分支中，对同一个文件进行了不同的修改，Git 就没法干净的合并它们。"
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"color: var(--b3-font-color11);\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 此时，我们需要打开这些包含冲突的文件然后手动解决冲突。"
+				}
+			]
+		},
+		{
+			"ID": "20221024174527-62fl6xr",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024174527-62fl6xr",
+				"updated": "20221024180740"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git checkout master #切换到master \ngit merge login\n\n#手动解决冲突,需要执行如下指令\ngit add .\ngit commit -m \"解决分支合并冲突\"\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024174457-jmp4285",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024174457-jmp4285",
+				"updated": "20221024174507"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024180525-hbr6xpu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180525-hbr6xpu",
+				"updated": "20221024180526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当把功能分支的代码合并到 master 主分支上以后，就可以使用如下的命令，删除对应的功能分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024174544-q6l9mot",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024174544-q6l9mot",
+				"updated": "20221024180543"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git branch -d 分支名称\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024180759-449chx5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024180759-449chx5",
+				"updated": "20221024180800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "远程分支操作"
+				}
+			]
+		},
+		{
+			"ID": "20221024180808-iryee5y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180808-iryee5y",
+				"updated": "20221024180931"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将本地分支推送到远程仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024180936-ly362qd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180936-ly362qd"
+			}
+		},
+		{
+			"ID": "20221024180936-g9bdqqy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180936-g9bdqqy",
+				"updated": "20221024180937"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看远程仓库中所有的分支列表"
+				}
+			]
+		},
+		{
+			"ID": "20221024180941-kcaqrzj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180941-kcaqrzj"
+			}
+		},
+		{
+			"ID": "20221024180942-j3j2sxu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180942-j3j2sxu",
+				"updated": "20221024180943"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跟踪分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024180948-atio3zy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180948-atio3zy"
+			}
+		},
+		{
+			"ID": "20221024180949-i51e1ia",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024180949-i51e1ia",
+				"updated": "20221024180949"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "拉取远程分支的最新的代码"
+				}
+			]
 		}
 	]
 }
