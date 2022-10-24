@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221024113151-xw4oty2",
 		"title": "git 的使用教程",
-		"updated": "20221024132836"
+		"updated": "20221024133454"
 	},
 	"Children": [
 		{
@@ -177,11 +177,25 @@
 			]
 		},
 		{
+			"ID": "20221024133401-s0vpqhr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024133401-s0vpqhr",
+				"updated": "20221024133454"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "向暂存区添加所有新增和已修改的文件：git add ."
+				}
+			]
+		},
+		{
 			"ID": "20221024124000-eh38bf8",
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221024124000-eh38bf8",
-				"updated": "20221024132638"
+				"updated": "20221024133241"
 			},
 			"Children": [
 				{
@@ -195,14 +209,21 @@
 			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221024123948-xlgp9hg",
-				"updated": "20221024132836"
+				"updated": "20221024133325"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "撤销对文件的修改：对工作区对于文件修改还原成GIT中所保存的版本"
+					"Data": "撤销对文件的修改：对工作区对于文件修改还原成GIT中所保存的版本，git checkout -- 需要还原版本的文件"
 				}
 			]
+		},
+		{
+			"ID": "20221024133259-wzk6ugc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024133259-wzk6ugc"
+			}
 		},
 		{
 			"ID": "20221024132746-svy0oby",
