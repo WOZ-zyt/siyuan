@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221024113151-xw4oty2",
 		"title": "git 的使用教程",
-		"updated": "20221024180949"
+		"updated": "20221024184439"
 	},
 	"Children": [
 		{
@@ -2477,6 +2477,48 @@
 			]
 		},
 		{
+			"ID": "20221024184215-e3s9arx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20221024184215-e3s9arx",
+				"updated": "20221024184415"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "本地仓库上传远程仓库"
+				}
+			]
+		},
+		{
+			"ID": "20221024184225-kpg74d2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024184225-kpg74d2",
+				"updated": "20221024184439"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#首先关联本地仓库和远程仓库\n\n#第一次本地仓库上传远程仓库\ngit push -u origin master\n#本地仓库上传远程仓库\ngit push \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
 			"ID": "20221024163320-s95fz6l",
 			"Type": "NodeHeading",
 			"HeadingLevel": 2,
@@ -2590,7 +2632,7 @@
 			"IsFencedCodeBlock": true,
 			"Properties": {
 				"id": "20221024174144-kb9oyun",
-				"updated": "20221024174250"
+				"updated": "20221024184057"
 			},
 			"Children": [
 				{
@@ -2603,7 +2645,7 @@
 				},
 				{
 					"Type": "NodeCodeBlockCode",
-					"Data": "git branch #可以查看当前Git仓库中所有的分支列表\n#分支名字前面的 * 号表示当前所处的分支。\n\n"
+					"Data": "git branch #可以查看当前Git仓库中所有的分支列表\n#分支名字前面的 * 号表示当前所处的分支。\n"
 				},
 				{
 					"Type": "NodeCodeBlockFenceCloseMarker",
@@ -2961,7 +3003,8 @@
 		},
 		{
 			"ID": "20221024180808-iryee5y",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20221024180808-iryee5y",
 				"updated": "20221024180931"
@@ -2975,14 +3018,34 @@
 		},
 		{
 			"ID": "20221024180936-ly362qd",
-			"Type": "NodeParagraph",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
-				"id": "20221024180936-ly362qd"
-			}
+				"id": "20221024180936-ly362qd",
+				"updated": "20221024181214"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
 		},
 		{
 			"ID": "20221024180936-g9bdqqy",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20221024180936-g9bdqqy",
 				"updated": "20221024180937"
@@ -2996,14 +3059,34 @@
 		},
 		{
 			"ID": "20221024180941-kcaqrzj",
-			"Type": "NodeParagraph",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
 			"Properties": {
-				"id": "20221024180941-kcaqrzj"
-			}
+				"id": "20221024180941-kcaqrzj",
+				"updated": "20221024181212"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
 		},
 		{
 			"ID": "20221024180942-j3j2sxu",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20221024180942-j3j2sxu",
 				"updated": "20221024180943"
@@ -3016,15 +3099,49 @@
 			]
 		},
 		{
-			"ID": "20221024180948-atio3zy",
+			"ID": "20221024181309-io8y7tj",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221024180948-atio3zy"
-			}
+				"id": "20221024181309-io8y7tj",
+				"updated": "20221024181310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跟踪分支指的是：从远程仓库中，把远程分支下载到本地仓库中。需要运行的命令如下："
+				}
+			]
+		},
+		{
+			"ID": "20221024180948-atio3zy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024180948-atio3zy",
+				"updated": "20221024181209"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
 		},
 		{
 			"ID": "20221024180949-i51e1ia",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
 			"Properties": {
 				"id": "20221024180949-i51e1ia",
 				"updated": "20221024180949"
@@ -3033,6 +3150,147 @@
 				{
 					"Type": "NodeText",
 					"Data": "拉取远程分支的最新的代码"
+				}
+			]
+		},
+		{
+			"ID": "20221024181243-pracqh5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024181243-pracqh5",
+				"updated": "20221024181244"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "把远程分支最新的代码下载到本地对应的分支中："
+				}
+			]
+		},
+		{
+			"ID": "20221024181039-bcbfpq0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024181039-bcbfpq0",
+				"updated": "20221024181300"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#把远程分支最新的代码下载到本地对应的分支中：\ngit pull\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024181038-4b6jzng",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024181038-4b6jzng",
+				"updated": "20221024181038"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "删除远程分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024181050-hfp0nsg",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20221024181050-hfp0nsg",
+				"updated": "20221024181205"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "#删除远程仓库中指定的分支：\ngit push 远程仓库 --delete 远程仓库中指定的分支\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20221024182106-cn8rkkw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024182106-cn8rkkw",
+				"updated": "20221024183532"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git报错"
+				}
+			]
+		},
+		{
+			"ID": "20221024183558-gq83oe8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20221024183558-gq83oe8",
+				"updated": "20221024183656"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "remote origin already exists"
+				}
+			]
+		},
+		{
+			"ID": "20221024183535-scjqn97",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024183535-scjqn97",
+				"updated": "20221024183606"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当你在git push到GitHub的时候报错\n出现error: remote origin already exists  错误:远程源已经存在。"
+				}
+			]
+		},
+		{
+			"ID": "20221024183614-tiemzhn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024183614-tiemzhn",
+				"updated": "20221024183647"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一 先用 git remote -v 查看远程库的信息，可以看到 已经关联了仓库了\n我们就把他删掉：输入 git remote rm origin （删除关联的仓库）\n然后在push就不会出错了"
 				}
 			]
 		}

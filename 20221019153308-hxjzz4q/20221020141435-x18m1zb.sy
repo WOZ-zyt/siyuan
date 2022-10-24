@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221020141435-x18m1zb",
 		"title": "微信小程序的初识",
-		"updated": "20221021205206"
+		"updated": "20221024182226"
 	},
 	"Children": [
 		{
@@ -8122,8 +8122,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221020181012-3xzgzwj",
 				"updated": "20221021114951"
 			},
@@ -8159,8 +8157,6 @@
 			"ID": "20221021114829-i3e8o7b",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021114829-i3e8o7b"
 			},
 			"Children": [
@@ -8175,8 +8171,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021123557-jqqtytq",
 				"updated": "20221021123624"
 			},
@@ -8204,8 +8198,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115301-0ijokwy",
 				"updated": "20221021123541"
 			},
@@ -8233,8 +8225,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115030-atw4ea6",
 				"updated": "20221021115030"
 			},
@@ -8249,8 +8239,6 @@
 			"ID": "20221021115231-ao1xjok",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115231-ao1xjok",
 				"updated": "20221021115231"
 			},
@@ -8268,8 +8256,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115231-nzqce4j"
 			},
 			"Children": [
@@ -8337,8 +8323,6 @@
 			"ID": "20221021115115-fdjnad7",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115115-fdjnad7",
 				"updated": "20221021115152"
 			},
@@ -8383,8 +8367,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115130-gstwp09",
 				"updated": "20221021115130"
 			},
@@ -8399,8 +8381,6 @@
 			"ID": "20221021115248-8g8l207",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115248-8g8l207",
 				"updated": "20221021115248"
 			},
@@ -8418,8 +8398,6 @@
 				"Typ": 1
 			},
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115248-588wl89"
 			},
 			"Children": [
@@ -8487,8 +8465,6 @@
 			"ID": "20221021115218-ck3m1fl",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115218-ck3m1fl",
 				"updated": "20221021115219"
 			},
@@ -8503,8 +8479,6 @@
 			"ID": "20221021115131-v7zyoxv",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115131-v7zyoxv",
 				"updated": "20221021115256"
 			},
@@ -8549,8 +8523,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115253-inhv9l5",
 				"updated": "20221021115338"
 			},
@@ -8565,8 +8537,6 @@
 			"ID": "20221021121021-b4ibzw2",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121021-b4ibzw2",
 				"updated": "20221021121021"
 			},
@@ -8581,8 +8551,6 @@
 			"ID": "20221021121021-0rrhi7h",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121021-0rrhi7h",
 				"updated": "20221021121021"
 			},
@@ -8597,8 +8565,6 @@
 			"ID": "20221021121021-u1w5ybe",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121021-u1w5ybe",
 				"updated": "20221021121021"
 			},
@@ -8613,8 +8579,6 @@
 			"ID": "20221021121035-tlb8zya",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121035-tlb8zya",
 				"updated": "20221021121036"
 			},
@@ -8629,8 +8593,6 @@
 			"ID": "20221021121023-qq1vvxe",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121023-qq1vvxe",
 				"updated": "20221021121027"
 			},
@@ -8675,8 +8637,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121210-i6c4ewa",
 				"updated": "20221021121212"
 			},
@@ -8691,8 +8651,6 @@
 			"ID": "20221021121220-zur692b",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121220-zur692b",
 				"updated": "20221021121220"
 			},
@@ -8707,8 +8665,6 @@
 			"ID": "20221021121220-z9yaj08",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121220-z9yaj08",
 				"updated": "20221021121220"
 			},
@@ -8723,8 +8679,6 @@
 			"ID": "20221021121220-pajivfq",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121220-pajivfq",
 				"updated": "20221021121220"
 			},
@@ -8739,8 +8693,6 @@
 			"ID": "20221021121220-eq80kw8",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121220-eq80kw8",
 				"updated": "20221021121220"
 			},
@@ -8755,8 +8707,6 @@
 			"ID": "20221021121210-dk6s4i2",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121210-dk6s4i2",
 				"updated": "20221021121241"
 			},
@@ -8801,8 +8751,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121456-0l6xoq4",
 				"updated": "20221021121501"
 			},
@@ -8817,8 +8765,6 @@
 			"ID": "20221021121504-ezhrqw0",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121504-ezhrqw0",
 				"updated": "20221021121517"
 			},
@@ -8833,8 +8779,6 @@
 			"ID": "20221021121504-s6mlnkw",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121504-s6mlnkw",
 				"updated": "20221021121521"
 			},
@@ -8879,8 +8823,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221020181012-cm3ivcq",
 				"updated": "20221021114957"
 			},
@@ -8916,8 +8858,6 @@
 			"ID": "20221021114830-9je63xm",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021114830-9je63xm"
 			},
 			"Children": [
@@ -8932,8 +8872,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115316-3pwp6uw",
 				"updated": "20221021124404"
 			},
@@ -8961,8 +8899,6 @@
 			"Type": "NodeCodeBlock",
 			"IsFencedCodeBlock": true,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115324-ojr3hne",
 				"updated": "20221021131338"
 			},
@@ -8990,8 +8926,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221020181033-p8gf7g6",
 				"updated": "20221020181628"
 			},
@@ -9006,8 +8940,6 @@
 			"ID": "20221021115055-0a8pgja",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115055-0a8pgja",
 				"updated": "20221021121048"
 			},
@@ -9029,8 +8961,6 @@
 			],
 			"Properties": {
 				"colgroup": "|||",
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121054-9xindkb",
 				"updated": "20221021121054"
 			},
@@ -9278,8 +9208,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221020181653-tjjdapo",
 				"updated": "20221020181654"
 			},
@@ -9294,8 +9222,6 @@
 			"ID": "20221020210342-x3jmebc",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221020210342-x3jmebc",
 				"updated": "20221021121103"
 			},
@@ -9317,8 +9243,6 @@
 			],
 			"Properties": {
 				"colgroup": "|||",
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121109-nc6m9f9",
 				"updated": "20221021121109"
 			},
@@ -9566,8 +9490,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115347-eeaj4ve",
 				"updated": "20221021115347"
 			},
@@ -9582,8 +9504,6 @@
 			"ID": "20221021115344-kgbc7qf",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021115344-kgbc7qf",
 				"updated": "20221021121117"
 			},
@@ -9593,6 +9513,13 @@
 					"Data": "调用 wx.navigateBack(Object object) 方法，可以返回上一页面或多级页面。其中 Object 参数对象可选的属性列表如下："
 				}
 			]
+		},
+		{
+			"ID": "20221024182122-hh5yym2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024182122-hh5yym2"
+			}
 		},
 		{
 			"ID": "20221021121123-p7cw6yr",
@@ -9606,8 +9533,6 @@
 			],
 			"Properties": {
 				"colgroup": "||||",
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121123-p7cw6yr",
 				"updated": "20221021121123"
 			},
@@ -9887,8 +9812,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121251-iaom7x6",
 				"updated": "20221021121254"
 			},
@@ -9903,8 +9826,6 @@
 			"ID": "20221021121255-pkd5bbp",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121255-pkd5bbp",
 				"updated": "20221021121300"
 			},
@@ -9919,8 +9840,6 @@
 			"ID": "20221021121252-ar99hvm",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121252-ar99hvm",
 				"updated": "20221021121305"
 			},
@@ -9965,8 +9884,6 @@
 			"Type": "NodeHeading",
 			"HeadingLevel": 4,
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121552-de9gv0z",
 				"updated": "20221021121552"
 			},
@@ -9981,8 +9898,6 @@
 			"ID": "20221021121552-rsrt3oc",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121552-rsrt3oc",
 				"updated": "20221021121552"
 			},
@@ -9997,8 +9912,6 @@
 			"ID": "20221021121539-fjqe86i",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121539-fjqe86i",
 				"updated": "20221021121541"
 			},
@@ -10042,9 +9955,14 @@
 			"ID": "20221021121540-xqpbgkk",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"fold": "1",
-				"heading-fold": "1",
 				"id": "20221021121540-xqpbgkk"
+			}
+		},
+		{
+			"ID": "20221024182226-a5el8ko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024182226-a5el8ko"
 			}
 		},
 		{
