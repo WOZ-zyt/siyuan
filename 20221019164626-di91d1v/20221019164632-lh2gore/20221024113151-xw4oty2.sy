@@ -5,7 +5,7 @@
 	"Properties": {
 		"id": "20221024113151-xw4oty2",
 		"title": "git 的使用教程",
-		"updated": "20221024134939"
+		"updated": "20221024135314"
 	},
 	"Children": [
 		{
@@ -229,6 +229,20 @@
 				{
 					"Type": "NodeText",
 					"Data": "提交更新的命令：git commit -m \"提交信息\""
+				}
+			]
+		},
+		{
+			"ID": "20221024135126-kj151jy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024135126-kj151jy",
+				"updated": "20221024135314"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跳过使用git add命令直接从工作区到GIT仓库：git commit -a -m \"提交提示\""
 				}
 			]
 		},
