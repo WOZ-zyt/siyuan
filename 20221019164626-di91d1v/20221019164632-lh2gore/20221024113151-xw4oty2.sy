@@ -1,0 +1,75 @@
+{
+	"ID": "20221024113151-xw4oty2",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20221024113151-xw4oty2",
+		"title": "git 的使用教程",
+		"updated": "20221024120515"
+	},
+	"Children": [
+		{
+			"ID": "20221024113151-ykoovwb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024113151-ykoovwb",
+				"updated": "20221024113210"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "能够知道如何在现有目录中初始化Git仓库\n能够知道如何检查文件的状态\n能够知道如何把文件加入暂存区\n能够说出提交更新的命令\n能够知道如何向暂存区中一次性添加多个文件\n能够知道如何使用 .gitignore 文件"
+				}
+			]
+		},
+		{
+			"ID": "20221024114152-ieutjk5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024114152-ieutjk5"
+			}
+		},
+		{
+			"ID": "20221024114154-97xnxjn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024114154-97xnxjn",
+				"updated": "20221024114154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "能够知道Github的作用\n能够创建并配置Github账号\n能够在Github中创建仓库并使用\n能够知道分支的作用\n能够创建分支与合并\n能够操作远程分支"
+				}
+			]
+		},
+		{
+			"ID": "20221024120503-2psdxxf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024120503-2psdxxf"
+			}
+		},
+		{
+			"ID": "20221024120504-jnf4elc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024120504-jnf4elc"
+			}
+		},
+		{
+			"ID": "20221024120504-w78e6l9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024120504-w78e6l9",
+				"updated": "20221024120515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置用户名和邮箱"
+				}
+			]
+		}
+	]
+}

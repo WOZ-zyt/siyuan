@@ -5,14 +5,54 @@
 	"Properties": {
 		"id": "20221019164632-lh2gore",
 		"title": "总目录",
-		"updated": "20221021205226"
+		"updated": "20221024113151"
 	},
 	"Children": [
 		{
 			"ID": "20221019164638-ax8gaa0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20221019164638-ax8gaa0",
+				"updated": "20221024113045"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GIT"
+				}
+			]
+		},
+		{
+			"ID": "20221024113041-ybsvpx9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20221024113041-ybsvpx9",
+				"updated": "20221024113151"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "block-ref",
+					"TextMarkBlockRefID": "20221024113151-xw4oty2",
+					"TextMarkBlockRefSubtype": "s",
+					"TextMarkTextContent": "git 的使用教程"
+				}
+			]
+		},
+		{
+			"ID": "20221024113041-03pb6m2",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20221019164638-ax8gaa0"
+				"id": "20221024113041-03pb6m2"
+			}
+		},
+		{
+			"ID": "20221024113042-5mcgob0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20221024113042-5mcgob0"
 			}
 		},
 		{
@@ -25,7 +65,7 @@
 		{
 			"ID": "20221020155435-odlwxl1",
 			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20221020155435-odlwxl1",
 				"updated": "20221020155438"
@@ -53,8 +93,7 @@
 		},
 		{
 			"ID": "20221020155445-m971mt5",
-			"Type": "NodeHeading",
-			"HeadingLevel": 4,
+			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20221020155445-m971mt5",
 				"updated": "20221020155513"
@@ -98,7 +137,7 @@
 		{
 			"ID": "20221019165052-hklux7i",
 			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20221019165052-hklux7i",
 				"updated": "20221019165111"
@@ -172,7 +211,7 @@
 		{
 			"ID": "20221019164653-5dxh0rx",
 			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20221019164653-5dxh0rx",
 				"updated": "20221019164713"
@@ -214,7 +253,7 @@
 		{
 			"ID": "20221019165557-2lk96k1",
 			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20221019165557-2lk96k1",
 				"updated": "20221019165601"
@@ -310,7 +349,7 @@
 		{
 			"ID": "20221019164726-0rfrhzx",
 			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20221019164726-0rfrhzx",
 				"updated": "20221019164730"
